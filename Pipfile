@@ -6,6 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+pandas = "*"
+gensim = "*"
+keras = "*"
+tensorflow = "*"
+sicik-learn = "*"
+scikit-learn = "*"
+sklearn = "*"
+keras-contrib = "*"
+keras-tqdm = "*"
 
 [requires]
 python_version = "3.7"
