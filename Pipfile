@@ -15,6 +15,7 @@ scikit-learn = "*"
 sklearn = "*"
 keras-contrib = "*"
 keras-tqdm = "*"
+jnius = "*"
 
 [requires]
 python_version = "3.7"
