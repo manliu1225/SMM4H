@@ -28,7 +28,7 @@ TEST_SIZE = 0.15
 # In[3]:
 
 
-data = pd.read_csv('data/ner_dataset_utf8.csv')
+data = pd.read_csv('../data/converted_file_TrainData2.csv')
 
 
 # In[4]:
