@@ -127,6 +127,32 @@ for j, sentence in enumerate(data):
     data_dict[j] = sentence_dict
     sentence_dict = OrderedDict()
 
+### process duplicate ###
+p_d = OrderedDict()
+p = OrderedDict()
+for sentence_dict in data_dict.values():
+    word_li = sentence_dict["word"]
+    p_d["\t".join(word_li)]["tag"].append(sentence_dict["tag"])
+    p_d["\t".join(word_li)]["pos"] = sentence_dict["pos"]
+
+idx = 0
+for k, v in p_d.items():
+    t = v["tag"]
+    p = v["pos"]
+    if len(t) > 1: # there are more than 1 NEs in this tweet
+        x = ""
+        for i in range(len(t[0])):
+            if t[0][i] != "O": x = t[0][i]
+            elif t[1][i] != "O": x = t[1][i]
+            else: t = "O"
+            tag_li.append(t)
+    else: tag_li = t
+    sentence_dict["word"] = k.split("\t")
+    sentence_dict["tag"] = tag_li
+    sentence_dict["pos"] = p
+    data_dict[idx] = sentence_dict
+    idx += 1
+
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
 with open("../data/converted_file_TrainData2.csv", "w") as outputf:
