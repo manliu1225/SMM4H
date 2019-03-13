@@ -132,7 +132,7 @@ p = OrderedDict()
 for sentence_dict in data_dict.values():
     word_li = sentence_dict["word"]
     p_d["\t".join(word_li)] = defaultdict()
-    print(word_li)
+    # print(word_li)
     p_d["\t".join(word_li)]["tag"].append(sentence_dict["tag"])
     p_d["\t".join(word_li)]["pos"] = sentence_dict["pos"]
 
