@@ -82,18 +82,24 @@ tknzr = TweetTokenizer()
 pos_tagger = CMUPosTagger()
 data_dict = OrderedDict()
 sentence_dict = OrderedDict()
+
+miss = 0 # how many NEs are not in the begin ~ end
 for j, sentence in enumerate(data):
     li = sentence.strip().split('\t')
-    tweet, begin, end, extraction = li[7], int(li[1]), int(li[2]), li[5]
-    print(tweet_li)
-    print(extraction)
-    if tweet[begin:end] != extraction:
-        raise Exception("extraction is not in the range!")
+    print(li)
+    tweet, extraction = li[7], li[5]
+    if extraction[0] == "\"" and extraction[-1] == "\"": extraction = extraction[1:-1]
+    if extraction.lower() not in tweet.lower():
+        # raise Exception("extraction is not in the range!")
+        miss += 1
+        continue
+    begin = tweet.lower().index(extraction.lower())
+    end = begin + len(extraction)
+    if tweet[0] == "\"" and tweet[-1] == "\"":
+        tweet = tweet[1:-1]
     # tweet_li = tknzr.tokenize(tweet)
     tweet_li = tweet.split()
-    print(tweet_li)
     pos_li = pos_tagger.tagger(tweet_li)
-    print(pos_li)
 
     ### process the tag
     tag_li = []
@@ -115,26 +121,24 @@ for j, sentence in enumerate(data):
         if "ADR" in t_t_li[k]:
             tag_li.append("ADR")
         else: tag_li.append("O")
-    print(tweet[begin:end])
-    print(tag_li)
     sentence_dict["word"] = tweet_li
     sentence_dict["tag"] = tag_li
     sentence_dict["pos"] = pos_li
     data_dict[j] = sentence_dict
     sentence_dict = OrderedDict()
-print(data_dict)
 
+print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
 with open("../data/converted_file_TrainData2.csv", "w") as outputf:
-    outputf.write("Sentence #,Word,Tag,POS\n")
+    outputf.write("Sentence #,Word,POS,Tag\n")
     for idx, sentence_dict in data_dict.items():
-        word_li = sentence_dict["word"] = tweet_li
+        word_li = sentence_dict["word"]
         tag_li = sentence_dict["tag"]
         pos_li = sentence_dict["pos"]
         sentence_m = ["Sentence: {}".format(idx+1)] + [""]*(len(word_li)-1)
-        for s in  zip(sentence_m, word_li, tag_li, pos_li):
+        for s in  zip(sentence_m, word_li, pos_li, tag_li):
             outputf.write(",".join(s)+"\n")
-            outputf.write(",0,0,O\n")
+        outputf.write(",0,0,O\n")
 
 
 
