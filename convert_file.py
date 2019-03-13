@@ -82,9 +82,11 @@ tknzr = TweetTokenizer()
 pos_tagger = CMUPosTagger()
 data_dict = OrderedDict()
 sentence_dict = OrderedDict()
-for j, sentence in enumerate(data[:2]):
+for j, sentence in enumerate(data):
     li = sentence.strip().split('\t')
     tweet, begin, end, extraction = li[7], int(li[1]), int(li[2]), li[5]
+    print(tweet_li)
+    print(extraction)
     if tweet[begin:end] != extraction:
         raise Exception("extraction is not in the range!")
     # tweet_li = tknzr.tokenize(tweet)
@@ -105,6 +107,9 @@ for j, sentence in enumerate(data[:2]):
             t_t[k] = "O"
 
     t_t_li = ''.join(t_t).split("_")
+    t_t_li = [x for x in t_t_li if x != ""]
+    # print(t_t_li)
+    # print(tweet_li)
     for k in range(len(tweet_li)):
         assert len(t_t_li) == len(tweet_li)
         if "ADR" in t_t_li[k]:
@@ -121,7 +126,7 @@ print(data_dict)
 
 ### convert data_dict to 3 columns
 with open("../data/converted_file_TrainData2.csv", "w") as outputf:
-    outputf.write("Sentence #,Word,POS,Tag\n")
+    outputf.write("Sentence #,Word,Tag,POS\n")
     for idx, sentence_dict in data_dict.items():
         word_li = sentence_dict["word"] = tweet_li
         tag_li = sentence_dict["tag"]
@@ -129,6 +134,7 @@ with open("../data/converted_file_TrainData2.csv", "w") as outputf:
         sentence_m = ["Sentence: {}".format(idx+1)] + [""]*(len(word_li)-1)
         for s in  zip(sentence_m, word_li, tag_li, pos_li):
             outputf.write(",".join(s)+"\n")
+            outputf.write(",0,0,O\n")
 
 
 

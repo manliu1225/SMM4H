@@ -15,9 +15,6 @@ from embedding import create_embeddings
 from sklearn.model_selection import train_test_split
 
 
-# In[2]:
-
-
 # set maximum network vocabulary, test set size
 MAX_VOCAB = 25000
 TEST_SIZE = 0.15
@@ -25,30 +22,19 @@ TEST_SIZE = 0.15
 
 # ### read ConLL2002 NER corpus from csv (first save as utf-8!)
 
-# In[3]:
-
 
 data = pd.read_csv('../data/converted_file_TrainData2.csv')
 
 
-# In[4]:
-
-
 sentmarks = data["Sentence #"].tolist()
 sentmarks = [str(s) for s in sentmarks]
-sentmarks[:5]
-
-
-# In[5]:
-
+print(sentmarks[:5])
 
 words = data["Word"].tolist()
 postags = data["POS"].tolist()
 nertags = data["Tag"].tolist()
-
-
-# In[6]:
-
+print(postags[:5])
+print(nertags[:5])
 
 sentence_text = []
 sentence_post = []
@@ -61,10 +47,7 @@ this_pos = []
 this_ner = []
 
 for idx, s in enumerate(sentmarks):
-    # reset if new sent
-    if s != 'nan':
-        # edit: ONLY IF HAS TAG!
-    
+    if s != 'nan': # the begin of sent
         if len(this_snt) > 0 and this_snt[-1] == '0':
             if list(set(this_ner)) != ['O']:
                 sentence_text.append(this_snt[:-1])
@@ -79,10 +62,6 @@ for idx, s in enumerate(sentmarks):
     this_pos.append(postags[idx])
     this_ner.append(nertags[idx])
     vocab.append(words[idx].lower())
-
-
-# In[7]:
-
 
 for idx, sent in enumerate(sentence_text[:2]):
     print(sent)
@@ -113,8 +92,7 @@ pos2idx, idx2pos = get_vocab(sentence_post, len(set(postags)))
 ner2idx, idx2ner = get_vocab(sentence_ners, len(set(nertags))+2)
 
 
-# In[10]:
-
+print(sentence_post)
 
 # index
 sentence_text_idx = index_sents(sentence_text, word2idx)
@@ -131,6 +109,7 @@ sentence_ners_idx = index_sents(sentence_ners, ner2idx)
 
 indices = [i for i in range(len(sentence_text))]
 
+print(sentence_post_idx)
 train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
 
 def get_sublist(lst, indices):
@@ -156,7 +135,8 @@ y_test_ner = get_sublist(sentence_ners_idx, test_idx)
 
 # sentence embeddings
 train_sent_texts = [sentence_text[idx] for idx in train_idx]
-        
+print(train_sent_texts) 
+
 w2v_vocab, w2v_model = create_embeddings(train_sent_texts,
                        embeddings_path='embeddings/text_embeddings.gensimmodel',
                        vocab_path='embeddings/text_mapping.json',
