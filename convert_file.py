@@ -9,7 +9,7 @@ from nltk.tokenize import TweetTokenizer
 import os
 import jnius_config
 import logging
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 _resources_dir = "./resources"
 jnius_config.add_options('-Xmx512m', '-XX:ParallelGCThreads=2')
 jnius_config.set_classpath(*(os.path.join(_resources_dir, jar) for jar in os.listdir(_resources_dir) if jar.endswith('.jar')))
@@ -86,8 +86,8 @@ sentence_dict = OrderedDict()
 miss = 0 # how many NEs are not in the begin ~ end
 for j, sentence in enumerate(data):
     li = sentence.strip().split('\t')
-    print(li)
     tweet, extraction = li[7], li[5]
+    # print(tweet)
     if extraction[0] == "\"" and extraction[-1] == "\"": extraction = extraction[1:-1]
     if extraction.lower() not in tweet.lower():
         # raise Exception("extraction is not in the range!")
@@ -100,7 +100,6 @@ for j, sentence in enumerate(data):
     # tweet_li = tknzr.tokenize(tweet)
     tweet_li = tweet.split()
     pos_li = pos_tagger.tagger(tweet_li)
-
     ### process the tag
     tag_li = []
     t_t = ["_"] * len(tweet)
@@ -132,6 +131,8 @@ p_d = OrderedDict()
 p = OrderedDict()
 for sentence_dict in data_dict.values():
     word_li = sentence_dict["word"]
+    p_d["\t".join(word_li)] = defaultdict()
+    print(word_li)
     p_d["\t".join(word_li)]["tag"].append(sentence_dict["tag"])
     p_d["\t".join(word_li)]["pos"] = sentence_dict["pos"]
 
@@ -150,6 +151,8 @@ for k, v in p_d.items():
     sentence_dict["word"] = k.split("\t")
     sentence_dict["tag"] = tag_li
     sentence_dict["pos"] = p
+    print(sentence_dict["word"])
+    print(sentence_dict["pos"])
     data_dict[idx] = sentence_dict
     idx += 1
 
