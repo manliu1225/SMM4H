@@ -86,6 +86,8 @@ sentence_dict = OrderedDict()
 
 miss = 0 # how many NEs are not in the begin ~ end
 for j, sentence in enumerate(data):
+    sentence = sentence.strip()
+    sentence = re.sub("amp;", "", sentence)
     li = sentence.strip().split('\t')
     tweet, extraction = li[7], li[5]
     # print(tweet)
@@ -94,14 +96,18 @@ for j, sentence in enumerate(data):
         # raise Exception("extraction is not in the range!")
         miss += 1
         continue
-    begin = tweet.lower().index(extraction.lower())
-    end = begin + len(extraction)
     if tweet[0] == "\"" and tweet[-1] == "\"":
         tweet = tweet[1:-1]
-    # tweet_li = tknzr.tokenize(tweet)
-    tweet_li = tweet.split()
-    # tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
+    tweet_li = tknzr.tokenize(tweet)
+    extraction_li = tknzr.tokenize(extraction)
+    extraction = " ".join(extraction_li)
     pos_li = pos_tagger.tagger(tweet_li)
+
+    # get the begin and end
+    tweet = " ".join(tweet_li)
+    begin = tweet.lower().index(extraction.lower())
+    end = begin + len(extraction)
+
     ### process the tag
     tag_li = []
     t_t = ["_"] * len(tweet)
