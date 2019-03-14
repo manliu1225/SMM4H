@@ -10,12 +10,7 @@ pandas = "*"
 gensim = "*"
 keras = "*"
 tensorflow = "*"
-sicik-learn = "*"
-scikit-learn = "*"
-sklearn = "*"
-keras-contrib = "*"
 keras-tqdm = "*"
-jnius = "*"
 nltk = "*"
 
 [requires]
