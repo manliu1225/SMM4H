@@ -127,12 +127,10 @@ for j, sentence in enumerate(data):
     sentence_dict = OrderedDict()
 
 ### process duplicate ###
-p_d = OrderedDict()
-p = OrderedDict()
+p_d = defaultdict(lambda : defaultdict(list))
 for sentence_dict in data_dict.values():
     word_li = sentence_dict["word"]
-    p_d["\t".join(word_li)] = defaultdict()
-    print(word_li)
+    # print(word_li)
     p_d["\t".join(word_li)]["tag"].append(sentence_dict["tag"])
     p_d["\t".join(word_li)]["pos"] = sentence_dict["pos"]
 
@@ -142,6 +140,7 @@ for k, v in p_d.items():
     p = v["pos"]
     if len(t) > 1: # there are more than 1 NEs in this tweet
         x = ""
+        print(t)
         for i in range(len(t[0])):
             if t[0][i] != "O": x = t[0][i]
             elif t[1][i] != "O": x = t[1][i]
