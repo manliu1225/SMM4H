@@ -172,7 +172,7 @@ for k, v in p_d.items():
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
 with open("../data/converted_file_TrainData2.csv", "w") as outputf:
-    outputf.write("Sentence #,Word,POS,Tag\n")
+    outputf.write("Sentence #\tWord\tPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]
         tag_li = sentence_dict["tag"]

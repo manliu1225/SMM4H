@@ -23,7 +23,7 @@ TEST_SIZE = 0.15
 # ### read ConLL2002 NER corpus from csv (first save as utf-8!)
 
 
-data = pd.read_csv('../data/converted_file_TrainData2.csv')
+data = pd.read_csv('../data/converted_file_TrainData2.csv', delimiter = "\t")
 
 sentmarks = data["Sentence #"].tolist()
 sentmarks = [str(s) for s in sentmarks]
