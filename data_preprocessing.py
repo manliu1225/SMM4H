@@ -25,7 +25,6 @@ TEST_SIZE = 0.15
 
 data = pd.read_csv('../data/converted_file_TrainData2.csv')
 
-
 sentmarks = data["Sentence #"].tolist()
 sentmarks = [str(s) for s in sentmarks]
 print(sentmarks[:5])

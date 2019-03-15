@@ -179,8 +179,8 @@ with open("../data/converted_file_TrainData2.csv", "w") as outputf:
         pos_li = sentence_dict["pos"]
         sentence_m = ["Sentence: {}".format(idx+1)] + [""]*(len(word_li)-1)
         for s in  zip(sentence_m, word_li, pos_li, tag_li):
-            outputf.write(",".join(s)+"\n")
-        outputf.write(",0,0,O\n")
+            outputf.write("\t".join(s)+"\n")
+        outputf.write("\t0\t0\tO\n")
 
 
 
