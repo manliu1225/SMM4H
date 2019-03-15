@@ -161,8 +161,18 @@ for k, v in p_d.items():
             else: x = "O"
             tag_li.append(x)
     else: tag_li = t[0]
+    new_tag_li = []
+    for i, t in enumerate(tag_li):
+        if i == 0 and t == "ADR":
+            new_tag_li.append("B-ADR")
+        elif t == "ADR" and tag_li[i-1] == "O":
+            new_tag_li.append("B-ADR")        
+        elif t == "ADR" and tag_li[i-1] == "ADR":
+            new_tag_li.append("I-ADR")
+        else:
+            new_tag_li.append("O")
     data_dict_new[idx]["word"] = k.split("\t")
-    data_dict_new[idx]["tag"] = tag_li
+    data_dict_new[idx]["tag"] = new_tag_li
     data_dict_new[idx]["pos"] = p
     # data_dict_new[idx] = sentence_dict
     idx += 1
