@@ -5,3 +5,12 @@ pip install -U scikit-learn
 sudo pip install Cython
 pip install pyjnius
 pipenv shell
+
+
+# prepare data
+
+# convert data
+python convert_file.py
+
+# preprocess data
+python data_preprocessing.py

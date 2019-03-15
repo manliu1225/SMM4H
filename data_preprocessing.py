@@ -167,7 +167,7 @@ w2v_pvocab, w2v_pmodel = create_embeddings(train_post_texts,
 
 def numpy_save(saves, names):
     for idx, item in enumerate(saves):
-        np.save('encoded/{0}.npy'.format(names[idx]), item)
+        np.save('../encoded/{0}.npy'.format(names[idx]), item)
     return
 
 saves = [
