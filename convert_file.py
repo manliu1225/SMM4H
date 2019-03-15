@@ -98,19 +98,24 @@ for j, sentence in enumerate(data):
         continue
     if tweet[0] == "\"" and tweet[-1] == "\"":
         tweet = tweet[1:-1]
-    tweet_li = tknzr.tokenize(tweet)
-    extraction_li = tknzr.tokenize(extraction)
+    # tweet_li = tknzr.tokenize(tweet)
+    tweet_li = tweet.split()
+    # extraction_li = tknzr.tokenize(extraction)
+    extraction_li = extraction.split()
     extraction = " ".join(extraction_li)
     pos_li = pos_tagger.tagger(tweet_li)
 
     # get the begin and end
     tweet = " ".join(tweet_li)
+    tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
+    print(tweet)
+    print(extraction)
     begin = tweet.lower().index(extraction.lower())
     end = begin + len(extraction)
 
     ### process the tag
     tag_li = []
-    t_t = ["_"] * len(tweet)
+    t_t = ["_"] * len(tweet) 
     for k in range(len(tweet)):
         if k < begin and tweet and tweet[k] != " ":
             t_t[k] = "O"
@@ -121,8 +126,6 @@ for j, sentence in enumerate(data):
 
     t_t_li = ''.join(t_t).split("_")
     t_t_li = [x for x in t_t_li if x != ""]
-    # print(t_t_li)
-    # print(tweet_li)
     for k in range(len(tweet_li)):
         assert len(t_t_li) == len(tweet_li)
         if "ADR" in t_t_li[k]:
