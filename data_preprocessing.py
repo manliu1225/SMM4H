@@ -62,12 +62,6 @@ for idx, s in enumerate(sentmarks):
     this_ner.append(nertags[idx])
     vocab.append(words[idx].lower())
 
-for idx, sent in enumerate(sentence_text[:2]):
-    print(sent)
-    print(sentence_post[idx])
-    print(sentence_ners[idx])
-    print('')
-
 
 # ## get vocabulary and index inputs
 # 

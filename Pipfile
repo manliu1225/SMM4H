@@ -12,6 +12,7 @@ keras = "*"
 tensorflow = "*"
 keras-tqdm = "*"
 nltk = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"
