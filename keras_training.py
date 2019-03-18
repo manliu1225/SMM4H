@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+# # the archtecture of codes are from  https://github.com/SNUDerek/NER_bLSTM-CRF
 # # bidirectional-LSTM-CRF in Keras
 # 
 # this is a bidirectional LSTM-CRF model for NER, inspired by:
@@ -8,8 +10,6 @@
 # Huang, Xu, Yu: *Bidirectional LSTM-CRF Models for Sequence Tagging* (2015)
 # 
 # ...though this is becoming a common architecture for sequence labeling in NLP.
-
-# In[1]:
 
 
 import numpy as np
@@ -38,8 +38,6 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 # ## define hyperparameters
 
-# In[3]:
-
 
 # network hyperparameters
 MAX_LENGTH = 30
@@ -51,8 +49,6 @@ BATCH_SIZE = 64
 DROPOUTRATE = 0.25
 MAX_EPOCHS = 8       # max iterations, early stop condition below
 
-
-# In[4]:
 
 
 # load data from npys (see preprocessing.ipynb)
@@ -80,8 +76,6 @@ y_train_ner = np.load('../encoded/y_train_ner.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
 
 
-# In[5]:
-
 
 # load embedding data
 w2v_vocab, _ = load_vocab('embeddings/text_mapping.json')
@@ -94,8 +88,6 @@ w2v_pmodel = Word2Vec.load('embeddings/pos_embeddings.gensimmodel')
 # 
 # we must 'pad' our input and output sequences to a fixed length due to Tensorflow's fixed-graph representation.
 
-# In[6]:
-
 
 # zero-pad the sequences to max length
 print("zero-padding sequences...\n")
@@ -107,15 +99,9 @@ y_train_ner = sequence.pad_sequences(y_train_ner, maxlen=MAX_LENGTH, truncating=
 y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
 
-# In[7]:
-
-
 # get the size of pos-tags, ner tags
 TAG_VOCAB = len(list(idx2pos.keys()))
 NER_VOCAB = len(list(idx2ner.keys()))
-
-
-# In[8]:
 
 
 # reshape data for CRF
@@ -126,8 +112,6 @@ y_test_ner = y_test_ner[:, :, np.newaxis]
 # ## pre-load the pretrained embeddings
 # 
 # as seen in previous studies such as Ma & Hovy 2016, loading the embedding layer with pretrained embedding vectors has been shown to improve network performance. here we initialize an embedding to zeros, and then load the embedding from the pretrained model (if it exists; it may not due to `Word2Vec` parameters).
-
-# In[9]:
 
 
 # create embedding matrices from custom pretrained word2vec embeddings
@@ -145,8 +129,6 @@ for word in word2idx.keys():
 print("added", c, "vectors")
 
 
-# In[10]:
-
 
 pos_embedding_matrix = np.zeros((TAG_VOCAB, POS_EMBED_SIZE))
 c = 0
@@ -161,8 +143,6 @@ for word in pos2idx.keys():
         pos_embedding_matrix[pos2idx[word]] = word_vector
 print("added", c, "vectors")
 
-
-# In[11]:
 
 
 # define model
@@ -203,13 +183,9 @@ model.compile(optimizer='adam',
               metrics=[crf.accuracy])
 
 
-# In[12]:
-
 
 model.summary()
 
-
-# In[13]:
 
 
 history = model.fit([X_train_sents, X_train_pos], y_train_ner,
@@ -217,14 +193,7 @@ history = model.fit([X_train_sents, X_train_pos], y_train_ner,
                     epochs=MAX_EPOCHS,
                     verbose=2)
 
-
-# In[14]:
-
-
 hist_dict = history.history
-
-
-# In[15]:
 
 
 # save the model
@@ -235,39 +204,21 @@ np.save('../model/hist_dict.npy', hist_dict)
 print("models saved!\n")
 
 
-# In[16]:
-
-
 preds = model.predict([X_test_sents, X_test_pos])
 
-
-# In[17]:
 
 
 preds = np.argmax(preds, axis=-1)
 preds.shape
 
 
-# In[18]:
-
-
 trues = np.squeeze(y_test_ner, axis=-1)
 trues.shape
 
 
-# In[19]:
-
-
 s_preds = [[idx2ner[t] for t in s] for s in preds]
 
-
-# In[20]:
-
-
 s_trues = [[idx2ner[t] for t in s] for s in trues]
-
-
-# In[21]:
 
 
 from sklearn.metrics import classification_report, confusion_matrix
@@ -313,13 +264,7 @@ def bio_classification_report(y_true, y_pred):
     )
 
 
-# In[22]:
-
-
 print(bio_classification_report(s_trues, s_preds))
-
-
-# In[ ]:
 
 
 
