@@ -16,7 +16,7 @@ jnius_config.add_options('-Xmx512m', '-XX:ParallelGCThreads=2')
 jnius_config.set_classpath(*(os.path.join(_resources_dir, jar) for jar in os.listdir(_resources_dir) if jar.endswith('.jar')))
 os.environ['CLASSPATH'] = './resources/'
 
-inputf = open("../data/TrainData2-utf8.tsv", encoding = "utf-8")
+inputf = open("../data/TrainData3-utf8.tsv", encoding = "utf-8")
 data = inputf.readlines()[1:]
 print(data[0])
 logger = logging.getLogger(__name__)
@@ -89,7 +89,9 @@ for j, sentence in enumerate(data):
     sentence = sentence.strip()
     sentence = re.sub("amp;", "", sentence)
     li = sentence.strip().split('\t')
-    tweet, extraction = li[7], li[5]
+    # tweet, extraction = li[7], li[5]
+    tweet, extraction = li[9], li[6]
+    # tweet, extraction = li[7], li[6]
     # print(tweet)
     if extraction[0] == "\"" and extraction[-1] == "\"": extraction = extraction[1:-1]
     if extraction.lower() not in tweet.lower():
@@ -181,7 +183,7 @@ for k, v in p_d.items():
 
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
-with open("../data/converted_file_TrainData2.csv", "w") as outputf:
+with open("../data/converted_file_TrainData3.csv", "w") as outputf:
     outputf.write("Sentence #\tWord\tPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]

@@ -7,10 +7,15 @@ pip install pyjnius
 pipenv shell
 
 
-# prepare data
+# prepare data 
 
-# convert data
+## change encode to utf8
+
+## convert data
 python convert_file.py
 
-# preprocess data
+## preprocess data
 python data_preprocessing.py
+
+
+
