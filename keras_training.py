@@ -47,7 +47,7 @@ POS_EMBED_SIZE = 100 # see data_preprocessing.ipynb
 HIDDEN_SIZE = 400    # LSTM Nodes/Features/Dimension
 BATCH_SIZE = 64
 DROPOUTRATE = 0.25
-MAX_EPOCHS = 8       # max iterations, early stop condition below
+MAX_EPOCHS = 20       # max iterations, early stop condition below
 
 
 
