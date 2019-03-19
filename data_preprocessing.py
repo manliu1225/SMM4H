@@ -23,11 +23,19 @@ TEST_SIZE = 0.15
 # ### read ConLL2002 NER corpus from csv (first save as utf-8!)
 
 
-data = pd.read_csv('../data/converted_file_TrainData2.csv', delimiter = "\t")
+data = pd.read_csv('./data/data.txt', delimiter = "\t")
 
 sentmarks = data["Sentence #"].tolist()
 sentmarks = [str(s) for s in sentmarks]
-print(sentmarks[:5])
+sentmarks_li = []
+for i, s in enumerate(sentmarks, 1):
+    if s == "nan":
+        sentmarks_li.append(s)
+    else:
+        sentmarks_li.append("Sentence: {}".format(i))
+
+sentmarks = sentmarks_li
+print(sentmarks)
 
 words = data["Word"].tolist()
 postags = data["POS"].tolist()
@@ -85,7 +93,7 @@ pos2idx, idx2pos = get_vocab(sentence_post, len(set(postags)))
 ner2idx, idx2ner = get_vocab(sentence_ners, len(set(nertags))+2)
 
 
-print(sentence_post)
+# print(sentence_post)
 
 # index
 sentence_text_idx = index_sents(sentence_text, word2idx)
@@ -102,7 +110,7 @@ sentence_ners_idx = index_sents(sentence_ners, ner2idx)
 
 indices = [i for i in range(len(sentence_text))]
 
-print(sentence_post_idx)
+# print(sentence_post_idx)
 train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
 
 def get_sublist(lst, indices):
@@ -128,7 +136,7 @@ y_test_ner = get_sublist(sentence_ners_idx, test_idx)
 
 # sentence embeddings
 train_sent_texts = [sentence_text[idx] for idx in train_idx]
-print(train_sent_texts) 
+# print(train_sent_texts) 
 
 w2v_vocab, w2v_model = create_embeddings(train_sent_texts,
                        embeddings_path='embeddings/text_embeddings.gensimmodel',
