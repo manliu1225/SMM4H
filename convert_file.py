@@ -93,33 +93,38 @@ for j, sentence in enumerate(data):
     tweet, extraction = li[9], li[6]
     # tweet, extraction = li[7], li[6]
     # print(tweet)
-    if extraction[0] == "\"" and extraction[-1] == "\"": extraction = extraction[1:-1]
-    if extraction.lower() not in tweet.lower():
-        # raise Exception("extraction is not in the range!")
-        miss += 1
-        continue
     if tweet[0] == "\"" and tweet[-1] == "\"":
         tweet = tweet[1:-1]
     # tweet_li = tknzr.tokenize(tweet)
     tweet_li = tweet.split()
-    # extraction_li = tknzr.tokenize(extraction)
-    extraction_li = extraction.split()
-    extraction = " ".join(extraction_li)
+    tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
     pos_li = pos_tagger.tagger(tweet_li)
 
-    # get the begin and end
-    tweet = " ".join(tweet_li)
-    tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
-    print(tweet)
-    print(extraction)
-    begin = tweet.lower().index(extraction.lower())
-    end = begin + len(extraction)
+    if extraction == "": 
+        begin = end = 100000
+    else:
+        if extraction[0] == "\"" and extraction[-1] == "\"": extraction = extraction[1:-1]
+        if extraction.lower() not in tweet.lower():
+            # raise Exception("extraction is not in the range!")
+            miss += 1
+            continue
+
+        # extraction_li = tknzr.tokenize(extraction)
+        extraction_li = extraction.split()
+        extraction = " ".join(extraction_li)
+
+        # get the begin and end
+        tweet = " ".join(tweet_li)
+        print(tweet)
+        print(extraction)
+        begin = tweet.lower().index(extraction.lower())
+        end = begin + len(extraction)
 
     ### process the tag
     tag_li = []
     t_t = ["_"] * len(tweet) 
     for k in range(len(tweet)):
-        if k < begin and tweet and tweet[k] != " ":
+        if k < begin and tweet[k] != " ":
             t_t[k] = "O"
         if  begin <= k < end and tweet[k] != " ":
             t_t[k] = "ADR"
