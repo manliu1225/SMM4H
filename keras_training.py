@@ -22,8 +22,9 @@ from keras_contrib.utils import save_load_utils
 from gensim.models import Word2Vec
 from keras_tqdm import TQDMNotebookCallback
 from embedding import load_vocab
-
+import feature_namelist
 import sys
+import re
 # ### limit GPU usage for multi-GPU systems
 # 
 # comment this if using a single GPU or CPU system
@@ -82,29 +83,30 @@ print(sentence_text[0]) # list of list
 print(X_test_sents.shape) # (229,)
 # Namelist features
 namelist_filenames = ["namelist1.txt", "namelist2.txt"]
-MANUAL_MUSIC_DIR = 'sources/dictionary'
+MANUAL_MUSIC_DIR = 'resources/dictionary'
 features_dict = {}
 features_dict["nameListFeature"] = feature_namelist.load_namelist(
             namelist_filenames, MANUAL_MUSIC_DIR, skip_first_row=True)
-namelist_APP, namelist_GAME, namelist_O = [], [], []
+namelist_ADR = []
+
+instance_tokens = sentence_text[0]
+instance_tokens_lower = [re.sub(r'!|\?|\"|\'', '', e.lower()) for e in sentence_text[0]]
 namelist_idx = feature_namelist.get_namelist_match_idx(
-        features_dict["nameListFeature"], instance_tokens_lowered) 
+        features_dict["nameListFeature"], instance_tokens_lower) 
 
 for idx, token in enumerate(instance_tokens):
         if idx in namelist_idx:
-            namelist_dict = features_dict["NameList"]
+            namelist_dict = {"NameList:ADR" : 1}
             # print(namelist_idx.get(idx, "")["pos"])
             # start = ""
-            start = "_1" if namelist_idx.get(idx, "")["pos"] == 0 else ""
-            namelist_APP.append(namelist_dict["NameList:APP"] if "APP" in namelist_idx.get(idx, "")["labels"] else "_")
-            namelist_GAME.append(namelist_dict["NameList:GAME"] if "GAME" in namelist_idx.get(idx, "")["labels"] else "_")
-            namelist_O.append(namelist_dict["NameList:O"] if "O" in namelist_idx.get(idx, "")["labels"] else "_")
+            start = 2 if namelist_idx.get(idx, "")["pos"] == 0 else ""
+            namelist_ADR.append(namelist_dict["NameList:ADR"] if "ADR" in namelist_idx.get(idx, "")["labels"] else 0)
+            # namelist_O.append(namelist_dict["NameList:O"] if "O" in namelist_idx.get(idx, "")["labels"] else "_")
         else:
-            namelist_APP.append("_")
-            namelist_GAME.append("_")
-            namelist_O.append("_")
+            namelist_ADR.append(0)
+            # namelist_O.append(0)
 
-
+print(namelist_ADR)
 
 sys.exit(0)
 
