@@ -1,0 +1,1443 @@
+@@@ADR
+rare movement in four extriemities
+decreased sputum
+sputum expectoration
+Audible sputum sound 
+Complaining of sputum
+sputum 
+Not difficulty in sputum expetoration
+Difficulty in sputum expectoration
+Complaining of difficulty in sputum expectoration
+Increased sputum
+Positive in sputum culture 
+decreased itching
+itching
+Increased itching
+complaining of itching
+Crying due to itching
+Unabling to sleep due to itching
+complaining of itching
+Impaired Gas Exchange
+Complaining of chest tightness
+complaining of Palpitations
+family conflict
+Interrupted family process
+Ineffective family coping
+Lacking of family support system
+Inadequate family crisis coping
+Inadquate family decision making
+intermittent sleep
+itching feeling
+Noncompliance of nursing instruction
+decreased thirst
+thirst
+increased thirst
+complaining of thirst
+sensation
+recovered sensation
+complaining of sensation
+decreased sensation
+sensory aphasia
+improved sensory aphasia
+sensory processing disorder
+decreased abnormal sensation
+abnormal sensation
+sensory disorder
+changing of sensory decreasing
+hypoesthesia
+improved hypoesthesia
+sensory perception disorder
+cold symptoms
+infection
+risk for infection
+decreased hemoptysis
+hemoptysis 
+increased hemoptysis
+reluctance
+expressing  the feeling of Denial 
+foamy urine
+Anxiety
+health seeking behavior
+difficulty walking
+Impaired Walking
+walking with shortened stride and leaning forward
+Conjunctival edema
+decreased conjunctival bleeding
+conjunctival bleeding
+conjunctival hyperemia
+pulse deficit 
+vigilance
+Impalpable carotid artery pulse
+palpable carotid artery pulse
+seizure
+seizure like movements
+decreased neck stiffness
+neck stiffness
+complaing of neck stiffness
+decreased neck swelling
+neck swelling
+increased neck swelling 
+rigid position sleeping without movement
+rigid position
+drowsiness
+hypernatremia
+hyperthermia
+hyperkalemia
+hypercalcemia
+complaing of pain
+hyperglycemia
+hyperglycemia symptom 
+thirst related to hyperglycemia
+thirst related to hyperglycemia
+fatigue related to hyperglycemia
+hypertension
+hypertension symptom
+decreased pain in fracture site 
+pain in fracture site
+increased pain in fracture site
+decreased edema of fracture site 
+edema in fracture site
+excessive fluid intake
+Observation of hyperactivity
+Sleeping excessively
+Hypersensitivity
+Complaining of abdominal discomfort after enema
+decreased joint stiffness
+joint stiffness
+impaired Anal-sphincter
+Necrosis
+lesion of the oral cavity
+congestion of oral mucous membrane
+decreased oral bleeding
+oral bleeding
+increased oral bleeding 
+decreased oral pain
+oral pain
+increased oral pain
+complaining of oral pain
+oral fissure
+decreased oral ulceration
+oral ulcerarion
+increased oral ulcerarion
+decreased dry mouth
+dry mouth
+increased dry mouth
+complaining of dry mouth
+Stomatitis
+decreased vomiting
+increased vomiting
+complaining of vomiting
+vomiting
+local paralysis
+malaise
+decreased ear discharge
+ear discharge
+decreased pain in ear
+ear pain
+increased pain in ear
+complaining of ear pain
+complaining of muffled hearing
+impaired body balance
+decreased muscular strength
+decreased muscular strength
+muscular strength change
+increased muscular strength
+increased muscular strength
+Muscle Spasticity
+decreased muscle mass
+muscle cramp
+muscle twitching 
+decreased muscle pain
+muscle pain
+increased muscle pain
+complaining of muscle pain
+Scratching
+Excoriation
+decreased vomiting after NPO
+acute cognitive disorder
+acute pain
+Failure of intubation
+increased SpO2 after intubation
+decreased SpO2 after intubation
+decreased bronchial secretion
+increased bronchial secretion
+Inability to open airway
+risk for aspiration
+Slow recovery
+Impaired memory
+Amnesia
+Impaired memory
+emaciaiton
+decreased diaper rash
+diaper rash 
+increased diaper rash
+orthopnea
+decreased cough
+coughing
+increased cough
+maintained cough
+complaining of cough 
+pain during coughing 
+deformity
+Urge incontinence of urine
+Complaining of urge incontinence of urine
+Expression of anxiety
+anxiety
+annoyance upon awakening
+unabled to wake up
+risk for falling
+napping
+cynical
+falling
+concentrated urine voiding
+Decreased Intracranial Adaptive Capacity
+laying down
+blinking
+decreased eyelid edema
+eyelid edema
+increased eyelid edema
+eye contact
+able to open eyes
+frequently blinking
+decreased engorgement of eye => Decreased eye congestion
+engorgement of eye
+increased engorgement of eye
+decreased eye discharge
+eye discharge
+increased eye discharge
+complaining of blurred vision
+polyuria
+leg tremors
+observed leg injury
+fell asleep again
+simple and repetitive behavior
+Faeces color change
+Faeces form change
+metabolic acidosis
+ change in relationships status
+ lack of diversional activity
+complaining of feeling hot
+decreased fatigue
+Escaped
+refused caregiver role
+pupil constriction 
+pupil dilation
+pinpoint pupils
+Deacreased pH - Arterial Blood Gas Result
+fear
+decreased headache
+headache
+increased headache
+complaining of headache
+intermittent severe headache
+repeating the word listened
+strawberry tongue
+decreased hiccup
+hiccup
+increased hiccup
+complaining of hiccup
+sweating
+repeating same words
+paralysis
+chronic pain 
+chronic cognitive disorder
+Chronic low self-esteem
+chronic pain 
+Failure of delay for satisfaction
+acrocyanosis
+increased stammering
+stammering
+recoverd stammering
+Expressive Aphasia
+Unable to understand language
+slurred speech
+Excessive speech
+Risk for Peripheral Neurovascular Dysfunction
+Hesitating to speak
+decreased pulse intensity 
+Unable to check pulse
+Able to check pulse
+head tremor
+Decreased celiac plexus discomfort
+ celiac plexus discomfort
+Increased celiac plexus discomfort
+Complaining of celiac plexus discomfort
+Decreased pyrosis
+pyrosis
+Increased pyrosis
+complaining of pyrosis
+Decreased celiac plexus pain
+ celiac plexus pain
+Increased celiac plexus pain
+Complaining of celiac plexus pain
+Difficulty Performing Breastfeeding
+complaining of thirst
+Able to walk using crutch  
+practiced cruth walking 
+voice changed
+trembling voice 
+small voice
+conplaining of sinking feeling 
+powerlessness
+coma
+absolute positive attitude
+absolute negative attitude
+apnea
+inappropriate problem-solving
+complaining of problem
+refusal of physical therapy regime
+slip and fall
+opisthotonos
+Repeated questions
+Repetated behavior
+Repetitive and pointless behavior
+echolalia 
+clattering foot
+toe discoloration
+decreased ankle pain
+ankle pain 
+complaining of ankle pain 
+redness on plantar
+Strengthened feet
+Unable to pronounce well
+postictal sleep
+diaphoresis 
+decreased diaphoresis
+diaphoresis
+increased diaphoresis
+radiating pain
+Defensive behavior
+Impaired Urination
+trying urination
+Urination need
+Having urination need
+Urination need
+tenesmus after urination
+dysuria
+complaining of dyuria
+decreased voided volume 
+increased voided volume 
+Bursing sensation During Urination
+Pain During Urination
+difficulty to start urination
+voiding dysfunction
+voiding dysfunction
+voiding dysfunction 
+tenesmus after defecation
+discoloration
+Bowel Incontinence
+Refuse to follow ward rules
+wearing assistive device
+Walking Using Device 
+no whining
+whining
+Impaired Walking
+Impaired Walking
+Impaired Ability Of Caregiver To Perform Caretaking
+decreased abdomen circumference
+increased abdomen circumference
+decreased abdominal discomfort
+abdominal discomfort 
+increased abdominal discomfort 
+complaining of abdominal discomfort 
+decreased abdominal tenderness
+abdominal tenderness
+increased abdominal tenderness
+abdominal pain
+increased abdominal pain 
+complaining of abdominal pain
+decreased abdominal distension
+abdomina distension
+increased abdominal distension
+complaining of abdominal distension
+palpable abdominal mass
+abdominal pressure
+ascites
+diplopia
+immobility state
+side effect
+Inaduqate Responding
+inadequate defense mechanism
+inadequate emotion
+inadequate behavior
+inadequate
+Arrhythmia
+Arrhythmia 
+denial reaction
+denial reaction
+denial
+able to walk with assisting
+labor pain
+Difficulty Coping With Labor Pain
+pulsation of irregular pulse 
+dissatisfaction
+Bowel Incontinence
+decreased involuntary movements
+involuntary movements
+increased involuntary movements
+Lack of trust
+Anxiety
+decreased anxiety
+anxiety
+increased anxiety
+acting out anxiety
+Physical symptoms due to anxiety
+complaining of physical symptoms due to anxiety
+complaining of anxiety
+decreased anxiety
+expressing anxiety
+nonadherence
+decreased discomfort
+discomfort 
+increased discomfort 
+complaining of discomfort 
+Unnecessary body movement
+decreased nasal discharge
+nasal discharge
+decreased nasal bleeding
+nasal bleeding 
+increased nasal bleeding 
+continuous nasal bleeding 
+nasal packing 
+oozing in nasal packing site
+oozing in nasal packing site
+removed nasal packing
+nasal packing status
+auscultating abnormal breath sounds
+Ineffective thermoregulation
+Uncooperative
+Ineffetive Breastfeeding
+ineffective airway clearance
+ineffective coping
+Ineffective breastfeeding
+Ineffective Breathing Pattern
+decreased urinary frequency 
+urinary frequency
+increased urinary frequency 
+complaining of urinary frequency 
+tachycardia
+having symptoms of anemia
+tachypnea
+orientation to person
+Aspiration
+Extremity weakness
+floppy extremities
+Social isolation
+Impaired social adaptation
+mydriasis
+inhalating oxygen
+no oxygen inhalation
+self removal of Oxygen administration
+decreased blood oxygen saturation
+Increased blood oxygen saturation
+Unable to check  blood oxygen saturation  
+monitoring  blood oxygen saturation
+Transferred with monitoring  blood oxygen saturation
+Postpartum hemorrhage
+postpartum pain
+complaining postpartum pain
+Good chin tuck maneuver with swallowing
+complaining of upper abdominal discomfort
+upper abdominal pain
+complaining of upper abdominal pain
+decreased upper extremities edema
+upper extremities edema
+increased upper extremities edema
+elevated upper extremities
+wound discoloration
+wound dressing 
+wound edema
+wound gauze packing
+wound soaking
+positive bacteria in wound culture
+decreased itching of wound site
+wound itching 
+symptom of wound infection
+symptom of wound infection
+wound site problem
+decreased discomfortness of wound site
+discomfortness of wound site
+wound blisters
+decreased wound bleeding 
+wound bleeding 
+decreased wound pain
+wound pain
+increased wound pain
+complaining of wound pain
+wound discharge
+decreased wound discharge
+wound discharge
+wound oozing
+decreased wound oozing
+wound oozing
+increased wound oozing
+decreased wound redness
+wound redness
+decreased wound swelling
+wound swelling
+Applying icepack on  the wound site
+Applying hotpack on  the wound site
+tenderness around the wound 
+skin scraping around the wound
+decreased redness around the wound
+redness around the wound
+Situational Low Self Esteem
+Unable to balance with standing posture
+decreased inguinal pain
+inguinal pain
+complaining of inguinal pain
+Speaking selectively
+Delirium
+excessive intake 
+growth and development disorder
+Hypoosmolality urine
+low sodium urine
+urine volume
+decreased urine volume
+invreased urine volume 
+positive bacteria in urine culture
+Difficulty to start urination
+Albumin detected in urine
+Red blood cell detected in urine
+cloudy urine
+itching
+decreased dyspepsia
+increased dyspepsia
+complaining of dyspepsia
+feel bloated
+finger discoloration
+diffuculty to move fingers
+palms redness
+Changed color of damaged skin 
+Hand tremor
+Difficulty to make a fist and release exercise
+Excercising of making a fist and releasing
+observed sleep apnea 
+sleeping
+having sleep tendency
+increased sleep tendency
+increased sleep time
+difficulty to maintain sleep
+limited fluid intake
+fluid and electrolyte imbalance state
+expressed anxiety before surgery
+Delirium after surgery
+concerns about surgery
+vomiting after feeding
+regurgitation after feeding
+feeding deficiency
+aspiration during feeding
+ended blood transfusion. Side effect of Blood transfusion
+ended blood transfusion. Side effect of Blood transfusion
+side effect of blood transfusion 
+side effect of blood transfusion
+itching during blood transfusion
+side effects during blood transfusion
+side effects during blood transfusion
+cold sweat during blood transfusion
+fever during blood transfusion
+dyspnea during blood transfusion
+complaining of chest dyscomfort during blood transfusion
+chilling during blood transfusion
+shivering during blood transfusion
+ulticaria during blood transfusion
+itching after blood transfusion
+fever after blood transfusion
+chilling after blood transfusion
+shivering after blood transfusion
+ulticaria after blood transfusion
+decrease hoarseness
+Hoarseness
+complaining of hoarseness
+Difficulty to self sitting and standing 
+Difficulty to self movement
+grief
+Dysfunctional grieving
+complaining of grief
+time
+Hydration after checking hourly urine output
+orientation to time
+decreased vision
+change of vision disturbance
+vision disturbance
+recovered vision disturbance
+Inaduqate eye contact
+unable to make eye contact
+changed visual field deficit
+visual field deficit
+recovered visual field deficit
+increased meal time
+vomiting immediately after meal
+decreased discomfort after meal
+discomfort after meal
+increased discomfort after meal
+complaining of discomfort after meal
+decreased aspiration during having a meal
+aspiration during having a meal
+decreased cold sweat
+cold sweat
+increased cold sweat
+complaining of cold sweat
+moaning
+body injury
+blindness
+aphasia
+palpitation
+increased heart rate
+decreased cardiac output 
+auscultating heart murmur
+on cardiac massage=>  cardiac massage
+admitted after cardiac arrest
+cardiac arrest
+complaining of severe fatigue
+Difficulty to deep breath
+fainting
+complaining of swallowing difficulty
+swallowing difficulty
+ptosis
+recovered ptosis
+eyeball pain
+decreased eyeball pain
+eyeball pain
+increased eyeball pain
+complaining of eyeball pain
+nystagmus
+facial spasm
+recovered facial spasm
+decreased facial edema
+facial edema
+increased facial edema
+facial asymmetry
+facial palsy
+grimacing face
+decreased facial pain
+pain in face
+facial flushing
+occular hypertension
+comfort change
+Unable to balance in sitting position
+allergy reaction
+alcohol withdrawal symptom
+decreased tenderness
+tenderness
+Drug side effect
+coplaining of shoulder pain
+applying restraint
+calmed down after applying restraint
+decreased speech ability
+dysphasia
+Unable to communicate by talking
+stop to communicate by talking
+separation of mother and infant 
+decreased bottock pain
+pain in bottock
+complaining of bottock pain
+decreased dysphagia
+dysphagia
+complaining of dysphagia
+impaired swallowing
+decreased fever
+fever
+increased fever
+complaining of fever
+disorganized infant behavior
+enhanced contol of infant behavior
+Impaired Nutritional Status: nutritional excess
+Impaired Nutritional Status: nutritional deficit
+ Malnutrition
+decreased flank pain
+pain in flank
+increased flank pain
+complaining of flank pain
+lochia
+nausea
+decreased nausea
+increased nause
+nausea
+nausea/vomiting
+complaining of nausea
+risk for loneliness
+traumatic wound
+decreased vulvar edema
+vulvar edema
+impalpable radial pulse 
+weak radial pulse
+decreased urethral discomfort
+urethral discomfort
+complaining of urethral discomfort
+decreased urethral pain
+urethral pain
+increased urethral pain
+complaining of urethral pain
+uremia symptom
+decreased back pain
+pain in back
+increased back pain 
+complaining of back pain
+pressure ulcer
+Itching in pressure ulcer site
+discomfort in pressure ulcer site
+decreased discomfort in pressure ulcer site
+discomfort in pressure ulcer site
+odor in pressure ulcer site
+odor in pressure ulcer site
+pressure ulcer site bleeding
+pressure ulcer site bleeding
+pressure ulcer site pain
+decreased pressure ulcer site pain
+pain in pressure ulcer site
+complaining of pressure ulcer site pain
+pressure ulcer site discharge
+pressure ulcer site discharge
+pressure ulcer site eschar
+pressure ulcer site oozing
+oozing in pressure ulcer site 
+decreased pressure ulcer site redness
+redness in pressure ulcer site
+undermining of pressure ulcer site
+worsed pressure ulcer 
+pressure ulcer change
+recovered pressure ulcer
+Depressed Mood
+decreased motor function
+recovered motor function
+Motor Function
+insufficient motor fuction 
+recovered motor aphasia
+kinesioneurosis
+motor aphasia
+bradykinesia
+complaining of bradykinesia
+Impaired mobility
+Impaired mobility
+limitation in mobility
+crying and whining
+crying
+abnormal cries
+reluctant to move
+Immobilising
+Able To Mobilise
+limited movement
+gastric residuals
+residuals in stomach
+pain in nipple
+discomfort in breast
+tenderness in breast
+decreased scrotal swelling
+swelling in scrotum
+increased scrotal swelling
+Impaired Consciousness
+No consciousness
+recovered  consciousness 
+decreased consciousness
+consciousness change
+consciousness change after hospitalization
+change of consciousness 
+consciousness level
+consciousness level change
+decreased consciousness level
+recovered consciousness level
+conscious behavior
+wearing ocular prosthesis
+increased dependency
+Dependent behavior
+manipulating staff to gain benefits
+decreased tinnitus
+tinnitus
+increased tinnitus
+complaining of tinnitus
+decreased paresthesia
+paresthesia
+vaginal bleeding in prepartum period
+congestion in transplanted skin
+color of transplanted skin
+deficient endurance
+decreased throat discomfort
+throat discomfort
+increased throat discomfort
+complaining of throat discomfort
+congestion in throat
+decreased sore throat
+sore throat
+increased sore throat
+complaining of sore throat
+dizziness on standing up
+morning sickness 
+lip smacking
+blue lips
+Lips dry and peeled
+dried lips
+paresthesia around lips
+expressing burning sensation in mouth
+holding ice in mouth
+lip smacking
+complaininig of oral driness
+spasm around mouth
+gingival enlargement
+gingival swelling
+stopping self medication
+unable to self voiding
+sleeping
+Uterine contraction
+palpating fundus of uterus firmly
+palpating fundus of uterus softly
+unable to palpate uterus fundus 
+able to palpate uterus fundus 
+Act self-centered
+Lack of self-expression
+self respiration
+recovered self respiration
+having self respiration
+discomfort due to posture
+Enduring discomfort due to posture
+Complaining of discomfort due to posture
+Lack of self esteem
+Negative self esteem
+excessive self awareness
+low self esteem
+decreased hearing
+expressing decreased hearing
+keep crying and whining without sleeping
+sleep talking
+difficulty to fall asleep
+calf tenderness
+calf redness
+calf swelling
+calf abnormal hot sensation 
+having drainage via stoma
+No bowel elimination via stoma
+hematochezia via stoma
+melena via stoma
+No gas out via stoma
+decreased gas passing via stoma
+No gas passing via stoma
+increased gas passing via stoma
+orientation to place
+expressing no bowel movement
+expressing increased bowel movement
+bowel sound
+decreased bowel sound
+inaudible bowel sound
+weak bowel sound
+having bowel sound
+well audible bowel sound
+increased bowel sound
+anxiety about recurrences
+stopped sneezing
+sneezing
+hyponatremia
+pain with tingling sense
+hypothermia
+Underweight
+hypokalemia
+hypocalcemia
+hypoglycemia
+having hypoglycemia symptom
+Complaining of hunger due to hypoglycemia
+Sweating due to hypoglycemia
+Restlessness due to hypoglycemia
+Somnolence due to hypoglycemia
+tremor due to hypoglycemia
+hypotension
+showing hostility
+End of blood transfusion except red blood cells. Transfusion side effects
+End of blood transfusion except red blood cells. Having transfusion side effects
+End of blood transfusion including red blood cells. Transfusion side effects
+End of blood transfusion including red blood cells. Having transfusion side effects
+decreased generalized fatigue
+Increased generalized fatigue
+complaining of generalized fatigue
+decreased anasarca
+anasarca
+complaining of generalized discomfort
+decreased pantalgia
+pantalgia
+increased pantalgia 
+complaining of pantalgia 
+decreased generalized fatigue
+generalized fatigue
+increased generalized fatigue
+complaining of generalized fatigue
+risk for infection
+electrolyte imbalance
+poor compliance of absolute bed rest 
+Absolue bed rest
+Despair
+expressing despair
+pale mucous membranes
+mucous stool
+phlebitis
+complaining of akathisia 
+umbilicus bleeding
+modified milk feeding
+Steering behavior
+Ineffective tissue perfusion
+Ineffective tissue perfusion : brain
+Ineffective tissue perfusion : peripheral
+Ineffective tissue perfusion : kidney
+Ineffective tissue perfusion : Cardiovascular System
+Ineffective tissue perfusion : Gastrointestinal Tract
+tissue injuries
+weak pulse of dorsal pedis
+unpalpable dorsalis pedis pulse
+look somnolent
+ expressing somnolence
+Obsessed with religion
+festinating gait
+low concentration
+flopped down
+fear of death
+increased central venous pressure
+decreased central venous pressure
+recovered symptom
+insufficient perception ability
+showing excessive wariness
+walking using cane
+anxiety about the process and prognosis
+relieved after sedation medication
+asking for analgesic
+decreased pain after taking analgesic 
+maintained pain after taking analgesic 
+Denial of analgesic 
+decreased vaginal discharge
+discharge in vagina
+increased vaginal discharge
+complaining of vaginal discharge
+vaginal bleeding
+decreased vaginal bleeding
+bleeding in vagina
+increased vaginal bleeding
+complaining of vaginal bleeding 
+anxiety about the impact of disease
+vaginal spotting
+decreased vaginal spotting
+spotting in vagina
+persistently asking
+pallor
+fontanel swelling
+first urinary elimination
+no first urinary elimination
+hearing loss
+impaired hearing
+decreased cyanosis
+cyanosis
+increased cyanosis
+hypervolemia
+hypovolemia
+risk for hypovolemia
+increased body temperature
+decreased body temperature
+Risk for impaired thermoregulation
+decreased body weight
+increased body weight
+hematuria in early stage
+bleeding
+decreased bleeding
+having bleeding
+increased bleeding
+showing bleeding tendency
+risk for bleeding 
+having bleeding symptoms
+impulsive
+congestion
+absent from treatment
+Refused to participate in therapeutic activities
+expressing difficult to comply with the treatment instruction
+Do not follow treatment instructions
+tooth extraction
+tooth movement
+damaged dentition
+hemorrhoids
+try to come down from bed
+came down from bed
+falling from bed
+Moved from bed to wheelchair
+decreased salivation 
+increased  salivation 
+bed rest
+complaining of hypersalivation
+drooling
+increased drooling
+nasal obstruction 
+complaining of nasal obstruction 
+decreased rhinorrhea
+rhinorrhea
+dehydration symptoms
+fetal movement 
+not passed meconium
+risk for fetus condition
+hematemesis
+pain
+decreased pain
+having pain
+pain
+Responsing to pain stimulation
+increased pain
+continued pain
+unable to assessing pain
+complaining of pain
+obsessed with pain
+regressive behavior
+stopped hemodialysis
+medication effect
+working of medicaton effect
+medication effect
+Improved symptom after medication
+Difficult to sleep even after medication
+compliance with medication
+refused medication
+decreased burping
+burping
+increased burping
+complainging of burping
+arm tremor
+sepsis
+risk for sepsis
+Unilateral Neglect
+Pulmonary edema
+looks stiff on face expression
+Damaged epidermal tissue
+accurate, but slow expressions
+expressing fatigue
+fatigue
+complaining of fatigue
+expressing fatigue
+Decreased skin elasticity
+thin skin
+cold skin
+pale skin
+damp skin
+decreased skin lesion itching
+itching in Skin lesion
+increased skin lesion itching
+complaining of skin lesion itching
+decreased skin lesion
+skin lesion change
+present of skin lesion
+increased skin lesion
+decreased skin lesion pain
+pain in skin lesion
+increased skin lesion pain
+complaining of skin lesion pain
+decreased skin lesion oozing
+oozing in skin lesion
+decreased skin lesion swelling
+swelling in skin lesion
+increased skin lesion swelling
+skin injury
+present of skin injury
+Superficial interpersonal relationship
+oliguria
+decreased lower abdominal discomfort
+lower abdominal discomfort
+increased lower abdominal discomfort
+complaining of lower abdominal discomfort
+decreased lower abdominal pain
+pain in lower abdomen
+increased lower abdominal pain
+complaining of lower abdominal pain
+lower abdominal distension
+skin color change in lower extremities
+decreased leg edema
+leg edema
+increased leg edema
+sighing
+decreased anal discomfort
+anal discomfort
+increased anal discomfort
+complaining of anal discomfort
+decreased anal bleeding
+anal bleeding
+anal burning sense
+anal stimulation
+decreased pain around anus
+pain around anus
+increased pain around anus
+complaining of pain around anus
+skin lesion around anus
+skin injury around anus
+decreased swelling around anus
+swelling around anus
+behavior pattern change
+behavior disorder
+stared into the air 
+walking with waist-bent posture
+Complaining of radiating pain from waist to leg
+decreased fatigue
+weakness
+increased weakness
+complaining of weakness
+decreased tongue ulcer
+tongue ulcer
+hematuria
+decreased blood sugar level
+increased blood sugar level
+decreased hematochezia
+hematochezia
+increased hematochezia
+decreased platelet count
+increased blood pressure
+decreased blood pressure
+unable to measure blood pressure
+positive bacteria in blood culture 
+weight loss after hemodialysis
+decreased hematoma
+hematoma
+hypobicarbonatemia
+hypercalcemia
+hypocalcemia
+hypohemoglobinemia
+hypocalcemia 
+hypercalcemia 
+hypophosphatemia 
+hyperkalemia
+hypokalemia
+hypernatremia
+hyponateremia
+hypoalbuminemia
+respiration pattern change 
+respiratory arrest
+decreased dyspnea
+dyspnea
+increased dyspnea
+complaining of dyspnea
+Impaired respiratory system function
+difficult adaptation of mechanical ventilation removal 
+respiratory acidosis
+increased respiration rates
+complaining of breathing discomfort
+hospitalized with respiratory arrest
+confusing state
+confusion
+stupor state
+want to be alone
+complaining of hot flashes
+hallucination
+denied hallucination
+Relocation stress syndrome
+decreased phantom pain
+phantom pain
+visual hallucination
+Concerned about patient care
+patient disappered 
+patient complained about family reaction
+foley catheter removal by patient
+IV catheter removal by patient
+Levin tube removal by patient
+Increased activity and crying when dealing with patients
+Difficulty of emotional self control
+Difficulty of behavioral self control
+auditory hallucination
+accepted auditory hallucination
+decreased activity
+insufficient activity
+decreased perineal itching
+perineal itching
+complaining of perineal itching
+decreased perineal edema
+perineal edema
+increased perineal edema
+decreased perineal discomfort
+perineal discomfort
+complaining of perineal discomfort
+decreased perineal burning sensation 
+perineal burning sensation
+decreased perineal pain
+perineal pain
+complaining of perineal pain
+decreased perineal redness
+perineal redness
+unpalpable popliteal artery pulse
+weak popliteal artery pulse
+Impaired wheelchair mobility
+increased rest demand
+normal respiration pattern after chest catheter removal
+chest radiating pain
+decreased chest discomfort
+chest discomfort
+increased chest discomfort
+complaining of chest discomfort
+decreased chest pain
+chest pain
+increased chest pain
+complaining of chest pain
+decreased melena
+melena
+decreased Absolute Neutrophil Count
+increased Absolute Neutrophil Count
+breathing with accessory muscle
+Difficult to active coughing
+poor active coughing
+Difficult to exercise active rage of motion
+poor active range of motion exercise
+worsened activity
+ Difficult to ambulate
+Difficulty of ankle dorsiflexion
+anuria
+absence of apnea alarm 
+presence of apnea alarm
+Blood pressure monitoring through arteral line
+Good oral intake without aspiration
+having aspiration
+complaining of aspiration
+ataxic gait
+complaining of bearing down sesne
+bed ridden state
+Ambulating at the bedside
+Doing bedside physical therapy
+blister
+decreased blood tinged sputum
+blood tinged sputum
+increased blood tinged sputum
+complaining of blood tinged sputum
+blood tinged stool
+blurred vision
+complaining of blurred vision
+decreased bruise
+bruise
+increased bruise
+bullae
+popped bullae
+increased BUN
+burning sense
+Increased intracranial pressure on Camino monitor
+monitoring intracranial pressure via Camino
+decreased cardiac output 
+complaining of skin discomfort at cast area
+cephalohematoma 
+cheek swelling
+decreased chest retraction 
+chest retraction 
+increased chest retraction 
+chest tightness
+decreased chilling
+chilling
+increased chilling
+complaining of chilling
+good to swallow two consecutive saliva in chin tuck posture
+positive of Chvostek s sign
+poor circulation
+weak circulation
+CO2 retension
+contracture
+decreased crackle
+increased crackle
+auscultating crackle sound
+increased creatine
+Crust removed
+crust made
+dimple
+decreased dizziness 
+dizziness 
+increased dizziness 
+complaining of dizziness 
+self removal of dressing
+dry coughing
+decreased dysarthria
+dysarthria
+decreased dyspnea on exertion
+dyspnea on exertion
+increased dyspnea on exertion
+complaining of dyspnea on exertion
+decreased ecchymosis
+ecchymosis
+increased ecchymosis
+decreased edema
+edema change
+edema site pain
+decreased edema site pain
+pain in edema site
+complaining of edema site pain
+edema
+increased edema
+EKG monitoirng
+transfer with EKG monitoring 
+complaining of pain even being with epidural Patient Controlled Analgesia
+erythema
+excoriation 
+exertional chest pain
+decreased exfoliation 
+exfoliation 
+malfunction of Extensor Pllicis Longus
+Weakened Extensor Pollicis Longus function 
+malfunction of Extensor Proprius Hallucis
+Weakened Extensor Proprius Hallucis function 
+decreased External Ventricular Drainage amount
+increased External Ventricular Drainage amount
+Intracranial pressure monitoring through External Ventricular Drainage
+Increased Intracranial pressure on External Ventricular Drainage
+eyeball deviation
+Blood clot from feeding tube
+fissure
+flapping tremor
+flexion deformity
+No urinary elimination after foley catheter removal
+ urinary elimination after foley catheter removal
+decreased urine volume via Foley catheter
+increased urine volume via Foley catheter
+rare urinary elimination via foley catheter
+Good urinary elimination via foley catheter
+frothy sputum
+No gas out
+uncertained gas out
+No gas passing
+poor gas passing
+Glasgow Coma Scale
+decreased grasp power
+grasp power change
+weak grasp power
+increased grasp power
+decreased grunting sound
+ audible grunting sound
+increased grunting sound
+hemiparesis
+hemiplegia 
+hyperpigmentation
+use of inspirometer
+intentional tremor
+decreased side effect of IV Patient Controlled Analgesia
+complaining of side effect of IV Patient Controlled Analgesia
+complaining of pain even being with IV Patient Controlled Analgesia
+junctional rhythm
+labored respiration
+lethargy state
+blood from Levin tube
+Blood clot from Levin tube
+limping gait
+lip deviation
+lip smacking 
+manual resuscitator bagging
+going with manual resuscitator bagging
+coming with manual resuscitator bagging
+Decreased SpO2 even being with manual resuscitator bagging
+ SpO2 change even being with manual resuscitator bagging
+increased SpO2 after manual resuscitator bagging
+masked face
+motor response
+mottling
+applied nasal Bilevel Positive Airway Pressure 
+decreased numbness
+numbness
+increased numbness
+complaining of numbness
+unabled obey command
+increased OT/PT
+overnight hydration
+bleeding after packing out
+Maintained bleeding after packing out
+increased PaCO2
+decreased PaO2
+parethesia
+patch
+decreased side effect of Patient Controlled Analgesia 
+complaining of side effects of Patient Controlled Analgesia 
+complaining of pain even with Patient Controlled Analgesia 
+patient triggering
+having patient triggering
+patient-ventilator desynchronization
+showing patient-ventilator desynchronization
+decreased petechia
+petechia
+increased petechia
+decreased pitting edema
+pitting edema
+increased pitting edema
+decreased post nasal drip
+post nasal drip
+good expectoration of post nasal drip
+productive cough
+puffy face
+decreased pupura
+purpura
+increased purpura
+pustule
+decreased rale
+audible rale
+limited Range of Motion exercise 
+positive bacteria in rectal swab culture 
+decreased redness
+redness
+increased redness
+tidal volume on respirometer
+resting tremor
+decreased rigidity
+rigidity change
+rigidity
+increased rigidity
+decreased SaO2
+scale
+scratching
+decreased secretion
+Difficulty of secretion expectoration
+secretion expectoration
+secretion
+increased secretion
+maintained sleep with sedation
+awaked from sedation state
+uable to maintain sedation
+sedated state
+stopped seizure 
+seizure-like symptoms
+having seizures
+seizure
+seizures
+sensory
+sensory
+decreased shivering
+shivering
+increased shivering
+complaining of shivering
+shock symptoms (decending blood pressure)
+maintained shock position
+sinus arrhythmia
+decreased discomfort after sips of water
+discomfort after sips of water
+decreased skin rash
+skin rash change
+skin rash
+increased skin rash
+slurred speech
+standstill
+decreased stump pain
+stump pain
+decreased substernal chest pain
+substernal chest pain
+complaining of substernal chest pain
+substernal retraction 
+Difficult to try sucking
+normal sucking power
+weak sucking power
+food on suctioning
+decreased swelling
+sweling
+increased swelling
+showing T wave inversion
+tic
+Unable to trigger tidal volume
+decreased tingling
+tingling
+increased tingling
+complaining of tingling
+tongue biting
+decreased tremor
+tremor change
+tremor
+increased tremor
+trigeminy
+trismus
+positive of Trousseau's sign
+aspiation with tube feeding
+no aspiation with tube feeding
+decreased urticaria
+urticaria change
+urticaria
+increased urticaria
+verbal response
+decreased vertigo
+vertigo
+complaining of vertigo
+wandering
+filter clotting sign on washing
+decreased wheezing
+wheezing
+increased wheezing

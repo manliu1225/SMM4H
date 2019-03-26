@@ -23,7 +23,7 @@ from gensim.models import Word2Vec
 from keras_tqdm import TQDMNotebookCallback
 from embedding import load_vocab
 
-
+import sys
 # ### limit GPU usage for multi-GPU systems
 # 
 # comment this if using a single GPU or CPU system
@@ -47,7 +47,7 @@ POS_EMBED_SIZE = 100 # see data_preprocessing.ipynb
 HIDDEN_SIZE = 400    # LSTM Nodes/Features/Dimension
 BATCH_SIZE = 64
 DROPOUTRATE = 0.25
-MAX_EPOCHS = 20       # max iterations, early stop condition below
+MAX_EPOCHS = 2       # max iterations, early stop condition below
 
 
 
@@ -76,6 +76,39 @@ y_train_ner = np.load('../encoded/y_train_ner.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
 
 
+## dictionary features, [None, 30, 3]
+## dictionary feature is list of list, then convert to array
+print(sentence_text[0]) # list of list
+print(X_test_sents.shape) # (229,)
+# Namelist features
+namelist_filenames = ["namelist1.txt", "namelist2.txt"]
+MANUAL_MUSIC_DIR = 'sources/dictionary'
+features_dict = {}
+features_dict["nameListFeature"] = feature_namelist.load_namelist(
+            namelist_filenames, MANUAL_MUSIC_DIR, skip_first_row=True)
+namelist_APP, namelist_GAME, namelist_O = [], [], []
+namelist_idx = feature_namelist.get_namelist_match_idx(
+        features_dict["nameListFeature"], instance_tokens_lowered) 
+
+for idx, token in enumerate(instance_tokens):
+        if idx in namelist_idx:
+            namelist_dict = features_dict["NameList"]
+            # print(namelist_idx.get(idx, "")["pos"])
+            # start = ""
+            start = "_1" if namelist_idx.get(idx, "")["pos"] == 0 else ""
+            namelist_APP.append(namelist_dict["NameList:APP"] if "APP" in namelist_idx.get(idx, "")["labels"] else "_")
+            namelist_GAME.append(namelist_dict["NameList:GAME"] if "GAME" in namelist_idx.get(idx, "")["labels"] else "_")
+            namelist_O.append(namelist_dict["NameList:O"] if "O" in namelist_idx.get(idx, "")["labels"] else "_")
+        else:
+            namelist_APP.append("_")
+            namelist_GAME.append("_")
+            namelist_O.append("_")
+
+
+
+sys.exit(0)
+
+
 
 # load embedding data
 w2v_vocab, _ = load_vocab('embeddings/text_mapping.json')
@@ -98,6 +131,8 @@ X_test_pos = sequence.pad_sequences(X_test_pos, maxlen=MAX_LENGTH, truncating='p
 y_train_ner = sequence.pad_sequences(y_train_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
+X_train_features = sequence.pad_sequences(X_train_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
+X_test_features = sequence.pad_sequences(X_test_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
 # get the size of pos-tags, ner tags
 TAG_VOCAB = len(list(idx2pos.keys()))
@@ -161,8 +196,11 @@ pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
+# add auxiliary layer
+auxiliary_input = Input(shape=(5,), name='aux_input') #(None, 30, 1)
+
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([txt_drpot, pos_drpot], axis=2)
+mrg_cncat = concatenate([txt_drpot, pos_drpot, auxiliary_input], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -171,10 +209,11 @@ mrg_drpot = Dropout(DROPOUTRATE, name='mrg_dropout')(mrg_lstml)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_2')(mrg_lstml)
 
-
+# merge BLSTM layers and extenal layer
+mrg_cncat = concatenate([mrg_lstml, txt_drpot], axis=2)
 # final linear chain CRF layer
 crf = CRF(NER_VOCAB, sparse_target=True)
-mrg_chain = crf(mrg_lstml)
+mrg_chain = crf(mrg_cncat)
 
 model = Model(inputs=[txt_input, pos_input], outputs=mrg_chain)
 
@@ -188,7 +227,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents, X_train_pos], y_train_ner,
+history = model.fit([X_train_sents, X_train_pos, additional_data], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)
@@ -210,11 +249,10 @@ preds = model.predict([X_test_sents, X_test_pos])
 
 preds = np.argmax(preds, axis=-1)
 preds.shape
-
+print(preds[:5])
 
 trues = np.squeeze(y_test_ner, axis=-1)
 trues.shape
-
 
 s_preds = [[idx2ner[t] for t in s] for s in preds]
 
@@ -251,7 +289,8 @@ def bio_classification_report(y_true, y_pred):
     lb = LabelBinarizer()
     y_true_combined = lb.fit_transform(list(chain.from_iterable(y_true)))
     y_pred_combined = lb.transform(list(chain.from_iterable(y_pred)))
-        
+    
+    print(y_pred_combined[:5])
     tagset = set(lb.classes_) - {'O'}
     tagset = sorted(tagset, key=lambda tag: tag.split('-', 1)[::-1])
     class_indices = {cls: idx for idx, cls in enumerate(lb.classes_)}
