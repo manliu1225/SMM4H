@@ -11,7 +11,7 @@
 # 
 # ...though this is becoming a common architecture for sequence labeling in NLP.
 
-
+from bert_embedding.bert import BertEmbedding
 import numpy as np
 from keras.preprocessing import sequence
 from keras.models import Model
@@ -48,7 +48,7 @@ POS_EMBED_SIZE = 100 # see data_preprocessing.ipynb
 HIDDEN_SIZE = 400    # LSTM Nodes/Features/Dimension
 BATCH_SIZE = 64
 DROPOUTRATE = 0.25
-MAX_EPOCHS = 2       # max iterations, early stop condition below
+MAX_EPOCHS = 20      # max iterations, early stop condition below
 
 
 
@@ -75,42 +75,19 @@ X_train_pos = np.load('../encoded/X_train_pos.npy')
 X_test_pos = np.load('../encoded/X_test_pos.npy')
 y_train_ner = np.load('../encoded/y_train_ner.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
+X_test_features = np.load('../encoded/X_test_features.npy')
+X_train_features = np.load('../encoded/X_train_features.npy')
 
 
-## dictionary features, [None, 30, 3]
-## dictionary feature is list of list, then convert to array
-print(sentence_text[0]) # list of list
-print(X_test_sents.shape) # (229,)
-# Namelist features
-namelist_filenames = ["namelist1.txt", "namelist2.txt"]
-MANUAL_MUSIC_DIR = 'resources/dictionary'
-features_dict = {}
-features_dict["nameListFeature"] = feature_namelist.load_namelist(
-            namelist_filenames, MANUAL_MUSIC_DIR, skip_first_row=True)
-namelist_ADR = []
+### bert embedding
+X_train_sent_li = [sentence_text[idx] for idx in train_idx]
+print(X_train_sents[:2])
+X_test_sent_li = [sentence_text[idx] for idx in test_idx]
+bert_embedding = BertEmbedding(model="bert_12_768_12", dataset_name="book_corpus_wiki_en_uncased",
+                         max_seq_length=30, batch_size=256)
 
-instance_tokens = sentence_text[0]
-instance_tokens_lower = [re.sub(r'!|\?|\"|\'', '', e.lower()) for e in sentence_text[0]]
-namelist_idx = feature_namelist.get_namelist_match_idx(
-        features_dict["nameListFeature"], instance_tokens_lower) 
-
-for idx, token in enumerate(instance_tokens):
-        if idx in namelist_idx:
-            namelist_dict = {"NameList:ADR" : 1}
-            # print(namelist_idx.get(idx, "")["pos"])
-            # start = ""
-            start = 2 if namelist_idx.get(idx, "")["pos"] == 0 else ""
-            namelist_ADR.append(namelist_dict["NameList:ADR"] if "ADR" in namelist_idx.get(idx, "")["labels"] else 0)
-            # namelist_O.append(namelist_dict["NameList:O"] if "O" in namelist_idx.get(idx, "")["labels"] else "_")
-        else:
-            namelist_ADR.append(0)
-            # namelist_O.append(0)
-
-print(namelist_ADR)
-
-sys.exit(0)
-
-
+X_train_sents = bert_embedding(X_train_sent_li, oov_way="avg")
+X_test_sents = bert_embedding(X_test_sent_li, oov_way="avg")
 
 # load embedding data
 w2v_vocab, _ = load_vocab('embeddings/text_mapping.json')
@@ -135,6 +112,12 @@ y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='p
 
 X_train_features = sequence.pad_sequences(X_train_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_test_features = sequence.pad_sequences(X_test_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
+
+
+# expand X_features dimension
+
+X_train_features =  np.expand_dims(X_train_features, axis=2)
+X_test_features =  np.expand_dims(X_test_features, axis=2)
 
 # get the size of pos-tags, ner tags
 TAG_VOCAB = len(list(idx2pos.keys()))
@@ -199,10 +182,10 @@ pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
 # add auxiliary layer
-auxiliary_input = Input(shape=(5,), name='aux_input') #(None, 30, 1)
+auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
 
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([txt_drpot, pos_drpot, auxiliary_input], axis=2)
+mrg_cncat = concatenate([txt_drpot, pos_drpot], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -212,12 +195,12 @@ mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_2')(mrg_lstml)
 
 # merge BLSTM layers and extenal layer
-mrg_cncat = concatenate([mrg_lstml, txt_drpot], axis=2)
+mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 # final linear chain CRF layer
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_input, pos_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, pos_input, auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
@@ -229,7 +212,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents, X_train_pos, additional_data], y_train_ner,
+history = model.fit([X_train_sents, X_train_pos, X_train_features], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)
@@ -245,7 +228,7 @@ np.save('../model/hist_dict.npy', hist_dict)
 print("models saved!\n")
 
 
-preds = model.predict([X_test_sents, X_test_pos])
+preds = model.predict([X_test_sents, X_test_pos, X_test_features])
 
 
 

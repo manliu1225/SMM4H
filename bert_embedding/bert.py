@@ -7,7 +7,7 @@ import mxnet as mx
 from gluonnlp.data import BERTTokenizer, BERTSentenceTransform
 from mxnet.gluon.data import DataLoader
 
-from dataset import BertEmbeddingDataset
+from .dataset import BertEmbeddingDataset
 
 
 class BertEmbedding(object):
@@ -128,7 +128,7 @@ class BertEmbedding(object):
                                           pair=False)
 
         dataset = BertEmbeddingDataset(sentences, transform)
-        for line in dataset: print(line)
+        # for line in dataset: print(line)
         # print(dataset)
         return DataLoader(dataset=dataset, batch_size=self.batch_size, shuffle=shuffle)
 
