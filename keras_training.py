@@ -201,7 +201,7 @@ mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[bert_input, pos_input, auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_drpot, bert_input, pos_input, auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
@@ -213,7 +213,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents_bert, X_train_pos, X_train_features], y_train_ner,
+history = model.fit([X_train_sents, X_train_sents_bert, X_train_pos, X_train_features], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)
