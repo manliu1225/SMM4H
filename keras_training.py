@@ -186,7 +186,7 @@ bert_drpot = Dropout(DROPOUTRATE, name='bert_input')(bert_input)
 auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
 
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([bert_input, pos_drpot], axis=2)
+mrg_cncat = concatenate([bert_drpot, pos_drpot], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -201,7 +201,7 @@ mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_drpot, bert_input, pos_input, auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, bert_input, pos_input, auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
