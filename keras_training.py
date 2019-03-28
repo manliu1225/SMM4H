@@ -77,17 +77,9 @@ y_train_ner = np.load('../encoded/y_train_ner.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
 X_test_features = np.load('../encoded/X_test_features.npy')
 X_train_features = np.load('../encoded/X_train_features.npy')
+X_train_sents_bert = np.load('./encoded/X_train_sents_bert.npy')
+X_test_sents_bert = np.load('./encoded/X_test_sents_bert.npy')
 
-
-### bert embedding
-X_train_sent_li = [sentence_text[idx] for idx in train_idx]
-print(X_train_sents[:2])
-X_test_sent_li = [sentence_text[idx] for idx in test_idx]
-bert_embedding = BertEmbedding(model="bert_12_768_12", dataset_name="book_corpus_wiki_en_uncased",
-                         max_seq_length=30, batch_size=256)
-
-X_train_sents = bert_embedding(X_train_sent_li, oov_way="avg")
-X_test_sents = bert_embedding(X_test_sent_li, oov_way="avg")
 
 # load embedding data
 w2v_vocab, _ = load_vocab('embeddings/text_mapping.json')
@@ -113,6 +105,8 @@ y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='p
 X_train_features = sequence.pad_sequences(X_train_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_test_features = sequence.pad_sequences(X_test_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
+X_test_sents_bert = sequence.pad_sequences(X_test_sents_bert, maxlen=MAX_LENGTH, truncating='post', padding='post')
+X_train_sents_bert = sequence.pad_sequences(X_train_sents_bert, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
 # expand X_features dimension
 
@@ -181,11 +175,15 @@ pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
+# bert layer
+bert_input = Input(shape=(MAX_LENGTH,), name='bert_input')
+bert_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(bert_input)
+
 # add auxiliary layer
 auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
 
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([txt_drpot, pos_drpot], axis=2)
+mrg_cncat = concatenate([txt_drpot, pos_drpot, bert_input], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -200,7 +198,7 @@ mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_input, pos_input, auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, pos_input, bert_input, auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
@@ -212,7 +210,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents, X_train_pos, X_train_features], y_train_ner,
+history = model.fit([X_train_sents, X_train_pos, X_train_sents_bert, X_train_features], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)
@@ -228,7 +226,7 @@ np.save('../model/hist_dict.npy', hist_dict)
 print("models saved!\n")
 
 
-preds = model.predict([X_test_sents, X_test_pos, X_test_features])
+preds = model.predict([X_test_sents, X_test_pos, X_test_sents_bert, X_test_features])
 
 
 
