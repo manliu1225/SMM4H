@@ -77,8 +77,8 @@ y_train_ner = np.load('../encoded/y_train_ner.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
 X_test_features = np.load('../encoded/X_test_features.npy')
 X_train_features = np.load('../encoded/X_train_features.npy')
-X_train_sents_bert = np.load('./encoded/X_train_sents_bert.npy')
-X_test_sents_bert = np.load('./encoded/X_test_sents_bert.npy')
+X_train_sents_bert = np.load('../encoded/X_train_sents_bert.npy')
+X_test_sents_bert = np.load('../encoded/X_test_sents_bert.npy')
 
 
 # load embedding data
@@ -102,8 +102,12 @@ X_test_pos = sequence.pad_sequences(X_test_pos, maxlen=MAX_LENGTH, truncating='p
 y_train_ner = sequence.pad_sequences(y_train_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
+print(X_train_features.shape)
 X_train_features = sequence.pad_sequences(X_train_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_test_features = sequence.pad_sequences(X_test_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
+print(X_train_features.shape)
+
+print(X_test_sents_bert[0])
 
 X_test_sents_bert = sequence.pad_sequences(X_test_sents_bert, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_train_sents_bert = sequence.pad_sequences(X_train_sents_bert, maxlen=MAX_LENGTH, truncating='post', padding='post')

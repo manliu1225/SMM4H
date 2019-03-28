@@ -190,13 +190,14 @@ X_test_features = np.array(get_sublist(namelist_ADR, test_idx))
 
 ### bert word embedding
 X_train_sent_li = [sentence_text[idx] for idx in train_idx]
-print(X_train_sents[:2])
+
 X_test_sent_li = [sentence_text[idx] for idx in test_idx]
 bert_embedding = BertEmbedding(model="bert_12_768_12", dataset_name="book_corpus_wiki_en_uncased",
                          max_seq_length=30, batch_size=256)
 
-X_train_sents_bert = bert_embedding(X_train_sent_li, oov_way="avg")
-X_test_sents_bert = bert_embedding(X_test_sent_li, oov_way="avg")
+X_train_sents_bert = [e[1] for e in bert_embedding(X_train_sent_li, oov_way="avg")]
+X_test_sents_bert = [e[1] for e in bert_embedding(X_test_sent_li, oov_way="avg")]
+print(np.array(X_train_sents_bert).shape)
 ###
 
 
