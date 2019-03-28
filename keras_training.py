@@ -107,11 +107,10 @@ X_train_features = sequence.pad_sequences(X_train_features, maxlen=MAX_LENGTH, t
 X_test_features = sequence.pad_sequences(X_test_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
 print(X_train_features.shape)
 
-print(X_test_sents_bert[0])
-
+print(X_train_sents_bert.shape)
 X_test_sents_bert = sequence.pad_sequences(X_test_sents_bert, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_train_sents_bert = sequence.pad_sequences(X_train_sents_bert, maxlen=MAX_LENGTH, truncating='post', padding='post')
-
+print(X_train_sents_bert.shape) 
 # expand X_features dimension
 
 X_train_features =  np.expand_dims(X_train_features, axis=2)
@@ -180,8 +179,8 @@ pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
 # bert layer
-bert_input = Input(shape=(MAX_LENGTH,), name='bert_input')
-bert_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(bert_input)
+bert_input = Input(shape=(MAX_LENGTH,768), name='bert_input')
+bert_drpot = Dropout(DROPOUTRATE, name='bert_input')(bert_input)
 
 # add auxiliary layer
 auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
