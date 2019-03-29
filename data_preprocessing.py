@@ -153,8 +153,11 @@ print([idx2word[e] for e in X_train_sents[0]])
 # print(X_test_sents.shape) # (229,)
 print(len(sentence_text))
 print(len(X_train_sents))
+
+
+
 # Namelist features
-namelist_filenames = ["namelist1.txt", "namelist2.txt"]
+namelist_filenames = ["namelist1.txt", "namelist2.txt", "disease.txt"]
 MANUAL_MUSIC_DIR = 'resources/dictionary'
 features_dict = {}
 features_dict["nameListFeature"] = feature_namelist.load_namelist(
@@ -162,21 +165,21 @@ features_dict["nameListFeature"] = feature_namelist.load_namelist(
 
 namelist_ADR = []
 for instance_tokens in sentence_text:
-    instance_ADR = []
+    instance_ADR, instance_O = [], []
     instance_tokens_lower = [re.sub(r'!|\?|\"|\'', '', e.lower()) for e in instance_tokens]
     namelist_idx = feature_namelist.get_namelist_match_idx(
             features_dict["nameListFeature"], instance_tokens_lower) 
     for idx, token in enumerate(instance_tokens):
             if idx in namelist_idx:
-                namelist_dict = {"NameList:ADR" : 1}
+                namelist_dict = {"NameList:ADR" : 1, "NameList:O" : 10}
                 # print(namelist_idx.get(idx, "")["pos"])
                 # start = ""
                 start = 2 if namelist_idx.get(idx, "")["pos"] == 0 else 0
                 instance_ADR.append(namelist_dict["NameList:ADR"]+start if "ADR" in namelist_idx.get(idx, "")["labels"] else 0)
-                # namelist_O.append(namelist_dict["NameList:O"] if "O" in namelist_idx.get(idx, "")["labels"] else "_")
+                instance_O.append(namelist_dict["NameList:O"] if "O" in namelist_idx.get(idx, "")["labels"] else 0)
             else:
                 instance_ADR.append(0)
-                # namelist_O.append(0)
+                instance_O.append(0)
 
     namelist_ADR.append(instance_ADR)
 
