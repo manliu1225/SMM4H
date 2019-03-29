@@ -25,6 +25,8 @@ from embedding import load_vocab
 import feature_namelist
 import sys
 import re
+import tensorflow as tf
+from embeddings.elmo import ELMoEmbedding
 # ### limit GPU usage for multi-GPU systems
 # 
 # comment this if using a single GPU or CPU system
@@ -180,13 +182,19 @@ pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
 # bert layer
 bert_input = Input(shape=(MAX_LENGTH,768), name='bert_input')
-bert_drpot = Dropout(DROPOUTRATE, name='bert_input')(bert_input)
+bert_drpot = Dropout(DROPOUTRATE, name='bert_drpot')(bert_input)
+
+# emlo layer
+emlo_input = Input(shape=(MAX_LENGTH,), dtype=tf.int64, name='emlo_input')
+emlo_embed = ELMoEmbedding(idx2word=idx2word, 
+                        output_mode="elmo", name='emlo_embedding', trainable=True)(emlo_input) # These two are interchangeable
+#sentence_embedding = Embedding(len(idx2word), 1024, input_length=MAX_SEQUENCE_LENGTH, trainable=False)(sentence_input) # These two are interchangeable
 
 # add auxiliary layer
 auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
 
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([bert_drpot, pos_drpot], axis=2)
+mrg_cncat = concatenate([emlo_embed, pos_drpot], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -201,7 +209,7 @@ mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_input, bert_input, pos_input, auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, emlo_input, pos_input, auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
@@ -213,7 +221,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents, X_train_sents_bert, X_train_pos, X_train_features], y_train_ner,
+history = model.fit([X_train_sents, X_train_sents, X_train_pos, X_train_features], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)
@@ -229,7 +237,7 @@ np.save('../model/hist_dict.npy', hist_dict)
 print("models saved!\n")
 
 
-preds = model.predict([X_test_sents, X_test_pos, X_test_sents_bert, X_test_features])
+preds = model.predict([X_test_sents, X_test_sents, X_test_pos, X_test_features])
 
 
 
