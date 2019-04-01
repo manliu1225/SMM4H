@@ -21,7 +21,7 @@ Sentence: 1	do	V	O
 	""right!""	A	O
 	*cont	N	O
 	0	0	O
-Sentence: 2	@ashleylvivian	@	O
+Sentence: 2	@URL	@	O
 	if	P	O
 	#avelox	^	O
 	has	V	O
@@ -69,8 +69,8 @@ Sentence: 4	pt	N	O
 	from	P	O
 	cipro	N	O
 	rt	V	O
-	@ciproispoison:	G	O
-	@gastromom	@	O
+	@URL:	G	O
+	@URL	@	O
 	if	P	O
 	only	R	O
 	more	A	O
@@ -88,7 +88,7 @@ Sentence: 4	pt	N	O
 	cipro	N	O
 	pills	N	O
 	0	0	O
-Sentence: 5	@gastromom	@	O
+Sentence: 5	@URL	@	O
 	the	D	O
 	only	A	O
 	pt	N	O
@@ -141,12 +141,12 @@ Sentence: 6	owww.	!	O
 	just	R	O
 	paranoid.	A	O
 	0	0	O
-Sentence: 7	@deadfanclub	@	O
-	@danadelany	@	O
+Sentence: 7	@URL	@	O
+	@URL	@	O
 	i	O	O
 	have	V	O
 	a	D	O
-	penicillin/	N	O
+	penicillin/	N	B-ADR
 	keflex	^	O
 	allergy	N	O
 	so	P	O
@@ -162,16 +162,16 @@ Sentence: 7	@deadfanclub	@	O
 	i'd	L	O
 	still	R	O
 	be	V	O
-	sick	A	O
+	sick	A	B-ADR
 	too!	R	O
 	sometimes	R	O
 	cipro	N	O
 	0	0	O
-Sentence: 8	@joshuagates	@	O
+Sentence: 8	@URL	@	O
 	you	O	O
 	forgot	V	O
 	the	D	O
-	immodium	^	O
+	immodium	^	B-ADR
 	for	P	O
 	when	R	O
 	the	D	O
@@ -184,10 +184,10 @@ Sentence: 8	@joshuagates	@	O
 	:)	E	O
 	#travelskills	#	O
 	0	0	O
-Sentence: 9	@bilgeebiri	@	O
+Sentence: 9	@URL	@	O
 	oh	!	O
-	robitussin	N	O
-	dreams	N	B-ADR
+	robitussin	N	B-ADR
+	dreams	N	I-ADR
 	are	V	O
 	notorious.	A	O
 	although	P	O
@@ -222,7 +222,7 @@ Sentence: 10	#eds	#	O
 	know	V	O
 	better?	A	O
 	0	0	O
-Sentence: 11	@illtreaturite1	@	O
+Sentence: 11	@URL	@	O
 	fluox	V	O
 	a	D	O
 	friend	N	O
@@ -233,7 +233,7 @@ Sentence: 11	@illtreaturite1	@	O
 	to	P	O
 	cymbalta	^	O
 	4	$	O
-	anti-depress/pain	N	O
+	anti-depress/pain	N	B-ADR
 	control.	N	O
 	i	O	O
 	ocd	A	O
@@ -243,7 +243,7 @@ Sentence: 11	@illtreaturite1	@	O
 	running	V	O
 	mind	N	O
 	0	0	O
-Sentence: 12	@lanternlizard	@	O
+Sentence: 12	@URL	@	O
 	cymbalta	N	O
 	switch	N	O
 	is	V	O
@@ -260,13 +260,13 @@ Sentence: 12	@lanternlizard	@	O
 	family	N	O
 	hx	N	O
 	of	P	O
-	mania	N	O
+	mania	N	B-ADR
 	puts	V	O
 	you	O	O
 	at	P	O
 	risk.	N	O
 	0	0	O
-Sentence: 13	@enlightenmentor	@	O
+Sentence: 13	@URL	@	O
 	umm,	!	O
 	are	V	O
 	you	O	O
@@ -348,7 +348,7 @@ Sentence: 16	that	D	O
 	take	V	O
 	naps...ever	N	O
 	0	0	O
-Sentence: 17	@andiedanley2626	@	O
+Sentence: 17	@URL	@	O
 	cymbalta.	N	O
 	3x	P	O
 	the	D	O
@@ -366,8 +366,8 @@ Sentence: 17	@andiedanley2626	@	O
 	for	P	O
 	meds!	N	O
 	0	0	O
-Sentence: 18	@santypas	@	O
-	@scrabalisios	@	O
+Sentence: 18	@URL	@	O
+	@URL	@	O
 	i'm	L	O
 	taking	V	O
 	700mg	N	O
@@ -382,11 +382,11 @@ Sentence: 18	@santypas	@	O
 	totally	R	O
 	mashed	A	B-ADR
 	0	0	O
-Sentence: 19	@autumnuh_beee	@	O
+Sentence: 19	@URL	@	O
 	i	O	O
 	was	V	O
 	on	P	O
-	celexa,	N	O
+	celexa,	N	B-ADR
 	which	D	O
 	made	V	O
 	me	O	O
@@ -429,13 +429,13 @@ Sentence: 20	i	O	O
 	alongside	P	O
 	daily	A	O
 	nsaids	N	O
-	#rheum.	#	O
+	#rheum.	#	B-ADR
 	0	0	O
 Sentence: 21	rt	~	O
-	@dratp:	G	O
-	@lisabinkc	@	O
-	@trainingwithra	@	O
-	@dsymons	@	O
+	@URL:	G	O
+	@URL	@	O
+	@URL	@	O
+	@URL	@	O
 	enbrel	R	O
 	also	R	O
 	available	A	O
@@ -447,7 +447,7 @@ Sentence: 21	rt	~	O
 	pen	N	O
 	leaves	V	O
 	bruises!	N	O
-	#rheum	#	O
+	#rheum	#	B-ADR
 	0	0	O
 Sentence: 22	note	N	O
 	to	P	O
@@ -500,12 +500,12 @@ Sentence: 24	i	O	O
 	better	A	O
 	than	P	O
 	being	V	O
-	#suicidal	A	O
+	#suicidal	A	B-ADR
 	..only	R	O
 	just	R	O
 	0	0	O
 Sentence: 25	rt	~	O
-	@ianibbo:	V	O
+	@URL:	V	O
 	finding	V	O
 	out	T	O
 	i'm	L	O
@@ -528,7 +528,7 @@ Sentence: 25	rt	~	O
 	be	V	O
 	actually	R	O
 	allergic	A	O
-	�	,	O
+	à	G	O
 	0	0	O
 Sentence: 26	i	O	O
 	took	V	O
@@ -603,13 +603,13 @@ Sentence: 28	will	V	O
 	for	P	O
 	the	D	O
 	sudden	N	O
-	anxiety	N	O
-	attacks	V	O
+	anxiety	N	B-ADR
+	attacks	V	I-ADR
 	ive	L	O
 	been	V	O
 	getting	V	O
 	0	0	O
-Sentence: 29	@crohnietweets	@	O
+Sentence: 29	@URL	@	O
 	i	O	O
 	found	V	O
 	the	D	O
@@ -635,7 +635,7 @@ Sentence: 29	@crohnietweets	@	O
 	nerves/muscle	N	B-ADR
 	spasms	V	I-ADR
 	0	0	O
-Sentence: 30	@showbizmom48	@	O
+Sentence: 30	@URL	@	O
 	mri	N	O
 	showed	V	O
 	lesions	N	O
@@ -651,7 +651,7 @@ Sentence: 30	@showbizmom48	@	O
 	see	V	O
 	if	P	O
 	its	L	O
-	ms	^	O
+	ms	^	B-ADR
 	or	&	O
 	humira	^	O
 	doing	V	O
@@ -663,7 +663,7 @@ Sentence: 30	@showbizmom48	@	O
 	about	P	O
 	lolxx	!	O
 	0	0	O
-Sentence: 31	@thestomabaglady	@	O
+Sentence: 31	@URL	@	O
 	it	O	O
 	was	V	O
 	explained	V	O
@@ -688,8 +688,8 @@ Sentence: 31	@thestomabaglady	@	O
 	&	&	O
 	remicaid	^	O
 	0	0	O
-Sentence: 32	@renegade_snare	@	O
-	@ibdtweet	@	O
+Sentence: 32	@URL	@	O
+	@URL	@	O
 	i	O	O
 	feel	V	O
 	your	D	O
@@ -735,14 +735,14 @@ Sentence: 33	the	D	O
 	is	V	O
 	now	R	O
 	a	D	O
-	fatigue	N	B-ADR
+	fatigue	N	O
 	filled	V	O
 	achy	A	B-ADR
 	day.	N	O
-	#rheum	#	O
+	#rheum	#	B-ADR
 	0	0	O
 Sentence: 34	rt	~	O
-	@smbell1:	V	O
+	@URL:	V	O
 	the	D	O
 	day	N	O
 	after	P	O
@@ -769,7 +769,7 @@ Sentence: 34	rt	~	O
 	filled	V	O
 	achy	A	B-ADR
 	day.	N	O
-	#rh�	#	O
+	#rhà	#	O
 	0	0	O
 Sentence: 35	humira	^	O
 	+	&	O
@@ -794,7 +794,7 @@ Sentence: 35	humira	^	O
 	preds	^	O
 	drop	V	O
 	off	T	O
-	#crohns	#	O
+	#crohns	#	B-ADR
 	0	0	O
 Sentence: 36	anyone	N	O
 	have	V	O
@@ -826,7 +826,7 @@ Sentence: 37	well.	!	O
 	the	D	O
 	pain	N	B-ADR
 	and	&	O
-	weakness.	N	B-ADR
+	weakness.	N	O
 	possible	A	O
 	seizure.	N	B-ADR
 	oops.	!	O
@@ -875,7 +875,7 @@ Sentence: 39	oh...	!	O
 	have	V	O
 	this.	D	O
 	0	0	O
-Sentence: 40	@kierarampton	@	O
+Sentence: 40	@URL	@	O
 	it's	L	O
 	called	V	O
 	lamotrigine,	^	O
@@ -890,13 +890,13 @@ Sentence: 40	@kierarampton	@	O
 	is	V	O
 	making	V	O
 	me	O	O
-	sick.	A	B-ADR
+	sick.	A	O
 	i	O	O
 	don't	V	O
 	think	V	O
-	bipolar	A	O
+	bipolar	A	B-ADR
 	&	&	O
-	add	V	O
+	add	V	B-ADR
 	mix	N	O
 	very	R	O
 	well..	A	O
@@ -926,19 +926,19 @@ Sentence: 41	what	O	O
 	bid	N	O
 	#lamotrigine	#	O
 	0	0	O
-Sentence: 42	@ouch_uk	@	O
+Sentence: 42	@URL	@	O
 	didnt	V	O
 	know	V	O
 	lamotrigine	^	O
 	was	V	O
-	addictive	A	B-ADR
+	addictive	A	O
 	stopped	V	O
 	as	P	O
 	didnt	V	O
 	think	V	O
 	were	V	O
 	helping	V	O
-	@clusterheads	@	B-ADR
+	@URL	@	B-ADR
 	3	$	O
 	days	N	B-ADR
 	of	P	I-ADR
@@ -949,7 +949,7 @@ Sentence: 42	@ouch_uk	@	O
 	on	P	O
 	now	R	O
 	0	0	O
-Sentence: 43	@midwesternwife	@	O
+Sentence: 43	@URL	@	O
 	i	O	O
 	feel	V	O
 	your	D	O
@@ -964,26 +964,7 @@ Sentence: 43	@midwesternwife	@	O
 	it	O	O
 	sucks	V	O
 	0	0	O
-Sentence: 44	@wee_jendo	@	O
-	nicotine	N	O
-	lozenges.	N	O
-	if	P	O
-	i	O	O
-	go	V	O
-	cold	A	O
-	turkey	N	O
-	i	O	O
-	can't	V	B-ADR
-	think	V	I-ADR
-	(or	&	O
-	see)	V	B-ADR
-	straight,	A	I-ADR
-	so	P	O
-	i	O	O
-	can't	V	O
-	work.	V	O
-	0	0	O
-Sentence: 45	accidentally	R	O
+Sentence: 44	accidentally	R	O
 	asphyxiating	V	O
 	yourself	O	O
 	trying	V	O
@@ -996,11 +977,11 @@ Sentence: 45	accidentally	R	O
 	you	O	O
 	have	V	O
 	a	D	O
-	stuffed	A	O
-	nose.	N	O
+	stuffed	A	B-ADR
+	nose.	N	I-ADR
 	#that	#	O
 	0	0	O
-Sentence: 46	he	O	O
+Sentence: 45	he	O	O
 	said	V	O
 	he	O	O
 	is	V	O
@@ -1024,7 +1005,7 @@ Sentence: 46	he	O	O
 	and	&	O
 	namenda...	N	O
 	0	0	O
-Sentence: 47	@sophiemonk	@	O
+Sentence: 46	@URL	@	O
 	coz	P	O
 	olanzapine	^	O
 	increases	V	B-ADR
@@ -1049,7 +1030,7 @@ Sentence: 47	@sophiemonk	@	O
 	fog	N	O
 	frost	N	O
 	0	0	O
-Sentence: 48	@river__tam	@	O
+Sentence: 47	@URL	@	O
 	olanzapine	^	O
 	is	V	O
 	amazing	A	O
@@ -1070,7 +1051,7 @@ Sentence: 48	@river__tam	@	O
 	to	P	O
 	me	O	O
 	0	0	O
-Sentence: 49	olanzapine	^	O
+Sentence: 48	olanzapine	^	O
 	is	V	O
 	supposed	A	O
 	to	P	O
@@ -1086,14 +1067,14 @@ Sentence: 49	olanzapine	^	O
 	lithium	N	O
 	makes	V	O
 	my	D	O
-	hand	N	B-ADR
-	shake.	V	I-ADR
+	hand	N	O
+	shake.	V	O
 	bipolar	A	O
 	or	&	O
-	schizo	A	O
+	schizo	A	B-ADR
 	drugs.	N	O
 	0	0	O
-Sentence: 50	@christal_l	@	O
+Sentence: 49	@URL	@	O
 	that's	L	O
 	the	D	O
 	problem	N	O
@@ -1119,7 +1100,7 @@ Sentence: 50	@christal_l	@	O
 	fuck	V	O
 	that.	O	O
 	0	0	O
-Sentence: 51	@jennabear32819	@	O
+Sentence: 50	@URL	@	O
 	have	V	O
 	to	P	O
 	go	V	O
@@ -1150,9 +1131,9 @@ Sentence: 51	@jennabear32819	@	O
 	lose	V	O
 	it	O	O
 	0	0	O
-Sentence: 52	anemia,	N	O
+Sentence: 51	anemia,	N	O
 	hormones,	N	O
-	depression	N	O
+	depression	N	B-ADR
 	&	&	O
 	paxil	^	O
 	are	V	O
@@ -1171,7 +1152,7 @@ Sentence: 52	anemia,	N	O
 	is	V	I-ADR
 	haaard.	A	I-ADR
 	0	0	O
-Sentence: 53	my	D	O
+Sentence: 52	my	D	O
 	creativity	N	B-ADR
 	was	V	I-ADR
 	blocked	V	I-ADR
@@ -1194,7 +1175,7 @@ Sentence: 53	my	D	O
 	and	&	O
 	abilify-	^	O
 	0	0	O
-Sentence: 54	the	D	O
+Sentence: 53	the	D	O
 	#zombieapocalypse	^	O
 	will	V	O
 	stem	V	O
@@ -1206,7 +1187,7 @@ Sentence: 54	the	D	O
 	my	D	O
 	words.	N	O
 	0	0	O
-Sentence: 55	for	P	O
+Sentence: 54	for	P	O
 	anxiety	N	O
 	to	P	O
 	penetrate	V	O
@@ -1228,7 +1209,7 @@ Sentence: 55	for	P	O
 	good	A	O
 	going.	A	O
 	0	0	O
-Sentence: 56	@deltrimental	@	O
+Sentence: 55	@URL	@	O
 	i	O	O
 	came	V	O
 	off	T	O
@@ -1246,15 +1227,15 @@ Sentence: 56	@deltrimental	@	O
 	tired.	V	O
 	my	D	O
 	genitals	N	B-ADR
-	aren�t	P	I-ADR
+	arenÆt	P	I-ADR
 	numb	A	I-ADR
 	now	R	O
 	tho	R	O
 	-	,	O
 	swings/roundabouts	N	O
 	0	0	O
-Sentence: 57	@missmazygg	@	O
-	anxiety	N	O
+Sentence: 56	@URL	@	O
+	anxiety	N	B-ADR
 	has	V	O
 	been	V	O
 	so	R	O
@@ -1281,7 +1262,7 @@ Sentence: 57	@missmazygg	@	O
 	cousin	N	O
 	drug)	N	O
 	0	0	O
-Sentence: 58	anybody	N	O
+Sentence: 57	anybody	N	O
 	get	V	O
 	involuntary	A	O
 	facial	A	B-ADR
@@ -1305,7 +1286,7 @@ Sentence: 58	anybody	N	O
 	something	N	O
 	else?	R	O
 	0	0	O
-Sentence: 59	@rbhu7_82	@	O
+Sentence: 58	@URL	@	O
 	if	P	O
 	i	O	O
 	don't	V	O
@@ -1319,7 +1300,7 @@ Sentence: 59	@rbhu7_82	@	O
 	for	P	O
 	days!	N	O
 	0	0	O
-Sentence: 60	new	A	O
+Sentence: 59	new	A	O
 	meds	N	O
 	have	V	O
 	me	O	O
@@ -1330,8 +1311,8 @@ Sentence: 60	new	A	O
 	want	V	O
 	therapy	N	O
 	not	R	O
-	doping	V	B-ADR
-	up!	N	I-ADR
+	doping	V	O
+	up!	N	O
 	i	O	O
 	was	V	O
 	highly	R	O
@@ -1341,9 +1322,9 @@ Sentence: 60	new	A	O
 	trouble	N	O
 	standing!	V	O
 	#quetiapine	#	O
-	#bipolar	#	O
+	#bipolar	#	B-ADR
 	0	0	O
-Sentence: 61	-9.5lbs	$	B-ADR
+Sentence: 60	-9.5lbs	$	B-ADR
 	in	P	O
 	14	$	O
 	days.	N	O
@@ -1368,7 +1349,7 @@ Sentence: 61	-9.5lbs	$	B-ADR
 	this	D	O
 	state	N	O
 	0	0	O
-Sentence: 62	extra	A	O
+Sentence: 61	extra	A	O
 	quetiapine	N	O
 	and	&	O
 	two	$	O
@@ -1377,7 +1358,7 @@ Sentence: 62	extra	A	O
 	aren't	V	O
 	helping	V	O
 	me	O	O
-	sleep.	V	O
+	sleep.	V	B-ADR
 	head	N	O
 	full	A	O
 	of	P	O
@@ -1390,12 +1371,12 @@ Sentence: 62	extra	A	O
 	intrusive	A	I-ADR
 	thoughts	N	I-ADR
 	0	0	O
-Sentence: 63	@iamcarrieeeeee	@	O
+Sentence: 62	@URL	@	O
 	that's	L	O
 	what	O	O
 	i	O	O
 	get	V	O
-	#bipolar2	#	O
+	#bipolar2	#	B-ADR
 	but	&	O
 	the	D	O
 	bloody	A	O
@@ -1406,7 +1387,7 @@ Sentence: 63	@iamcarrieeeeee	@	O
 	bloody	R	O
 	miserable.	A	O
 	0	0	O
-Sentence: 64	4am	$	O
+Sentence: 63	4am	$	O
 	and	&	O
 	the	D	O
 	quetiapine	^	O
@@ -1416,26 +1397,26 @@ Sentence: 64	4am	$	O
 	sedate	V	O
 	me	O	O
 	#bipolar	#	O
-	#insomnia	#	O
+	#insomnia	#	B-ADR
 	0	0	O
-Sentence: 65	(triggering)	V	O
+Sentence: 64	(triggering)	V	O
 	so...	P	O
 	i'm	L	O
 	taking	V	O
 	quetiapine	N	O
 	and	&	O
 	tramadol	N	O
-	pre-cutting.	N	O
+	pre-cutting.	N	B-ADR
 	i'm	L	O
-	allergic	A	B-ADR
+	allergic	A	O
 	to	P	O
 	tramadol...this	O	O
 	should	V	O
 	be	V	O
 	interesting	A	O
-	#selfharm	#	O
+	#selfharm	#	B-ADR
 	0	0	O
-Sentence: 66	all	D	O
+Sentence: 65	all	D	O
 	i	O	O
 	have	V	O
 	done	V	O
@@ -1456,7 +1437,7 @@ Sentence: 66	all	D	O
 	change.	N	O
 	#quetiapine	#	O
 	0	0	O
-Sentence: 67	toothache.	N	O
+Sentence: 66	toothache.	N	O
 	discovered	V	O
 	that	O	O
 	somewhere	R	O
@@ -1474,8 +1455,8 @@ Sentence: 67	toothache.	N	O
 	mix.	N	O
 	#hallucinating	V	B-ADR
 	0	0	O
-Sentence: 68	@bella_astre	@	O
-	quetiapine	^	O
+Sentence: 67	@URL	@	O
+	quetiapine	^	B-ADR
 	made	V	O
 	me	O	O
 	eat	V	O
@@ -1493,33 +1474,8 @@ Sentence: 68	@bella_astre	@	O
 	dry	A	B-ADR
 	mouth	N	I-ADR
 	0	0	O
-Sentence: 69	@disabledmedic	@	O
-	quetiapine	!	O
-	perhaps	R	O
-	gives	V	O
-	most	R	O
-	dramatic	A	O
-	effect	N	O
-	for	P	O
-	single	A	O
-	low	A	O
-	dose.	N	O
-	no,	N	O
-	pts	N	O
-	are	V	O
-	not	R	O
-	being	V	O
-	lazy	A	O
-	in	P	O
-	bed	N	O
-	20	$	B-ADR
-	hours	N	I-ADR
-	a	D	I-ADR
-	day,	N	I-ADR
-	asleep!	R	I-ADR
-	0	0	O
-Sentence: 70	rt	~	O
-	@bipolarblogger:	V	O
+Sentence: 68	rt	~	O
+	@URL:	V	O
 	since	P	O
 	quetiapine's	Z	O
 	messed	V	O
@@ -1539,9 +1495,9 @@ Sentence: 70	rt	~	O
 	i	O	O
 	want	V	O
 	a	D	O
-	lingerie�	N	O
+	lingerieà	N	O
 	0	0	O
-Sentence: 71	rivaroxaban	^	O
+Sentence: 69	rivaroxaban	^	O
 	diary	N	O
 	day	N	O
 	8.	$	O
@@ -1567,7 +1523,7 @@ Sentence: 71	rivaroxaban	^	O
 	in	P	O
 	bed.	N	O
 	0	0	O
-Sentence: 72	08.15	$	O
+Sentence: 70	08.15	$	O
 	day	N	O
 	13	$	O
 	rivaroxaban	^	O
@@ -1577,13 +1533,13 @@ Sentence: 72	08.15	$	O
 	ache,	V	I-ADR
 	neck	N	I-ADR
 	ache,	V	I-ADR
-	hips	N	I-ADR
+	hips	N	O
 	and	&	O
-	knees	N	B-ADR
-	ache,	V	I-ADR
-	short	A	I-ADR
-	of	P	I-ADR
-	breath,	N	I-ADR
+	knees	N	O
+	ache,	V	O
+	short	A	O
+	of	P	O
+	breath,	N	O
 	(am	V	O
 	asthmatic)	A	O
 	taken	V	O
@@ -1591,7 +1547,7 @@ Sentence: 72	08.15	$	O
 	to	P	O
 	bed.	N	O
 	0	0	O
-Sentence: 73	06.30	$	O
+Sentence: 71	06.30	$	O
 	day	N	O
 	14	$	O
 	rivaroxaban	^	O
@@ -1616,7 +1572,7 @@ Sentence: 73	06.30	$	O
 	headache,	N	I-ADR
 	1/2	$	O
 	0	0	O
-Sentence: 74	13.24	$	O
+Sentence: 72	13.24	$	O
 	day	N	O
 	15	$	O
 	rivaroxaban	^	O
@@ -1635,7 +1591,7 @@ Sentence: 74	13.24	$	O
 	to	P	O
 	bed.	N	O
 	0	0	O
-Sentence: 75	21.21	$	O
+Sentence: 73	21.21	$	O
 	day	N	O
 	19	$	O
 	rivaroxaban	^	O
@@ -1645,7 +1601,7 @@ Sentence: 75	21.21	$	O
 	continue	V	O
 	until	P	O
 	all	D	O
-	aches	V	O
+	aches	V	B-ADR
 	gone.	V	O
 	hips	N	O
 	and	&	O
@@ -1658,14 +1614,14 @@ Sentence: 75	21.21	$	O
 	mobile	A	O
 	now.	R	O
 	0	0	O
-Sentence: 76	rivaroxaban	^	O
+Sentence: 74	rivaroxaban	^	B-ADR
 	diary	N	O
 	day	N	O
 	25	$	O
-	muscle	N	B-ADR
-	&	&	I-ADR
-	back	R	I-ADR
-	pains	V	I-ADR
+	muscle	N	O
+	&	&	O
+	back	R	O
+	pains	V	O
 	were	V	O
 	due	A	O
 	to	P	O
@@ -1689,7 +1645,7 @@ Sentence: 76	rivaroxaban	^	O
 	4	$	O
 	days	N	O
 	0	0	O
-Sentence: 77	@doctorchristian	@	O
+Sentence: 75	@URL	@	O
 	is	V	O
 	my	D	O
 	memory	N	O
@@ -1711,8 +1667,8 @@ Sentence: 77	@doctorchristian	@	O
 	remembering	V	I-ADR
 	conversations	N	O
 	0	0	O
-Sentence: 78	@basic_chunnel	@	O
-	@bromethazine	@	O
+Sentence: 76	@URL	@	O
+	@URL	@	O
 	i'm	L	O
 	pretty	R	O
 	lucid	A	O
@@ -1731,7 +1687,7 @@ Sentence: 78	@basic_chunnel	@	O
 	dream.	N	O
 	lolol.	!	O
 	0	0	O
-Sentence: 79	i	O	O
+Sentence: 77	i	O	O
 	can	V	O
 	only	R	O
 	get	V	O
@@ -1761,7 +1717,7 @@ Sentence: 79	i	O	O
 	get	V	O
 	addicted.	A	O
 	0	0	O
-Sentence: 80	maybe	R	O
+Sentence: 78	maybe	R	O
 	cos	P	O
 	of	P	O
 	the	D	O
@@ -1788,7 +1744,7 @@ Sentence: 80	maybe	R	O
 	where	R	O
 	poss.	A	O
 	0	0	O
-Sentence: 81	trazodone	^	O
+Sentence: 79	trazodone	^	O
 	isn't	V	O
 	working.	V	O
 	can't	V	O
@@ -1799,18 +1755,18 @@ Sentence: 81	trazodone	^	O
 	am	N	O
 	or	&	O
 	i	O	O
-	won't	V	B-ADR
-	wake	V	I-ADR
-	up	T	I-ADR
+	won't	V	O
+	wake	V	O
+	up	T	O
 	until	P	O
 	after	P	O
 	2	$	O
 	pm.	N	O
 	stuck,	V	O
 	painfully	R	O
-	awake.	A	O
+	awake.	A	B-ADR
 	0	0	O
-Sentence: 82	why	R	O
+Sentence: 80	why	R	O
 	do	V	O
 	i	O	O
 	not	R	B-ADR
@@ -1826,11 +1782,11 @@ Sentence: 82	why	R	O
 	probably	R	O
 	seroquel)	A	O
 	0	0	O
-Sentence: 83	personally	R	O
+Sentence: 81	personally	R	O
 	i	O	O
 	prefer	V	O
-	staying	V	O
-	up	T	O
+	staying	V	B-ADR
+	up	T	I-ADR
 	until	P	O
 	i	O	O
 	get	V	O
@@ -1841,7 +1797,7 @@ Sentence: 83	personally	R	O
 	to	P	O
 	get	V	O
 	to	P	O
-	sleep,	V	O
+	sleep,	V	B-ADR
 	but	&	O
 	only	R	O
 	because	P	O
@@ -1851,7 +1807,7 @@ Sentence: 83	personally	R	O
 	for	P	O
 	me	O	O
 	0	0	O
-Sentence: 84	i	O	O
+Sentence: 82	i	O	O
 	can't	V	O
 	take	V	O
 	this:(	D	O
@@ -1878,10 +1834,10 @@ Sentence: 84	i	O	O
 	going	V	O
 	crazy	A	O
 	0	0	O
-Sentence: 85	you	O	O
+Sentence: 83	you	O	O
 	don't	V	O
 	know	V	O
-	insomnia	^	O
+	insomnia	^	B-ADR
 	until	P	O
 	you	O	O
 	take	V	O
@@ -1893,7 +1849,7 @@ Sentence: 85	you	O	O
 	at	P	O
 	3am.	$	O
 	0	0	O
-Sentence: 86	@suedoelawyer	@	O
+Sentence: 84	@URL	@	O
 	and	&	O
 	with	P	O
 	seroquel	^	O
@@ -1917,7 +1873,7 @@ Sentence: 86	@suedoelawyer	@	O
 	straight	A	I-ADR
 	hours	N	I-ADR
 	0	0	O
-Sentence: 87	waitt..here	V	O
+Sentence: 85	waitt..here	V	O
 	it	O	O
 	comes..the	V	O
 	#seroquel	^	O
@@ -1936,7 +1892,7 @@ Sentence: 87	waitt..here	V	O
 	food..	N	I-ADR
 	#fmlimugly	#	O
 	0	0	O
-Sentence: 88	but	&	O
+Sentence: 86	but	&	O
 	i	O	O
 	don't	V	O
 	want	V	O
@@ -1958,7 +1914,7 @@ Sentence: 88	but	&	O
 	upon	P	O
 	them	O	O
 	0	0	O
-Sentence: 89	i	O	O
+Sentence: 87	i	O	O
 	think	V	O
 	it's	L	O
 	bad	A	O
@@ -1974,7 +1930,7 @@ Sentence: 89	i	O	O
 	9:15.	$	O
 	#trazodone	#	O
 	0	0	O
-Sentence: 90	holy	A	O
+Sentence: 88	holy	A	O
 	shit,	N	O
 	that	P	O
 	trazodone	N	O
@@ -1991,8 +1947,8 @@ Sentence: 90	holy	A	O
 	a	D	O
 	ride	N	O
 	0	0	O
-Sentence: 91	wide	A	O
-	awake	A	O
+Sentence: 89	wide	A	O
+	awake	A	B-ADR
 	and	&	O
 	this	O	O
 	trazodone	N	O
@@ -2014,7 +1970,7 @@ Sentence: 91	wide	A	O
 	bout	P	O
 	now.	R	O
 	0	0	O
-Sentence: 92	trazodone	^	O
+Sentence: 90	trazodone	^	O
 	is	V	O
 	fun	A	O
 	because	P	O
@@ -2032,7 +1988,7 @@ Sentence: 92	trazodone	^	O
 	as	P	O
 	hell.	N	O
 	0	0	O
-Sentence: 93	i	O	O
+Sentence: 91	i	O	O
 	wish	V	O
 	xanax	^	O
 	made	V	O
@@ -2052,7 +2008,7 @@ Sentence: 93	i	O	O
 	#tolerance	N	B-ADR
 	#fml	#	O
 	0	0	O
-Sentence: 94	trazodone	^	O
+Sentence: 92	trazodone	^	O
 	has	V	O
 	screwed	V	O
 	up	T	O
@@ -2063,7 +2019,7 @@ Sentence: 94	trazodone	^	O
 	helping	V	O
 	tho.	R	O
 	0	0	O
-Sentence: 95	@nighttraumadoc	@	O
+Sentence: 93	@URL	@	O
 	it	O	O
 	works	V	O
 	otherwise.	R	O
@@ -2085,7 +2041,7 @@ Sentence: 95	@nighttraumadoc	@	O
 	following	N	O
 	day	N	O
 	0	0	O
-Sentence: 96	my	D	O
+Sentence: 94	my	D	O
 	philly	^	O
 	dr	^	O
 	prescribed	V	O
@@ -2095,20 +2051,20 @@ Sentence: 96	my	D	O
 	me	O	O
 	so	R	O
 	fkn	R	O
-	sick,	A	B-ADR
-	couldnt	V	I-ADR
-	move	V	I-ADR
+	sick,	A	O
+	couldnt	V	O
+	move	V	O
 	2day.xtreme	N	O
-	migraine,	N	B-ADR
-	puke,	V	I-ADR
+	migraine,	N	O
+	puke,	V	B-ADR
 	shakes.	V	I-ADR
 	any1else	N	O
 	get	V	O
 	that	O	O
 	react?	V	O
 	0	0	O
-Sentence: 97	rt	~	O
-	@aprilhunter:	V	O
+Sentence: 95	rt	~	O
+	@URL:	V	O
 	my	D	O
 	philly	^	O
 	dr	^	O
@@ -2119,17 +2075,17 @@ Sentence: 97	rt	~	O
 	me	O	O
 	so	R	O
 	fkn	R	O
-	sick,	A	B-ADR
+	sick,	A	O
 	couldnt	V	O
 	move	V	O
 	2day.xtreme	N	O
 	migraine,	N	B-ADR
 	puke,	V	I-ADR
-	shakes.	V	I-ADR
-	any1else	N	O
-	�	,	O
+	shakes.	V	O
+	any1else	^	O
+	à	^	O
 	0	0	O
-Sentence: 98	i	O	O
+Sentence: 96	i	O	O
 	went	V	O
 	down	R	O
 	to	P	O
@@ -2149,7 +2105,7 @@ Sentence: 98	i	O	O
 	got	V	O
 	worse.	A	O
 	0	0	O
-Sentence: 99	sick	A	O
+Sentence: 97	sick	A	O
 	of	P	O
 	feeling	V	O
 	tired.	A	B-ADR
@@ -2164,15 +2120,15 @@ Sentence: 99	sick	A	O
 	do	V	O
 	today	N	O
 	&	&	O
-	no	D	B-ADR
-	freaking	N	I-ADR
-	motivation	N	I-ADR
+	no	D	O
+	freaking	N	O
+	motivation	N	O
 	or	&	O
 	energy	N	B-ADR
 	#venlafaxine	#	O
 	#day9	#	O
 	0	0	O
-Sentence: 100	11	$	O
+Sentence: 98	11	$	O
 	hours	N	O
 	sleep	N	B-ADR
 	and	&	O
@@ -2181,11 +2137,11 @@ Sentence: 100	11	$	O
 	feel	V	O
 	tired	A	B-ADR
 	and	&	O
-	dizzy	A	B-ADR
+	dizzy	A	O
 	#venlafaxine	#	O
 	#day10	#	O
 	0	0	O
-Sentence: 101	so	P	O
+Sentence: 99	so	P	O
 	it	O	O
 	seems	V	O
 	that	P	O
@@ -2206,14 +2162,14 @@ Sentence: 101	so	P	O
 	in	T	O
 	pm	N	O
 	i	O	O
-	don�t	V	B-ADR
-	sleep	V	I-ADR
+	donÆt	V	B-ADR
+	sleep	N	I-ADR
 	well.	R	I-ADR
 	go	V	O
 	figure.	V	O
 	#day14	#	O
 	0	0	O
-Sentence: 102	feel	V	B-ADR
+Sentence: 100	feel	V	B-ADR
 	crap	N	I-ADR
 	every	D	I-ADR
 	morning.	N	I-ADR
@@ -2231,7 +2187,7 @@ Sentence: 102	feel	V	B-ADR
 	#venlafaxine	#	O
 	#day16	#	O
 	0	0	O
-Sentence: 103	i	O	O
+Sentence: 101	i	O	O
 	low	A	O
 	carb	N	O
 	but	&	O
@@ -2252,13 +2208,13 @@ Sentence: 103	i	O	O
 	cravings	N	I-ADR
 	are	V	O
 	because	P	O
-	i�m	L	O
+	iÆm	^	O
 	coming	V	O
 	off	T	O
 	the	D	O
 	#venlafaxine	^	O
 	0	0	O
-Sentence: 104	@raj1410	@	O
+Sentence: 102	@URL	@	O
 	i'm	L	O
 	now	R	O
 	on	P	O
@@ -2268,11 +2224,11 @@ Sentence: 104	@raj1410	@	O
 	issue	N	O
 	is	V	O
 	the	D	O
-	cataplexy	N	O
+	cataplexy	N	B-ADR
 	haha	!	O
 	just	R	O
 	ask	V	O
-	@hannahrogerson	@	O
+	@URL	@	O
 	this	O	O
 	is	V	O
 	the	D	O
@@ -2284,7 +2240,7 @@ Sentence: 104	@raj1410	@	O
 	you	O	O
 	on?	P	O
 	0	0	O
-Sentence: 105	dreamt	V	B-ADR
+Sentence: 103	dreamt	V	B-ADR
 	i	O	O
 	was	V	O
 	squirting	V	O
@@ -2305,13 +2261,13 @@ Sentence: 105	dreamt	V	B-ADR
 	do	V	O
 	hope	V	O
 	the	D	O
-	dreams	N	B-ADR
+	dreams	N	O
 	are	V	O
 	the	D	O
 	#venlafaxine	^	O
 	withdrawal.	N	B-ADR
 	0	0	O
-Sentence: 106	@zombie_girl_2	@	O
+Sentence: 104	@URL	@	O
 	i	O	O
 	tried	V	O
 	that	O	O
@@ -2337,7 +2293,7 @@ Sentence: 106	@zombie_girl_2	@	O
 	mind	N	I-ADR
 	aghh!	!	O
 	0	0	O
-Sentence: 107	high	A	O
+Sentence: 105	high	A	O
 	off	P	O
 	tramadol	N	O
 	and	&	O
@@ -2351,7 +2307,7 @@ Sentence: 107	high	A	O
 	asleep	R	I-ADR
 	here	R	O
 	0	0	O
-Sentence: 108	i've	L	O
+Sentence: 106	i've	L	O
 	had	V	O
 	a	D	O
 	lovely,	A	O
@@ -2370,10 +2326,10 @@ Sentence: 108	i've	L	O
 	sense	N	O
 	of	P	O
 	guilt	N	O
-	#depression	#	O
+	#depression	#	B-ADR
 	#venlafaxine	#	O
 	0	0	O
-Sentence: 109	holy	A	O
+Sentence: 107	holy	A	O
 	shit	N	O
 	no	R	O
 	more	A	O
@@ -2396,7 +2352,7 @@ Sentence: 109	holy	A	O
 	the	D	O
 	sickest.	A	B-ADR
 	0	0	O
-Sentence: 110	@mvrcivl	@	O
+Sentence: 108	@URL	@	O
 	vyvanse	N	O
 	got	V	O
 	me	O	O
@@ -2420,7 +2376,7 @@ Sentence: 110	@mvrcivl	@	O
 	#txfreestyle	#	O
 	#barrdout	#	O
 	0	0	O
-Sentence: 111	@jordantaylor068	@	O
+Sentence: 109	@URL	@	O
 	yeah,	!	O
 	i'm	L	O
 	on	P	O
@@ -2439,7 +2395,7 @@ Sentence: 111	@jordantaylor068	@	O
 	just	R	I-ADR
 	forget.	V	I-ADR
 	0	0	O
-Sentence: 112	vyvanse	^	O
+Sentence: 110	vyvanse	^	O
 	make	V	O
 	me	O	O
 	so	R	O
@@ -2454,7 +2410,7 @@ Sentence: 112	vyvanse	^	O
 	many	A	O
 	tweets	N	O
 	0	0	O
-Sentence: 113	vyvanse	^	O
+Sentence: 111	vyvanse	^	O
 	=	,	O
 	5	$	O
 	lines	N	O
@@ -2464,12 +2420,12 @@ Sentence: 113	vyvanse	^	O
 	stop.	V	I-ADR
 	moving.	V	I-ADR
 	0	0	O
-Sentence: 114	@guccigreenery	@	O
+Sentence: 112	@URL	@	O
 	i	O	O
 	felt	V	B-ADR
 	drugged	V	I-ADR
 	on	P	O
-	ritalin.	N	O
+	ritalin.	N	B-ADR
 	i	O	O
 	love	V	O
 	vyvanse.	N	O
@@ -2489,7 +2445,7 @@ Sentence: 114	@guccigreenery	@	O
 	more	R	O
 	structured	A	O
 	0	0	O
-Sentence: 115	when	R	O
+Sentence: 113	when	R	O
 	im	L	O
 	tweaked	V	O
 	off	T	O
@@ -2517,7 +2473,7 @@ Sentence: 115	when	R	O
 	bout	P	O
 	them	O	O
 	0	0	O
-Sentence: 116	the	D	O
+Sentence: 114	the	D	O
 	come	V	B-ADR
 	down	T	I-ADR
 	on	P	O

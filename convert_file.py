@@ -7,6 +7,7 @@
 
 from nltk.tokenize import TweetTokenizer
 import os
+import sys
 import jnius_config
 import logging
 import re
@@ -16,7 +17,7 @@ jnius_config.add_options('-Xmx512m', '-XX:ParallelGCThreads=2')
 jnius_config.set_classpath(*(os.path.join(_resources_dir, jar) for jar in os.listdir(_resources_dir) if jar.endswith('.jar')))
 os.environ['CLASSPATH'] = './resources/'
 
-inputf = open("../data/TrainData3-utf8.tsv", encoding = "utf-8")
+inputf = open("../data/TrainData1.tsv", encoding = "utf-8")
 data = inputf.readlines()[1:]
 print(data[0])
 logger = logging.getLogger(__name__)
@@ -89,15 +90,17 @@ for j, sentence in enumerate(data):
     sentence = sentence.strip()
     sentence = re.sub("amp;", "", sentence)
     li = sentence.strip().split('\t')
-    # tweet, extraction = li[7], li[5]
-    tweet, extraction = li[9], li[6]
-    # tweet, extraction = li[7], li[6]
+    tweet, extraction = li[6], li[4] ## tsv 1 and 2
+    # tweet, extraction = li[9], li[6] ## tsv 3
+    # tweet, extraction = li[7], li[6] ## tsv 4
     # print(tweet)
     if tweet[0] == "\"" and tweet[-1] == "\"":
         tweet = tweet[1:-1]
     # tweet_li = tknzr.tokenize(tweet)
-    tweet_li = tweet.split()
-    tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
+    tweet_li = re.split(r'\s|([\,\?])', tweet)
+    print(tweet_li)
+    sys.exit(0)
+    # tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
     pos_li = pos_tagger.tagger(tweet_li)
 
     if extraction == "": 
@@ -105,9 +108,11 @@ for j, sentence in enumerate(data):
     else:
         if extraction[0] == "\"" and extraction[-1] == "\"": extraction = extraction[1:-1]
         if extraction.lower() not in tweet.lower():
-            # raise Exception("extraction is not in the range!")
-            miss += 1
-            continue
+            print(extraction)
+            print(tweet)
+            raise Exception("extraction is not in the range!")
+            # miss += 1
+            # continue
 
         # extraction_li = tknzr.tokenize(extraction)
         extraction_li = extraction.split()
@@ -162,10 +167,11 @@ for k, v in p_d.items():
     if len(t) > 1: # there are more than 1 NEs in this tweet
         x = ""
         for i in range(len(t[0])):
-            if t[0][i] != "O": 
-                x = t[0][i]
-            elif t[1][i] != "O": x = t[1][i]
-            else: x = "O"
+            for j in range(len(t)):
+                if t[j][i] != "O":
+                    x = t[j][i]
+                    break
+                else: x = "O"
             tag_li.append(x)
     else: tag_li = t[0]
     new_tag_li = []
@@ -188,7 +194,7 @@ for k, v in p_d.items():
 
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
-with open("../data/converted_file_TrainData3.csv", "w") as outputf:
+with open("./data/converted_file_TrainData1.csv", "w") as outputf:
     outputf.write("Sentence #\tWord\tPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]

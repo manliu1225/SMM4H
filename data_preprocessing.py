@@ -78,7 +78,6 @@ for idx, s in enumerate(sentmarks):
 # subtract 2 for UNK, PAD
 word2idx, idx2word = get_vocab(sentence_text, MAX_VOCAB-2)
 
-
 # POS and NER tag vocab dicts
 pos2idx, idx2pos = get_vocab(sentence_post, len(set(postags)))
 ner2idx, idx2ner = get_vocab(sentence_ners, len(set(nertags))+2)
@@ -157,7 +156,7 @@ print(len(X_train_sents))
 
 
 # Namelist features
-namelist_filenames = ["namelist1.txt", "namelist2.txt", "disease.txt"]
+namelist_filenames = ["namelist_adr.txt", "disease.txt"]
 MANUAL_MUSIC_DIR = 'resources/dictionary'
 features_dict = {}
 features_dict["nameListFeature"] = feature_namelist.load_namelist(
