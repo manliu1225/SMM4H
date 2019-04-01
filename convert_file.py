@@ -17,7 +17,7 @@ jnius_config.add_options('-Xmx512m', '-XX:ParallelGCThreads=2')
 jnius_config.set_classpath(*(os.path.join(_resources_dir, jar) for jar in os.listdir(_resources_dir) if jar.endswith('.jar')))
 os.environ['CLASSPATH'] = './resources/'
 
-inputf = open("../data/TrainData1.tsv", encoding = "utf-8")
+inputf = open("../data/TrainData4.tsv", encoding = "utf-8")
 data = inputf.readlines()[1:]
 print(data[0])
 logger = logging.getLogger(__name__)
@@ -90,16 +90,17 @@ for j, sentence in enumerate(data):
     sentence = sentence.strip()
     sentence = re.sub("amp;", "", sentence)
     li = sentence.strip().split('\t')
-    tweet, extraction = li[6], li[4] ## tsv 1 and 2
+    tweet, extraction = li[6], li[4] ## tsv 1 and 2 and 3 and 4
     # tweet, extraction = li[9], li[6] ## tsv 3
     # tweet, extraction = li[7], li[6] ## tsv 4
     # print(tweet)
     if tweet[0] == "\"" and tweet[-1] == "\"":
         tweet = tweet[1:-1]
+    tweet_li = tweet.split()
     # tweet_li = tknzr.tokenize(tweet)
-    tweet_li = re.split(r'\s|([\,\?])', tweet)
-    print(tweet_li)
-    sys.exit(0)
+    # (?# tweet_li = re.split(r'\s|([\,\?\!\:])', tweet))
+    # tweet_li = list(filter(lambda x : x!=None, tweet_li))
+    # tweet_li = list(filter(lambda x : x!="", tweet_li))
     # tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
     pos_li = pos_tagger.tagger(tweet_li)
 
@@ -194,7 +195,7 @@ for k, v in p_d.items():
 
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
-with open("./data/converted_file_TrainData1.csv", "w") as outputf:
+with open("./data/converted_file_TrainData4.csv", "w") as outputf:
     outputf.write("Sentence #\tWord\tPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]
