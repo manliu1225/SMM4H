@@ -5,7 +5,7 @@
 # convert the original data to the required format
 # output is 
 
-from nltk.tokenize import TweetTokenizer
+import nltk
 import os
 import sys
 import jnius_config
@@ -17,7 +17,7 @@ jnius_config.add_options('-Xmx512m', '-XX:ParallelGCThreads=2')
 jnius_config.set_classpath(*(os.path.join(_resources_dir, jar) for jar in os.listdir(_resources_dir) if jar.endswith('.jar')))
 os.environ['CLASSPATH'] = './resources/'
 
-inputf = open("../data/TrainData4.tsv", encoding = "utf-8")
+inputf = open("../data/TrainData1.tsv", encoding = "utf-8")
 data = inputf.readlines()[1:]
 print(data[0])
 logger = logging.getLogger(__name__)
@@ -80,7 +80,7 @@ class CMUPosTagger(object):
 
 
 
-tknzr = TweetTokenizer()
+# tknzr = TweetTokenizer()
 pos_tagger = CMUPosTagger()
 data_dict = OrderedDict()
 sentence_dict = OrderedDict()
@@ -118,6 +118,7 @@ for j, sentence in enumerate(data):
     # sys.exit(0)
     tweet = " ".join(tweet_li)
     pos_li = pos_tagger.tagger(tweet_li)
+    pos_n_li = nltk.pos_tag(tweet_li)
 
     if extraction == "": 
         begin = end = 100000
@@ -160,6 +161,7 @@ for j, sentence in enumerate(data):
     sentence_dict["word"] = tweet_li
     sentence_dict["tag"] = tag_li
     sentence_dict["pos"] = pos_li
+    sentence_dict["npos"] = [e[1] for e in pos_n_li]
     data_dict[j] = sentence_dict
     sentence_dict = OrderedDict()
 
@@ -170,6 +172,7 @@ for sentence_dict in data_dict.values():
     # print(word_li)
     p_d["\t".join(word_li)]["tag"].append(sentence_dict["tag"])
     p_d["\t".join(word_li)]["pos"] = sentence_dict["pos"]
+    p_d["\t".join(word_li)]["npos"] = sentence_dict["npos"]
 
 idx = 0
 data_dict_new = defaultdict(lambda : defaultdict(list))
@@ -177,6 +180,7 @@ sentence_dict = defaultdict(list)
 for k, v in p_d.items():
     t = v["tag"]
     p = v["pos"]
+    np = v["npos"]
     tag_li = []
     if len(t) > 1: # there are more than 1 NEs in this tweet
         x = ""
@@ -201,6 +205,7 @@ for k, v in p_d.items():
     data_dict_new[idx]["word"] = k.split("\t")
     data_dict_new[idx]["tag"] = new_tag_li
     data_dict_new[idx]["pos"] = p
+    data_dict_new[idx]["npos"] = np
     # data_dict_new[idx] = sentence_dict
     idx += 1
 
@@ -208,16 +213,17 @@ for k, v in p_d.items():
 
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
-with open("./data/converted_file_TrainData4.csv", "w") as outputf:
-    outputf.write("Sentence #\tWord\tPOS\tTag\t\n")
+with open("./data/converted_file_TrainData1.csv", "w") as outputf:
+    outputf.write("Sentence #\tWord\tPOS\tNPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]
         tag_li = sentence_dict["tag"]
         pos_li = sentence_dict["pos"]
+        npos_li = sentence_dict["npos"]
         sentence_m = ["Sentence: {}".format(idx+1)] + [""]*(len(word_li)-1)
-        for s in  zip(sentence_m, word_li, pos_li, tag_li):
+        for s in  zip(sentence_m, word_li, pos_li, npos_li, tag_li):
             outputf.write("\t".join(s)+"\n")
-        outputf.write("\t0\t0\tO\n")
+        outputf.write("\t0\t0\t0\tO\n")
 
 
 
