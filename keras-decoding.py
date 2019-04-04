@@ -66,14 +66,12 @@ print('Building model...\n')
 # text layers : dense embedding > dropout > bi-LSTM
 txt_input = Input(shape=(MAX_LENGTH,), name='txt_input')
 txt_embed = Embedding(MAX_VOCAB, WORDEMBED_SIZE, input_length=MAX_LENGTH,
-                      weights=[word_embedding_matrix],
                       name='txt_embedding', trainable=True, mask_zero=True)(txt_input)
 txt_drpot = Dropout(DROPOUTRATE, name='txt_dropout')(txt_embed)
 
 # pos layers : dense embedding > dropout > bi-LSTM
 pos_input = Input(shape=(MAX_LENGTH,), name='pos_input')
 pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
-                      weights=[pos_embedding_matrix],
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
