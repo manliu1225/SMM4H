@@ -20,6 +20,11 @@ from keras.layers import Activation, merge, average, concatenate, Input, TimeDis
 from keras.models import save_model, load_model
 from keras_contrib.layers import CRF
 from keras_contrib.utils import save_load_utils
+import feature_namelist
+import sys
+import re
+import tensorflow as tf
+from embeddings.elmo import ELMoEmbedding
 
 
 
