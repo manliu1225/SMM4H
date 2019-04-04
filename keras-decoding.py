@@ -135,7 +135,8 @@ for sent_idx in range(len(X_test_sents)):
     
     this_txt = sequence.pad_sequences([X_test_sents[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
     this_pos = sequence.pad_sequences([X_test_pos[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
-    this_pred = model.predict([this_txt, this_pos])
+    this_feature = sequence.pad_sequences([X_test_features[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
+    this_pred = model.predict([this_txt, this_tex, this_pos, this_feature])
     this_pred = [np.argmax(p) for p in this_pred[0]]
     np.shape(this_pred)
 
@@ -163,6 +164,7 @@ for sent_idx in range(len(X_test_sents)):
     })
     answ = answ[['word', 'pos', 'true', 'pred', 'skip']]
     answ = answ.T
+    print("predict {}...".format(sent_idx))
     decoded.append(answ)
 
 
