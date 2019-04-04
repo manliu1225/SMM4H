@@ -40,8 +40,9 @@ test_idx = np.load('../encoded/test_idx.npy')
 X_test_sents = np.load('../encoded/X_test_sents.npy')
 X_test_pos = np.load('../encoded/X_test_pos.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
+X_test_features = np.load('../encoded/X_test_features.npy')
+X_test_sents_bert = np.load('../encoded/X_test_sents_bert.npy')
 print("...data loaded!")
-
 
 # ## load weights
 # 
@@ -127,7 +128,7 @@ plt.show()
 
 
 decoded = []
-for sent_idx in range(len(X_test_sents[:500])):
+for sent_idx in range(len(X_test_sents)):
     
     this_txt = sequence.pad_sequences([X_test_sents[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
     this_pos = sequence.pad_sequences([X_test_pos[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
