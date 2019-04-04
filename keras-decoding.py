@@ -65,17 +65,32 @@ print('Building model...\n')
 # text layers : dense embedding > dropout > bi-LSTM
 txt_input = Input(shape=(MAX_LENGTH,), name='txt_input')
 txt_embed = Embedding(MAX_VOCAB, WORDEMBED_SIZE, input_length=MAX_LENGTH,
+                      weights=[word_embedding_matrix],
                       name='txt_embedding', trainable=True, mask_zero=True)(txt_input)
 txt_drpot = Dropout(DROPOUTRATE, name='txt_dropout')(txt_embed)
 
 # pos layers : dense embedding > dropout > bi-LSTM
 pos_input = Input(shape=(MAX_LENGTH,), name='pos_input')
 pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
+                      weights=[pos_embedding_matrix],
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
+# bert layer
+bert_input = Input(shape=(MAX_LENGTH,768), name='bert_input')
+bert_drpot = Dropout(DROPOUTRATE, name='bert_drpot')(bert_input)
+
+# emlo layer
+emlo_input = Input(shape=(MAX_LENGTH,), dtype=tf.int64, name='emlo_input')
+emlo_embed = ELMoEmbedding(idx2word=idx2word, 
+                        output_mode="elmo", name='emlo_embedding', trainable=True)(emlo_input) # These two are interchangeable
+#sentence_embedding = Embedding(len(idx2word), 1024, input_length=MAX_SEQUENCE_LENGTH, trainable=False)(sentence_input) # These two are interchangeable
+
+# add auxiliary layer
+auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
+
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([txt_drpot, pos_drpot], axis=2)
+mrg_cncat = concatenate([emlo_embed, pos_drpot], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -84,12 +99,13 @@ mrg_drpot = Dropout(DROPOUTRATE, name='mrg_dropout')(mrg_lstml)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_2')(mrg_lstml)
 
-
+# merge BLSTM layers and extenal layer
+mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 # final linear chain CRF layer
 crf = CRF(NER_VOCAB, sparse_target=True)
-mrg_chain = crf(mrg_lstml)
+mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_input, pos_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, emlo_input, pos_input, auxiliary_input], outputs=mrg_chain)
 
 
 # load model
