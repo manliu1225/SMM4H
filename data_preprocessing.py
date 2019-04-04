@@ -78,6 +78,7 @@ for idx, s in enumerate(sentmarks):
 # subtract 2 for UNK, PAD
 word2idx, idx2word = get_vocab(sentence_text, MAX_VOCAB-2)
 
+
 # POS and NER tag vocab dicts
 pos2idx, idx2pos = get_vocab(sentence_post, len(set(postags)))
 ner2idx, idx2ner = get_vocab(sentence_ners, len(set(nertags))+2)
