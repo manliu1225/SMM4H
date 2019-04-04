@@ -1,2851 +1,2851 @@
-Sentence #	Word	POS	Tag	
-Sentence: 1	do	V	O
-	you	O	O
-	have	V	O
-	any	D	O
-	medication	N	O
-	allergies	N	B-ADR
-	?	,	O
-	"	,	O
-	"	,	O
-	asthma	N	O
-	!	,	O
-	!	,	O
-	!	,	O
-	"	,	O
-	"	,	O
-	me	O	O
-	:	,	O
-	"	,	O
-	"	,	O
-	........	,	O
-	"	,	O
-	"	,	O
-	pt	N	O
-	:	,	O
-	"	,	O
-	"	,	O
-	no	D	O
-	wait	N	O
-	.	,	O
-	avelox	N	O
-	,	,	O
-	that's	L	O
-	it	O	O
-	!	,	O
-	"	,	O
-	"	,	O
-	"	,	O
-	"	,	O
-	so	P	O
-	no	D	O
-	other	A	O
-	allergies	N	O
-	?	,	O
-	"	,	O
-	"	,	O
-	"	,	O
-	"	,	O
-	right	!	O
-	!	,	O
-	"	,	O
-	"	,	O
-	*cont	N	O
-	0	0	O
-Sentence: 2	@ashleylvivian	@	O
-	if	P	O
-	#avelox	^	O
-	has	V	O
-	hurt	V	B-ADR
-	your	D	I-ADR
-	liver	N	I-ADR
-	,	,	O
-	avoid	V	O
-	tylenol	N	O
-	always	R	O
-	,	,	O
-	as	P	O
-	it	O	O
-	further	A	O
-	damages	N	O
-	liver	N	O
-	,	,	O
-	eat	V	O
-	grapefruit	N	O
-	unless	P	O
-	taking	V	O
-	cardiac	A	O
-	drugs	N	O
-	0	0	O
-Sentence: 3	apparently	R	O
-	,	,	O
-	baclofen	^	O
-	greatly	R	O
-	exacerbates	V	O
-	the	D	O
-	"	,	O
-	"	,	O
-	ad	N	B-ADR
-	"	,	O
-	"	,	O
-	part	N	O
-	of	P	O
-	my	D	O
-	adhd	N	O
-	.	,	O
-	average	A	O
-	length	N	O
-	of	P	O
-	focus	N	B-ADR
-	today	N	O
-	:	,	O
-	about	P	O
-	30	$	O
-	seconds	N	O
-	.	,	O
-	0	0	O
-Sentence: 4	pt	N	O
-	of	P	O
-	mine	O	O
-	died	V	B-ADR
-	from	P	O
-	cipro	N	O
-	rt	~	O
-	@ciproispoison	@	O
-	:	~	O
-	@gastromom	@	O
-	if	P	O
-	only	R	O
-	more	A	O
-	doctors	N	O
-	thought	V	O
-	like	P	O
-	you	O	O
-	!	,	O
-	i	O	O
-	lost	V	O
-	my	D	O
-	entire	A	O
-	life	N	O
-	to	P	O
-	12	$	O
-	cipro	N	O
-	pills	N	O
-	0	0	O
-Sentence: 5	@gastromom	@	O
-	the	D	O
-	only	A	O
-	pt	N	O
-	of	P	O
-	mine	O	O
-	who	O	O
-	ever	R	O
-	died	V	B-ADR
-	was	V	O
-	one	$	O
-	age	N	O
-	21	$	O
-	profound	A	O
-	autism	N	O
-	chronic	N	O
-	underwt	N	O
-	&	&	O
-	gi	^	O
-	issues	N	O
-	,	,	O
-	given	V	O
-	lots	N	O
-	of	P	O
-	cipro	N	O
-	.	,	O
-	terrible	A	O
-	0	0	O
-Sentence: 6	owww	!	O
-	.	,	O
-	i	O	O
-	hurt	V	O
-	my	D	O
-	foot	N	O
-	.	,	O
-	&	&	O
-	am	V	O
-	concerned	A	O
-	.	,	O
-	1st	A	O
-	warning	N	O
-	on	P	O
-	cipro	N	O
-	is	V	O
-	tendon	N	B-ADR
-	damage	N	I-ADR
-	.	,	O
-	:	,	O
-	-/	G	O
-	it	O	O
-	certainly	R	O
-	wasn't	V	O
-	a	D	O
-	rupture	N	O
-	.	,	O
-	i'm	L	O
-	sure	A	O
-	i'm	L	O
-	just	R	O
-	paranoid	A	O
-	.	,	O
-	0	0	O
-Sentence: 7	@deadfanclub	@	O
-	@danadelany	@	O
-	i	O	O
-	have	V	O
-	a	D	O
-	penicillin/	N	O
-	keflex	^	O
-	allergy	N	O
-	so	P	O
-	my	D	O
-	dr	N	O
-	writes	V	O
-	me	O	O
-	10	$	O
-	days	N	O
-	of	P	O
-	zpack	N	O
-	or	&	O
-	i'd	L	O
-	still	R	O
-	be	V	O
-	sick	A	O
-	too	R	O
-	!	,	O
-	sometimes	R	O
-	cipro	N	O
-	0	0	O
-Sentence: 8	@joshuagates	@	O
-	you	O	O
-	forgot	V	O
-	the	D	O
-	immodium	^	O
-	for	P	O
-	when	R	O
-	the	D	O
-	cipro	N	O
-	kills	V	O
-	all	X	O
-	the	D	O
-	good	A	O
-	bacteria	N	O
-	.	,	O
-	:	E	O
-	)	E	O
-	#travelskills	#	O
-	0	0	O
-Sentence: 9	@bilgeebiri	@	O
-	oh	!	O
-	robitussin	N	O
-	dreams	N	B-ADR
-	are	V	O
-	notorious	A	O
-	.	,	O
-	although	P	O
-	what	O	O
-	will	V	O
-	really	R	O
-	turn	V	O
-	'em	O	O
-	into	P	O
-	a	D	O
-	bunuel	A	O
-	movie	N	O
-	is	V	O
-	cipro	N	O
-	.	,	O
-	0	0	O
-Sentence: 10	#eds	#	O
-	friends	N	O
-	!	,	O
-	anybody	N	O
-	taken	V	O
-	#cipro	N	O
-	?	,	O
-	(antibiotic)	A	O
-	complications	N	O
-	?	,	O
-	?	,	O
-	big	A	O
-	side	N	O
-	effect	N	O
-	is	V	O
-	tendon	N	B-ADR
-	rupture...figured	V	I-ADR
-	my	D	O
-	dr	N	O
-	would	V	O
-	know	V	O
-	better	R	O
-	?	,	O
-	0	0	O
-Sentence: 11	@illtreaturite1	@	O
-	fluox	V	O
-	a	D	O
-	friend	N	O
-	4	P	O
-	years	N	O
-	,	,	O
-	but	&	O
-	switch	V	O
-	to	P	O
-	cymbalta	^	O
-	4	$	O
-	anti-depress/pain	N	O
-	control	N	O
-	.	,	O
-	i	O	O
-	ocd	A	O
-	worry	N	O
-	.	,	O
-	can't	V	O
-	stop	V	O
-	running	V	O
-	mind	N	O
-	0	0	O
-Sentence: 12	@lanternlizard	@	O
-	cymbalta	N	O
-	switch	N	O
-	is	V	O
-	part	N	O
-	of	P	O
-	what	O	O
-	made	V	O
-	me	O	O
-	flip	V	O
-	.	,	O
-	but	&	O
-	any	D	O
-	snri	N	O
-	with	P	O
-	family	N	O
-	hx	N	O
-	of	P	O
-	mania	N	O
-	puts	V	O
-	you	O	O
-	at	P	O
-	risk	N	O
-	.	,	O
-	0	0	O
-Sentence: 13	@enlightenmentor	@	O
-	umm	!	O
-	,	,	O
-	are	V	O
-	you	O	O
-	being	V	O
-	a	D	O
-	smart-ass	A	O
-	?	,	O
-	dont	V	O
-	mess	V	O
-	with	P	O
-	me	O	O
-	right	R	O
-	now	R	O
-	.	,	O
-	going	V	O
-	through	P	O
-	cymbalta	^	O
-	withdrawal	N	B-ADR
-	i	O	O
-	think	V	O
-	&	&	O
-	im	L	O
-	very	R	O
-	depressed	A	O
-	.	,	O
-	0	0	O
-Sentence: 14	today	N	O
-	i'm	L	O
-	an	D	O
-	emotional	A	B-ADR
-	mess	N	I-ADR
-	.	,	O
-	that's	L	O
-	what	O	O
-	happens	V	O
-	when	R	O
-	i	O	O
-	think	V	O
-	i	O	O
-	could	V	O
-	wean	V	O
-	myself	O	O
-	off	P	O
-	of	P	O
-	cymbalta	N	O
-	.	,	O
-	0	0	O
-Sentence: 15	losing	V	O
-	it	O	O
-	.	,	O
-	could	V	O
-	not	R	B-ADR
-	remember	V	I-ADR
-	the	D	O
-	word	N	O
-	power	N	O
-	strip	N	O
-	.	,	O
-	wonder	V	O
-	which	D	O
-	drug	N	O
-	is	V	O
-	doing	V	O
-	this	D	O
-	memory	N	B-ADR
-	lapse	N	I-ADR
-	thing	N	O
-	.	,	O
-	my	D	O
-	guess	V	O
-	the	D	O
-	cymbalta	N	O
-	.	,	O
-	#helps	V	O
-	0	0	O
-Sentence: 16	that	D	O
-	nap	N	B-ADR
-	was	V	O
-	on	P	O
-	point...	N	O
-	.	,	O
-	cymbalta	N	O
-	did	V	O
-	that	D	O
-	shit	N	O
-	cuz	P	O
-	i	O	O
-	dont	V	O
-	take	V	O
-	naps...ever	N	O
-	0	0	O
-Sentence: 17	@andiedanley2626	@	O
-	cymbalta	N	O
-	.	,	O
-	3x	P	O
-	the	D	O
-	dosage	N	O
-	i	O	O
-	was	V	O
-	once	R	O
-	on...everything	P	O
-	is	V	O
-	psychedelic	A	B-ADR
-	and	&	O
-	yuck	!	O
-	.	,	O
-	still	R	O
-	grateful	A	O
-	for	P	O
-	meds	N	O
-	!	,	O
-	0	0	O
-Sentence: 18	@santypas	@	O
-	@scrabalisios	@	O
-	i'm	L	O
-	taking	V	O
-	700mg	N	O
-	pregablin	N	O
-	and	&	O
-	60	$	O
-	mg	N	O
-	duloxetine	N	O
-	hence	R	O
-	why	R	O
-	i'm	L	O
-	totally	R	O
-	mashed	A	B-ADR
-	0	0	O
-Sentence: 19	@autumnuh_beee	@	O
-	i	O	O
-	was	V	O
-	on	P	O
-	celexa	N	O
-	,	,	O
-	which	D	O
-	made	V	O
-	me	O	O
-	sleepy	A	O
-	.	,	O
-	i	O	O
-	switched	V	O
-	to	P	O
-	effexor	G	O
-	.	,	O
-	it	O	O
-	has	V	O
-	norepinephrine	^	O
-	in	P	O
-	it	O	O
-	,	,	O
-	so	P	O
-	it	O	O
-	jump	V	O
-	starts	V	O
-	me	O	O
-	in	P	O
-	the	D	O
-	mornin	N	O
-	0	0	O
-Sentence: 20	i	O	O
-	feel	V	O
-	so	P	O
-	pill-ill	N	O
-	again	R	O
-	-	,	O
-	decided	V	O
-	to	P	O
-	seriously	R	O
-	cut	V	O
-	down	T	O
-	to	P	O
-	just	R	O
-	weekly	A	O
-	enbrel	N	O
-	and	&	O
-	metho	V	O
-	alongside	P	O
-	daily	A	O
-	nsaids	N	O
-	#rheum	N	O
-	.	,	O
-	0	0	O
-Sentence: 21	rt	~	O
-	@dratp	@	O
-	:	~	O
-	@lisabinkc	@	O
-	@trainingwithra	@	O
-	@dsymons	@	O
-	enbrel	R	O
-	also	R	O
-	available	A	O
-	as	P	O
-	prefilled	A	O
-	syringe	N	O
-	,	,	O
-	much	R	O
-	gentler	A	O
-	.	,	O
-	pen	N	O
-	leaves	V	O
-	bruises	N	O
-	!	,	O
-	#rheum	#	O
-	0	0	O
-Sentence: 22	note	N	O
-	to	P	O
-	self	N	O
-	:	,	O
-	do	V	O
-	not	R	O
-	take	V	O
-	#fluoxetine	^	O
-	and	&	O
-	#aleved	V	O
-	together	R	O
-	.	,	O
-	i'm	L	O
-	a	D	O
-	space	N	B-ADR
-	cadet	N	I-ADR
-	today	N	O
-	!	,	O
-	#druginteractions	#	O
-	0	0	O
-Sentence: 23	i'm	L	O
-	sure	A	O
-	this	D	O
-	fluoxetine	N	O
-	is	V	O
-	making	V	O
-	my	D	O
-	illness	N	B-ADR
-	worse	A	I-ADR
-	,	,	O
-	especially	R	O
-	since	P	O
-	i	O	O
-	can't	V	B-ADR
-	eat.	V	I-ADR
-	.	,	O
-	0	0	O
-Sentence: 24	i	O	O
-	have	V	O
-	some	D	O
-	seriously	R	O
-	disturbing	A	O
-	dreams	N	O
-	.	,	O
-	thanks	N	O
-	#fluoxetine	#	O
-	thanks	N	O
-	a	D	O
-	freaking	A	O
-	lot	N	O
-	.	,	O
-	well	!	O
-	i	O	O
-	guess	V	O
-	it's	L	O
-	better	A	O
-	than	P	O
-	being	V	O
-	#suicidal	A	O
-	..only	R	O
-	just	R	O
-	0	0	O
-Sentence: 25	rt	~	O
-	@ianibbo	@	O
-	:	~	O
-	finding	V	O
-	out	T	O
-	i'm	L	O
-	allergic	A	B-ADR
-	to	P	O
-	fluoxetine	^	O
-	was	V	O
-	a	D	O
-	bit	N	O
-	of	P	O
-	a	D	O
-	shock	N	O
-	tho	R	O
-	.	,	O
-	mind	N	O
-	,	,	O
-	only	R	O
-	someone	N	O
-	from	P	O
-	yorkshire	^	O
-	could	V	O
-	be	V	O
-	actually	R	O
-	allergic	A	O
-	�	,	O
-	0	0	O
-Sentence: 26	i	O	O
-	took	V	O
-	11	$	O
-	pills	N	O
-	of	P	O
-	geodon	^	O
-	i	O	O
-	was	V	O
-	rushed	V	O
-	to	P	O
-	the	D	O
-	hospital	N	O
-	they	O	O
-	had	V	O
-	to	P	O
-	stick	V	O
-	a	D	O
-	tube	N	O
-	up	P	O
-	my	D	O
-	nose	N	O
-	ugh	!	O
-	never	R	O
-	again	R	O
-	i	O	O
-	feel	V	O
-	so	R	O
-	bad	A	O
-	today	N	O
-	withdrawals	N	B-ADR
-	.	,	O
-	0	0	O
-Sentence: 27	so	P	O
-	the	D	O
-	geodon	^	O
-	is	V	O
-	what	O	O
-	made	V	O
-	me	O	O
-	so	R	O
-	frickin	R	O
-	hungry	A	B-ADR
-	all	X	O
-	the	D	O
-	time	N	O
-	cause	P	O
-	i've	L	O
-	eaten	V	O
-	very	R	O
-	little	A	O
-	these	D	O
-	past	A	O
-	few	A	O
-	days	N	O
-	.	,	O
-	0	0	O
-Sentence: 28	will	V	O
-	still	R	O
-	be	V	O
-	on	P	O
-	the	D	O
-	geodon	^	O
-	,	,	O
-	but	&	O
-	will	V	O
-	also	R	O
-	be	V	O
-	taking	V	O
-	a	D	O
-	low-dose	A	O
-	alprazolam	N	O
-	as	P	O
-	needed	V	O
-	for	P	O
-	the	D	O
-	sudden	N	O
-	anxiety	N	O
-	attacks	V	O
-	ive	L	O
-	been	V	O
-	getting	V	O
-	0	0	O
-Sentence: 29	@crohnietweets	@	O
-	i	O	O
-	found	V	O
-	the	D	O
-	humira	^	O
-	to	P	O
-	fix	V	O
-	all	D	O
-	my	D	O
-	crohn's	S	O
-	issues	N	O
-	,	,	O
-	but	&	O
-	cause	R	O
-	other	A	O
-	issues	N	O
-	.	,	O
-	i	O	O
-	went	V	O
-	off	T	O
-	it	O	O
-	due	A	O
-	to	P	O
-	issues	V	O
-	w	P	O
-	nerves/muscle	N	B-ADR
-	spasms	V	I-ADR
-	0	0	O
-Sentence: 30	@showbizmom48	@	O
-	mri	N	O
-	showed	V	O
-	lesions	N	O
-	in	P	O
-	my	D	O
-	noggin	N	O
-	:	,	O
-	s	G	O
-	got	V	O
-	to	P	O
-	have	V	O
-	eeg	N	O
-	to	P	O
-	see	V	O
-	if	P	O
-	its	L	O
-	ms	^	O
-	or	&	O
-	humira	^	O
-	doing	V	O
-	it.so	U	O
-	more	A	O
-	tests	N	O
-	n	&	O
-	messing	V	O
-	about	P	O
-	lolxx	!	O
-	0	0	O
-Sentence: 31	@thestomabaglady	@	O
-	it	O	O
-	was	V	O
-	explained	V	O
-	to	P	O
-	me	O	O
-	that	P	O
-	all	X	O
-	the	D	O
-	anti-tnfs	N	O
-	can	V	O
-	bring	V	O
-	out	T	O
-	other	A	O
-	issues	N	O
-	.	,	O
-	i	O	O
-	had	V	O
-	severe	A	O
-	joint	N	B-ADR
-	pain	N	I-ADR
-	on	P	O
-	humira	^	O
-	&	&	O
-	remicaid	^	O
-	0	0	O
-Sentence: 32	@renegade_snare	@	O
-	@ibdtweet	@	O
-	i	O	O
-	feel	V	O
-	your	D	O
-	pain	N	O
-	:	,	O
-	(	,	O
-	just	R	O
-	got	V	O
-	1st	A	O
-	#fistula	#	B-ADR
-	urgh	!	O
-	!	,	O
-	humira	^	O
-	worked	V	O
-	for	P	O
-	me	O	O
-	for	P	O
-	just	R	O
-	3months	V	O
-	then	R	O
-	got	V	O
-	painful	A	B-ADR
-	reactions	N	I-ADR
-	0	0	O
-Sentence: 33	the	D	O
-	day	N	O
-	after	P	O
-	humira	^	O
-	used	V	O
-	to	P	O
-	be	V	O
-	a	D	O
-	great	A	O
-	one	$	O
-	,	,	O
-	full	A	O
-	of	P	O
-	energy	N	O
-	,	,	O
-	low	A	O
-	pain	N	O
-	.	,	O
-	after	P	O
-	a	D	O
-	month	N	O
-	,	,	O
-	it	O	O
-	is	V	O
-	now	R	O
-	a	D	O
-	fatigue	N	B-ADR
-	filled	V	O
-	achy	A	B-ADR
-	day	N	O
-	.	,	O
-	#rheum	#	O
-	0	0	O
-Sentence: 34	rt	~	O
-	@smbell1	@	O
-	:	~	O
-	the	D	O
-	day	N	O
-	after	P	O
-	humira	^	O
-	used	V	O
-	to	P	O
-	be	V	O
-	a	D	O
-	great	A	O
-	one	$	O
-	,	,	O
-	full	A	O
-	of	P	O
-	energy	N	O
-	,	,	O
-	low	A	O
-	pain	N	O
-	.	,	O
-	after	P	O
-	a	D	O
-	month	N	O
-	,	,	O
-	it	O	O
-	is	V	O
-	now	R	O
-	a	D	O
-	fatigue	N	B-ADR
-	filled	V	O
-	achy	A	B-ADR
-	day	N	O
-	.	,	O
-	#rh�	#	O
-	0	0	O
-Sentence: 35	humira	^	O
-	+	&	O
-	thioguanine	^	O
-	+	&	O
-	preds	^	O
-	=	,	O
-	me	O	O
-	have	V	O
-	no	D	B-ADR
-	immune	A	I-ADR
-	lol.	!	O
-	.	,	O
-	thankgod	!	O
-	i	O	O
-	on	P	O
-	anti	N	O
-	biotics	N	O
-	for	P	O
-	a	D	O
-	bit..	N	O
-	.	,	O
-	then	R	O
-	preds	^	O
-	drop	V	O
-	off	T	O
-	#crohns	#	O
-	0	0	O
-Sentence: 36	anyone	N	O
-	have	V	O
-	nerve	N	B-ADR
-	damage	N	I-ADR
-	symptoms	N	O
-	(ms	G	B-ADR
-	like)	P	I-ADR
-	from	P	O
-	enbrel	^	O
-	or	&	O
-	humira	^	O
-	?	,	O
-	#rheum	#	O
-	0	0	O
-Sentence: 37	well	!	O
-	.	,	O
-	i	O	O
-	abruptly	R	O
-	stopped	V	O
-	taking	V	O
-	lamotrigine	A	O
-	(lamictal)	N	O
-	,	,	O
-	and	&	O
-	that	O	O
-	is	V	O
-	why	R	O
-	i	O	O
-	am	V	O
-	having	V	O
-	the	D	O
-	pain	N	B-ADR
-	and	&	O
-	weakness	N	B-ADR
-	.	,	O
-	possible	A	O
-	seizure	N	B-ADR
-	.	,	O
-	oops	!	O
-	.	,	O
-	0	0	O
-Sentence: 38	so	R	O
-	while	P	O
-	i'm	L	O
-	letting	V	O
-	the	D	O
-	thoughts	N	O
-	of	P	O
-	lamictal/fatal	A	O
-	rashes/tonsillectomy/spinal	N	B-ADR
-	tap	V	O
-	settle	V	O
-	,	,	O
-	i'm	L	O
-	going	V	O
-	to	P	O
-	go	V	O
-	rescue	V	O
-	a	D	O
-	budgie	N	O
-	.	,	O
-	0	0	O
-Sentence: 39	oh..	!	O
-	.	,	O
-	oh	!	O
-	my	D	O
-	hair	N	B-ADR
-	is..	V	I-ADR
-	.	,	I-ADR
-	definitely	R	I-ADR
-	falling	V	I-ADR
-	out	T	I-ADR
-	.	,	O
-	._.	E	O
-	i	O	O
-	just	R	O
-	noticed	V	O
-	it	O	O
-	starting	V	O
-	tonight	R	O
-	.	,	O
-	google	^	O
-	tells	V	O
-	me	O	O
-	other	A	O
-	people	N	O
-	on	P	O
-	lamictal	^	O
-	have	V	O
-	this	O	O
-	.	,	O
-	0	0	O
-Sentence: 40	@kierarampton	@	O
-	it's	L	O
-	called	V	O
-	lamotrigine	^	O
-	,	,	O
-	i'm	L	O
-	pretty	R	O
-	sure	A	O
-	the	D	O
-	mix	N	O
-	of	P	O
-	them	D	O
-	both	O	O
-	is	V	O
-	making	V	O
-	me	O	O
-	sick	A	B-ADR
-	.	,	O
-	i	O	O
-	don't	V	O
-	think	V	O
-	bipolar	A	O
-	&	&	O
-	add	V	O
-	mix	N	O
-	very	R	O
-	well.	A	O
-	.	,	O
-	0	0	O
-Sentence: 41	what	O	O
-	is	V	O
-	this	D	O
-	weird	A	O
-	feeling	V	O
-	i've	L	O
-	been	V	O
-	having	V	O
-	all	D	O
-	day	N	O
-	?	,	O
-	i've	L	O
-	felt	V	O
-	depressed	A	B-ADR
-	yet	R	O
-	oddly	R	O
-	happy	A	O
-	.	,	O
-	this	O	O
-	is	V	O
-	the	D	O
-	second	A	O
-	day	N	O
-	of	P	O
-	bid	N	O
-	#lamotrigine	#	O
-	0	0	O
-Sentence: 42	@ouch_uk	@	O
-	didnt	V	O
-	know	V	O
-	lamotrigine	^	O
-	was	V	O
-	addictive	A	B-ADR
-	stopped	V	O
-	as	P	O
-	didnt	V	O
-	think	V	O
-	were	V	O
-	helping	V	O
-	@clusterheads	@	B-ADR
-	3	$	O
-	days	N	B-ADR
-	of	P	I-ADR
-	hell	N	I-ADR
-	before	P	O
-	realized	V	O
-	,	,	O
-	back	R	O
-	on	P	O
-	now	R	O
-	0	0	O
-Sentence: 43	@midwesternwife	@	O
-	i	O	O
-	feel	V	O
-	your	D	O
-	pain	N	O
-	,	,	O
-	im	L	O
-	allergic	A	B-ADR
-	to	P	O
-	penicillin	N	O
-	,	,	O
-	ammoxicillin	N	O
-	,	,	O
-	levaquin	N	O
-	,	,	O
-	doxycycline	^	O
-	.	,	O
-	it	O	O
-	sucks	V	O
-	0	0	O
-Sentence: 44	@wee_jendo	@	O
-	nicotine	N	O
-	lozenges	N	O
-	.	,	O
-	if	P	O
-	i	O	O
-	go	V	O
-	cold	A	O
-	turkey	N	O
-	i	O	O
-	can't	V	B-ADR
-	think	V	I-ADR
-	(or	&	O
-	see)	V	B-ADR
-	straight	A	I-ADR
-	,	,	O
-	so	R	O
-	i	O	O
-	can't	V	O
-	work	V	O
-	.	,	O
-	0	0	O
-Sentence: 45	accidentally	R	O
-	asphyxiating	V	O
-	yourself	O	O
-	trying	V	O
-	to	P	O
-	suck	V	O
-	a	D	O
-	throat	N	O
-	lozenge	N	O
-	when	R	O
-	you	O	O
-	have	V	O
-	a	D	O
-	stuffed	A	O
-	nose	N	O
-	.	,	O
-	#that	#	O
-	0	0	O
-Sentence: 46	he	O	O
-	said	V	O
-	he	O	O
-	is	V	O
-	'slowly	R	O
-	dying	V	O
-	of	P	O
-	starvation'	N	B-ADR
-	.	,	O
-	i	O	O
-	don't	V	O
-	want	V	O
-	to	P	O
-	be	V	O
-	the	D	O
-	one	$	O
-	to	P	O
-	say	V	O
-	stop	V	O
-	taking	V	O
-	the	D	O
-	aricept	^	O
-	and	&	O
-	namenda..	N	O
-	.	,	O
-	0	0	O
-Sentence: 47	@sophiemonk	@	O
-	coz	P	O
-	olanzapine	^	O
-	increases	V	B-ADR
-	hunger	N	I-ADR
-	strains	N	O
-	u	O	O
-	all	D	O
-	day	N	O
-	dosile	V	O
-	unless	P	O
-	u	O	O
-	get	V	O
-	up	T	O
-	when	R	O
-	ur	L	O
-	accilies	N	O
-	still	R	O
-	wud	V	O
-	n	&	O
-	coffee	N	O
-	5am	$	O
-	fog	N	O
-	frost	N	O
-	0	0	O
-Sentence: 48	@river__tam	@	O
-	olanzapine	^	O
-	is	V	O
-	amazing	A	O
-	srsly	R	O
-	,	,	O
-	the	D	O
-	dreams	N	B-ADR
-	are	V	O
-	immense	A	O
-	,	,	O
-	no	D	O
-	addiction	N	O
-	,	,	O
-	its	L	O
-	gorgeous	A	O
-	,	,	O
-	like	P	O
-	brave	A	O
-	new	A	O
-	world	N	O
-	soma	N	O
-	to	P	O
-	me	O	O
-	0	0	O
-Sentence: 49	olanzapine	^	O
-	is	V	O
-	supposed	A	O
-	to	P	O
-	make	V	O
-	you	O	O
-	a	D	O
-	fat	A	B-ADR
-	bastard	N	O
-	i	O	O
-	got	V	O
-	off	T	O
-	lucky	A	O
-	.	,	O
-	lithium	N	O
-	makes	V	O
-	my	D	O
-	hand	N	B-ADR
-	shake	V	I-ADR
-	.	,	O
-	bipolar	A	O
-	or	&	O
-	schizo	A	O
-	drugs	N	O
-	.	,	O
-	0	0	O
-Sentence: 50	@christal_l	@	O
-	that's	L	O
-	the	D	O
-	problem	N	O
-	with	P	O
-	most	A	O
-	of	P	O
-	them	O	O
-	-	,	O
-	side	N	O
-	effects	N	O
-	.	,	O
-	i	O	O
-	was	V	O
-	on	P	O
-	paxil	^	O
-	after	P	O
-	my	D	O
-	mom	N	O
-	died	V	O
-	and	&	O
-	"	,	O
-	"	,	O
-	it	O	O
-	"	,	O
-	"	,	O
-	stopped	V	B-ADR
-	working	V	I-ADR
-	.	,	O
-	fuck	V	O
-	that	O	O
-	.	,	O
-	0	0	O
-Sentence: 51	@jennabear32819	@	O
-	have	V	O
-	to	P	O
-	go	V	O
-	to	P	O
-	a	D	O
-	doc	N	O
-	now	R	O
-	to	P	O
-	see	V	O
-	why	R	O
-	i'm	L	O
-	still	R	O
-	gaining	V	B-ADR
-	.	,	O
-	stupid	A	O
-	paxil	^	O
-	made	V	O
-	me	O	O
-	gain	V	B-ADR
-	like	P	I-ADR
-	50	$	I-ADR
-	pounds	N	I-ADR
-	?	,	O
-	?	,	O
-	and	&	O
-	now	R	O
-	i	O	O
-	have	V	O
-	to	P	O
-	lose	V	O
-	it	O	O
-	0	0	O
-Sentence: 52	anemia	N	O
-	,	,	O
-	hormones	N	O
-	,	,	O
-	depression	N	O
-	&	&	O
-	paxil	^	O
-	are	V	O
-	totally	R	O
-	getting	V	O
-	the	D	O
-	best	A	O
-	of	P	O
-	me	O	O
-	this	D	O
-	morning	N	O
-	.	,	O
-	getting	V	B-ADR
-	out	P	I-ADR
-	of	P	I-ADR
-	bed	N	I-ADR
-	is	V	I-ADR
-	haaard	A	I-ADR
-	.	,	O
-	0	0	O
-Sentence: 53	my	D	O
-	creativity	N	B-ADR
-	was	V	I-ADR
-	blocked	V	I-ADR
-	by	P	O
-	lithium	N	O
-	and	&	O
-	prozac	^	O
-	and	&	O
-	wellbutrin	A	O
-	and	&	O
-	paxil	^	O
-	and	&	O
-	zoloft	N	O
-	and	&	O
-	effexor	^	O
-	and	&	O
-	lexapro	^	O
-	and	&	O
-	cymbalta	N	O
-	and	&	O
-	abilify-	^	O
-	0	0	O
-Sentence: 54	the	D	O
-	#zombieapocalypse	^	O
-	will	V	O
-	stem	V	O
-	from	P	O
-	paxil	^	O
-	w/d	^	B-ADR
-	symptoms	N	O
-	.	,	O
-	mark	^	O
-	my	D	O
-	words	N	O
-	.	,	O
-	0	0	O
-Sentence: 55	for	P	O
-	anxiety	N	O
-	to	P	O
-	penetrate	V	O
-	through	P	O
-	my	D	O
-	drowsy	A	B-ADR
-	haze	N	I-ADR
-	(a	E	O
-	result	N	O
-	of	P	O
-	the	D	O
-	triumvirate	N	O
-	of	P	O
-	fluoxetine	^	O
-	,	,	O
-	pregabalin	N	O
-	,	,	O
-	amoxicillin	N	O
-	?	,	O
-	)	,	O
-	is	V	O
-	pretty	R	O
-	good	A	O
-	going	V	O
-	.	,	O
-	0	0	O
-Sentence: 56	@deltrimental	@	O
-	i	O	O
-	came	V	O
-	off	T	O
-	pristiq	N	O
-	in	P	O
-	july	^	O
-	last	A	O
-	year	N	O
-	.	,	O
-	i	O	O
-	still	R	O
-	get	V	O
-	brain	N	B-ADR
-	zaps	V	I-ADR
-	when	R	O
-	tired	A	O
-	.	,	O
-	my	D	O
-	genitals	N	B-ADR
-	aren�t	P	I-ADR
-	numb	A	I-ADR
-	now	R	O
-	tho	R	O
-	-	,	O
-	swings/roundabouts	N	O
-	0	0	O
-Sentence: 57	@missmazygg	@	O
-	anxiety	N	O
-	has	V	O
-	been	V	O
-	so	R	O
-	high	A	O
-	.	,	O
-	but	&	O
-	yeah	!	O
-	,	,	O
-	if	P	O
-	your	D	O
-	dosage	N	O
-	is	V	O
-	high	A	O
-	its	L	O
-	hard	A	O
-	to	P	O
-	come	V	O
-	off	T	O
-	.	,	O
-	i	O	O
-	had	V	O
-	to	P	O
-	detox	V	B-ADR
-	from	P	O
-	pristiq	^	O
-	(its	L	O
-	cousin	N	O
-	drug)	N	O
-	0	0	O
-Sentence: 58	anybody	N	O
-	get	V	O
-	involuntary	A	O
-	facial	A	B-ADR
-	spasms	N	I-ADR
-	with	P	O
-	prozac	^	O
-	?	,	O
-	mine	O	O
-	is	V	O
-	my	D	O
-	right	A	O
-	eye	N	B-ADR
-	.	,	O
-	does	V	O
-	it	O	O
-	go	V	O
-	away	R	O
-	or	&	O
-	is	V	O
-	time	N	O
-	to	P	O
-	try	V	O
-	something	N	O
-	else	R	O
-	?	,	O
-	0	0	O
-Sentence: 59	@rbhu7_82	@	O
-	if	P	O
-	i	O	O
-	don't	V	O
-	take	V	O
-	my	D	O
-	quetiapine	N	O
-	i	O	O
-	can	V	O
-	stay	V	O
-	awake	A	B-ADR
-	for	P	O
-	days	N	O
-	!	,	O
-	0	0	O
-Sentence: 60	new	A	O
-	meds	N	O
-	have	V	O
-	me	O	O
-	out	P	B-ADR
-	of	P	I-ADR
-	it	O	I-ADR
-	.	,	O
-	i	O	O
-	want	V	O
-	therapy	N	O
-	not	R	O
-	doping	V	B-ADR
-	up	T	I-ADR
-	!	,	O
-	i	O	O
-	was	V	O
-	highly	R	O
-	functioning	V	O
-	now	R	O
-	have	V	O
-	trouble	N	O
-	standing	V	O
-	!	,	O
-	#quetiapine	#	O
-	#bipolar	#	O
-	0	0	O
-Sentence: 61	-9.5lbs	$	B-ADR
-	in	P	O
-	14	$	O
-	days	N	O
-	.	,	O
-	obvious	A	O
-	now	R	O
-	that	O	O
-	i	O	O
-	should	V	O
-	have	V	O
-	stopped	V	O
-	the	D	O
-	quetiapine	N	O
-	a	D	O
-	long	A	O
-	long	A	O
-	time	N	O
-	ago	R	O
-	before	P	O
-	i	O	O
-	got	V	O
-	in	P	O
-	this	D	O
-	state	N	O
-	0	0	O
-Sentence: 62	extra	A	O
-	quetiapine	N	O
-	and	&	O
-	two	$	O
-	zopiclone	N	O
-	still	R	O
-	aren't	V	O
-	helping	V	O
-	me	O	O
-	sleep	V	O
-	.	,	O
-	head	N	O
-	full	A	O
-	of	P	O
-	broken	V	O
-	biscuits	N	O
-	at	P	O
-	4am	$	O
-	with	P	O
-	horrid	A	B-ADR
-	intrusive	A	I-ADR
-	thoughts	N	I-ADR
-	0	0	O
-Sentence: 63	@iamcarrieeeeee	@	O
-	that's	L	O
-	what	O	O
-	i	O	O
-	get	V	O
-	#bipolar2	#	O
-	but	&	O
-	the	D	O
-	bloody	A	O
-	quetiapine	N	O
-	made	V	O
-	me	O	O
-	so	R	O
-	bloody	R	O
-	miserable	A	O
-	.	,	O
-	0	0	O
-Sentence: 64	4am	$	O
-	and	&	O
-	the	D	O
-	quetiapine	^	O
-	has	V	O
-	failed	V	O
-	to	P	O
-	sedate	V	O
-	me	O	O
-	#bipolar	#	O
-	#insomnia	#	O
-	0	0	O
-Sentence: 65	(triggering)	V	O
-	so..	R	O
-	.	,	O
-	i'm	L	O
-	taking	V	O
-	quetiapine	N	O
-	and	&	O
-	tramadol	N	O
-	pre-cutting	N	O
-	.	,	O
-	i'm	L	O
-	allergic	A	B-ADR
-	to	P	O
-	tramadol...this	O	O
-	should	V	O
-	be	V	O
-	interesting	A	O
-	#selfharm	#	O
-	0	0	O
-Sentence: 66	all	D	O
-	i	O	O
-	have	V	O
-	done	V	O
-	today	N	O
-	is	V	O
-	sleep	N	B-ADR
-	.	,	O
-	and	&	O
-	i	O	O
-	still	R	O
-	need	V	O
-	to	P	O
-	sleep	V	O
-	more	A	O
-	.	,	O
-	this	O	O
-	is	V	O
-	a	D	O
-	welcome	A	O
-	change	N	O
-	.	,	O
-	#quetiapine	#	O
-	0	0	O
-Sentence: 67	toothache	N	O
-	.	,	O
-	discovered	V	O
-	that	O	O
-	somewhere	R	O
-	in	P	O
-	the	D	O
-	paracetamol	N	O
-	,	,	O
-	codeine	N	O
-	,	,	O
-	sertraline	^	O
-	#quetiapine	^	O
-	combination	N	O
-	there	X	O
-	is	V	O
-	a	D	O
-	bad	A	O
-	mix	N	O
-	.	,	O
-	#hallucinating	V	B-ADR
-	0	0	O
-Sentence: 68	@bella_astre	@	O
-	quetiapine	^	O
-	made	V	O
-	me	O	O
-	eat	V	O
-	all	D	O
-	the	D	O
-	sweets	N	O
-	,	,	O
-	the	D	O
-	sour	A	O
-	ones	N	O
-	seem	V	O
-	to	P	O
-	help	V	O
-	with	P	O
-	the	D	O
-	dry	A	B-ADR
-	mouth	N	I-ADR
-	0	0	O
-Sentence: 69	@disabledmedic	@	O
-	quetiapine	!	O
-	perhaps	R	O
-	gives	V	O
-	most	R	O
-	dramatic	A	O
-	effect	N	O
-	for	P	O
-	single	A	O
-	low	A	O
-	dose	N	O
-	.	,	O
-	no	!	O
-	,	,	O
-	pts	N	O
-	are	V	O
-	not	R	O
-	being	V	O
-	lazy	A	O
-	in	P	O
-	bed	N	O
-	20	$	B-ADR
-	hours	N	I-ADR
-	a	D	I-ADR
-	day	N	I-ADR
-	,	,	I-ADR
-	asleep	R	I-ADR
-	!	,	O
-	0	0	O
-Sentence: 70	rt	~	O
-	@bipolarblogger	@	O
-	:	~	O
-	since	P	O
-	quetiapine's	Z	O
-	messed	V	O
-	with	P	O
-	my	D	O
-	prolactin	N	B-ADR
-	levels	N	I-ADR
-	,	,	O
-	making	V	O
-	my	D	O
-	boobs	N	B-ADR
-	humungous	N	I-ADR
-	&	&	O
-	my	D	O
-	bras	N	O
-	so	R	O
-	expensive	A	O
-	,	,	O
-	i	O	O
-	want	V	O
-	a	D	O
-	lingerie�	N	O
-	0	0	O
-Sentence: 71	rivaroxaban	^	O
-	diary	N	O
-	day	N	O
-	8	$	O
-	.	,	O
-	left	V	O
-	knee	N	O
-	is	V	O
-	much	R	O
-	better	A	O
-	.	,	O
-	right	A	O
-	knee	N	B-ADR
-	still	R	I-ADR
-	painful	A	I-ADR
-	.	,	O
-	back	R	B-ADR
-	ache	V	I-ADR
-	receding	V	O
-	but	&	O
-	suspect	V	O
-	it	O	O
-	will	V	O
-	come	V	O
-	back	R	O
-	once	R	O
-	in	P	O
-	bed	N	O
-	.	,	O
-	0	0	O
-Sentence: 72	08.15	$	O
-	day	N	O
-	13	$	O
-	rivaroxaban	^	O
-	diary	N	O
-	.	,	O
-	lower	A	B-ADR
-	back	N	I-ADR
-	ache	V	I-ADR
-	,	,	O
-	neck	N	B-ADR
-	ache	V	I-ADR
-	,	,	O
-	hips	N	B-ADR
-	and	&	O
-	knees	N	B-ADR
-	ache	V	I-ADR
-	,	,	O
-	short	A	B-ADR
-	of	P	I-ADR
-	breath	N	I-ADR
-	,	,	O
-	(am	D	O
-	asthmatic)	A	O
-	taken	V	O
-	2paracetamol	R	O
-	,	,	O
-	to	P	O
-	bed	N	O
-	.	,	O
-	0	0	O
-Sentence: 73	06.30	$	O
-	day	N	O
-	14	$	O
-	rivaroxaban	^	O
-	diary	N	O
-	.	,	O
-	thanks	N	O
-	to	P	O
-	paracetamol	N	O
-	and	&	O
-	hot	A	O
-	water	N	O
-	bottle	N	O
-	i	O	O
-	had	V	O
-	4	$	O
-	hrs	N	O
-	continuous	A	O
-	sleep	N	O
-	.	,	O
-	woke	V	O
-	uo	T	O
-	with	P	O
-	frontal	A	B-ADR
-	headache	N	I-ADR
-	,	,	O
-	1/2	$	O
-	0	0	O
-Sentence: 74	13.24	$	O
-	day	N	O
-	15	$	O
-	rivaroxaban	^	O
-	diary	N	O
-	.	,	O
-	atrocious	A	O
-	backache	N	B-ADR
-	despite	P	O
-	having	V	O
-	taken	V	O
-	paracetamol	N	O
-	an	D	O
-	hour	N	O
-	ago	R	O
-	.	,	O
-	gone	V	O
-	back	R	O
-	to	P	O
-	bed	N	O
-	.	,	O
-	0	0	O
-Sentence: 75	21.21	$	O
-	day	N	O
-	19	$	O
-	rivaroxaban	^	O
-	diary	N	O
-	.	,	O
-	decided	V	O
-	to	P	O
-	continue	V	O
-	until	P	O
-	all	D	O
-	aches	V	O
-	gone	V	O
-	.	,	O
-	hips	N	O
-	and	&	O
-	legs	N	O
-	still	R	O
-	ache	V	O
-	but	&	O
-	much	R	O
-	more	A	O
-	mobile	A	O
-	now	R	O
-	.	,	O
-	0	0	O
-Sentence: 76	rivaroxaban	^	O
-	diary	N	O
-	day	N	O
-	25	$	O
-	muscle	N	B-ADR
-	&	&	I-ADR
-	back	R	I-ADR
-	pains	V	I-ADR
-	were	V	O
-	due	A	O
-	to	P	O
-	being	V	O
-	on	P	O
-	rvxbn	^	O
-	for	P	O
-	10	$	O
-	days	N	O
-	,	,	O
-	on	P	O
-	it	O	O
-	+	&	O
-	losartan	^	O
-	for	P	O
-	8	$	O
-	days	N	O
-	,	,	O
-	+	&	O
-	losartan	^	O
-	only	R	O
-	for	P	O
-	4	$	O
-	days	N	O
-	0	0	O
-Sentence: 77	@doctorchristian	@	O
-	is	V	O
-	my	D	O
-	memory	N	O
-	really	R	O
-	bad	A	O
-	due	A	O
-	to	P	O
-	900mg	V	O
-	seroquel	^	O
-	and	&	O
-	120mg	V	O
-	cymbalta	N	O
-	or	&	O
-	the	D	O
-	bipolar	A	O
-	itself	O	O
-	?	,	O
-	i'm	L	O
-	not	R	B-ADR
-	remembering	V	I-ADR
-	conversations	N	O
-	0	0	O
-Sentence: 78	@basic_chunnel	@	O
-	@bromethazine	@	O
-	i'm	L	O
-	pretty	R	O
-	lucid	A	O
-	in	P	O
-	all	D	O
-	my	D	O
-	dreams	N	O
-	,	,	O
-	and	&	O
-	the	D	O
-	seroquel	^	O
-	drowsiness	N	B-ADR
-	carried	V	O
-	over	P	O
-	into	P	O
-	the	D	O
-	dream	N	O
-	.	,	O
-	lolol	!	O
-	.	,	O
-	0	0	O
-Sentence: 79	i	O	O
-	can	V	O
-	only	R	O
-	get	V	O
-	about	P	O
-	7-8	$	O
-	hours	N	O
-	of	P	O
-	sleep	N	B-ADR
-	on	P	I-ADR
-	my	D	I-ADR
-	own	A	I-ADR
-	.	,	I-ADR
-	but	&	I-ADR
-	i	O	I-ADR
-	got	V	I-ADR
-	at	P	I-ADR
-	least	A	I-ADR
-	16	$	I-ADR
-	hours	N	I-ADR
-	with	P	O
-	seroquel	^	O
-	.	,	O
-	i	O	O
-	now	R	O
-	see	V	O
-	how	R	O
-	people	N	O
-	can	V	O
-	get	V	O
-	addicted	A	O
-	.	,	O
-	0	0	O
-Sentence: 80	maybe	R	O
-	cos	P	O
-	of	P	O
-	the	D	O
-	insulin	N	O
-	blocking	V	O
-	effect	N	O
-	of	P	O
-	seroquel	^	O
-	but	&	O
-	i	O	O
-	do	V	O
-	feel	V	O
-	sugar	N	B-ADR
-	crashes	N	I-ADR
-	when	R	O
-	eat	V	O
-	fast	A	O
-	carbs	N	O
-	.	,	O
-	will	V	O
-	feel	V	B-ADR
-	ill	L	I-ADR
-	.	,	O
-	so	P	O
-	avoid	V	O
-	where	R	O
-	poss	A	O
-	.	,	O
-	0	0	O
-Sentence: 81	trazodone	^	O
-	isn't	V	O
-	working	V	O
-	.	,	O
-	can't	V	O
-	take	V	O
-	seroquel	N	O
-	at	P	O
-	430	$	O
-	am	N	O
-	or	&	O
-	i	O	O
-	won't	V	B-ADR
-	wake	V	I-ADR
-	up	T	I-ADR
-	until	P	O
-	after	P	O
-	2	$	O
-	pm	N	O
-	.	,	O
-	stuck	V	O
-	,	,	O
-	painfully	R	O
-	awake	A	O
-	.	,	O
-	0	0	O
-Sentence: 82	why	R	O
-	do	V	O
-	i	O	O
-	not	R	B-ADR
-	remember	V	I-ADR
-	going	V	O
-	to	P	O
-	bed	N	O
-	or	&	O
-	waking	V	O
-	up	T	O
-	(the	D	O
-	answer	N	O
-	:	,	O
-	probably	R	O
-	seroquel)	^	O
-	0	0	O
-Sentence: 83	personally	R	O
-	i	O	O
-	prefer	V	O
-	staying	V	O
-	up	T	O
-	until	P	O
-	i	O	O
-	get	V	O
-	hallucinations	N	O
-	,	,	O
-	to	P	O
-	taking	V	O
-	seroquel	N	O
-	to	P	O
-	get	V	O
-	to	P	O
-	sleep	V	O
-	,	,	O
-	but	&	O
-	only	R	O
-	because	P	O
-	it's	L	O
-	more	A	O
-	fun	N	O
-	for	P	O
-	me	O	O
-	0	0	O
-Sentence: 84	i	O	O
-	can't	V	O
-	take	V	O
-	this	D	O
-	:	,	O
-	(	,	O
-	i	O	O
-	thought	V	O
-	having	V	O
-	seroquel	^	O
-	would	V	O
-	make	V	O
-	it	O	O
-	easier	A	O
-	but	&	O
-	nope	!	O
-	.	,	O
-	my	D	O
-	whole	A	O
-	body	N	O
-	feels	V	B-ADR
-	like	P	I-ADR
-	i	O	I-ADR
-	have	V	I-ADR
-	raw	A	I-ADR
-	nerve	N	I-ADR
-	endings	N	I-ADR
-	going	V	O
-	crazy	A	O
-	0	0	O
-Sentence: 85	you	O	O
-	don't	V	O
-	know	V	O
-	insomnia	^	O
-	until	P	O
-	you	O	O
-	take	V	O
-	2	$	O
-	seroquel	^	O
-	and	&	O
-	work	N	O
-	out	N	O
-	at	P	O
-	3am	$	O
-	.	,	O
-	0	0	O
-Sentence: 86	@suedoelawyer	@	O
-	and	&	O
-	with	P	O
-	seroquel	^	O
-	i	O	O
-	take	V	O
-	half	N	O
-	of	P	O
-	a	D	O
-	25mg	$	O
-	pill	N	O
-	.	,	O
-	and	&	O
-	it	O	O
-	knocks	V	O
-	me	O	O
-	out;	T	O
-	i	O	O
-	can	V	O
-	sleep	V	B-ADR
-	for	P	I-ADR
-	12	$	I-ADR
-	straight	A	I-ADR
-	hours	N	I-ADR
-	0	0	O
-Sentence: 87	waitt..here	V	O
-	it	O	O
-	comes..the	V	O
-	#seroquel	^	O
-	is	V	O
-	pulling	V	O
-	me	O	O
-	under..also	P	O
-	i	O	O
-	now	R	O
-	have	V	O
-	the	D	O
-	sudden	N	O
-	urge	N	B-ADR
-	to	P	I-ADR
-	procure	V	I-ADR
-	food.	N	I-ADR
-	.	,	O
-	#fmlimugly	#	O
-	0	0	O
-Sentence: 88	but	&	O
-	i	O	O
-	don't	V	O
-	want	V	O
-	to	P	O
-	take	V	O
-	an	D	O
-	ambien	N	O
-	or	&	O
-	trazodone	N	O
-	or	&	O
-	anything	N	O
-	because	P	O
-	i	O	O
-	dint	V	O
-	wanna	V	O
-	restart	V	O
-	my	D	O
-	dependence	N	B-ADR
-	upon	P	O
-	them	O	O
-	0	0	O
-Sentence: 89	i	O	O
-	think	V	O
-	it's	L	O
-	bad	A	O
-	i'm	L	O
-	consistently	R	O
-	in	P	O
-	bed	N	O
-	by	P	O
-	9	$	O
-	and	&	O
-	asleep	R	B-ADR
-	by	P	O
-	9	$	O
-	:	,	O
-	15	$	O
-	.	,	O
-	#trazodone	#	O
-	0	0	O
-Sentence: 90	holy	A	O
-	shit	N	O
-	,	,	O
-	that	O	O
-	trazodone	V	O
-	actually	R	O
-	knocked	V	B-ADR
-	me	O	I-ADR
-	the	D	I-ADR
-	fuck	N	I-ADR
-	out	T	I-ADR
-	and	&	O
-	took	V	O
-	me	O	O
-	for	P	O
-	a	D	O
-	ride	N	O
-	0	0	O
-Sentence: 91	wide	A	O
-	awake	A	O
-	and	&	O
-	this	O	O
-	trazodone	N	O
-	starting	V	O
-	to	P	O
-	feel	V	O
-	like	P	O
-	a	D	O
-	sugar	N	O
-	pill.	N	O
-	.	,	O
-	i'd	L	O
-	actually	R	O
-	prefer	V	O
-	to	P	O
-	be	V	O
-	at	P	O
-	work	N	O
-	right	R	O
-	bout	P	O
-	now	R	O
-	.	,	O
-	0	0	O
-Sentence: 92	trazodone	^	O
-	is	V	O
-	fun	A	O
-	because	P	O
-	you	O	O
-	get	V	O
-	high	A	B-ADR
-	,	,	O
-	slowly	R	O
-	fade	V	O
-	into	P	O
-	sleep	N	O
-	,	,	O
-	then	R	O
-	wake	V	O
-	up	T	O
-	drunk	A	B-ADR
-	as	P	O
-	hell	N	O
-	.	,	O
-	0	0	O
-Sentence: 93	i	O	O
-	wish	V	O
-	xanax	^	O
-	made	V	O
-	me	O	O
-	tired	A	O
-	.	,	O
-	i	O	O
-	also	R	O
-	wish	V	O
-	ambien	^	O
-	,	,	O
-	trazodone	N	O
-	,	,	O
-	lorazepam	N	O
-	,	,	O
-	lunesta	N	O
-	,	,	O
-	and	&	O
-	temazepam	O	O
-	did	V	O
-	too	R	O
-	.	,	O
-	#tolerance	N	B-ADR
-	#fml	#	O
-	0	0	O
-Sentence: 94	trazodone	^	O
-	has	V	O
-	screwed	V	O
-	up	T	O
-	my	D	O
-	sleep	N	B-ADR
-	schedule	N	I-ADR
-	.	,	O
-	its	L	O
-	helping	V	O
-	tho	R	O
-	.	,	O
-	0	0	O
-Sentence: 95	@nighttraumadoc	@	O
-	it	O	O
-	works	V	O
-	otherwise	R	O
-	.	,	O
-	my	D	O
-	pcp	^	O
-	started	V	O
-	me	O	O
-	on	P	O
-	trazodone	^	O
-	before	P	O
-	.	,	O
-	i	O	O
-	felt	V	B-ADR
-	like	P	I-ADR
-	i.had	V	I-ADR
-	a	D	I-ADR
-	frontal	A	I-ADR
-	lobotomy	N	I-ADR
-	the	D	O
-	following	N	O
-	day	N	O
-	0	0	O
-Sentence: 96	my	D	O
-	philly	^	O
-	dr	^	O
-	prescribed	V	O
-	me	O	O
-	trazodone	R	O
-	,	,	O
-	1pill	$	O
-	made	V	O
-	me	O	O
-	so	R	O
-	fkn	R	O
-	sick	A	B-ADR
-	,	,	O
-	couldnt	V	B-ADR
-	move	V	I-ADR
-	2day.xtreme	N	O
-	migraine	N	B-ADR
-	,	,	O
-	puke	V	B-ADR
-	,	,	O
-	shakes	V	B-ADR
-	.	,	O
-	any1else	N	O
-	get	V	O
-	that	O	O
-	react	V	O
-	?	,	O
-	0	0	O
-Sentence: 97	rt	~	O
-	@aprilhunter	@	O
-	:	~	O
-	my	D	O
-	philly	^	O
-	dr	^	O
-	prescribed	V	O
-	me	O	O
-	trazodone	R	O
-	,	,	O
-	1pill	$	O
-	made	V	O
-	me	O	O
-	so	R	O
-	fkn	R	O
-	sick	A	B-ADR
-	,	,	O
-	couldnt	V	O
-	move	V	O
-	2day.xtreme	N	O
-	migraine	N	B-ADR
-	,	,	O
-	puke	V	B-ADR
-	,	,	O
-	shakes	V	B-ADR
-	.	,	O
-	any1else	V	O
-	�	,	O
-	0	0	O
-Sentence: 98	i	O	O
-	went	V	O
-	down	R	O
-	to	P	O
-	100	$	O
-	mg	N	O
-	of	P	O
-	trazodone	N	O
-	at	P	O
-	night	N	O
-	.	,	O
-	the	D	O
-	nightmares	N	B-ADR
-	are	V	O
-	gone	A	O
-	but	&	O
-	my	D	O
-	insomnia	N	B-ADR
-	got	V	O
-	worse	A	O
-	.	,	O
-	0	0	O
-Sentence: 99	sick	A	O
-	of	P	O
-	feeling	V	O
-	tired	A	B-ADR
-	.	,	O
-	fed	V	O
-	up	T	O
-	of	P	O
-	meds	N	O
-	not	R	O
-	working	V	O
-	.	,	O
-	loads	N	O
-	to	P	O
-	do	V	O
-	today	N	O
-	&	&	O
-	no	D	B-ADR
-	freaking	N	I-ADR
-	motivation	N	I-ADR
-	or	&	O
-	energy	N	B-ADR
-	#venlafaxine	#	O
-	#day9	#	O
-	0	0	O
-Sentence: 100	11	$	O
-	hours	N	O
-	sleep	N	B-ADR
-	and	&	O
-	still	R	O
-	i	O	O
-	feel	V	O
-	tired	A	B-ADR
-	and	&	O
-	dizzy	A	B-ADR
-	#venlafaxine	#	O
-	#day10	#	O
-	0	0	O
-Sentence: 101	so	P	O
-	it	O	O
-	seems	V	O
-	that	P	O
-	if	P	O
-	i	O	O
-	take	V	O
-	#venlafaxine	N	O
-	in	P	O
-	am	N	O
-	i	O	O
-	am	V	O
-	drowsy	A	B-ADR
-	all	D	O
-	day	N	O
-	.	,	O
-	if	P	O
-	i	O	O
-	take	V	O
-	in	T	O
-	pm	N	O
-	i	O	O
-	don�t	V	B-ADR
-	sleep	V	I-ADR
-	well	R	I-ADR
-	.	,	O
-	go	V	O
-	figure	V	O
-	.	,	O
-	#day14	#	O
-	0	0	O
-Sentence: 102	feel	V	B-ADR
-	crap	N	I-ADR
-	every	D	I-ADR
-	morning	N	I-ADR
-	.	,	O
-	wake	V	O
-	up	T	O
-	after	P	O
-	another	D	O
-	restless	A	B-ADR
-	night	N	I-ADR
-	and	&	O
-	just	R	O
-	want	V	O
-	to	P	O
-	cry	V	O
-	.	,	O
-	#venlafaxine	#	O
-	#day16	#	O
-	0	0	O
-Sentence: 103	i	O	O
-	low	A	O
-	carb	N	O
-	but	&	O
-	have	V	O
-	just	R	O
-	eaten	V	O
-	my	D	O
-	body	N	O
-	weight	N	O
-	in	P	O
-	freakin	A	O
-	carbs	N	O
-	!	,	O
-	i	O	O
-	only	R	O
-	hope	V	O
-	the	D	O
-	carb	N	B-ADR
-	cravings	N	I-ADR
-	are	V	O
-	because	P	O
-	i�m	L	O
-	coming	V	O
-	off	T	O
-	the	D	O
-	#venlafaxine	^	O
-	0	0	O
-Sentence: 104	@raj1410	@	O
-	i'm	L	O
-	now	R	O
-	on	P	O
-	venlafaxine	P	O
-	my	D	O
-	main	A	O
-	issue	N	O
-	is	V	O
-	the	D	O
-	cataplexy	N	O
-	haha	!	O
-	just	R	O
-	ask	V	O
-	@hannahrogerson	@	O
-	this	O	O
-	is	V	O
-	the	D	O
-	third	A	O
-	i've	L	O
-	tried	V	O
-	.	,	O
-	what	O	O
-	are	V	O
-	you	O	O
-	on	P	O
-	?	,	O
-	0	0	O
-Sentence: 105	dreamt	V	B-ADR
-	i	O	O
-	was	V	O
-	squirting	V	O
-	acid	N	O
-	at	P	O
-	wood	^	O
-	lice	N	O
-	-	,	O
-	i	O	O
-	woke	V	O
-	screaming	V	O
-	when	R	O
-	they	O	O
-	came	V	O
-	at	P	O
-	me	O	O
-	.	,	O
-	i	O	O
-	do	V	O
-	hope	V	O
-	the	D	O
-	dreams	N	B-ADR
-	are	V	O
-	the	D	O
-	#venlafaxine	^	O
-	withdrawal	N	B-ADR
-	.	,	O
-	0	0	O
-Sentence: 106	@zombie_girl_2	@	O
-	i	O	O
-	tried	V	O
-	that	O	O
-	going	V	O
-	cold	A	O
-	turkey	N	O
-	on	P	O
-	venlafaxine	^	O
-	and	&	O
-	depakote	^	O
-	is	V	O
-	not	R	O
-	a	D	O
-	good	A	O
-	idea	N	O
-	i	O	O
-	dreamt	V	B-ADR
-	colours	N	I-ADR
-	and	&	O
-	lost	V	B-ADR
-	my	D	I-ADR
-	fucking	A	I-ADR
-	mind	N	I-ADR
-	aghh	!	O
-	!	,	O
-	0	0	O
-Sentence: 107	high	A	O
-	off	P	O
-	tramadol	N	O
-	and	&	O
-	venlafaxine	V	O
-	in	P	O
-	school	N	O
-	omg	!	O
-	help	V	O
-	i'm	L	O
-	falling	V	B-ADR
-	asleep	R	I-ADR
-	here	R	O
-	0	0	O
-Sentence: 108	i've	L	O
-	had	V	O
-	a	D	O
-	lovely	A	O
-	,	,	O
-	relaxing	A	O
-	day	N	O
-	,	,	O
-	but	&	O
-	end	V	O
-	it	O	O
-	weighed	V	O
-	down	T	O
-	by	P	O
-	nonspecific	A	O
-	foreboding	N	O
-	and	&	O
-	crushing	V	O
-	sense	N	O
-	of	P	O
-	guilt	N	O
-	#depression	#	O
-	#venlafaxine	#	O
-	0	0	O
-Sentence: 109	holy	A	O
-	shit	N	O
-	no	R	O
-	more	A	O
-	xanax	N	O
-	or	&	O
-	risperidone	N	O
-	.	,	O
-	i	O	O
-	will	V	O
-	have	V	O
-	withdrawals	N	O
-	.	,	O
-	still	R	O
-	on	P	O
-	viibryd	^	O
-	but	&	O
-	it's	L	O
-	next	A	O
-	.	,	O
-	it	O	O
-	makes	V	O
-	me	O	O
-	the	D	O
-	sickest	N	B-ADR
-	.	,	O
-	0	0	O
-Sentence: 110	@mvrcivl	@	O
-	vyvanse	N	O
-	got	V	O
-	me	O	O
-	up	T	O
-	like	P	O
-	zombies.	N	B-ADR
-	.	,	O
-	xan's	G	O
-	put	V	O
-	me	O	O
-	down	R	O
-	,	,	O
-	them	D	O
-	bitches	N	O
-	call	V	O
-	me	O	O
-	romney.	^	O
-	.	,	O
-	the	D	O
-	way	N	O
-	i	O	O
-	steady	A	O
-	clown	N	O
-	#txfreestyle	#	O
-	#barrdout	#	O
-	0	0	O
-Sentence: 111	@jordantaylor068	@	O
-	yeah	!	O
-	,	,	O
-	i'm	L	O
-	on	P	O
-	vyvanse	^	O
-	and	&	O
-	sometimes	R	O
-	i	O	O
-	have	V	O
-	to	P	O
-	be	V	O
-	reminded	V	O
-	to	P	O
-	eat	V	B-ADR
-	because	P	I-ADR
-	i	O	I-ADR
-	just	R	I-ADR
-	forget	V	I-ADR
-	.	,	O
-	0	0	O
-Sentence: 112	vyvanse	^	O
-	make	V	O
-	me	O	O
-	so	R	O
-	hyper	A	B-ADR
-	and	&	O
-	creative	A	O
-	and	&	O
-	i	O	O
-	think	V	O
-	of	P	O
-	so	R	O
-	many	A	O
-	tweets	N	O
-	0	0	O
-Sentence: 113	vyvanse	^	O
-	=	,	O
-	5	$	O
-	lines	N	O
-	of	P	O
-	coke	N	O
-	.	,	O
-	can't	V	B-ADR
-	.	,	I-ADR
-	stop	V	I-ADR
-	.	,	I-ADR
-	moving	V	I-ADR
-	.	,	O
-	0	0	O
-Sentence: 114	@guccigreenery	@	O
-	i	O	O
-	felt	V	B-ADR
-	drugged	V	I-ADR
-	on	P	O
-	ritalin	N	O
-	.	,	O
-	i	O	O
-	love	V	O
-	vyvanse	^	O
-	.	,	O
-	i	O	O
-	can't	V	O
-	tell	V	O
-	i'm	L	O
-	on	P	O
-	it	O	O
-	except	V	O
-	for	P	O
-	feeling	V	O
-	better	R	O
-	and	&	O
-	calmer	A	O
-	and	&	O
-	more	R	O
-	structured	A	O
-	0	0	O
-Sentence: 115	when	R	O
-	im	L	O
-	tweaked	V	O
-	off	T	O
-	vyvanse	N	O
-	i	O	O
-	cant	V	O
-	go	V	O
-	into	P	O
-	my	D	O
-	room...cuse	N	O
-	if	P	O
-	i	O	O
-	look	V	O
-	at	P	O
-	my	D	O
-	shoes	N	O
-	ill	L	O
-	lose	V	B-ADR
-	focus	N	I-ADR
-	of	P	O
-	everything	N	O
-	and	&	O
-	just	R	O
-	think	V	O
-	bout	P	O
-	them	O	O
-	0	0	O
-Sentence: 116	the	D	O
-	come	V	B-ADR
-	down	T	I-ADR
-	on	P	O
-	vyvanse	^	O
-	kicks	V	O
-	my	D	O
-	ass	N	O
-	every	D	O
-	time	N	O
-	0	0	O
+Sentence #	Word	POS	NPOS	Tag	
+Sentence: 1	do	V	VBP	O
+	you	O	PRP	O
+	have	V	VB	O
+	any	D	DT	O
+	medication	N	NN	O
+	allergies	N	NNS	B-ADR
+	?	,	.	O
+	"	,	JJ	O
+	"	,	NN	O
+	asthma	N	NN	O
+	!	,	.	O
+	!	,	.	O
+	!	,	.	O
+	"	,	NN	O
+	"	,	IN	O
+	me	O	PRP	O
+	:	,	:	O
+	"	,	JJ	O
+	"	,	NN	O
+	........	,	NNP	O
+	"	,	NNP	O
+	"	,	NNP	O
+	pt	N	NN	O
+	:	,	:	O
+	"	,	JJ	O
+	"	,	VBZ	O
+	no	D	DT	O
+	wait	N	NN	O
+	.	,	.	O
+	avelox	N	NN	O
+	,	,	,	O
+	that's	L	VB	O
+	it	O	PRP	O
+	!	,	.	O
+	"	,	JJ	O
+	"	,	JJ	O
+	"	,	NN	O
+	"	,	NNP	O
+	so	P	RB	O
+	no	D	RB	O
+	other	A	JJ	O
+	allergies	N	NNS	O
+	?	,	.	O
+	"	,	JJ	O
+	"	,	NN	O
+	"	,	NNP	O
+	"	,	NNP	O
+	right	!	NN	O
+	!	,	.	O
+	"	,	JJ	O
+	"	,	CD	O
+	*cont	N	NN	O
+	0	0	0	O
+Sentence: 2	@ashleylvivian	@	JJ	O
+	if	P	IN	O
+	#avelox	^	NN	O
+	has	V	VBZ	O
+	hurt	V	VBN	B-ADR
+	your	D	PRP$	I-ADR
+	liver	N	NN	I-ADR
+	,	,	,	O
+	avoid	V	JJ	O
+	tylenol	N	NN	O
+	always	R	RB	O
+	,	,	,	O
+	as	P	IN	O
+	it	O	PRP	O
+	further	A	JJ	O
+	damages	N	NNS	O
+	liver	N	RB	O
+	,	,	,	O
+	eat	V	NN	O
+	grapefruit	N	NN	O
+	unless	P	IN	O
+	taking	V	VBG	O
+	cardiac	A	JJ	O
+	drugs	N	NNS	O
+	0	0	0	O
+Sentence: 3	apparently	R	RB	O
+	,	,	,	O
+	baclofen	^	VBZ	O
+	greatly	R	RB	O
+	exacerbates	V	VBZ	O
+	the	D	DT	O
+	"	,	NNP	O
+	"	,	NNP	O
+	ad	N	NN	B-ADR
+	"	,	NN	O
+	"	,	NNP	O
+	part	N	NN	O
+	of	P	IN	O
+	my	D	PRP$	O
+	adhd	N	NN	O
+	.	,	.	O
+	average	A	JJ	O
+	length	N	NN	O
+	of	P	IN	O
+	focus	N	NN	B-ADR
+	today	N	NN	O
+	:	,	:	O
+	about	P	RB	O
+	30	$	CD	O
+	seconds	N	NNS	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 4	pt	N	NN	O
+	of	P	IN	O
+	mine	O	NN	O
+	died	V	VBN	B-ADR
+	from	P	IN	O
+	cipro	N	JJ	O
+	rt	~	NN	O
+	@ciproispoison	@	NN	O
+	:	~	:	O
+	@gastromom	@	NN	O
+	if	P	IN	O
+	only	R	RB	O
+	more	A	JJR	O
+	doctors	N	NNS	O
+	thought	V	VBP	O
+	like	P	IN	O
+	you	O	PRP	O
+	!	,	.	O
+	i	O	NN	O
+	lost	V	VBD	O
+	my	D	PRP$	O
+	entire	A	JJ	O
+	life	N	NN	O
+	to	P	TO	O
+	12	$	CD	O
+	cipro	N	NNS	O
+	pills	N	NNS	O
+	0	0	0	O
+Sentence: 5	@gastromom	@	VB	O
+	the	D	DT	O
+	only	A	JJ	O
+	pt	N	NN	O
+	of	P	IN	O
+	mine	O	NN	O
+	who	O	WP	O
+	ever	R	RB	O
+	died	V	VBD	B-ADR
+	was	V	VBD	O
+	one	$	CD	O
+	age	N	NN	O
+	21	$	CD	O
+	profound	A	NN	O
+	autism	N	NN	O
+	chronic	N	JJ	O
+	underwt	N	NN	O
+	&	&	CC	O
+	gi	^	NN	O
+	issues	N	NNS	O
+	,	,	,	O
+	given	V	VBN	O
+	lots	N	NNS	O
+	of	P	IN	O
+	cipro	N	NN	O
+	.	,	.	O
+	terrible	A	JJ	O
+	0	0	0	O
+Sentence: 6	owww	!	NN	O
+	.	,	.	O
+	i	O	JJ	O
+	hurt	V	VBP	O
+	my	D	PRP$	O
+	foot	N	NN	O
+	.	,	.	O
+	&	&	CC	O
+	am	V	VBP	O
+	concerned	A	VBN	O
+	.	,	.	O
+	1st	A	CD	O
+	warning	N	VBG	O
+	on	P	IN	O
+	cipro	N	NN	O
+	is	V	VBZ	O
+	tendon	N	JJ	B-ADR
+	damage	N	NN	I-ADR
+	.	,	.	O
+	:	,	:	O
+	-/	G	NN	O
+	it	O	PRP	O
+	certainly	R	RB	O
+	wasn't	V	VBZ	O
+	a	D	DT	O
+	rupture	N	NN	O
+	.	,	.	O
+	i'm	L	JJ	O
+	sure	A	JJ	O
+	i'm	L	NN	O
+	just	R	RB	O
+	paranoid	A	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 7	@deadfanclub	@	JJ	O
+	@danadelany	@	NN	O
+	i	O	NNS	O
+	have	V	VBP	O
+	a	D	DT	O
+	penicillin/	N	NN	O
+	keflex	^	NN	O
+	allergy	N	NN	O
+	so	P	IN	O
+	my	D	PRP$	O
+	dr	N	NN	O
+	writes	V	VBZ	O
+	me	O	PRP	O
+	10	$	CD	O
+	days	N	NNS	O
+	of	P	IN	O
+	zpack	N	NN	O
+	or	&	CC	O
+	i'd	L	NN	O
+	still	R	RB	O
+	be	V	VB	O
+	sick	A	JJ	O
+	too	R	RB	O
+	!	,	.	O
+	sometimes	R	RB	O
+	cipro	N	JJ	O
+	0	0	0	O
+Sentence: 8	@joshuagates	@	NNS	O
+	you	O	PRP	O
+	forgot	V	VBP	O
+	the	D	DT	O
+	immodium	^	NN	O
+	for	P	IN	O
+	when	R	WRB	O
+	the	D	DT	O
+	cipro	N	NN	O
+	kills	V	VBZ	O
+	all	X	PDT	O
+	the	D	DT	O
+	good	A	JJ	O
+	bacteria	N	NNS	O
+	.	,	.	O
+	:	E	:	O
+	)	E	)	O
+	#travelskills	#	NNS	O
+	0	0	0	O
+Sentence: 9	@bilgeebiri	@	JJ	O
+	oh	!	MD	O
+	robitussin	N	VB	O
+	dreams	N	NNS	B-ADR
+	are	V	VBP	O
+	notorious	A	JJ	O
+	.	,	.	O
+	although	P	IN	O
+	what	O	WP	O
+	will	V	MD	O
+	really	R	RB	O
+	turn	V	VB	O
+	'em	O	PRP	O
+	into	P	IN	O
+	a	D	DT	O
+	bunuel	A	JJ	O
+	movie	N	NN	O
+	is	V	VBZ	O
+	cipro	N	JJ	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 10	#eds	#	NNS	O
+	friends	N	VBZ	O
+	!	,	.	O
+	anybody	N	NN	O
+	taken	V	VBN	O
+	#cipro	N	NNP	O
+	?	,	.	O
+	(antibiotic)	A	NN	O
+	complications	N	NNS	O
+	?	,	.	O
+	?	,	.	O
+	big	A	JJ	O
+	side	N	NN	O
+	effect	N	NN	O
+	is	V	VBZ	O
+	tendon	N	RB	B-ADR
+	rupture...figured	V	JJ	I-ADR
+	my	D	PRP$	O
+	dr	N	NN	O
+	would	V	MD	O
+	know	V	VB	O
+	better	R	JJR	O
+	?	,	.	O
+	0	0	0	O
+Sentence: 11	@illtreaturite1	@	NN	O
+	fluox	V	VBZ	O
+	a	D	DT	O
+	friend	N	NN	O
+	4	P	CD	O
+	years	N	NNS	O
+	,	,	,	O
+	but	&	CC	O
+	switch	V	VBP	O
+	to	P	TO	O
+	cymbalta	^	VB	O
+	4	$	CD	O
+	anti-depress/pain	N	JJ	O
+	control	N	NN	O
+	.	,	.	O
+	i	O	VB	O
+	ocd	A	JJ	O
+	worry	N	NN	O
+	.	,	.	O
+	can't	V	JJ	O
+	stop	V	JJ	O
+	running	V	NN	O
+	mind	N	NN	O
+	0	0	0	O
+Sentence: 12	@lanternlizard	@	RB	O
+	cymbalta	N	NN	O
+	switch	N	NN	O
+	is	V	VBZ	O
+	part	N	NN	O
+	of	P	IN	O
+	what	O	WP	O
+	made	V	VBD	O
+	me	O	PRP	O
+	flip	V	NN	O
+	.	,	.	O
+	but	&	CC	O
+	any	D	DT	O
+	snri	N	NN	O
+	with	P	IN	O
+	family	N	NN	O
+	hx	N	NN	O
+	of	P	IN	O
+	mania	N	NN	O
+	puts	V	VBZ	O
+	you	O	PRP	O
+	at	P	IN	O
+	risk	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 13	@enlightenmentor	@	NN	O
+	umm	!	NN	O
+	,	,	,	O
+	are	V	VBP	O
+	you	O	PRP	O
+	being	V	VBG	O
+	a	D	DT	O
+	smart-ass	A	NN	O
+	?	,	.	O
+	dont	V	JJ	O
+	mess	V	NN	O
+	with	P	IN	O
+	me	O	PRP	O
+	right	R	RB	O
+	now	R	RB	O
+	.	,	.	O
+	going	V	VBG	O
+	through	P	IN	O
+	cymbalta	^	NN	O
+	withdrawal	N	NN	B-ADR
+	i	O	NN	O
+	think	V	VBP	O
+	&	&	CC	O
+	im	L	VBP	O
+	very	R	RB	O
+	depressed	A	JJ	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 14	today	N	NN	O
+	i'm	L	VBP	O
+	an	D	DT	O
+	emotional	A	JJ	B-ADR
+	mess	N	NN	I-ADR
+	.	,	.	O
+	that's	L	VB	O
+	what	O	WP	O
+	happens	V	VBZ	O
+	when	R	WRB	O
+	i	O	JJ	O
+	think	V	VBP	O
+	i	O	NN	O
+	could	V	MD	O
+	wean	V	VB	O
+	myself	O	PRP	O
+	off	P	IN	O
+	of	P	IN	O
+	cymbalta	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 15	losing	V	VBG	O
+	it	O	PRP	O
+	.	,	.	O
+	could	V	MD	O
+	not	R	RB	B-ADR
+	remember	V	VB	I-ADR
+	the	D	DT	O
+	word	N	NN	O
+	power	N	NN	O
+	strip	N	NN	O
+	.	,	.	O
+	wonder	V	VB	O
+	which	D	WDT	O
+	drug	N	NN	O
+	is	V	VBZ	O
+	doing	V	VBG	O
+	this	D	DT	O
+	memory	N	NN	B-ADR
+	lapse	N	JJ	I-ADR
+	thing	N	NN	O
+	.	,	.	O
+	my	D	PRP$	O
+	guess	V	NN	O
+	the	D	DT	O
+	cymbalta	N	NN	O
+	.	,	.	O
+	#helps	V	VB	O
+	0	0	0	O
+Sentence: 16	that	D	DT	O
+	nap	N	NN	B-ADR
+	was	V	VBD	O
+	on	P	IN	O
+	point...	N	NN	O
+	.	,	.	O
+	cymbalta	N	NN	O
+	did	V	VBD	O
+	that	D	IN	O
+	shit	N	NN	O
+	cuz	P	NN	O
+	i	O	JJ	O
+	dont	V	VBP	O
+	take	V	VB	O
+	naps...ever	N	NN	O
+	0	0	0	O
+Sentence: 17	@andiedanley2626	@	JJ	O
+	cymbalta	N	NN	O
+	.	,	.	O
+	3x	P	CD	O
+	the	D	DT	O
+	dosage	N	NN	O
+	i	O	NN	O
+	was	V	VBD	O
+	once	R	RB	O
+	on...everything	P	JJ	O
+	is	V	VBZ	O
+	psychedelic	A	JJ	B-ADR
+	and	&	CC	O
+	yuck	!	NN	O
+	.	,	.	O
+	still	R	RB	O
+	grateful	A	JJ	O
+	for	P	IN	O
+	meds	N	NNS	O
+	!	,	.	O
+	0	0	0	O
+Sentence: 18	@santypas	@	JJ	O
+	@scrabalisios	@	NNS	O
+	i'm	L	VBP	O
+	taking	V	VBG	O
+	700mg	N	CD	O
+	pregablin	N	NN	O
+	and	&	CC	O
+	60	$	CD	O
+	mg	N	NNS	O
+	duloxetine	N	JJ	O
+	hence	R	NN	O
+	why	R	WRB	O
+	i'm	L	NN	O
+	totally	R	RB	O
+	mashed	A	VBD	B-ADR
+	0	0	0	O
+Sentence: 19	@autumnuh_beee	@	NN	O
+	i	O	NN	O
+	was	V	VBD	O
+	on	P	IN	O
+	celexa	N	NN	O
+	,	,	,	O
+	which	D	WDT	O
+	made	V	VBD	O
+	me	O	PRP	O
+	sleepy	A	NN	O
+	.	,	.	O
+	i	O	VB	O
+	switched	V	VBD	O
+	to	P	TO	O
+	effexor	G	VB	O
+	.	,	.	O
+	it	O	PRP	O
+	has	V	VBZ	O
+	norepinephrine	^	VBN	O
+	in	P	IN	O
+	it	O	PRP	O
+	,	,	,	O
+	so	P	IN	O
+	it	O	PRP	O
+	jump	V	NN	O
+	starts	V	VBZ	O
+	me	O	PRP	O
+	in	P	IN	O
+	the	D	DT	O
+	mornin	N	NN	O
+	0	0	0	O
+Sentence: 20	i	O	NN	O
+	feel	V	VBP	O
+	so	P	RB	O
+	pill-ill	N	JJ	O
+	again	R	RB	O
+	-	,	:	O
+	decided	V	VBD	O
+	to	P	TO	O
+	seriously	R	RB	O
+	cut	V	VB	O
+	down	T	RP	O
+	to	P	TO	O
+	just	R	RB	O
+	weekly	A	VB	O
+	enbrel	N	NN	O
+	and	&	CC	O
+	metho	V	JJ	O
+	alongside	P	JJ	O
+	daily	A	JJ	O
+	nsaids	N	NNS	O
+	#rheum	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 21	rt	~	NN	O
+	@dratp	@	NN	O
+	:	~	:	O
+	@lisabinkc	@	JJ	O
+	@trainingwithra	@	NN	O
+	@dsymons	@	NNS	O
+	enbrel	R	VBP	O
+	also	R	RB	O
+	available	A	JJ	O
+	as	P	IN	O
+	prefilled	A	JJ	O
+	syringe	N	NN	O
+	,	,	,	O
+	much	R	JJ	O
+	gentler	A	NN	O
+	.	,	.	O
+	pen	N	JJ	O
+	leaves	V	VBZ	O
+	bruises	N	NNS	O
+	!	,	.	O
+	#rheum	#	NN	O
+	0	0	0	O
+Sentence: 22	note	N	NN	O
+	to	P	TO	O
+	self	N	VB	O
+	:	,	:	O
+	do	V	VB	O
+	not	R	RB	O
+	take	V	VB	O
+	#fluoxetine	^	NN	O
+	and	&	CC	O
+	#aleved	V	VBN	O
+	together	R	RB	O
+	.	,	.	O
+	i'm	L	VB	O
+	a	D	DT	O
+	space	N	NN	B-ADR
+	cadet	N	NN	I-ADR
+	today	N	NN	O
+	!	,	.	O
+	#druginteractions	#	NNS	O
+	0	0	0	O
+Sentence: 23	i'm	L	JJ	O
+	sure	A	NN	O
+	this	D	DT	O
+	fluoxetine	N	NN	O
+	is	V	VBZ	O
+	making	V	VBG	O
+	my	D	PRP$	O
+	illness	N	JJ	B-ADR
+	worse	A	NN	I-ADR
+	,	,	,	O
+	especially	R	RB	O
+	since	P	IN	O
+	i	O	NN	O
+	can't	V	VBP	B-ADR
+	eat.	V	NN	I-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 24	i	O	NNS	O
+	have	V	VBP	O
+	some	D	DT	O
+	seriously	R	RB	O
+	disturbing	A	JJ	O
+	dreams	N	NNS	O
+	.	,	.	O
+	thanks	N	NNS	O
+	#fluoxetine	#	VBP	O
+	thanks	N	NNS	O
+	a	D	DT	O
+	freaking	A	NN	O
+	lot	N	NN	O
+	.	,	.	O
+	well	!	RB	O
+	i	O	JJ	O
+	guess	V	NN	O
+	it's	L	NN	O
+	better	A	RBR	O
+	than	P	IN	O
+	being	V	VBG	O
+	#suicidal	A	JJ	O
+	..only	R	RB	O
+	just	R	RB	O
+	0	0	0	O
+Sentence: 25	rt	~	NN	O
+	@ianibbo	@	NN	O
+	:	~	:	O
+	finding	V	VBG	O
+	out	T	RP	O
+	i'm	L	JJ	O
+	allergic	A	NN	B-ADR
+	to	P	TO	O
+	fluoxetine	^	VB	O
+	was	V	VBD	O
+	a	D	DT	O
+	bit	N	NN	O
+	of	P	IN	O
+	a	D	DT	O
+	shock	N	NN	O
+	tho	R	NN	O
+	.	,	.	O
+	mind	N	NN	O
+	,	,	,	O
+	only	R	RB	O
+	someone	N	NN	O
+	from	P	IN	O
+	yorkshire	^	NN	O
+	could	V	MD	O
+	be	V	VB	O
+	actually	R	RB	O
+	allergic	A	JJ	O
+	�	,	NN	O
+	0	0	0	O
+Sentence: 26	i	O	NN	O
+	took	V	VBD	O
+	11	$	CD	O
+	pills	N	NNS	O
+	of	P	IN	O
+	geodon	^	NN	O
+	i	O	NN	O
+	was	V	VBD	O
+	rushed	V	VBN	O
+	to	P	TO	O
+	the	D	DT	O
+	hospital	N	NN	O
+	they	O	PRP	O
+	had	V	VBD	O
+	to	P	TO	O
+	stick	V	VB	O
+	a	D	DT	O
+	tube	N	NN	O
+	up	P	RP	O
+	my	D	PRP$	O
+	nose	N	JJ	O
+	ugh	!	JJ	O
+	never	R	RB	O
+	again	R	RB	O
+	i	O	JJ	O
+	feel	V	VBP	O
+	so	R	RB	O
+	bad	A	JJ	O
+	today	N	NN	O
+	withdrawals	N	NNS	B-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 27	so	P	RB	O
+	the	D	DT	O
+	geodon	^	NN	O
+	is	V	VBZ	O
+	what	O	WP	O
+	made	V	VBD	O
+	me	O	PRP	O
+	so	R	IN	O
+	frickin	R	JJ	O
+	hungry	A	NN	B-ADR
+	all	X	PDT	O
+	the	D	DT	O
+	time	N	NN	O
+	cause	P	NN	O
+	i've	L	NN	O
+	eaten	V	VBN	O
+	very	R	RB	O
+	little	A	JJ	O
+	these	D	DT	O
+	past	A	IN	O
+	few	A	JJ	O
+	days	N	NNS	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 28	will	V	MD	O
+	still	R	RB	O
+	be	V	VB	O
+	on	P	IN	O
+	the	D	DT	O
+	geodon	^	NN	O
+	,	,	,	O
+	but	&	CC	O
+	will	V	MD	O
+	also	R	RB	O
+	be	V	VB	O
+	taking	V	VBG	O
+	a	D	DT	O
+	low-dose	A	JJ	O
+	alprazolam	N	NN	O
+	as	P	IN	O
+	needed	V	VBN	O
+	for	P	IN	O
+	the	D	DT	O
+	sudden	N	JJ	O
+	anxiety	N	NN	O
+	attacks	V	NNS	O
+	ive	L	VBP	O
+	been	V	VBN	O
+	getting	V	VBG	O
+	0	0	0	O
+Sentence: 29	@crohnietweets	@	NNS	O
+	i	O	VBP	O
+	found	V	VBD	O
+	the	D	DT	O
+	humira	^	NN	O
+	to	P	TO	O
+	fix	V	VB	O
+	all	D	DT	O
+	my	D	PRP$	O
+	crohn's	S	NN	O
+	issues	N	NNS	O
+	,	,	,	O
+	but	&	CC	O
+	cause	R	VBP	O
+	other	A	JJ	O
+	issues	N	NNS	O
+	.	,	.	O
+	i	O	VB	O
+	went	V	VBD	O
+	off	T	IN	O
+	it	O	PRP	O
+	due	A	JJ	O
+	to	P	TO	O
+	issues	V	NNS	O
+	w	P	VB	O
+	nerves/muscle	N	NN	B-ADR
+	spasms	V	NNS	I-ADR
+	0	0	0	O
+Sentence: 30	@showbizmom48	@	NN	O
+	mri	N	NN	O
+	showed	V	VBD	O
+	lesions	N	NNS	O
+	in	P	IN	O
+	my	D	PRP$	O
+	noggin	N	NN	O
+	:	,	:	O
+	s	G	NN	O
+	got	V	VBD	O
+	to	P	TO	O
+	have	V	VB	O
+	eeg	N	VBN	O
+	to	P	TO	O
+	see	V	VB	O
+	if	P	IN	O
+	its	L	PRP$	O
+	ms	^	NN	O
+	or	&	CC	O
+	humira	^	NN	O
+	doing	V	VBG	O
+	it.so	U	RB	O
+	more	A	RBR	O
+	tests	N	NNS	O
+	n	&	RB	O
+	messing	V	VBG	O
+	about	P	IN	O
+	lolxx	!	NN	O
+	0	0	0	O
+Sentence: 31	@thestomabaglady	@	JJ	O
+	it	O	PRP	O
+	was	V	VBD	O
+	explained	V	VBN	O
+	to	P	TO	O
+	me	O	PRP	O
+	that	P	IN	O
+	all	X	PDT	O
+	the	D	DT	O
+	anti-tnfs	N	JJ	O
+	can	V	MD	O
+	bring	V	VB	O
+	out	T	RP	O
+	other	A	JJ	O
+	issues	N	NNS	O
+	.	,	.	O
+	i	O	NN	O
+	had	V	VBD	O
+	severe	A	JJ	O
+	joint	N	JJ	B-ADR
+	pain	N	NN	I-ADR
+	on	P	IN	O
+	humira	^	NN	O
+	&	&	CC	O
+	remicaid	^	NN	O
+	0	0	0	O
+Sentence: 32	@renegade_snare	@	JJ	O
+	@ibdtweet	@	NN	O
+	i	O	JJ	O
+	feel	V	VBP	O
+	your	D	PRP$	O
+	pain	N	NN	O
+	:	,	:	O
+	(	,	(	O
+	just	R	RB	O
+	got	V	VBD	O
+	1st	A	CD	O
+	#fistula	#	NN	B-ADR
+	urgh	!	NN	O
+	!	,	.	O
+	humira	^	NN	O
+	worked	V	VBD	O
+	for	P	IN	O
+	me	O	PRP	O
+	for	P	IN	O
+	just	R	RB	O
+	3months	V	CD	O
+	then	R	RB	O
+	got	V	VBD	O
+	painful	A	JJ	B-ADR
+	reactions	N	NNS	I-ADR
+	0	0	0	O
+Sentence: 33	the	D	DT	O
+	day	N	NN	O
+	after	P	IN	O
+	humira	^	NN	O
+	used	V	VBN	O
+	to	P	TO	O
+	be	V	VB	O
+	a	D	DT	O
+	great	A	JJ	O
+	one	$	CD	O
+	,	,	,	O
+	full	A	JJ	O
+	of	P	IN	O
+	energy	N	NN	O
+	,	,	,	O
+	low	A	JJ	O
+	pain	N	NN	O
+	.	,	.	O
+	after	P	IN	O
+	a	D	DT	O
+	month	N	NN	O
+	,	,	,	O
+	it	O	PRP	O
+	is	V	VBZ	O
+	now	R	RB	O
+	a	D	DT	O
+	fatigue	N	NN	B-ADR
+	filled	V	VBN	O
+	achy	A	JJ	B-ADR
+	day	N	NN	O
+	.	,	.	O
+	#rheum	#	NN	O
+	0	0	0	O
+Sentence: 34	rt	~	NN	O
+	@smbell1	@	NN	O
+	:	~	:	O
+	the	D	DT	O
+	day	N	NN	O
+	after	P	IN	O
+	humira	^	NN	O
+	used	V	VBN	O
+	to	P	TO	O
+	be	V	VB	O
+	a	D	DT	O
+	great	A	JJ	O
+	one	$	CD	O
+	,	,	,	O
+	full	A	JJ	O
+	of	P	IN	O
+	energy	N	NN	O
+	,	,	,	O
+	low	A	JJ	O
+	pain	N	NN	O
+	.	,	.	O
+	after	P	IN	O
+	a	D	DT	O
+	month	N	NN	O
+	,	,	,	O
+	it	O	PRP	O
+	is	V	VBZ	O
+	now	R	RB	O
+	a	D	DT	O
+	fatigue	N	NN	B-ADR
+	filled	V	VBN	O
+	achy	A	JJ	B-ADR
+	day	N	NN	O
+	.	,	.	O
+	#rh�	#	NN	O
+	0	0	0	O
+Sentence: 35	humira	^	NN	O
+	+	&	NNP	O
+	thioguanine	^	NN	O
+	+	&	NNP	O
+	preds	^	VBZ	O
+	=	,	FW	O
+	me	O	PRP	O
+	have	V	VBP	O
+	no	D	DT	B-ADR
+	immune	A	JJ	I-ADR
+	lol.	!	NN	O
+	.	,	.	O
+	thankgod	!	NN	O
+	i	O	NN	O
+	on	P	IN	O
+	anti	N	NN	O
+	biotics	N	NNS	O
+	for	P	IN	O
+	a	D	DT	O
+	bit..	N	NN	O
+	.	,	.	O
+	then	R	RB	O
+	preds	^	VBZ	O
+	drop	V	NN	O
+	off	T	RP	O
+	#crohns	#	NN	O
+	0	0	0	O
+Sentence: 36	anyone	N	NN	O
+	have	V	VBP	O
+	nerve	N	VBN	B-ADR
+	damage	N	NN	I-ADR
+	symptoms	N	NNS	O
+	(ms	G	VBP	B-ADR
+	like)	P	NN	I-ADR
+	from	P	IN	O
+	enbrel	^	NN	O
+	or	&	CC	O
+	humira	^	NN	O
+	?	,	.	O
+	#rheum	#	NN	O
+	0	0	0	O
+Sentence: 37	well	!	RB	O
+	.	,	.	O
+	i	O	VB	O
+	abruptly	R	RB	O
+	stopped	V	VBN	O
+	taking	V	VBG	O
+	lamotrigine	A	JJ	O
+	(lamictal)	N	NN	O
+	,	,	,	O
+	and	&	CC	O
+	that	O	DT	O
+	is	V	VBZ	O
+	why	R	WRB	O
+	i	O	JJ	O
+	am	V	VBP	O
+	having	V	VBG	O
+	the	D	DT	O
+	pain	N	NN	B-ADR
+	and	&	CC	O
+	weakness	N	NN	B-ADR
+	.	,	.	O
+	possible	A	JJ	O
+	seizure	N	NN	B-ADR
+	.	,	.	O
+	oops	!	NNS	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 38	so	R	RB	O
+	while	P	IN	O
+	i'm	L	NN	O
+	letting	V	VBG	O
+	the	D	DT	O
+	thoughts	N	NNS	O
+	of	P	IN	O
+	lamictal/fatal	A	JJ	O
+	rashes/tonsillectomy/spinal	N	JJ	B-ADR
+	tap	V	NN	O
+	settle	V	NN	O
+	,	,	,	O
+	i'm	L	NN	O
+	going	V	VBG	O
+	to	P	TO	O
+	go	V	VB	O
+	rescue	V	VB	O
+	a	D	DT	O
+	budgie	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 39	oh..	!	NN	O
+	.	,	.	O
+	oh	!	UH	O
+	my	D	PRP$	O
+	hair	N	NN	B-ADR
+	is..	V	NN	I-ADR
+	.	,	.	I-ADR
+	definitely	R	RB	I-ADR
+	falling	V	VBG	I-ADR
+	out	T	RP	I-ADR
+	.	,	.	O
+	._.	E	VB	O
+	i	O	JJ	O
+	just	R	RB	O
+	noticed	V	VBN	O
+	it	O	PRP	O
+	starting	V	VBG	O
+	tonight	R	JJ	O
+	.	,	.	O
+	google	^	NN	O
+	tells	V	NNS	O
+	me	O	PRP	O
+	other	A	JJ	O
+	people	N	NNS	O
+	on	P	IN	O
+	lamictal	^	JJ	O
+	have	V	VBP	O
+	this	O	DT	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 40	@kierarampton	@	NN	O
+	it's	L	NN	O
+	called	V	VBN	O
+	lamotrigine	^	NN	O
+	,	,	,	O
+	i'm	L	JJ	O
+	pretty	R	RB	O
+	sure	A	JJ	O
+	the	D	DT	O
+	mix	N	NN	O
+	of	P	IN	O
+	them	D	PRP	O
+	both	O	DT	O
+	is	V	VBZ	O
+	making	V	VBG	O
+	me	O	PRP	O
+	sick	A	JJ	B-ADR
+	.	,	.	O
+	i	O	VBP	O
+	don't	V	JJ	O
+	think	V	VBP	O
+	bipolar	A	JJ	O
+	&	&	CC	O
+	add	V	JJ	O
+	mix	N	NN	O
+	very	R	RB	O
+	well.	A	RB	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 41	what	O	WP	O
+	is	V	VBZ	O
+	this	D	DT	O
+	weird	A	JJ	O
+	feeling	V	NN	O
+	i've	L	NN	O
+	been	V	VBN	O
+	having	V	VBG	O
+	all	D	DT	O
+	day	N	NN	O
+	?	,	.	O
+	i've	L	NN	O
+	felt	V	VBD	O
+	depressed	A	JJ	B-ADR
+	yet	R	RB	O
+	oddly	R	RB	O
+	happy	A	JJ	O
+	.	,	.	O
+	this	O	DT	O
+	is	V	VBZ	O
+	the	D	DT	O
+	second	A	JJ	O
+	day	N	NN	O
+	of	P	IN	O
+	bid	N	NN	O
+	#lamotrigine	#	NN	O
+	0	0	0	O
+Sentence: 42	@ouch_uk	@	JJ	O
+	didnt	V	NN	O
+	know	V	VBP	O
+	lamotrigine	^	NN	O
+	was	V	VBD	O
+	addictive	A	JJ	B-ADR
+	stopped	V	VBD	O
+	as	P	IN	O
+	didnt	V	JJ	O
+	think	V	VBP	O
+	were	V	VBD	O
+	helping	V	VBG	O
+	@clusterheads	@	NNS	B-ADR
+	3	$	CD	O
+	days	N	NNS	B-ADR
+	of	P	IN	I-ADR
+	hell	N	NN	I-ADR
+	before	P	IN	O
+	realized	V	VBN	O
+	,	,	,	O
+	back	R	RB	O
+	on	P	IN	O
+	now	R	RB	O
+	0	0	0	O
+Sentence: 43	@midwesternwife	@	NN	O
+	i	O	NN	O
+	feel	V	VBP	O
+	your	D	PRP$	O
+	pain	N	NN	O
+	,	,	,	O
+	im	L	NN	O
+	allergic	A	NN	B-ADR
+	to	P	TO	O
+	penicillin	N	VB	O
+	,	,	,	O
+	ammoxicillin	N	NN	O
+	,	,	,	O
+	levaquin	N	NN	O
+	,	,	,	O
+	doxycycline	^	NN	O
+	.	,	.	O
+	it	O	PRP	O
+	sucks	V	VBZ	O
+	0	0	0	O
+Sentence: 44	@wee_jendo	@	JJ	O
+	nicotine	N	NN	O
+	lozenges	N	NNS	O
+	.	,	.	O
+	if	P	IN	O
+	i	O	JJ	O
+	go	V	VBP	O
+	cold	A	JJ	O
+	turkey	N	NN	O
+	i	O	VBP	O
+	can't	V	VBP	B-ADR
+	think	V	VB	I-ADR
+	(or	&	NNP	O
+	see)	V	NN	B-ADR
+	straight	A	RB	I-ADR
+	,	,	,	O
+	so	R	IN	O
+	i	O	JJ	O
+	can't	V	NN	O
+	work	V	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 45	accidentally	R	RB	O
+	asphyxiating	V	VBG	O
+	yourself	O	PRP	O
+	trying	V	VBG	O
+	to	P	TO	O
+	suck	V	VB	O
+	a	D	DT	O
+	throat	N	NN	O
+	lozenge	N	NN	O
+	when	R	WRB	O
+	you	O	PRP	O
+	have	V	VBP	O
+	a	D	DT	O
+	stuffed	A	NN	O
+	nose	N	RB	O
+	.	,	.	O
+	#that	#	WP	O
+	0	0	0	O
+Sentence: 46	he	O	PRP	O
+	said	V	VBD	O
+	he	O	PRP	O
+	is	V	VBZ	O
+	'slowly	R	RB	O
+	dying	V	VBG	O
+	of	P	IN	O
+	starvation'	N	NN	B-ADR
+	.	,	.	O
+	i	O	VBP	O
+	don't	V	VBP	O
+	want	V	VB	O
+	to	P	TO	O
+	be	V	VB	O
+	the	D	DT	O
+	one	$	CD	O
+	to	P	TO	O
+	say	V	VB	O
+	stop	V	NN	O
+	taking	V	VBG	O
+	the	D	DT	O
+	aricept	^	NN	O
+	and	&	CC	O
+	namenda..	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 47	@sophiemonk	@	JJ	O
+	coz	P	NN	O
+	olanzapine	^	NN	O
+	increases	V	NNS	B-ADR
+	hunger	N	VBP	I-ADR
+	strains	N	NNS	O
+	u	O	JJ	O
+	all	D	DT	O
+	day	N	NN	O
+	dosile	V	IN	O
+	unless	P	IN	O
+	u	O	JJ	O
+	get	V	VB	O
+	up	T	RP	O
+	when	R	WRB	O
+	ur	L	JJ	O
+	accilies	N	NNS	O
+	still	R	RB	O
+	wud	V	VBP	O
+	n	&	JJ	O
+	coffee	N	NN	O
+	5am	$	CD	O
+	fog	N	NN	O
+	frost	N	NN	O
+	0	0	0	O
+Sentence: 48	@river__tam	@	JJ	O
+	olanzapine	^	NN	O
+	is	V	VBZ	O
+	amazing	A	VBG	O
+	srsly	R	RB	O
+	,	,	,	O
+	the	D	DT	O
+	dreams	N	NNS	B-ADR
+	are	V	VBP	O
+	immense	A	JJ	O
+	,	,	,	O
+	no	D	DT	O
+	addiction	N	NN	O
+	,	,	,	O
+	its	L	PRP$	O
+	gorgeous	A	JJ	O
+	,	,	,	O
+	like	P	IN	O
+	brave	A	VBP	O
+	new	A	JJ	O
+	world	N	NN	O
+	soma	N	NN	O
+	to	P	TO	O
+	me	O	PRP	O
+	0	0	0	O
+Sentence: 49	olanzapine	^	NN	O
+	is	V	VBZ	O
+	supposed	A	VBN	O
+	to	P	TO	O
+	make	V	VB	O
+	you	O	PRP	O
+	a	D	DT	O
+	fat	A	JJ	B-ADR
+	bastard	N	NN	O
+	i	O	NN	O
+	got	V	VBD	O
+	off	T	RP	O
+	lucky	A	JJ	O
+	.	,	.	O
+	lithium	N	NN	O
+	makes	V	VBZ	O
+	my	D	PRP$	O
+	hand	N	NN	B-ADR
+	shake	V	NN	I-ADR
+	.	,	.	O
+	bipolar	A	NN	O
+	or	&	CC	O
+	schizo	A	NN	O
+	drugs	N	NNS	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 50	@christal_l	@	NN	O
+	that's	L	VBZ	O
+	the	D	DT	O
+	problem	N	NN	O
+	with	P	IN	O
+	most	A	JJS	O
+	of	P	IN	O
+	them	O	PRP	O
+	-	,	:	O
+	side	N	NN	O
+	effects	N	NNS	O
+	.	,	.	O
+	i	O	NN	O
+	was	V	VBD	O
+	on	P	IN	O
+	paxil	^	NN	O
+	after	P	IN	O
+	my	D	PRP$	O
+	mom	N	NN	O
+	died	V	VBD	O
+	and	&	CC	O
+	"	,	NNP	O
+	"	,	VBP	O
+	it	O	PRP	O
+	"	,	VBZ	O
+	"	,	NNP	O
+	stopped	V	VBD	B-ADR
+	working	V	VBG	I-ADR
+	.	,	.	O
+	fuck	V	NN	O
+	that	O	IN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 51	@jennabear32819	@	NNS	O
+	have	V	VBP	O
+	to	P	TO	O
+	go	V	VB	O
+	to	P	TO	O
+	a	D	DT	O
+	doc	N	NN	O
+	now	R	RB	O
+	to	P	TO	O
+	see	V	VB	O
+	why	R	WRB	O
+	i'm	L	NN	O
+	still	R	RB	O
+	gaining	V	VBG	B-ADR
+	.	,	.	O
+	stupid	A	JJ	O
+	paxil	^	NN	O
+	made	V	VBD	O
+	me	O	PRP	O
+	gain	V	VB	B-ADR
+	like	P	IN	I-ADR
+	50	$	CD	I-ADR
+	pounds	N	NNS	I-ADR
+	?	,	.	O
+	?	,	.	O
+	and	&	CC	O
+	now	R	RB	O
+	i	O	RB	O
+	have	V	VBP	O
+	to	P	TO	O
+	lose	V	VB	O
+	it	O	PRP	O
+	0	0	0	O
+Sentence: 52	anemia	N	NN	O
+	,	,	,	O
+	hormones	N	NNS	O
+	,	,	,	O
+	depression	N	NN	O
+	&	&	CC	O
+	paxil	^	NN	O
+	are	V	VBP	O
+	totally	R	RB	O
+	getting	V	VBG	O
+	the	D	DT	O
+	best	A	JJS	O
+	of	P	IN	O
+	me	O	PRP	O
+	this	D	DT	O
+	morning	N	NN	O
+	.	,	.	O
+	getting	V	VBG	B-ADR
+	out	P	IN	I-ADR
+	of	P	IN	I-ADR
+	bed	N	NN	I-ADR
+	is	V	VBZ	I-ADR
+	haaard	A	RB	I-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 53	my	D	PRP$	O
+	creativity	N	NN	B-ADR
+	was	V	VBD	I-ADR
+	blocked	V	VBN	I-ADR
+	by	P	IN	O
+	lithium	N	NN	O
+	and	&	CC	O
+	prozac	^	NN	O
+	and	&	CC	O
+	wellbutrin	A	NN	O
+	and	&	CC	O
+	paxil	^	NN	O
+	and	&	CC	O
+	zoloft	N	NN	O
+	and	&	CC	O
+	effexor	^	NN	O
+	and	&	CC	O
+	lexapro	^	NN	O
+	and	&	CC	O
+	cymbalta	N	NN	O
+	and	&	CC	O
+	abilify-	^	NN	O
+	0	0	0	O
+Sentence: 54	the	D	DT	O
+	#zombieapocalypse	^	NN	O
+	will	V	MD	O
+	stem	V	VB	O
+	from	P	IN	O
+	paxil	^	JJ	O
+	w/d	^	NN	B-ADR
+	symptoms	N	NNS	O
+	.	,	.	O
+	mark	^	VB	O
+	my	D	PRP$	O
+	words	N	NNS	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 55	for	P	IN	O
+	anxiety	N	NN	O
+	to	P	TO	O
+	penetrate	V	VB	O
+	through	P	IN	O
+	my	D	PRP$	O
+	drowsy	A	NN	B-ADR
+	haze	N	NN	I-ADR
+	(a	E	NNP	O
+	result	N	NN	O
+	of	P	IN	O
+	the	D	DT	O
+	triumvirate	N	NN	O
+	of	P	IN	O
+	fluoxetine	^	NN	O
+	,	,	,	O
+	pregabalin	N	NN	O
+	,	,	,	O
+	amoxicillin	N	VB	O
+	?	,	.	O
+	)	,	)	O
+	is	V	VBZ	O
+	pretty	R	JJ	O
+	good	A	JJ	O
+	going	V	VBG	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 56	@deltrimental	@	JJ	O
+	i	O	NN	O
+	came	V	VBD	O
+	off	T	RP	O
+	pristiq	N	NN	O
+	in	P	IN	O
+	july	^	NN	O
+	last	A	JJ	O
+	year	N	NN	O
+	.	,	.	O
+	i	O	NN	O
+	still	R	RB	O
+	get	V	VB	O
+	brain	N	NN	B-ADR
+	zaps	V	NNS	I-ADR
+	when	R	WRB	O
+	tired	A	VBN	O
+	.	,	.	O
+	my	D	PRP$	O
+	genitals	N	NNS	B-ADR
+	aren�t	P	VBP	I-ADR
+	numb	A	RB	I-ADR
+	now	R	RB	O
+	tho	R	VBZ	O
+	-	,	:	O
+	swings/roundabouts	N	NNS	O
+	0	0	0	O
+Sentence: 57	@missmazygg	@	NN	O
+	anxiety	N	NN	O
+	has	V	VBZ	O
+	been	V	VBN	O
+	so	R	RB	O
+	high	A	JJ	O
+	.	,	.	O
+	but	&	CC	O
+	yeah	!	UH	O
+	,	,	,	O
+	if	P	IN	O
+	your	D	PRP$	O
+	dosage	N	NN	O
+	is	V	VBZ	O
+	high	A	JJ	O
+	its	L	PRP$	O
+	hard	A	JJ	O
+	to	P	TO	O
+	come	V	VB	O
+	off	T	RP	O
+	.	,	.	O
+	i	O	NN	O
+	had	V	VBD	O
+	to	P	TO	O
+	detox	V	VB	B-ADR
+	from	P	IN	O
+	pristiq	^	JJ	O
+	(its	L	NNS	O
+	cousin	N	VBP	O
+	drug)	N	NN	O
+	0	0	0	O
+Sentence: 58	anybody	N	NN	O
+	get	V	VB	O
+	involuntary	A	JJ	O
+	facial	A	JJ	B-ADR
+	spasms	N	NNS	I-ADR
+	with	P	IN	O
+	prozac	^	NN	O
+	?	,	.	O
+	mine	O	NN	O
+	is	V	VBZ	O
+	my	D	PRP$	O
+	right	A	JJ	O
+	eye	N	NN	B-ADR
+	.	,	.	O
+	does	V	VBZ	O
+	it	O	PRP	O
+	go	V	VB	O
+	away	R	RB	O
+	or	&	CC	O
+	is	V	VBZ	O
+	time	N	NN	O
+	to	P	TO	O
+	try	V	VB	O
+	something	N	NN	O
+	else	R	RB	O
+	?	,	.	O
+	0	0	0	O
+Sentence: 59	@rbhu7_82	@	NN	O
+	if	P	IN	O
+	i	O	JJ	O
+	don't	V	VBP	O
+	take	V	VB	O
+	my	D	PRP$	O
+	quetiapine	N	NN	O
+	i	O	NN	O
+	can	V	MD	O
+	stay	V	VB	O
+	awake	A	VB	B-ADR
+	for	P	IN	O
+	days	N	NNS	O
+	!	,	.	O
+	0	0	0	O
+Sentence: 60	new	A	JJ	O
+	meds	N	NNS	O
+	have	V	VBP	O
+	me	O	PRP	O
+	out	P	IN	B-ADR
+	of	P	IN	I-ADR
+	it	O	PRP	I-ADR
+	.	,	.	O
+	i	O	JJ	O
+	want	V	VBP	O
+	therapy	N	NN	O
+	not	R	RB	O
+	doping	V	VBG	B-ADR
+	up	T	RP	I-ADR
+	!	,	.	O
+	i	O	NN	O
+	was	V	VBD	O
+	highly	R	RB	O
+	functioning	V	VBG	O
+	now	R	RB	O
+	have	V	VBP	O
+	trouble	N	NN	O
+	standing	V	NN	O
+	!	,	.	O
+	#quetiapine	#	NN	O
+	#bipolar	#	NN	O
+	0	0	0	O
+Sentence: 61	-9.5lbs	$	NN	B-ADR
+	in	P	IN	O
+	14	$	CD	O
+	days	N	NNS	O
+	.	,	.	O
+	obvious	A	JJ	O
+	now	R	RB	O
+	that	O	IN	O
+	i	O	NN	O
+	should	V	MD	O
+	have	V	VB	O
+	stopped	V	VBN	O
+	the	D	DT	O
+	quetiapine	N	NN	O
+	a	D	DT	O
+	long	A	JJ	O
+	long	A	JJ	O
+	time	N	NN	O
+	ago	R	IN	O
+	before	P	IN	O
+	i	O	NN	O
+	got	V	VBD	O
+	in	P	IN	O
+	this	D	DT	O
+	state	N	NN	O
+	0	0	0	O
+Sentence: 62	extra	A	JJ	O
+	quetiapine	N	NN	O
+	and	&	CC	O
+	two	$	CD	O
+	zopiclone	N	NN	O
+	still	R	RB	O
+	aren't	V	VBZ	O
+	helping	V	VBG	O
+	me	O	PRP	O
+	sleep	V	JJ	O
+	.	,	.	O
+	head	N	NN	O
+	full	A	JJ	O
+	of	P	IN	O
+	broken	V	JJ	O
+	biscuits	N	NNS	O
+	at	P	IN	O
+	4am	$	CD	O
+	with	P	IN	O
+	horrid	A	JJ	B-ADR
+	intrusive	A	JJ	I-ADR
+	thoughts	N	NNS	I-ADR
+	0	0	0	O
+Sentence: 63	@iamcarrieeeeee	@	NN	O
+	that's	L	VBZ	O
+	what	O	WP	O
+	i	O	VBZ	O
+	get	V	VBP	O
+	#bipolar2	#	JJ	O
+	but	&	CC	O
+	the	D	DT	O
+	bloody	A	JJ	O
+	quetiapine	N	NN	O
+	made	V	VBD	O
+	me	O	PRP	O
+	so	R	IN	O
+	bloody	R	JJ	O
+	miserable	A	JJ	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 64	4am	$	CD	O
+	and	&	CC	O
+	the	D	DT	O
+	quetiapine	^	NN	O
+	has	V	VBZ	O
+	failed	V	VBN	O
+	to	P	TO	O
+	sedate	V	VB	O
+	me	O	PRP	O
+	#bipolar	#	JJ	O
+	#insomnia	#	NN	O
+	0	0	0	O
+Sentence: 65	(triggering)	V	JJ	O
+	so..	R	NN	O
+	.	,	.	O
+	i'm	L	NN	O
+	taking	V	VBG	O
+	quetiapine	N	NN	O
+	and	&	CC	O
+	tramadol	N	JJ	O
+	pre-cutting	N	NN	O
+	.	,	.	O
+	i'm	L	VB	O
+	allergic	A	JJ	B-ADR
+	to	P	TO	O
+	tramadol...this	O	VB	O
+	should	V	MD	O
+	be	V	VB	O
+	interesting	A	JJ	O
+	#selfharm	#	NN	O
+	0	0	0	O
+Sentence: 66	all	D	DT	O
+	i	O	NNS	O
+	have	V	VBP	O
+	done	V	VBN	O
+	today	N	NN	O
+	is	V	VBZ	O
+	sleep	N	JJ	B-ADR
+	.	,	.	O
+	and	&	CC	O
+	i	O	NN	O
+	still	R	RB	O
+	need	V	VB	O
+	to	P	TO	O
+	sleep	V	VB	O
+	more	A	JJR	O
+	.	,	.	O
+	this	O	DT	O
+	is	V	VBZ	O
+	a	D	DT	O
+	welcome	A	JJ	O
+	change	N	NN	O
+	.	,	.	O
+	#quetiapine	#	NN	O
+	0	0	0	O
+Sentence: 67	toothache	N	NN	O
+	.	,	.	O
+	discovered	V	VBD	O
+	that	O	IN	O
+	somewhere	R	RB	O
+	in	P	IN	O
+	the	D	DT	O
+	paracetamol	N	NN	O
+	,	,	,	O
+	codeine	N	NN	O
+	,	,	,	O
+	sertraline	^	JJ	O
+	#quetiapine	^	NN	O
+	combination	N	NN	O
+	there	X	EX	O
+	is	V	VBZ	O
+	a	D	DT	O
+	bad	A	JJ	O
+	mix	N	NN	O
+	.	,	.	O
+	#hallucinating	V	VBG	B-ADR
+	0	0	0	O
+Sentence: 68	@bella_astre	@	FW	O
+	quetiapine	^	NN	O
+	made	V	VBD	O
+	me	O	PRP	O
+	eat	V	VB	O
+	all	D	PDT	O
+	the	D	DT	O
+	sweets	N	NNS	O
+	,	,	,	O
+	the	D	DT	O
+	sour	A	JJ	O
+	ones	N	NNS	O
+	seem	V	VBP	O
+	to	P	TO	O
+	help	V	VB	O
+	with	P	IN	O
+	the	D	DT	O
+	dry	A	JJ	B-ADR
+	mouth	N	NN	I-ADR
+	0	0	0	O
+Sentence: 69	@disabledmedic	@	JJ	O
+	quetiapine	!	NN	O
+	perhaps	R	RB	O
+	gives	V	VBZ	O
+	most	R	RBS	O
+	dramatic	A	JJ	O
+	effect	N	NN	O
+	for	P	IN	O
+	single	A	JJ	O
+	low	A	JJ	O
+	dose	N	NN	O
+	.	,	.	O
+	no	!	DT	O
+	,	,	,	O
+	pts	N	NNS	O
+	are	V	VBP	O
+	not	R	RB	O
+	being	V	VBG	O
+	lazy	A	VBN	O
+	in	P	IN	O
+	bed	N	NN	O
+	20	$	CD	B-ADR
+	hours	N	NNS	I-ADR
+	a	D	DT	I-ADR
+	day	N	NN	I-ADR
+	,	,	,	I-ADR
+	asleep	R	RB	I-ADR
+	!	,	.	O
+	0	0	0	O
+Sentence: 70	rt	~	NN	O
+	@bipolarblogger	@	NN	O
+	:	~	:	O
+	since	P	IN	O
+	quetiapine's	Z	NNS	O
+	messed	V	VBN	O
+	with	P	IN	O
+	my	D	PRP$	O
+	prolactin	N	NN	B-ADR
+	levels	N	NNS	I-ADR
+	,	,	,	O
+	making	V	VBG	O
+	my	D	PRP$	O
+	boobs	N	NN	B-ADR
+	humungous	N	JJ	I-ADR
+	&	&	CC	O
+	my	D	PRP$	O
+	bras	N	NNS	O
+	so	R	RB	O
+	expensive	A	JJ	O
+	,	,	,	O
+	i	O	JJ	O
+	want	V	VBP	O
+	a	D	DT	O
+	lingerie�	N	NN	O
+	0	0	0	O
+Sentence: 71	rivaroxaban	^	JJ	O
+	diary	N	JJ	O
+	day	N	NN	O
+	8	$	CD	O
+	.	,	.	O
+	left	V	VBN	O
+	knee	N	NN	O
+	is	V	VBZ	O
+	much	R	RB	O
+	better	A	RBR	O
+	.	,	.	O
+	right	A	JJ	O
+	knee	N	NN	B-ADR
+	still	R	RB	I-ADR
+	painful	A	JJ	I-ADR
+	.	,	.	O
+	back	R	RB	B-ADR
+	ache	V	NN	I-ADR
+	receding	V	NN	O
+	but	&	CC	O
+	suspect	V	VBP	O
+	it	O	PRP	O
+	will	V	MD	O
+	come	V	VB	O
+	back	R	RB	O
+	once	R	RB	O
+	in	P	IN	O
+	bed	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 72	08.15	$	CD	O
+	day	N	NN	O
+	13	$	CD	O
+	rivaroxaban	^	NN	O
+	diary	N	NN	O
+	.	,	.	O
+	lower	A	JJR	B-ADR
+	back	N	RB	I-ADR
+	ache	V	NN	I-ADR
+	,	,	,	O
+	neck	N	NN	B-ADR
+	ache	V	NN	I-ADR
+	,	,	,	O
+	hips	N	NNS	B-ADR
+	and	&	CC	O
+	knees	N	NNS	B-ADR
+	ache	V	VBP	I-ADR
+	,	,	,	O
+	short	A	JJ	B-ADR
+	of	P	IN	I-ADR
+	breath	N	NN	I-ADR
+	,	,	,	O
+	(am	D	NNP	O
+	asthmatic)	A	VBZ	O
+	taken	V	VBN	O
+	2paracetamol	R	CD	O
+	,	,	,	O
+	to	P	TO	O
+	bed	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 73	06.30	$	CD	O
+	day	N	NN	O
+	14	$	CD	O
+	rivaroxaban	^	NN	O
+	diary	N	NN	O
+	.	,	.	O
+	thanks	N	NNS	O
+	to	P	TO	O
+	paracetamol	N	VB	O
+	and	&	CC	O
+	hot	A	JJ	O
+	water	N	NN	O
+	bottle	N	NN	O
+	i	O	NN	O
+	had	V	VBD	O
+	4	$	CD	O
+	hrs	N	RB	O
+	continuous	A	JJ	O
+	sleep	N	NN	O
+	.	,	.	O
+	woke	V	VBD	O
+	uo	T	JJ	O
+	with	P	IN	O
+	frontal	A	JJ	B-ADR
+	headache	N	NN	I-ADR
+	,	,	,	O
+	1/2	$	CD	O
+	0	0	0	O
+Sentence: 74	13.24	$	CD	O
+	day	N	NN	O
+	15	$	CD	O
+	rivaroxaban	^	NN	O
+	diary	N	NN	O
+	.	,	.	O
+	atrocious	A	JJ	O
+	backache	N	NN	B-ADR
+	despite	P	IN	O
+	having	V	VBG	O
+	taken	V	VBN	O
+	paracetamol	N	NN	O
+	an	D	DT	O
+	hour	N	NN	O
+	ago	R	RB	O
+	.	,	.	O
+	gone	V	VBN	O
+	back	R	RB	O
+	to	P	TO	O
+	bed	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 75	21.21	$	CD	O
+	day	N	NN	O
+	19	$	CD	O
+	rivaroxaban	^	NN	O
+	diary	N	NN	O
+	.	,	.	O
+	decided	V	VBD	O
+	to	P	TO	O
+	continue	V	VB	O
+	until	P	IN	O
+	all	D	DT	O
+	aches	V	NNS	O
+	gone	V	VBN	O
+	.	,	.	O
+	hips	N	NNS	O
+	and	&	CC	O
+	legs	N	NNS	O
+	still	R	RB	O
+	ache	V	VBP	O
+	but	&	CC	O
+	much	R	RB	O
+	more	A	JJR	O
+	mobile	A	JJ	O
+	now	R	RB	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 76	rivaroxaban	^	JJ	O
+	diary	N	JJ	O
+	day	N	NN	O
+	25	$	CD	O
+	muscle	N	NN	B-ADR
+	&	&	CC	I-ADR
+	back	R	NN	I-ADR
+	pains	V	NNS	I-ADR
+	were	V	VBD	O
+	due	A	JJ	O
+	to	P	TO	O
+	being	V	VBG	O
+	on	P	IN	O
+	rvxbn	^	NN	O
+	for	P	IN	O
+	10	$	CD	O
+	days	N	NNS	O
+	,	,	,	O
+	on	P	IN	O
+	it	O	PRP	O
+	+	&	VBZ	O
+	losartan	^	NN	O
+	for	P	IN	O
+	8	$	CD	O
+	days	N	NNS	O
+	,	,	,	O
+	+	&	JJ	O
+	losartan	^	NN	O
+	only	R	RB	O
+	for	P	IN	O
+	4	$	CD	O
+	days	N	NNS	O
+	0	0	0	O
+Sentence: 77	@doctorchristian	@	NN	O
+	is	V	VBZ	O
+	my	D	PRP$	O
+	memory	N	NN	O
+	really	R	RB	O
+	bad	A	JJ	O
+	due	A	JJ	O
+	to	P	TO	O
+	900mg	V	CD	O
+	seroquel	^	NN	O
+	and	&	CC	O
+	120mg	V	CD	O
+	cymbalta	N	NN	O
+	or	&	CC	O
+	the	D	DT	O
+	bipolar	A	JJ	O
+	itself	O	PRP	O
+	?	,	.	O
+	i'm	L	RB	O
+	not	R	RB	B-ADR
+	remembering	V	VBG	I-ADR
+	conversations	N	NNS	O
+	0	0	0	O
+Sentence: 78	@basic_chunnel	@	NNS	O
+	@bromethazine	@	VBP	O
+	i'm	L	JJ	O
+	pretty	R	RB	O
+	lucid	A	NN	O
+	in	P	IN	O
+	all	D	DT	O
+	my	D	PRP$	O
+	dreams	N	NNS	O
+	,	,	,	O
+	and	&	CC	O
+	the	D	DT	O
+	seroquel	^	NN	O
+	drowsiness	N	NN	B-ADR
+	carried	V	VBD	O
+	over	P	IN	O
+	into	P	IN	O
+	the	D	DT	O
+	dream	N	NN	O
+	.	,	.	O
+	lolol	!	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 79	i	O	NN	O
+	can	V	MD	O
+	only	R	RB	O
+	get	V	VB	O
+	about	P	IN	O
+	7-8	$	JJ	O
+	hours	N	NNS	O
+	of	P	IN	O
+	sleep	N	NN	B-ADR
+	on	P	IN	I-ADR
+	my	D	PRP$	I-ADR
+	own	A	JJ	I-ADR
+	.	,	.	I-ADR
+	but	&	CC	I-ADR
+	i	O	JJ	I-ADR
+	got	V	VBD	I-ADR
+	at	P	IN	I-ADR
+	least	A	JJS	I-ADR
+	16	$	CD	I-ADR
+	hours	N	NNS	I-ADR
+	with	P	IN	O
+	seroquel	^	NN	O
+	.	,	.	O
+	i	O	NN	O
+	now	R	RB	O
+	see	V	VB	O
+	how	R	WRB	O
+	people	N	NNS	O
+	can	V	MD	O
+	get	V	VB	O
+	addicted	A	VBN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 80	maybe	R	RB	O
+	cos	P	NN	O
+	of	P	IN	O
+	the	D	DT	O
+	insulin	N	NN	O
+	blocking	V	VBG	O
+	effect	N	NN	O
+	of	P	IN	O
+	seroquel	^	NN	O
+	but	&	CC	O
+	i	O	NN	O
+	do	V	VBP	O
+	feel	V	VB	O
+	sugar	N	NN	B-ADR
+	crashes	N	NNS	I-ADR
+	when	R	WRB	O
+	eat	V	NN	O
+	fast	A	RB	O
+	carbs	N	NN	O
+	.	,	.	O
+	will	V	MD	O
+	feel	V	VB	B-ADR
+	ill	L	RB	I-ADR
+	.	,	.	O
+	so	P	RB	O
+	avoid	V	JJ	O
+	where	R	WRB	O
+	poss	A	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 81	trazodone	^	NN	O
+	isn't	V	NN	O
+	working	V	VBG	O
+	.	,	.	O
+	can't	V	NNS	O
+	take	V	VB	O
+	seroquel	N	NN	O
+	at	P	IN	O
+	430	$	CD	O
+	am	N	VBP	O
+	or	&	CC	O
+	i	O	VBP	O
+	won't	V	NNS	B-ADR
+	wake	V	VB	I-ADR
+	up	T	RP	I-ADR
+	until	P	IN	O
+	after	P	IN	O
+	2	$	CD	O
+	pm	N	NN	O
+	.	,	.	O
+	stuck	V	NN	O
+	,	,	,	O
+	painfully	R	RB	O
+	awake	A	VBP	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 82	why	R	WRB	O
+	do	V	VBP	O
+	i	O	VB	O
+	not	R	RB	B-ADR
+	remember	V	VB	I-ADR
+	going	V	VBG	O
+	to	P	TO	O
+	bed	N	VB	O
+	or	&	CC	O
+	waking	V	VBG	O
+	up	T	RP	O
+	(the	D	JJ	O
+	answer	N	NN	O
+	:	,	:	O
+	probably	R	RB	O
+	seroquel)	^	NN	O
+	0	0	0	O
+Sentence: 83	personally	R	RB	O
+	i	O	JJ	O
+	prefer	V	VBP	O
+	staying	V	VBG	O
+	up	T	RP	O
+	until	P	IN	O
+	i	O	JJ	O
+	get	V	VBP	O
+	hallucinations	N	NNS	O
+	,	,	,	O
+	to	P	TO	O
+	taking	V	VBG	O
+	seroquel	N	NN	O
+	to	P	TO	O
+	get	V	VB	O
+	to	P	TO	O
+	sleep	V	VB	O
+	,	,	,	O
+	but	&	CC	O
+	only	R	RB	O
+	because	P	IN	O
+	it's	L	NN	O
+	more	A	RBR	O
+	fun	N	NN	O
+	for	P	IN	O
+	me	O	PRP	O
+	0	0	0	O
+Sentence: 84	i	O	JJ	O
+	can't	V	NNS	O
+	take	V	VB	O
+	this	D	DT	O
+	:	,	:	O
+	(	,	(	O
+	i	O	VB	O
+	thought	V	VBN	O
+	having	V	VBG	O
+	seroquel	^	NN	O
+	would	V	MD	O
+	make	V	VB	O
+	it	O	PRP	O
+	easier	A	JJR	O
+	but	&	CC	O
+	nope	!	NN	O
+	.	,	.	O
+	my	D	PRP$	O
+	whole	A	JJ	O
+	body	N	NN	O
+	feels	V	NNS	B-ADR
+	like	P	IN	I-ADR
+	i	O	NNS	I-ADR
+	have	V	VBP	I-ADR
+	raw	A	VBN	I-ADR
+	nerve	N	NN	I-ADR
+	endings	N	NNS	I-ADR
+	going	V	VBG	O
+	crazy	A	JJ	O
+	0	0	0	O
+Sentence: 85	you	O	PRP	O
+	don't	V	VBP	O
+	know	V	VB	O
+	insomnia	^	NN	O
+	until	P	IN	O
+	you	O	PRP	O
+	take	V	VBP	O
+	2	$	CD	O
+	seroquel	^	NN	O
+	and	&	CC	O
+	work	N	NN	O
+	out	N	RB	O
+	at	P	IN	O
+	3am	$	CD	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 86	@suedoelawyer	@	NN	O
+	and	&	CC	O
+	with	P	IN	O
+	seroquel	^	NN	O
+	i	O	NNS	O
+	take	V	VBP	O
+	half	N	NN	O
+	of	P	IN	O
+	a	D	DT	O
+	25mg	$	CD	O
+	pill	N	NN	O
+	.	,	.	O
+	and	&	CC	O
+	it	O	PRP	O
+	knocks	V	VBZ	O
+	me	O	PRP	O
+	out;	T	IN	O
+	i	O	NN	O
+	can	V	MD	O
+	sleep	V	VB	B-ADR
+	for	P	IN	I-ADR
+	12	$	CD	I-ADR
+	straight	A	JJ	I-ADR
+	hours	N	NNS	I-ADR
+	0	0	0	O
+Sentence: 87	waitt..here	V	WRB	O
+	it	O	PRP	O
+	comes..the	V	VBZ	O
+	#seroquel	^	NN	O
+	is	V	VBZ	O
+	pulling	V	VBG	O
+	me	O	PRP	O
+	under..also	P	JJ	O
+	i	O	RB	O
+	now	R	RB	O
+	have	V	VBP	O
+	the	D	DT	O
+	sudden	N	JJ	O
+	urge	N	NN	B-ADR
+	to	P	TO	I-ADR
+	procure	V	VB	I-ADR
+	food.	N	NN	I-ADR
+	.	,	.	O
+	#fmlimugly	#	RB	O
+	0	0	0	O
+Sentence: 88	but	&	CC	O
+	i	O	VBP	O
+	don't	V	VBP	O
+	want	V	VBP	O
+	to	P	TO	O
+	take	V	VB	O
+	an	D	DT	O
+	ambien	N	NN	O
+	or	&	CC	O
+	trazodone	N	NN	O
+	or	&	CC	O
+	anything	N	NN	O
+	because	P	IN	O
+	i	O	JJ	O
+	dint	V	NN	O
+	wanna	V	NN	O
+	restart	V	VB	O
+	my	D	PRP$	O
+	dependence	N	NN	B-ADR
+	upon	P	IN	O
+	them	O	PRP	O
+	0	0	0	O
+Sentence: 89	i	O	NN	O
+	think	V	VBP	O
+	it's	L	JJ	O
+	bad	A	JJ	O
+	i'm	L	NN	O
+	consistently	R	RB	O
+	in	P	IN	O
+	bed	N	NN	O
+	by	P	IN	O
+	9	$	CD	O
+	and	&	CC	O
+	asleep	R	RB	B-ADR
+	by	P	IN	O
+	9	$	CD	O
+	:	,	:	O
+	15	$	CD	O
+	.	,	.	O
+	#trazodone	#	NN	O
+	0	0	0	O
+Sentence: 90	holy	A	NN	O
+	shit	N	NN	O
+	,	,	,	O
+	that	O	IN	O
+	trazodone	V	NN	O
+	actually	R	RB	O
+	knocked	V	VBD	B-ADR
+	me	O	PRP	I-ADR
+	the	D	DT	I-ADR
+	fuck	N	NN	I-ADR
+	out	T	IN	I-ADR
+	and	&	CC	O
+	took	V	VBD	O
+	me	O	PRP	O
+	for	P	IN	O
+	a	D	DT	O
+	ride	N	NN	O
+	0	0	0	O
+Sentence: 91	wide	A	JJ	O
+	awake	A	NN	O
+	and	&	CC	O
+	this	O	DT	O
+	trazodone	N	NN	O
+	starting	V	VBG	O
+	to	P	TO	O
+	feel	V	VB	O
+	like	P	IN	O
+	a	D	DT	O
+	sugar	N	NN	O
+	pill.	N	NN	O
+	.	,	.	O
+	i'd	L	VB	O
+	actually	R	RB	O
+	prefer	V	VB	O
+	to	P	TO	O
+	be	V	VB	O
+	at	P	IN	O
+	work	N	NN	O
+	right	R	RB	O
+	bout	P	RB	O
+	now	R	RB	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 92	trazodone	^	NN	O
+	is	V	VBZ	O
+	fun	A	RB	O
+	because	P	IN	O
+	you	O	PRP	O
+	get	V	VBP	O
+	high	A	JJ	B-ADR
+	,	,	,	O
+	slowly	R	RB	O
+	fade	V	VBN	O
+	into	P	IN	O
+	sleep	N	NN	O
+	,	,	,	O
+	then	R	RB	O
+	wake	V	VB	O
+	up	T	RP	O
+	drunk	A	NN	B-ADR
+	as	P	IN	O
+	hell	N	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 93	i	O	JJ	O
+	wish	V	JJ	O
+	xanax	^	NN	O
+	made	V	VBD	O
+	me	O	PRP	O
+	tired	A	JJ	O
+	.	,	.	O
+	i	O	NN	O
+	also	R	RB	O
+	wish	V	JJ	O
+	ambien	^	NN	O
+	,	,	,	O
+	trazodone	N	NN	O
+	,	,	,	O
+	lorazepam	N	NN	O
+	,	,	,	O
+	lunesta	N	NN	O
+	,	,	,	O
+	and	&	CC	O
+	temazepam	O	NN	O
+	did	V	VBD	O
+	too	R	RB	O
+	.	,	.	O
+	#tolerance	N	NN	B-ADR
+	#fml	#	NN	O
+	0	0	0	O
+Sentence: 94	trazodone	^	NN	O
+	has	V	VBZ	O
+	screwed	V	VBN	O
+	up	T	RP	O
+	my	D	PRP$	O
+	sleep	N	JJ	B-ADR
+	schedule	N	NN	I-ADR
+	.	,	.	O
+	its	L	PRP$	O
+	helping	V	VBG	O
+	tho	R	NN	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 95	@nighttraumadoc	@	IN	O
+	it	O	PRP	O
+	works	V	VBZ	O
+	otherwise	R	RB	O
+	.	,	.	O
+	my	D	PRP$	O
+	pcp	^	NN	O
+	started	V	VBD	O
+	me	O	PRP	O
+	on	P	IN	O
+	trazodone	^	NN	O
+	before	P	IN	O
+	.	,	.	O
+	i	O	NN	O
+	felt	V	VBD	B-ADR
+	like	P	IN	I-ADR
+	i.had	V	FW	I-ADR
+	a	D	DT	I-ADR
+	frontal	A	JJ	I-ADR
+	lobotomy	N	NN	I-ADR
+	the	D	DT	O
+	following	N	JJ	O
+	day	N	NN	O
+	0	0	0	O
+Sentence: 96	my	D	PRP$	O
+	philly	^	RB	O
+	dr	^	JJ	O
+	prescribed	V	IN	O
+	me	O	PRP	O
+	trazodone	R	NN	O
+	,	,	,	O
+	1pill	$	CD	O
+	made	V	VBD	O
+	me	O	PRP	O
+	so	R	IN	O
+	fkn	R	JJ	O
+	sick	A	NN	B-ADR
+	,	,	,	O
+	couldnt	V	JJ	B-ADR
+	move	V	NN	I-ADR
+	2day.xtreme	N	CD	O
+	migraine	N	NN	B-ADR
+	,	,	,	O
+	puke	V	NN	B-ADR
+	,	,	,	O
+	shakes	V	NNS	B-ADR
+	.	,	.	O
+	any1else	N	JJ	O
+	get	V	NN	O
+	that	O	IN	O
+	react	V	NN	O
+	?	,	.	O
+	0	0	0	O
+Sentence: 97	rt	~	NN	O
+	@aprilhunter	@	NN	O
+	:	~	:	O
+	my	D	PRP$	O
+	philly	^	RB	O
+	dr	^	JJ	O
+	prescribed	V	IN	O
+	me	O	PRP	O
+	trazodone	R	NN	O
+	,	,	,	O
+	1pill	$	CD	O
+	made	V	VBD	O
+	me	O	PRP	O
+	so	R	IN	O
+	fkn	R	JJ	O
+	sick	A	NN	B-ADR
+	,	,	,	O
+	couldnt	V	JJ	O
+	move	V	NN	O
+	2day.xtreme	N	CD	O
+	migraine	N	NN	B-ADR
+	,	,	,	O
+	puke	V	NN	B-ADR
+	,	,	,	O
+	shakes	V	NNS	B-ADR
+	.	,	.	O
+	any1else	V	JJ	O
+	�	,	NN	O
+	0	0	0	O
+Sentence: 98	i	O	NN	O
+	went	V	VBD	O
+	down	R	RB	O
+	to	P	TO	O
+	100	$	CD	O
+	mg	N	NN	O
+	of	P	IN	O
+	trazodone	N	NN	O
+	at	P	IN	O
+	night	N	NN	O
+	.	,	.	O
+	the	D	DT	O
+	nightmares	N	NNS	B-ADR
+	are	V	VBP	O
+	gone	A	VBN	O
+	but	&	CC	O
+	my	D	PRP$	O
+	insomnia	N	NN	B-ADR
+	got	V	VBD	O
+	worse	A	JJR	O
+	.	,	.	O
+	0	0	0	O
+Sentence: 99	sick	A	NN	O
+	of	P	IN	O
+	feeling	V	NN	O
+	tired	A	VBN	B-ADR
+	.	,	.	O
+	fed	V	VBN	O
+	up	T	IN	O
+	of	P	IN	O
+	meds	N	NNS	O
+	not	R	RB	O
+	working	V	VBG	O
+	.	,	.	O
+	loads	N	NNS	O
+	to	P	TO	O
+	do	V	VB	O
+	today	N	NN	O
+	&	&	CC	O
+	no	D	DT	B-ADR
+	freaking	N	JJ	I-ADR
+	motivation	N	NN	I-ADR
+	or	&	CC	O
+	energy	N	NN	B-ADR
+	#venlafaxine	#	CD	O
+	#day9	#	NN	O
+	0	0	0	O
+Sentence: 100	11	$	CD	O
+	hours	N	NNS	O
+	sleep	N	JJ	B-ADR
+	and	&	CC	O
+	still	R	RB	O
+	i	O	VB	O
+	feel	V	NN	O
+	tired	A	JJ	B-ADR
+	and	&	CC	O
+	dizzy	A	JJ	B-ADR
+	#venlafaxine	#	NN	O
+	#day10	#	NN	O
+	0	0	0	O
+Sentence: 101	so	P	IN	O
+	it	O	PRP	O
+	seems	V	VBZ	O
+	that	P	IN	O
+	if	P	IN	O
+	i	O	JJ	O
+	take	V	VBP	O
+	#venlafaxine	N	NN	O
+	in	P	IN	O
+	am	N	VBP	O
+	i	O	JJ	O
+	am	V	VBP	O
+	drowsy	A	JJ	B-ADR
+	all	D	DT	O
+	day	N	NN	O
+	.	,	.	O
+	if	P	IN	O
+	i	O	JJ	O
+	take	V	VBP	O
+	in	T	IN	O
+	pm	N	NN	O
+	i	O	NN	O
+	don�t	V	VBP	B-ADR
+	sleep	V	RB	I-ADR
+	well	R	RB	I-ADR
+	.	,	.	O
+	go	V	VB	O
+	figure	V	NN	O
+	.	,	.	O
+	#day14	#	NN	O
+	0	0	0	O
+Sentence: 102	feel	V	NN	B-ADR
+	crap	N	NN	I-ADR
+	every	D	DT	I-ADR
+	morning	N	NN	I-ADR
+	.	,	.	O
+	wake	V	VB	O
+	up	T	RP	O
+	after	P	IN	O
+	another	D	DT	O
+	restless	A	NN	B-ADR
+	night	N	NN	I-ADR
+	and	&	CC	O
+	just	R	RB	O
+	want	V	VB	O
+	to	P	TO	O
+	cry	V	VB	O
+	.	,	.	O
+	#venlafaxine	#	VB	O
+	#day16	#	NN	O
+	0	0	0	O
+Sentence: 103	i	O	RB	O
+	low	A	JJ	O
+	carb	N	NN	O
+	but	&	CC	O
+	have	V	VBP	O
+	just	R	RB	O
+	eaten	V	VBN	O
+	my	D	PRP$	O
+	body	N	NN	O
+	weight	N	NN	O
+	in	P	IN	O
+	freakin	A	JJ	O
+	carbs	N	NN	O
+	!	,	.	O
+	i	O	NN	O
+	only	R	RB	O
+	hope	V	VBP	O
+	the	D	DT	O
+	carb	N	NN	B-ADR
+	cravings	N	NNS	I-ADR
+	are	V	VBP	O
+	because	P	IN	O
+	i�m	L	JJ	O
+	coming	V	VBG	O
+	off	T	RP	O
+	the	D	DT	O
+	#venlafaxine	^	NN	O
+	0	0	0	O
+Sentence: 104	@raj1410	@	JJ	O
+	i'm	L	NN	O
+	now	R	RB	O
+	on	P	IN	O
+	venlafaxine	P	NN	O
+	my	D	PRP$	O
+	main	A	JJ	O
+	issue	N	NN	O
+	is	V	VBZ	O
+	the	D	DT	O
+	cataplexy	N	JJ	O
+	haha	!	NN	O
+	just	R	RB	O
+	ask	V	VB	O
+	@hannahrogerson	@	NN	O
+	this	O	DT	O
+	is	V	VBZ	O
+	the	D	DT	O
+	third	A	JJ	O
+	i've	L	NN	O
+	tried	V	VBN	O
+	.	,	.	O
+	what	O	WP	O
+	are	V	VBP	O
+	you	O	PRP	O
+	on	P	IN	O
+	?	,	.	O
+	0	0	0	O
+Sentence: 105	dreamt	V	NN	B-ADR
+	i	O	NN	O
+	was	V	VBD	O
+	squirting	V	VBG	O
+	acid	N	NN	O
+	at	P	IN	O
+	wood	^	NN	O
+	lice	N	NN	O
+	-	,	:	O
+	i	O	NN	O
+	woke	V	VBD	O
+	screaming	V	VBG	O
+	when	R	WRB	O
+	they	O	PRP	O
+	came	V	VBD	O
+	at	P	IN	O
+	me	O	PRP	O
+	.	,	.	O
+	i	O	VB	O
+	do	V	VBP	O
+	hope	V	VB	O
+	the	D	DT	O
+	dreams	N	NNS	B-ADR
+	are	V	VBP	O
+	the	D	DT	O
+	#venlafaxine	^	JJ	O
+	withdrawal	N	NN	B-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 106	@zombie_girl_2	@	NN	O
+	i	O	NN	O
+	tried	V	VBD	O
+	that	O	IN	O
+	going	V	VBG	O
+	cold	A	JJ	O
+	turkey	N	NN	O
+	on	P	IN	O
+	venlafaxine	^	NN	O
+	and	&	CC	O
+	depakote	^	NN	O
+	is	V	VBZ	O
+	not	R	RB	O
+	a	D	DT	O
+	good	A	JJ	O
+	idea	N	NN	O
+	i	O	NN	O
+	dreamt	V	VBP	B-ADR
+	colours	N	NNS	I-ADR
+	and	&	CC	O
+	lost	V	VBN	B-ADR
+	my	D	PRP$	I-ADR
+	fucking	A	NN	I-ADR
+	mind	N	NN	I-ADR
+	aghh	!	NN	O
+	!	,	.	O
+	0	0	0	O
+Sentence: 107	high	A	JJ	O
+	off	P	IN	O
+	tramadol	N	NN	O
+	and	&	CC	O
+	venlafaxine	V	NN	O
+	in	P	IN	O
+	school	N	NN	O
+	omg	!	NN	O
+	help	V	NN	O
+	i'm	L	VB	O
+	falling	V	VBG	B-ADR
+	asleep	R	RB	I-ADR
+	here	R	RB	O
+	0	0	0	O
+Sentence: 108	i've	L	NN	O
+	had	V	VBD	O
+	a	D	DT	O
+	lovely	A	RB	O
+	,	,	,	O
+	relaxing	A	VBG	O
+	day	N	NN	O
+	,	,	,	O
+	but	&	CC	O
+	end	V	VBP	O
+	it	O	PRP	O
+	weighed	V	VBD	O
+	down	T	RB	O
+	by	P	IN	O
+	nonspecific	A	JJ	O
+	foreboding	N	NN	O
+	and	&	CC	O
+	crushing	V	VBG	O
+	sense	N	NN	O
+	of	P	IN	O
+	guilt	N	JJ	O
+	#depression	#	NN	O
+	#venlafaxine	#	NN	O
+	0	0	0	O
+Sentence: 109	holy	A	NN	O
+	shit	N	VBD	O
+	no	R	DT	O
+	more	A	RBR	O
+	xanax	N	NNS	O
+	or	&	CC	O
+	risperidone	N	NN	O
+	.	,	.	O
+	i	O	NN	O
+	will	V	MD	O
+	have	V	VB	O
+	withdrawals	N	NNS	O
+	.	,	.	O
+	still	R	RB	O
+	on	P	IN	O
+	viibryd	^	NNS	O
+	but	&	CC	O
+	it's	L	JJ	O
+	next	A	JJ	O
+	.	,	.	O
+	it	O	PRP	O
+	makes	V	VBZ	O
+	me	O	PRP	O
+	the	D	DT	O
+	sickest	N	NN	B-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 110	@mvrcivl	@	JJ	O
+	vyvanse	N	NN	O
+	got	V	VBD	O
+	me	O	PRP	O
+	up	T	IN	O
+	like	P	IN	O
+	zombies.	N	NN	B-ADR
+	.	,	.	O
+	xan's	G	NN	O
+	put	V	VBD	O
+	me	O	PRP	O
+	down	R	RP	O
+	,	,	,	O
+	them	D	PRP	O
+	bitches	N	VBZ	O
+	call	V	VB	O
+	me	O	PRP	O
+	romney.	^	VB	O
+	.	,	.	O
+	the	D	DT	O
+	way	N	NN	O
+	i	O	JJ	O
+	steady	A	JJ	O
+	clown	N	NN	O
+	#txfreestyle	#	NN	O
+	#barrdout	#	NN	O
+	0	0	0	O
+Sentence: 111	@jordantaylor068	@	NN	O
+	yeah	!	NN	O
+	,	,	,	O
+	i'm	L	NN	O
+	on	P	IN	O
+	vyvanse	^	NN	O
+	and	&	CC	O
+	sometimes	R	RB	O
+	i	O	NNS	O
+	have	V	VBP	O
+	to	P	TO	O
+	be	V	VB	O
+	reminded	V	VBN	O
+	to	P	TO	O
+	eat	V	VB	B-ADR
+	because	P	IN	I-ADR
+	i	O	NN	I-ADR
+	just	R	RB	I-ADR
+	forget	V	VB	I-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 112	vyvanse	^	NN	O
+	make	V	VBP	O
+	me	O	PRP	O
+	so	R	IN	O
+	hyper	A	JJ	B-ADR
+	and	&	CC	O
+	creative	A	JJ	O
+	and	&	CC	O
+	i	O	JJ	O
+	think	V	NN	O
+	of	P	IN	O
+	so	R	RB	O
+	many	A	JJ	O
+	tweets	N	NNS	O
+	0	0	0	O
+Sentence: 113	vyvanse	^	NN	O
+	=	,	VBZ	O
+	5	$	CD	O
+	lines	N	NNS	O
+	of	P	IN	O
+	coke	N	NN	O
+	.	,	.	O
+	can't	V	NN	B-ADR
+	.	,	.	I-ADR
+	stop	V	NN	I-ADR
+	.	,	.	I-ADR
+	moving	V	VBG	I-ADR
+	.	,	.	O
+	0	0	0	O
+Sentence: 114	@guccigreenery	@	NN	O
+	i	O	NN	O
+	felt	V	VBD	B-ADR
+	drugged	V	VBN	I-ADR
+	on	P	IN	O
+	ritalin	N	NN	O
+	.	,	.	O
+	i	O	JJ	O
+	love	V	VBP	O
+	vyvanse	^	NN	O
+	.	,	.	O
+	i	O	JJ	O
+	can't	V	VBP	O
+	tell	V	VB	O
+	i'm	L	NN	O
+	on	P	IN	O
+	it	O	PRP	O
+	except	V	IN	O
+	for	P	IN	O
+	feeling	V	VBG	O
+	better	R	JJR	O
+	and	&	CC	O
+	calmer	A	JJR	O
+	and	&	CC	O
+	more	R	RBR	O
+	structured	A	JJ	O
+	0	0	0	O
+Sentence: 115	when	R	WRB	O
+	im	L	NN	O
+	tweaked	V	VBD	O
+	off	T	IN	O
+	vyvanse	N	NN	O
+	i	O	NN	O
+	cant	V	VBP	O
+	go	V	VB	O
+	into	P	IN	O
+	my	D	PRP$	O
+	room...cuse	N	NN	O
+	if	P	IN	O
+	i	O	JJ	O
+	look	V	VBP	O
+	at	P	IN	O
+	my	D	PRP$	O
+	shoes	N	NNS	O
+	ill	L	VB	O
+	lose	V	JJ	B-ADR
+	focus	N	NN	I-ADR
+	of	P	IN	O
+	everything	N	NN	O
+	and	&	CC	O
+	just	R	RB	O
+	think	V	VB	O
+	bout	P	IN	O
+	them	O	PRP	O
+	0	0	0	O
+Sentence: 116	the	D	DT	O
+	come	V	VBN	B-ADR
+	down	T	RP	I-ADR
+	on	P	IN	O
+	vyvanse	^	NN	O
+	kicks	V	NNS	O
+	my	D	PRP$	O
+	ass	N	NN	O
+	every	D	DT	O
+	time	N	NN	O
+	0	0	0	O
