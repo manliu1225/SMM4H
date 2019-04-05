@@ -226,7 +226,7 @@ emlo_embed = ELMoEmbedding(idx2word=idx2word,
 auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
 
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([emlo_embed, pos_drpot, npos_dropout], axis=2)
+mrg_cncat = concatenate([emlo_embed, pos_drpot], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -236,7 +236,7 @@ mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_2')(mrg_lstml)
 
 # merge BLSTM layers and extenal layer
-mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
+mrg_cncat = concatenate([mrg_lstml, txt_drpot, npos_drpot, auxiliary_input], axis=2)
 # final linear chain CRF layer
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
@@ -253,7 +253,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents, X_train_sents, X_train_pos,X_train_npos X_train_features], y_train_ner,
+history = model.fit([X_train_sents, X_train_sents, X_train_pos,X_train_npos, X_train_features], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)

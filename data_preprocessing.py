@@ -83,7 +83,6 @@ word2idx, idx2word = get_vocab(sentence_text, MAX_VOCAB-2)
 pos2idx, idx2pos = get_vocab(sentence_post, len(set(postags)))
 ner2idx, idx2ner = get_vocab(sentence_ners, len(set(nertags))+2)
 
-
 # print(sentence_post)
 
 # index
