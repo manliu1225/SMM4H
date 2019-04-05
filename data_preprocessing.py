@@ -36,7 +36,7 @@ for i, s in enumerate(sentmarks, 1):
 sentmarks = sentmarks_li
 
 words = data["Word"].tolist()
-postags = data["POS"].tolist()
+postags = data["NPOS"].tolist()
 nertags = data["Tag"].tolist()
 
 sentence_text = []
