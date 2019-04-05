@@ -214,16 +214,16 @@ for k, v in p_d.items():
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
 with open("./data/converted_file_TrainData4.csv", "w") as outputf:
-    outputf.write("Sentence #\tWord\tNPOS\tTag\t\n")
+    outputf.write("Sentence #\tWord\tPOS\tNPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]
         tag_li = sentence_dict["tag"]
         pos_li = sentence_dict["pos"]
         npos_li = sentence_dict["npos"]
         sentence_m = ["Sentence: {}".format(idx+1)] + [""]*(len(word_li)-1)
-        for s in  zip(sentence_m, word_li,  npos_li, tag_li):
+        for s in  zip(sentence_m, word_li,  pos_li, npos_li, tag_li):
             outputf.write("\t".join(s)+"\n")
-        outputf.write("\t0\t0\tO\n")
+        outputf.write("\t0\t0\t0\tO\n")
 
 
 
