@@ -47,6 +47,7 @@ MAX_LENGTH = 30
 MAX_VOCAB = 25000    # see preprocessing.ipynb
 WORDEMBED_SIZE = 300 # see data_preprocessing.ipynb
 POS_EMBED_SIZE = 100 # see data_preprocessing.ipynb
+NPOS_EMBED_SIZE = 100 # see data_preprocessing.ipynb
 HIDDEN_SIZE = 400    # LSTM Nodes/Features/Dimension
 BATCH_SIZE = 64
 DROPOUTRATE = 0.25
@@ -59,14 +60,18 @@ print("loading data...\n")
 vocab = list(np.load('../encoded/vocab.npy'))
 sentence_text = list(np.load('../encoded/sentence_text.npy'))
 sentence_post = list(np.load('../encoded/sentence_post.npy'))
+sentence_npost = list(np.load('../encoded/sentence_npost.npy'))
 sentence_ners = list(np.load('../encoded/sentence_ners.npy'))
 sentence_text_idx = np.load('../encoded/sentence_text_idx.npy')
 sentence_post_idx = np.load('../encoded/sentence_post_idx.npy')
+sentence_npost_idx = np.load('../encoded/sentence_post_n_idx.npy')
 sentence_ners_idx = np.load('../encoded/sentence_ners_idx.npy')
 word2idx = np.load('../encoded/word2idx.npy').item()
 idx2word = np.load('../encoded/idx2word.npy').item()
 pos2idx = np.load('../encoded/pos2idx.npy').item()
+npos2idx = np.load('../encoded/npos2idx.npy').item()
 idx2pos = np.load('../encoded/idx2pos.npy').item()
+idx2npos = np.load('../encoded/idx2npos.npy').item()
 ner2idx = np.load('../encoded/ner2idx.npy').item()
 idx2ner = np.load('../encoded/idx2ner.npy').item()
 train_idx = np.load('../encoded/train_idx.npy')
@@ -74,7 +79,9 @@ test_idx = np.load('../encoded/test_idx.npy')
 X_train_sents = np.load('../encoded/X_train_sents.npy')
 X_test_sents = np.load('../encoded/X_test_sents.npy')
 X_train_pos = np.load('../encoded/X_train_pos.npy')
+X_train_npos = np.load('../encoded/X_train_npos.npy')
 X_test_pos = np.load('../encoded/X_test_pos.npy')
+X_test_npos = np.load('../encoded/X_test_npos.npy')
 y_train_ner = np.load('../encoded/y_train_ner.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
 X_test_features = np.load('../encoded/X_test_features.npy')
@@ -88,6 +95,8 @@ w2v_vocab, _ = load_vocab('embeddings/text_mapping.json')
 w2v_model = Word2Vec.load('embeddings/text_embeddings.gensimmodel')
 w2v_pvocab, _ = load_vocab('embeddings/pos_mapping.json')
 w2v_pmodel = Word2Vec.load('embeddings/pos_embeddings.gensimmodel')
+w2v_npvocab, _ = load_vocab('embeddings/npos_mapping.json')
+w2v_npmodel = Word2Vec.load('embeddings/npos_embeddings.gensimmodel')
 
 
 # ## pad sequences
@@ -101,6 +110,8 @@ X_train_sents = sequence.pad_sequences(X_train_sents, maxlen=MAX_LENGTH, truncat
 X_test_sents = sequence.pad_sequences(X_test_sents, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_train_pos = sequence.pad_sequences(X_train_pos, maxlen=MAX_LENGTH, truncating='post', padding='post')
 X_test_pos = sequence.pad_sequences(X_test_pos, maxlen=MAX_LENGTH, truncating='post', padding='post')
+X_train_npos = sequence.pad_sequences(X_train_npos, maxlen=MAX_LENGTH, truncating='post', padding='post')
+X_test_npos = sequence.pad_sequences(X_test_npos, maxlen=MAX_LENGTH, truncating='post', padding='post')
 y_train_ner = sequence.pad_sequences(y_train_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 
@@ -120,6 +131,7 @@ X_test_features =  np.expand_dims(X_test_features, axis=2)
 
 # get the size of pos-tags, ner tags
 TAG_VOCAB = len(list(idx2pos.keys()))
+NTAG_VOCAB = len(list(idx2npos.keys()))
 NER_VOCAB = len(list(idx2ner.keys()))
 
 
@@ -162,6 +174,19 @@ for word in pos2idx.keys():
         pos_embedding_matrix[pos2idx[word]] = word_vector
 print("added", c, "vectors")
 
+npos_embedding_matrix = np.zeros((NTAG_VOCAB, NPOS_EMBED_SIZE))
+c = 0
+for word in npos2idx.keys():
+    # get the word vector from the embedding model
+    # if it's there (check against vocab list)
+    if word in w2v_pvocab:
+        c += 1
+        # get the word vector
+        word_vector = w2v_pmodel[word]
+        # slot it in at the proper index
+        npos_embedding_matrix[npos2idx[word]] = word_vector
+print("added", c, "vectors")
+
 
 
 # define model
@@ -180,6 +205,13 @@ pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
+# nltk pos layers : dense embedding > dropout > bi-LSTM
+npos_input = Input(shape=(MAX_LENGTH,), name='npos_input')
+npos_embed = Embedding(NTAG_VOCAB, NPOS_EMBED_SIZE, input_length=MAX_LENGTH,
+                      weights=[npos_embedding_matrix],
+                      name='npos_embedding', trainable=True, mask_zero=True)(npos_input)
+npos_drpot = Dropout(DROPOUTRATE, name='npos_dropout')(npos_embed)
+
 # bert layer
 bert_input = Input(shape=(MAX_LENGTH,768), name='bert_input')
 bert_drpot = Dropout(DROPOUTRATE, name='bert_drpot')(bert_input)
@@ -194,7 +226,7 @@ emlo_embed = ELMoEmbedding(idx2word=idx2word,
 auxiliary_input = Input(shape=(MAX_LENGTH,1), name='aux_input') #(None, 30, 1)
 
 # merged layers : merge (concat, average...) word and pos > bi-LSTM > bi-LSTM
-mrg_cncat = concatenate([emlo_embed, pos_drpot], axis=2)
+mrg_cncat = concatenate([emlo_embed, pos_drpot, npos_dropout], axis=2)
 mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_1')(mrg_cncat)
 
@@ -209,7 +241,7 @@ mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_input, emlo_input, pos_input, auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, emlo_input, pos_input, npos_input, auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
@@ -221,7 +253,7 @@ model.summary()
 
 
 
-history = model.fit([X_train_sents, X_train_sents, X_train_pos, X_train_features], y_train_ner,
+history = model.fit([X_train_sents, X_train_sents, X_train_pos,X_train_npos X_train_features], y_train_ner,
                     batch_size=BATCH_SIZE,
                     epochs=MAX_EPOCHS,
                     verbose=2)
@@ -232,12 +264,12 @@ hist_dict = history.history
 # save the model
 # because we are using keras-contrib, we must save weights like this, and load into network
 # (see decoding.ipynb)
-save_load_utils.save_all_weights(model, '../model/crf_model.h5')
-np.save('../model/hist_dict.npy', hist_dict)
+save_load_utils.save_all_weights(model, '../model/nltkposcrf_model.h5')
+np.save('../model/nltkhist_dict.npy', hist_dict)
 print("models saved!\n")
 
 
-preds = model.predict([X_test_sents, X_test_sents, X_test_pos, X_test_features])
+preds = model.predict([X_test_sents, X_test_sents, X_test_pos, X_test_npos, X_test_features])
 
 
 
