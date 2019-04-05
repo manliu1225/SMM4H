@@ -36,7 +36,7 @@ for i, s in enumerate(sentmarks, 1):
 sentmarks = sentmarks_li
 
 words = data["Word"].tolist()
-postags = data["NPOS"].tolist()
+postags = data["POS"].tolist()
 nertags = data["Tag"].tolist()
 
 sentence_text = []
@@ -136,8 +136,8 @@ w2v_vocab, w2v_model = create_embeddings(train_sent_texts,
 train_post_texts = [sentence_post[idx] for idx in train_idx]
 
 w2v_pvocab, w2v_pmodel = create_embeddings(train_post_texts,
-                         embeddings_path='embeddings/pos_embeddings.gensimmodel',
-                         vocab_path='embeddings/pos_mapping.json',
+                         embeddings_path='embeddings/npos_embeddings.gensimmodel',
+                         vocab_path='embeddings/npos_mapping.json',
                          size=100,
                          workers=4,
                          iter=20)
