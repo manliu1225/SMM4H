@@ -90,25 +90,25 @@ def process(tweet):
     process tweet and extraction'''
     if tweet[0] == "\"" and tweet[-1] == "\"":
         tweet = tweet[1:-1]
-    # tweet_li = tweet.split()
-    # tweet_li = tknzr.tokenize(tweet)
-    tweet_li = re.split(r'\s|([\,\?\!\:\"])', tweet)
-    tweet_li = list(filter(lambda x : x!=None, tweet_li))
-    tweet_li = list(filter(lambda x : x!="", tweet_li))
-    tweet_li_new = []
-    for i, s in enumerate(tweet_li):
-        if len(s) > 1 and s[-1] == "." and not re.match(r"\.+",s):
-            tweet_li_new.append(s[:-1])
-            tweet_li_new.append('.')
-        else: tweet_li_new.append(s)
-    # tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
-    tweet_li = tweet_li_new
+    tweet_li = tweet.split()
+    # # tweet_li = tknzr.tokenize(tweet)
+    # tweet_li = re.split(r'\s|([\,\?\!\:\"])', tweet)
+    # tweet_li = list(filter(lambda x : x!=None, tweet_li))
+    # tweet_li = list(filter(lambda x : x!="", tweet_li))
+    # tweet_li_new = []
+    # for i, s in enumerate(tweet_li):
+    #     if len(s) > 1 and s[-1] == "." and not re.match(r"\.+",s):
+    #         tweet_li_new.append(s[:-1])
+    #         tweet_li_new.append('.')
+    #     else: tweet_li_new.append(s)
+    # # tweet_li = [re.sub(r"@[\d\w_]*", "@URL", x) for x in tweet_li]
+    # tweet_li = tweet_li_new
     return tweet_li
 
 miss = 0 # how many NEs are not in the begin ~ end
 for j, sentence in enumerate(data):
     sentence = sentence.strip()
-    sentence = re.sub("amp;", "", sentence)
+    # sentence = re.sub("amp;", "", sentence)
     li = sentence.strip().split('\t')
     tweet, extraction = li[6], li[4] ## tsv 1 and 2 and 3 and 4
     # tweet, extraction = li[9], li[6] ## tsv 3

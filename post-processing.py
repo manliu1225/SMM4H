@@ -44,6 +44,23 @@ for k in data.keys():
 	words = data[k]["word"]
 	preds = data[k]["pred"]
 	print(original_data.keys())
+	pred = data[k]["pred"]
+	start, end = 0, 0
+	spans = []
+	for i in range(len(pred)):
+		if  (i == 0 and pred[i]== "I-ADR") or (pred[i-1] == "O" and pred[i] == "I-ADR") or pred[i] == "B-ADR":
+			start = i
+		if ( (i+1 == (len(pred) -1) and "ADR" in pred[i]) or (i < (len(pred) - 1) and pred[i+1] == "O" and "ADR" in pred[i]) or 
+			(i < (len(pred)-1) and i > 0 and "ADR" not in pred[i+1] and "ADR" not in pred[i-1] and "ADR" in pred[i]) ):
+			end = i
+			spans.append((start, end))
+		if pred[i] == "O":
+			continue
+	data[k]["spans"] = spans 
+	data[k]["text"] = [" ".join(words[start:end+1]) for start, end in spans]
+	print(data[k])
+	sys.exit()
+
 	if " ".join(words) in original_data.keys():
 		print(words)
 		tweet = " ".join(words)
@@ -52,8 +69,8 @@ for k in data.keys():
 		print(" ".join(words))
 		print(original_words)
 		tweet = original_words[0]
-	data[i]["tweet_id"] = original_data[tweet]
-	sys.exit()
+	data[k]["tweet_id"] = original_data[tweet]
+	data[k]["tweet"] = tweet
 
 
 

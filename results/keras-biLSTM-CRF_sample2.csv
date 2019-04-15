@@ -1,7 +1,7 @@
 ,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29
 word,@thestomabaglady,it,was,explained,to,me,that,all,the,anti-tnfs,can,bring,out,other,issues,.,i,had,severe,joint,pain,on,humira,&,remicaid,,,,,
 true,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-ADR,I-ADR,O,O,O,O,,,,,
-pred,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-ADR,I-ADR,O,O,O,O,,,,,
+pred,B-ADR,O,O,O,O,O,O,O,O,O,O,B-ADR,O,O,I-ADR,I-ADR,O,O,O,B-ADR,I-ADR,O,O,O,I-ADR,,,,,
 skip, , , , , , , , , , , , , , , , , , , , , , , , , ,,,,,
 word,seroquel,is,causing,more,gaps,in,memory,",",i,don't,remember,going,to,therapy,and,as,usual,no,one,has,stepped,up,to,claim,thos,memories,&gt;&gt;,,,
 true,O,O,O,O,B-ADR,I-ADR,I-ADR,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,,,
