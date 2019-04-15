@@ -72,14 +72,23 @@ print('Building model...\n')
 # text layers : dense embedding > dropout > bi-LSTM
 txt_input = Input(shape=(MAX_LENGTH,), name='txt_input')
 txt_embed = Embedding(MAX_VOCAB, WORDEMBED_SIZE, input_length=MAX_LENGTH,
+                      weights=[word_embedding_matrix],
                       name='txt_embedding', trainable=True, mask_zero=True)(txt_input)
 txt_drpot = Dropout(DROPOUTRATE, name='txt_dropout')(txt_embed)
 
 # pos layers : dense embedding > dropout > bi-LSTM
 pos_input = Input(shape=(MAX_LENGTH,), name='pos_input')
 pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
+                      weights=[pos_embedding_matrix],
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
+
+# nltk pos layers : dense embedding > dropout > bi-LSTM
+npos_input = Input(shape=(MAX_LENGTH,), name='npos_input')
+npos_embed = Embedding(NTAG_VOCAB, NPOS_EMBED_SIZE, input_length=MAX_LENGTH,
+                      weights=[npos_embedding_matrix],
+                      name='npos_embedding', trainable=True, mask_zero=True)(npos_input)
+npos_drpot = Dropout(DROPOUTRATE, name='npos_dropout')(npos_embed)
 
 # bert layer
 bert_input = Input(shape=(MAX_LENGTH,768), name='bert_input')
@@ -105,12 +114,17 @@ mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_2')(mrg_lstml)
 
 # merge BLSTM layers and extenal layer
-mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
+mrg_cncat = concatenate([mrg_lstml, txt_drpot, npos_drpot, auxiliary_input], axis=2)
 # final linear chain CRF layer
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-model = Model(inputs=[txt_input, emlo_input, pos_input, auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, emlo_input, pos_input, npos_input, auxiliary_input], outputs=mrg_chain)
+
+# model.compile(optimizer='adam',
+#               loss=crf.loss_function,
+#               metrics=[crf.accuracy])
+
 
 
 # load model
@@ -132,7 +146,7 @@ plt.show()
 
 
 decoded = []
-for sent_idx in range(len(X_test_sents[:500])):
+for sent_idx in range(len(X_test_sents)):
     this_txt = sequence.pad_sequences([X_test_sents[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
     this_pos = sequence.pad_sequences([X_test_pos[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
     this_feature = sequence.pad_sequences([X_test_features[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
@@ -180,7 +194,7 @@ result.head()
 
 
 
-result.to_csv('results/keras-biLSTM-CRF_sample.csv')
+result.to_csv('results/keras-biLSTM-CRF_sample2.csv')
 
 
 

@@ -1,0 +1,2 @@
+command: python $program/evaluationTask23.py $input $output Detection
+description: Example competition evaluation program. 
