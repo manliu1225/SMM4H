@@ -47,6 +47,14 @@ X_test_pos = np.load('../encoded/X_test_pos.npy')
 y_test_ner = np.load('../encoded/y_test_ner.npy')
 X_test_features = np.load('../encoded/X_test_features.npy')
 X_test_sents_bert = np.load('../encoded/X_test_sents_bert.npy')
+# w2v_npmodel = Word2Vec.load('embeddings/npos_embeddings.gensimmodel')
+sentence_npost = list(np.load('../encoded/sentence_npost.npy'))
+sentence_npost_idx = np.load('../encoded/sentence_post_n_idx.npy')
+npos2idx = np.load('../encoded/npos2idx.npy').item()
+idx2npos = np.load('../encoded/idx2npos.npy').item()
+X_test_npos = np.load('../encoded/X_test_npos.npy')
+
+
 
 print("...data loaded!")
 
@@ -64,6 +72,9 @@ HIDDEN_SIZE = 400    # LSTM Nodes/Features/Dimension
 DROPOUTRATE = 0.25
 TAG_VOCAB = len(list(idx2pos.keys()))
 NER_VOCAB = len(list(idx2ner.keys()))
+NTAG_VOCAB = len(list(idx2npos.keys()))
+
+NPOS_EMBED_SIZE = 100 # see data_preprocessing.ipynb
 
 print('Building model...\n')
 
@@ -72,21 +83,21 @@ print('Building model...\n')
 # text layers : dense embedding > dropout > bi-LSTM
 txt_input = Input(shape=(MAX_LENGTH,), name='txt_input')
 txt_embed = Embedding(MAX_VOCAB, WORDEMBED_SIZE, input_length=MAX_LENGTH,
-                      weights=[word_embedding_matrix],
+                      # weights=[word_embedding_matrix],
                       name='txt_embedding', trainable=True, mask_zero=True)(txt_input)
 txt_drpot = Dropout(DROPOUTRATE, name='txt_dropout')(txt_embed)
 
 # pos layers : dense embedding > dropout > bi-LSTM
 pos_input = Input(shape=(MAX_LENGTH,), name='pos_input')
 pos_embed = Embedding(TAG_VOCAB, POS_EMBED_SIZE, input_length=MAX_LENGTH,
-                      weights=[pos_embedding_matrix],
+                      # weights=[pos_embedding_matrix],
                       name='pos_embedding', trainable=True, mask_zero=True)(pos_input)
 pos_drpot = Dropout(DROPOUTRATE, name='pos_dropout')(pos_embed)
 
 # nltk pos layers : dense embedding > dropout > bi-LSTM
 npos_input = Input(shape=(MAX_LENGTH,), name='npos_input')
 npos_embed = Embedding(NTAG_VOCAB, NPOS_EMBED_SIZE, input_length=MAX_LENGTH,
-                      weights=[npos_embedding_matrix],
+                      # weights=[npos_embedding_matrix],
                       name='npos_embedding', trainable=True, mask_zero=True)(npos_input)
 npos_drpot = Dropout(DROPOUTRATE, name='npos_dropout')(npos_embed)
 
@@ -128,13 +139,13 @@ model = Model(inputs=[txt_input, emlo_input, pos_input, npos_input, auxiliary_in
 
 
 # load model
-save_load_utils.load_all_weights(model,'../model/crf_model.h5')
+save_load_utils.load_all_weights(model,'../model/nltkposcrf_model.h5')
 model.summary()
 
 
 
 # load history dict from training
-hist_dict = np.load('../model/hist_dict.npy').item()
+hist_dict = np.load('../model/nltkhist_dict.npy').item()
 plt.plot(hist_dict['crf_viterbi_accuracy'], 'red', label='crf_viterbi_accuracy')
 # if using 'validation_size' in .fit()
 # plt.plot(hist_dict['val_acc'], 'blue', label='val_acc')
@@ -150,10 +161,12 @@ for sent_idx in range(len(X_test_sents)):
     this_txt = sequence.pad_sequences([X_test_sents[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
     this_pos = sequence.pad_sequences([X_test_pos[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
     this_feature = sequence.pad_sequences([X_test_features[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
-    
+    this_npos = sequence.pad_sequences([X_test_npos[sent_idx]], maxlen=MAX_LENGTH, truncating='post', padding='post')
+
+
     this_feature =  np.expand_dims(this_feature, axis=2)
 
-    this_pred = model.predict([this_txt, this_txt, this_pos, this_feature])
+    this_pred = model.predict([this_txt, this_txt, this_pos, this_npos, this_feature])
     this_pred = [np.argmax(p) for p in this_pred[0]]
     np.shape(this_pred)
 
@@ -165,7 +178,7 @@ for sent_idx in range(len(X_test_sents)):
         # decode word
         word.append(idx2word[wordid])
         # decode pos
-        pos.append(idx2pos[X_test_pos[sent_idx][idx]])
+        # pos.append(idx2pos[X_test_pos[sent_idx][idx]])
         # decode true NER tag
         tru.append(idx2ner[y_test_ner[sent_idx][idx]])
         # decode prediction
@@ -174,12 +187,13 @@ for sent_idx in range(len(X_test_sents)):
     answ = pd.DataFrame(
     {
         'word': word,
-        'pos': pos,
+        # 'pos': pos,
         'true': tru,
         'pred': prd,
         'skip' : [' ' for s in word]
     })
-    answ = answ[['word', 'pos', 'true', 'pred', 'skip']]
+    # answ = answ[['word', 'pos', 'true', 'pred', 'skip']]
+    answ = answ[['word',  'true', 'pred', 'skip']]
     answ = answ.T
     print("predict {}...".format(sent_idx))
     decoded.append(answ)
