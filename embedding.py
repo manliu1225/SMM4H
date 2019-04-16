@@ -4,7 +4,6 @@ import numpy as np
 from gensim.models import Word2Vec
 from keras.layers import Embedding
 
-
 # create embeddings with gensim
 def create_embeddings(sentences,
                       embeddings_path='temp_embeddings/embeddings.gensimmodel',

@@ -17,7 +17,7 @@ jnius_config.add_options('-Xmx512m', '-XX:ParallelGCThreads=2')
 jnius_config.set_classpath(*(os.path.join(_resources_dir, jar) for jar in os.listdir(_resources_dir) if jar.endswith('.jar')))
 os.environ['CLASSPATH'] = './resources/'
 
-inputf = open("../data/TrainData4.tsv", encoding = "utf-8")
+inputf = open("../data/TrainData3.tsv", encoding = "utf-8")
 data = inputf.readlines()[1:]
 print(data[0])
 logger = logging.getLogger(__name__)
@@ -213,7 +213,7 @@ for k, v in p_d.items():
 
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
-with open("./data/converted_file_TrainData4.csv", "w") as outputf:
+with open("./data/converted_file_TrainData3.csv", "w") as outputf:
     outputf.write("Sentence #\tWord\tPOS\tNPOS\tTag\t\n")
     for idx, sentence_dict in data_dict_new.items():
         word_li = sentence_dict["word"]

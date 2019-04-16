@@ -1,9 +1,8 @@
 Sentence #	Word	POS	NPOS	Tag	
-Sentence: 1	rt	~	JJ	O
-	@dmpharmresearch	@	NN	O
-	:	~	:	O
-	@nejm	@	NN	O
-	publishes	V	NNS	O
+Sentence: 1	rt	~	NN	O
+	@dmpharmresearch:	G	NNP	O
+	@nejm	@	NNP	O
+	publishes	V	VBZ	O
 	exciting	A	VBG	O
 	phiii	N	JJ	O
 	trial	N	NN	O
@@ -30,25 +29,21 @@ Sentence: 2	get	V	VB	O
 	cock	N	NN	O
 	b4	P	NN	O
 	u	O	NN	O
-	use	V	IN	O
+	use	V	NN	O
 	it	O	PRP	O
-	next	A	JJ	O
-	.	,	.	O
+	next.	A	VBZ	O
 	or	&	CC	O
 	take	V	VB	O
 	some	D	DT	O
-	avelox	N	NN	O
-	.	,	.	O
+	avelox.	N	NN	O
 	0	0	0	O
 Sentence: 3	#download	#	NN	O
 	avelox	^	SYM	O
 	-	,	:	O
 	a	D	DT	O
 	medical	A	JJ	O
-	dictionary	N	NN	O
-	,	,	,	O
-	bibliography	N	NN	O
-	,	,	,	O
+	dictionary,	N	NN	O
+	bibliography,	N	NN	O
 	and	&	CC	O
 	annotated	A	VBD	O
 	research	N	NN	O
@@ -58,8 +53,7 @@ Sentence: 3	#download	#	NN	O
 	references	N	NNS	O
 	-	,	:	O
 	icon	N	NN	O
-	health..	N	NN	O
-	.	,	.	O
+	health...	N	NN	O
 	@workshopguides	@	NNS	O
 	0	0	0	O
 Sentence: 4	@misterak47	@	JJ	O
@@ -73,20 +67,16 @@ Sentence: 4	@misterak47	@	JJ	O
 	to	P	TO	O
 	do	V	VB	O
 	w/	P	VB	O
-	me	O	PRP	O
-	.	,	.	O
-	avelox	^	NN	O
+	me.	O	NN	O
+	avelox	V	NN	O
 	has	V	VBZ	O
 	hurt	V	VBN	O
 	my	D	PRP$	O
 	connective	A	JJ	B-ADR
-	tissue	N	NN	I-ADR
-	,	,	,	O
-	lungs	N	NNS	B-ADR
+	tissue,lungs	N	NNS	I-ADR
 	and	&	CC	O
-	thyroid	N	NN	B-ADR
-	.	,	.	O
-	i	O	JJ	O
+	thyroid.	N	NN	B-ADR
+	i	O	NN	O
 	guess	V	NN	O
 	i	O	NN	O
 	should	V	MD	O
@@ -103,8 +93,7 @@ Sentence: 5	i	O	NN	O
 	the	D	DT	O
 	same	A	JJ	O
 	day	N	NN	O
-	again	R	RB	O
-	.	,	.	O
+	again.	R	IN	O
 	first	A	JJ	O
 	i	O	NN	O
 	felt	V	VBD	O
@@ -120,8 +109,7 @@ Sentence: 5	i	O	NN	O
 	it's	L	JJ	O
 	freaking	V	VBG	O
 	me	O	PRP	O
-	out	T	IN	O
-	.	,	.	O
+	out.	T	JJ	O
 	0	0	0	O
 Sentence: 6	baclofen	^	NN	O
 	gives	V	VBZ	O
@@ -137,10 +125,8 @@ Sentence: 6	baclofen	^	NN	O
 	like	P	IN	I-ADR
 	throwing	V	VBG	I-ADR
 	up	T	RP	I-ADR
-	after	P	IN	O
-	.	,	.	O
-	ugh	!	JJ	O
-	.	,	.	O
+	after.	P	JJ	O
+	ugh.	!	JJ	O
 	#thestruggle	#	NN	O
 	0	0	0	O
 Sentence: 7	@shiftms	@	JJ	O
@@ -150,18 +136,14 @@ Sentence: 7	@shiftms	@	JJ	O
 	sleeping	V	VBG	O
 	probs	R	NN	O
 	at	P	IN	O
-	night	N	NN	O
-	.	,	.	O
+	night.	N	JJ	O
 	anyone	N	NN	O
 	else	R	RB	O
 	encountering	V	VBG	O
-	this	O	DT	O
-	?	,	.	O
-	baclofen	V	NN	O
-	perhaps	R	RB	O
-	?	,	.	O
+	this?baclofen	O	NN	O
+	perhaps?	R	NN	O
 	cheers	N	NNS	O
-	x	E	VBP	O
+	x	G	VBP	O
 	0	0	0	O
 Sentence: 8	@rogerrdharris	@	JJ	O
 	@rfdsdoc	@	NNP	O
@@ -176,11 +158,9 @@ Sentence: 8	@rogerrdharris	@	JJ	O
 	plausible	A	JJ	O
 	cause	P	NN	O
 	but	&	CC	O
-	testing	V	NN	O
+	testing	V	VBG	O
 	was	V	VBD	O
-	done	V	VBN	O
-	,	,	,	O
-	caveat	N	NN	O
+	done,caveat	V	NN	O
 	0	0	0	O
 Sentence: 9	the	D	DT	O
 	cipro	N	NN	O
@@ -216,17 +196,14 @@ Sentence: 10	got	V	VBD	O
 	a	D	DT	O
 	uti	N	NN	O
 	for	P	IN	O
-	#motherday	N	NN	O
-	.	,	.	O
-	lol	!	NN	O
-	,	,	,	O
-	thank	V	NN	O
+	#motherday.	#	NNP	O
+	lol,	!	NNP	O
+	thank	V	VBD	O
 	god	^	NN	O
 	for	P	IN	O
 	walk	V	NN	O
 	in	P	IN	O
-	clinics	N	NNS	O
-	.	,	.	O
+	clinics.	N	NN	O
 	0	0	0	O
 Sentence: 11	the	D	DT	O
 	pathway	N	NN	O
@@ -254,8 +231,7 @@ Sentence: 12	the	D	DT	O
 	taking	V	VBG	O
 	quinolones	D	NNS	O
 	antibiotics	N	NNS	O
-	(e.g	N	VBP	O
-	.	,	.	O
+	(e.g.	G	VBP	O
 	cipro)	N	NN	O
 	?	,	.	O
 	0	0	0	O
@@ -265,8 +241,7 @@ Sentence: 13	starting	V	VBG	O
 	and	&	CC	O
 	flagyl	^	NN	O
 	today	N	NN	O
-	:	,	:	O
-	(	,	(	O
+	:(	E	VBP	O
 	this	O	DT	O
 	should	V	MD	O
 	be	V	VB	O
@@ -286,22 +261,19 @@ Sentence: 14	@princessdolly85	@	VB	O
 	improve	V	VB	O
 	or	&	CC	O
 	ivs	N	VB	O
-	sooner	R	NN	O
-	:	,	:	O
-	-/	G	JJ	O
-	hope	V	VBP	O
+	sooner	R	JJR	O
+	:-/	E	JJ	O
+	hope	V	NN	O
 	cipro	N	NNS	O
 	have	V	VBP	O
-	helped	V	VBN	O
-	,	,	,	O
-	shame	N	VB	O
+	helped,	V	VBN	O
+	shame	N	NN	O
 	about	P	IN	O
 	no	D	DT	O
 	sun	N	NN	O
 	0	0	0	O
 Sentence: 15	rt	~	NN	O
-	@lemonka	@	NN	O
-	:	~	:	O
+	@lemonka:	V	VBZ	O
 	the	D	DT	O
 	lady	N	NN	O
 	from	P	IN	O
@@ -317,23 +289,18 @@ Sentence: 15	rt	~	NN	O
 	discontinued	V	VBN	O
 	your	D	PRP$	O
 	business	N	NN	O
-	&	&	CC	O
+	&amp;	N	NN	O
 	since	P	IN	O
 	this	O	DT	O
 	a	D	DT	O
-	...	,	:	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/qjmiuram�	G	NN	O
+	...	~	:	O
+	http://t.co/qjmiuram�	U	NN	O
 	0	0	0	O
 Sentence: 16	harde	^	NN	O
-	rt	~	NN	O
-	@baokent	@	NN	O
-	:	~	:	O
-	:	E	:	O
-	(	E	(	O
-	�@lemonka	@	NN	O
-	:	~	:	O
+	rt	V	NN	O
+	@baokent:	N	NNP	O
+	:(	E	NNP	O
+	�@lemonka:	,	NNP	O
 	great	A	JJ	O
 	cipro	N	NN	O
 	advertised	V	VBD	O
@@ -344,22 +311,19 @@ Sentence: 16	harde	^	NN	O
 	bidders.�	N	NN	O
 	0	0	0	O
 Sentence: 17	rt	~	NN	O
-	@indigo_rosie	@	NN	O
-	:	~	:	O
+	@indigo_rosie:	V	VB	O
 	my	D	PRP$	O
 	medication	N	NN	O
 	gives	V	VBZ	O
 	me	O	PRP	O
 	weird	A	JJ	B-ADR
-	&	&	CC	I-ADR
-	bizarre	A	JJ	I-ADR
-	dreams	N	NNS	I-ADR
-	.	,	.	O
+	&amp;	N	JJ	I-ADR
+	bizarre	A	NN	I-ADR
+	dreams.	N	NN	I-ADR
 	not	R	RB	O
 	all	D	DT	O
 	bad	A	JJ	O
-	though	P	IN	O
-	.	,	.	O
+	though.	P	NN	O
 	last	A	JJ	O
 	night	N	NN	O
 	i	O	NN	O
@@ -373,8 +337,7 @@ Sentence: 17	rt	~	NN	O
 	0	0	0	O
 Sentence: 18	@simbukha	@	NN	O
 	hey	!	NN	O
-	sim	!	NN	O
-	!	,	.	O
+	sim!	!	VBP	O
 	i	O	NN	O
 	never	R	RB	O
 	chat	V	WP	O
@@ -383,14 +346,11 @@ Sentence: 18	@simbukha	@	NN	O
 	via	P	IN	O
 	dis	D	JJ	O
 	social	A	JJ	O
-	netwek	N	NN	O
-	,	,	,	O
+	netwek,	N	NN	O
 	r	V	NN	O
 	u	O	JJ	O
 	great	A	JJ	O
-	dou	G	NN	O
-	?	,	.	O
-	@cypro	@	JJ	O
+	dou?@cypro	N	NN	O
 	0	0	0	O
 Sentence: 19	i	O	NN	O
 	hope	V	VBP	O
@@ -403,36 +363,30 @@ Sentence: 19	i	O	NN	O
 	become	V	VB	O
 	a	D	DT	O
 	tradit�	N	JJ	O
-	damnit	!	NN	O
-	.	,	.	O
+	damnit.	!	NN	O
 	0	0	0	O
 Sentence: 20	@rickywarwick	@	NNS	O
 	so	R	RB	O
 	true	A	JJ	O
-	ricky	^	NN	O
-	!	,	.	O
-	i	O	JJ	O
+	ricky!	^	NN	O
+	i	O	NN	O
 	went	V	VBD	O
 	into	P	IN	O
 	anaphylactic	N	JJ	B-ADR
 	shock	N	NN	I-ADR
-	&	&	CC	O
+	&amp;	N	NN	O
 	almost	R	RB	B-ADR
 	died	V	VBD	I-ADR
 	from	P	IN	O
 	taking	V	VBG	O
-	cipro	N	JJ	O
-	!	,	.	O
+	cipro!	N	JJ	O
 	dangerous	A	JJ	O
 	drug	N	NN	O
 	-	,	:	O
 	be	V	VB	O
-	careful	A	JJ	O
-	!	,	.	O
-	!	,	.	O
-	take	V	VB	O
-	care	N	NN	O
-	.	,	.	O
+	careful!!	A	JJ	O
+	take	N	VB	O
+	care.	N	NN	O
 	0	0	0	O
 Sentence: 21	cipro	N	NN	O
 	makes	V	VBZ	O
@@ -441,13 +395,11 @@ Sentence: 21	cipro	N	NN	O
 	feel	V	NN	I-ADR
 	like	P	IN	I-ADR
 	its	L	PRP$	I-ADR
-	bleeding	V	NN	I-ADR
-	.	,	.	O
+	bleeding.	V	NN	I-ADR
 	but	&	CC	O
 	it's	L	JJ	O
-	not	R	RB	O
-	.	,	.	O
-	#phantomsangre	#	VB	O
+	not.	R	NN	O
+	#phantomsangre	#	NN	O
 	0	0	0	O
 Sentence: 22	@reditlhabi	@	NN	O
 	after	P	IN	O
@@ -456,31 +408,19 @@ Sentence: 22	@reditlhabi	@	NN	O
 	2	$	CD	O
 	hours	N	NNS	O
 	on	P	IN	O
-	#cipc	^	JJ	O
-	#cipro	^	NNP	O
-	,	,	,	O
+	#cipc	^	NNP	O
+	#cipro,	N	NNP	O
 	the	D	DT	O
 	consultant	N	NN	O
 	just	R	RB	O
-	greeted	V	VBN	O
-	,	,	,	O
+	greeted,	V	NN	O
 	asked	V	VBD	O
 	my	D	PRP$	O
 	problem	N	NN	O
 	and	&	CC	O
 	dropped	V	VBD	O
 	the	D	DT	O
-	phone	N	NN	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
+	phone!!!!!!!!!!	N	NN	O
 	0	0	0	O
 Sentence: 23	all	D	DT	O
 	i	O	NNS	O
@@ -493,23 +433,20 @@ Sentence: 23	all	D	DT	O
 	mess	V	VB	O
 	you	O	PRP	O
 	up	A	RP	O
-	kids	N	NNS	O
-	.	,	.	O
-	don't	V	VB	O
+	kids.	N	VB	O
+	don't	V	JJ	O
 	get	V	VB	O
-	sick	A	JJ	O
-	!	,	.	O
-	#blagh	#	JJ	O
-	#gross	#	IN	O
+	sick!	A	JJ	O
+	#blagh	#	NNP	O
+	#gross	#	NNP	O
 	#weak	#	NN	B-ADR
 	0	0	0	O
 Sentence: 24	@jessielee122	@	IN	O
 	you	O	PRP	O
 	can	V	MD	O
 	say	V	VB	O
-	that	O	DT	O
-	again	R	RB	O
-	!	,	.	O
+	that	O	IN	O
+	again!	R	NN	O
 	i	O	NN	O
 	trusted	V	VBD	O
 	my	D	PRP$	O
@@ -523,14 +460,12 @@ Sentence: 24	@jessielee122	@	IN	O
 	just	R	RB	O
 	12	$	CD	O
 	cipro	N	JJ	O
-	pills	N	NNS	O
-	.	,	.	O
+	pills.	N	NN	O
 	going	V	VBG	O
 	on	P	IN	O
 	4	$	CD	O
 	years	N	NNS	O
-	now	R	RB	O
-	.	,	.	O
+	now.	R	RB	O
 	0	0	0	O
 Sentence: 25	@doctormcpa	@	JJ	O
 	@sarahrnay	@	NNP	O
@@ -544,23 +479,19 @@ Sentence: 25	@doctormcpa	@	JJ	O
 	cipro	N	NNS	O
 	for	P	IN	O
 	simple	A	JJ	O
-	utis	N	NN	O
-	?	,	.	O
-	?	,	.	O
+	utis??	N	NN	O
 	0	0	0	O
 Sentence: 26	i'm	L	VB	O
 	too	R	RB	O
 	numb	A	JJ	B-ADR
 	to	P	TO	I-ADR
-	feel	V	VB	I-ADR
-	,	,	,	O
+	feel,	V	VB	I-ADR
 	blow	N	VB	O
 	out	P	RP	O
 	the	D	DT	O
-	candle	N	NN	O
-	,	,	,	O
+	candle,	N	NN	O
 	blindness	N	NN	O
-	#np	#	NN	O
+	#np	#	NNP	O
 	#cymbalta	#	NN	O
 	0	0	0	O
 Sentence: 27	@kenzo_fosho	@	JJ	O
@@ -593,8 +524,7 @@ Sentence: 30	@docwashburn	@	NN	O
 	immature	A	NN	O
 	fight	N	NN	O
 	with	P	IN	O
-	you	O	PRP	O
-	.	,	.	O
+	you.	O	NNS	O
 	but	&	CC	O
 	ask	V	VB	O
 	you	O	PRP	O
@@ -602,20 +532,10 @@ Sentence: 30	@docwashburn	@	NN	O
 	realize	V	VB	O
 	how	R	WRB	O
 	dangerous	A	JJ	O
-	"	,	NN	O
-	"	,	NNP	O
-	medicine	N	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	is	V	VBZ	O
-	.	,	.	O
+	""medicine""	N	JJ	O
+	is.	V	NN	O
 	like	P	IN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	cymbalta	N	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	.	,	.	O
+	""cymbalta"".	N	NN	O
 	0	0	0	O
 Sentence: 31	i	O	NN	O
 	don't	V	VBP	O
@@ -630,8 +550,7 @@ Sentence: 31	i	O	NN	O
 	decrease	V	VB	O
 	the	D	DT	O
 	suicide	N	NN	O
-	rate	N	NN	O
-	,	,	,	O
+	rate,	N	NN	O
 	when	R	WRB	O
 	there	X	EX	O
 	are	V	VBP	O
@@ -643,8 +562,7 @@ Sentence: 31	i	O	NN	O
 	it	O	PRP	O
 	may	V	MD	O
 	kill	V	VB	O
-	you	O	PRP	O
-	.	,	.	O
+	you.	O	VB	O
 	0	0	0	O
 Sentence: 32	my	D	PRP$	O
 	sim	N	JJ	O
@@ -664,14 +582,11 @@ Sentence: 32	my	D	PRP$	O
 	aaaggh	!	NN	O
 	0	0	0	O
 Sentence: 33	rejection	N	NN	O
-	hurts	V	NNS	O
-	,	,	,	O
+	hurts,	V	NN	O
 	cymbalta	N	NN	O
 	can	V	MD	O
 	help	V	VB	O
-	http	U	VB	O
-	:	~	:	O
-	//t.co/wzwddt6hyc	G	NN	O
+	http://t.co/wzwddt6hyc	U	VB	O
 	0	0	0	O
 Sentence: 34	@stevecoy	@	JJ	O
 	@joelanair	@	NN	O
@@ -685,15 +600,11 @@ Sentence: 34	@stevecoy	@	JJ	O
 	me	O	PRP	O
 	sleepy	A	VB	B-ADR
 	as	P	IN	O
-	hell	N	NN	O
-	:	,	:	O
-	cymbalta	N	NN	O
-	,	,	,	O
-	klonopin	N	NN	O
-	,	,	,	O
-	ambien	^	NN	O
-	.	,	.	O
-	wait	V	VB	O
+	hell:	N	NN	O
+	cymbalta,	N	NN	O
+	klonopin,	N	NN	O
+	ambien.	N	NN	O
+	wait	V	VBP	O
 	what	O	WP	O
 	if	P	IN	O
 	i	O	JJ	O
@@ -704,12 +615,10 @@ Sentence: 34	@stevecoy	@	JJ	O
 	0	0	0	O
 Sentence: 35	@galaxiianxoxo	@	JJ	O
 	depression	N	NN	O
-	hurts	V	NNS	O
-	,	,	,	O
+	hurts,	V	NN	O
 	cymbalta	N	NN	O
 	can	V	MD	O
-	help	V	VB	O
-	.	,	.	O
+	help.	V	VB	O
 	0	0	0	O
 Sentence: 36	some	D	DT	O
 	girls	N	NNS	O
@@ -717,9 +626,8 @@ Sentence: 36	some	D	DT	O
 	to	P	TO	O
 	depressed	V	VBN	O
 	for	P	IN	O
-	nothing	N	NN	O
-	.	,	.	O
-	bitch	N	VB	O
+	nothing.	N	JJ	O
+	bitch	N	NN	O
 	take	V	VB	O
 	cymbalta	N	NN	O
 	or	&	CC	O
@@ -730,21 +638,17 @@ Sentence: 37	coming	V	VBG	O
 	off	T	RP	O
 	cymbalta	N	NN	O
 	cold	A	JJ	O
-	turkey.	N	NN	O
-	.	,	.	O
+	turkey..	N	NN	O
 	day	N	NN	O
-	4..	$	CD	O
-	.	,	.	O
-	i	O	JJ	O
+	4...	$	CD	O
+	i	O	NN	O
 	think	V	VBP	O
 	i	O	NNS	O
 	have	V	VBP	O
-	vertigo	N	NN	B-ADR
-	!	,	.	O
+	vertigo!	N	VBN	B-ADR
 	this	O	DT	O
 	is	V	VBZ	O
-	awful	A	JJ	O
-	.	,	.	O
+	awful.	A	JJ	O
 	0	0	0	O
 Sentence: 38	well	!	RB	O
 	you	O	PRP	O
@@ -762,18 +666,11 @@ Sentence: 38	well	!	RB	O
 	you	O	PRP	O
 	some	D	DT	O
 	cymbalta	N	VBP	O
-	"	,	JJ	O
-	"	,	NNP	O
-	@gayass_kathy	@	NN	O
-	:	~	:	O
+	""@gayass_kathy:	N	IN	O
 	how	R	WRB	O
 	i	O	JJ	O
 	feel	V	VBP	O
-	http	U	NNS	O
-	:	~	:	O
-	//t.co/9yfea2otmj	G	NN	O
-	"	,	NN	O
-	"	,	NN	O
+	http://t.co/9yfea2otmj""	U	NNS	O
 	0	0	0	O
 Sentence: 39	somebody	N	NN	O
 	pass	V	VBZ	O
@@ -789,8 +686,7 @@ Sentence: 40	and	&	CC	O
 	this	D	DT	O
 	day	N	NN	O
 	in	P	IN	O
-	2013	$	CD	O
-	,	,	,	O
+	2013,	$	CD	O
 	year	N	NN	O
 	of	P	IN	O
 	our	D	PRP$	O
@@ -802,15 +698,13 @@ Sentence: 40	and	&	CC	O
 	shall	V	MD	O
 	be	V	VB	O
 	nameth	^	JJ	O
-	cymbalta	^	NN	O
-	.	,	.	O
+	cymbalta.	^	NN	O
 	0	0	0	O
 Sentence: 41	just	R	RB	O
 	timed	V	VBN	O
 	a	D	DT	O
-	cymbalta	N	JJ	O
-	commercial	N	JJ	O
-	.	,	.	O
+	cymbalta	N	NN	O
+	commercial.	N	NN	O
 	50	$	CD	O
 	of	P	IN	O
 	the	D	DT	O
@@ -820,41 +714,33 @@ Sentence: 41	just	R	RB	O
 	side	N	JJ	O
 	effects	N	NNS	O
 	and	&	CC	O
-	warnings	N	NNS	O
-	.	,	.	O
-	so	R	RB	O
-	,	,	,	O
+	warnings.	N	VB	O
+	so,	P	JJ	O
 	how	R	WRB	O
 	bad	A	JJ	O
 	is	V	VBZ	O
 	your	D	PRP$	O
-	arthritis	N	NN	O
-	?	,	.	O
-	?	,	.	O
+	arthritis??	N	NN	O
 	0	0	0	O
 Sentence: 42	depression	N	NN	O
-	hurts	V	NNS	O
-	.	,	.	O
+	hurts.	V	NN	O
 	cymbalta	N	NN	O
 	can	V	MD	O
-	help	V	VB	O
-	.	,	.	O
+	help.	V	VB	O
 	0	0	0	O
 Sentence: 43	i	O	NN	O
 	feel	V	VBP	O
 	soo	R	RB	O
 	much	A	RB	O
 	better	A	JJR	O
-	today	N	NN	O
-	,	,	,	O
+	today,	N	NN	O
 	cymbalta	N	NN	O
 	with	P	IN	B-ADR
 	drawls	N	NN	I-ADR
 	are	V	VBP	O
 	going	V	VBG	O
 	away	R	RB	O
-	:	,	:	O
-	))	,	NN	O
+	:))	E	VB	O
 	0	0	0	O
 Sentence: 44	@neomoms	@	NNS	O
 	i	O	NN	O
@@ -872,7 +758,7 @@ Sentence: 44	@neomoms	@	NNS	O
 	now	R	RB	O
 	on	P	IN	O
 	hrt	^	NN	O
-	&	&	CC	O
+	&amp;	^	NN	O
 	no	R	DT	O
 	more	A	JJR	O
 	flashes	N	NNS	O
@@ -890,25 +776,21 @@ Sentence: 45	@deltrimental	@	JJ	O
 	was	V	VBD	O
 	not	R	RB	O
 	so	R	RB	O
-	bad	A	JJ	O
-	.	,	.	O
+	bad.	A	RB	O
 	currently	R	RB	O
 	on	P	IN	O
-	cymbalta	N	NN	O
-	&the	D	NN	O
-	wdrawals	N	NNS	B-ADR
+	cymbalta	^	NN	O
+	&amp;the	G	NN	O
+	wdrawals	^	NNS	B-ADR
 	are	V	VBP	O
-	vile	A	JJ	O
-	.	,	.	O
+	vile.	A	JJ	O
 	internet	N	JJ	O
 	full	N	JJ	O
 	of	P	IN	O
 	horror	N	NN	O
-	stories	N	NNS	O
-	,	,	,	O
+	stories,	N	NN	O
 	0	0	0	O
-Sentence: 46	cymbalta	^	NN	O
-	,	,	,	O
+Sentence: 46	cymbalta,	N	NN	O
 	my	D	PRP$	O
 	mood	N	NN	B-ADR
 	has	V	VBZ	O
@@ -932,8 +814,7 @@ Sentence: 47	from	P	IN	O
 	migraines	N	NNS	B-ADR
 	from	P	IN	O
 	taking	V	VBG	O
-	zoloft	N	CD	O
-	?	,	.	O
+	zoloft?	N	NN	O
 	0	0	0	O
 Sentence: 48	i	O	JJ	O
 	swear	V	VBP	O
@@ -945,15 +826,12 @@ Sentence: 48	i	O	JJ	O
 	to	P	TO	O
 	have	V	VB	O
 	horrible	A	JJ	O
-	nightmares	N	NNS	B-ADR
-	!	,	.	O
+	nightmares!	N	NNS	B-ADR
 	0	0	0	O
-Sentence: 49	rt	~	NN	O
-	@em_wolbert	@	NN	O
-	:	~	:	O
+Sentence: 49	rt	V	NN	O
+	@em_wolbert:	O	NNP	O
 	depression	N	NN	O
-	hurts	V	NNS	O
-	,	,	,	O
+	hurts,	V	NN	O
 	cymbalta	N	NN	O
 	can	V	MD	O
 	help	V	VB	O
@@ -989,32 +867,27 @@ Sentence: 51	@ettube	@	JJ	O
 	had	V	VBD	O
 	increased	A	VBN	O
 	rate	N	NN	O
-	myocardial	A	NN	O
-	ischemia	N	NN	O
-	?	,	.	O
+	myocardial	A	JJ	O
+	ischemia?	N	NN	O
 	interested	V	JJ	O
 	in	P	IN	O
 	postmarketing	N	VBG	O
 	data	N	NNS	O
 	0	0	0	O
 Sentence: 52	rt	~	NN	O
-	@awesomereview	@	NN	O
-	:	~	:	O
-	side	N	JJ	O
+	@awesomereview:	A	JJ	O
+	side	N	NN	O
 	effect	N	NN	O
 	of	P	IN	O
-	dabigatran	^	NN	O
-	,	,	,	O
-	bleeding	V	VBG	O
-	where	R	WRB	O
-	?	,	.	O
+	dabigatran,	^	NN	O
+	bleeding	V	NN	O
+	where?	R	NN	O
 	0	0	0	O
 Sentence: 53	@_nmay	@	JJ	O
 	thanks	N	NNS	O
 	for	P	IN	O
 	posting	V	VBG	O
-	this	O	DT	O
-	!	,	.	O
+	this!	D	NN	O
 	have	V	VBP	O
 	often	R	RB	O
 	wondered	V	VBN	O
@@ -1025,18 +898,15 @@ Sentence: 53	@_nmay	@	JJ	O
 	dabigatran	^	NN	O
 	and	&	CC	O
 	bleeding	V	NN	O
-	crises	N	NNS	O
-	.	,	.	O
+	crises.	N	NN	O
 	0	0	0	O
 Sentence: 54	rt	~	NN	O
-	@myeloma_doc	@	NN	O
-	:	~	:	O
-	data	N	NNS	O
+	@myeloma_doc:	N	NNP	O
+	data	N	NN	O
 	with	P	IN	O
 	denosumab	N	NN	O
 	in	P	IN	O
-	#myeloma	N	NN	O
-	:	,	:	O
+	#myeloma:	N	NN	O
 	may	V	MD	O
 	be	V	VB	O
 	alternative	N	JJ	O
@@ -1048,13 +918,10 @@ Sentence: 54	rt	~	NN	O
 	deteriorating	V	VBG	O
 	renal	A	JJ	O
 	function	N	NN	O
-	(http	N	NN	O
-	:	,	:	O
-	//t.co�	G	NN	O
+	(http://t.co�	N	NN	O
 	0	0	0	O
 Sentence: 55	rt	~	NN	O
-	@theannals	@	NNS	O
-	:	~	:	O
+	@theannals:	V	VBZ	O
 	the	D	DT	O
 	role	N	NN	O
 	of	P	IN	O
@@ -1067,13 +934,9 @@ Sentence: 55	rt	~	NN	O
 	in	P	IN	O
 	multiple	A	JJ	O
 	myeloma	N	NN	O
-	(july/august)	^	NN	O
-	:	,	:	O
-	obje..	N	NN	O
-	.	,	.	O
-	http	U	NN	O
-	:	~	:	O
-	//t.c�	G	NN	O
+	(july/august):	G	NN	O
+	obje...	G	NN	O
+	http://t.c�	U	NN	O
 	0	0	0	O
 Sentence: 56	dronedarone	V	NN	O
 	not	R	RB	O
@@ -1106,10 +969,10 @@ Sentence: 57	in	P	IN	O
 	not	R	RB	O
 	recommended	V	VBN	O
 	in	P	IN	O
-	#heartfail	N	NNP	O
-	&	&	CC	O
+	#heartfail	^	NNP	O
+	&amp;	^	NNP	O
 	recommended	V	VBD	O
-	second	A	NN	O
+	second	A	JJ	O
 	to	P	TO	O
 	sotalol	V	VB	O
 	in	P	IN	O
@@ -1120,8 +983,7 @@ Sentence: 57	in	P	IN	O
 	#ehraeuropace	#	NN	O
 	0	0	0	O
 Sentence: 58	rt	~	NN	O
-	@escardio	@	NN	O
-	:	~	:	O
+	@escardio:	N	NNP	O
 	dronedarone	V	NN	O
 	not	R	RB	O
 	recommended	V	VBD	O
@@ -1162,9 +1024,8 @@ Sentence: 59	@mookpixie	@	NN	O
 	everyone	N	NN	O
 	0	0	0	O
 Sentence: 60	rt	~	NN	O
-	@swog	@	NN	O
-	:	~	:	O
-	#s1202	#	JJ	O
+	@swog:	V	NNP	O
+	#s1202	#	NNP	O
 	ph	G	NN	O
 	iii	D	NN	O
 	study	N	NN	O
@@ -1172,23 +1033,19 @@ Sentence: 60	rt	~	NN	O
 	open	V	VBZ	O
 	at	P	IN	O
 	38	$	CD	O
-	sites	N	NNS	O
-	,	,	,	O
+	sites,	N	JJ	O
 	w	P	RB	O
 	more	A	RBR	O
 	every	D	DT	O
-	day	N	NN	O
-	:	,	:	O
-	duloxetine	N	NN	O
+	day:	N	NN	O
+	duloxetine	V	NN	O
 	for	P	IN	O
 	ai-induced	A	JJ	O
 	pain	N	NN	O
 	in	P	IN	O
 	#breastcancer	N	NNP	O
 	#swogonc	#	NNP	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/�	G	NN	O
+	http://t.co/�	U	NN	O
 	0	0	0	O
 Sentence: 61	#effexor	#	NN	O
 	#withdrawl	N	NN	B-ADR
@@ -1211,23 +1068,19 @@ Sentence: 61	#effexor	#	NN	O
 	time	N	NN	O
 	i	O	NN	O
 	am	V	VBP	O
-	winning	V	VBG	O
-	!	,	.	O
-	7thdayfree	$	CD	O
+	winning!	A	$	O
+	7thdayfree	N	CD	O
 	0	0	0	O
 Sentence: 62	found	V	VBN	O
-	them	O	PRP	O
-	.	,	.	O
+	them.	O	IN	O
 	starting	V	VBG	O
 	back	R	RP	O
 	up	T	RP	O
 	on	P	IN	O
-	effexor	^	NN	O
-	.	,	.	O
+	effexor.	G	NN	O
 	vomits	V	NNS	B-ADR
 	shall	V	MD	O
-	ensue	V	VB	O
-	!	,	.	O
+	ensue!	V	VB	O
 	0	0	0	O
 Sentence: 63	@culturalsavage	@	NN	O
 	can	V	MD	O
@@ -1236,8 +1089,7 @@ Sentence: 63	@culturalsavage	@	NN	O
 	what	O	WP	O
 	you're	L	NN	O
 	switching	V	VBG	O
-	from/to	P	NN	O
-	?	,	.	O
+	from/to?	P	JJ	O
 	i've	L	NN	O
 	had	V	VBD	O
 	to	P	TO	O
@@ -1247,24 +1099,20 @@ Sentence: 63	@culturalsavage	@	NN	O
 	twice	R	RB	O
 	over	P	IN	O
 	the	D	DT	O
-	years	N	NNS	O
-	,	,	,	O
+	years,	N	NN	O
 	and	&	CC	O
 	it's	L	VB	O
 	the	D	DT	O
 	absolute	A	NN	O
-	pits	N	NNS	O
-	.	,	.	O
+	pits.	N	NN	O
 	0	0	0	O
 Sentence: 64	crying	V	VBG	B-ADR
 	randomly	R	RB	O
 	at	P	IN	O
 	nothing	N	NN	O
 	and	&	CC	O
-	everything	N	NN	O
-	.	,	.	O
-	sigh	V	JJ	O
-	.	,	.	O
+	everything.	N	NN	O
+	sigh.	V	NN	O
 	thank	V	NN	O
 	you	O	PRP	O
 	#effexor	V	VBP	O
@@ -1275,17 +1123,15 @@ Sentence: 64	crying	V	VBG	B-ADR
 	exit	V	VB	O
 	my	D	PRP$	O
 	system	N	NN	O
-	already	R	RB	O
-	.	,	.	O
+	already.	R	NN	O
 	0	0	0	O
 Sentence: 65	day	N	NN	O
 	6	$	CD	O
 	cold	A	JJ	O
 	turkey	N	NN	O
 	from	P	IN	O
-	effexor	^	NN	O
-	.	,	.	O
-	i	O	VB	O
+	effexor.	^	NN	O
+	i	O	NN	O
 	believe	V	VBP	O
 	this	D	DT	O
 	pic	N	NN	O
@@ -1294,40 +1140,32 @@ Sentence: 65	day	N	NN	O
 	my	D	PRP$	O
 	descent	N	NN	B-ADR
 	into	P	IN	I-ADR
-	madness	N	NN	I-ADR
-	.	,	.	O
+	madness.	N	NN	I-ADR
 	or	&	CC	O
-	whatever	!	WDT	O
-	.	,	.	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/vz0ofabia0	G	NN	O
+	whatever.	!	NN	O
+	http://t.co/vz0ofabia0	U	NN	O
 	0	0	0	O
 Sentence: 66	@thatjunkiechick	@	JJ	O
 	thank	V	NN	O
-	you	O	PRP	O
-	!	,	.	O
+	you!	O	NN	O
 	coming	V	VBG	B-ADR
 	off	T	RP	I-ADR
 	effexor	N	NN	I-ADR
 	is	V	VBZ	I-ADR
 	not	R	RB	I-ADR
-	fun	N	JJ	I-ADR
-	!	,	.	O
+	fun!	N	JJ	I-ADR
 	0	0	0	O
 Sentence: 67	@llamaprincess_x	@	JJ	O
 	i've	L	NN	O
 	been	V	VBN	O
 	taking	V	VBG	O
-	effexor	N	NN	O
-	,	,	,	O
+	effexor,	N	NN	O
 	and	&	CC	O
-	it's	L	RB	O
+	it's	L	NN	O
 	been	V	VBN	O
 	working	V	VBG	O
 	for	P	IN	O
-	me	O	PRP	O
-	.	,	.	O
+	me.	O	JJ	O
 	maybe	R	RB	O
 	ask	V	VB	O
 	your	D	PRP$	O
@@ -1335,17 +1173,14 @@ Sentence: 67	@llamaprincess_x	@	JJ	O
 	to	P	TO	O
 	try	V	VB	O
 	something	N	NN	O
-	else	R	RB	O
-	?	,	.	O
+	else?	R	NNS	O
 	0	0	0	O
 Sentence: 68	effexor	G	JJ	O
 	side	N	NN	O
 	effects;	N	NN	O
-	headaches	N	NNS	B-ADR
-	,	,	,	O
-	no	D	DT	B-ADR
-	appetite	N	NN	I-ADR
-	.	,	.	O
+	headaches,	N	NN	B-ADR
+	no	D	DT	I-ADR
+	appetite.	N	NN	I-ADR
 	0	0	0	O
 Sentence: 69	@anarchasxworker	@	NN	O
 	coming	V	VBG	B-ADR
@@ -1354,8 +1189,7 @@ Sentence: 69	@anarchasxworker	@	NN	O
 	was	V	VBD	I-ADR
 	the	D	DT	I-ADR
 	worst	A	JJS	I-ADR
-	ever	R	RB	O
-	.	,	.	O
+	ever.	R	NN	O
 	even	R	RB	O
 	my	D	PRP$	O
 	doctor	N	NN	O
@@ -1372,16 +1206,13 @@ Sentence: 69	@anarchasxworker	@	NN	O
 	left	V	VBD	O
 	me	O	PRP	O
 	no	D	DT	O
-	choice	N	NN	O
-	.	,	.	O
+	choice.	N	NN	O
 	0	0	0	O
 Sentence: 70	taking	V	VBG	O
-	effexor	N	NN	O
-	,	,	,	O
-	drinking	V	VBG	O
+	effexor,	N	JJ	O
+	drinking	V	NN	O
 	ice	N	NN	O
-	water	N	NN	O
-	,	,	,	O
+	water,	N	NN	O
 	taking	V	VBG	O
 	a	D	DT	O
 	cool	A	JJ	O
@@ -1393,16 +1224,14 @@ Sentence: 70	taking	V	VBG	O
 	not	R	RB	O
 	drying	V	VBG	O
 	my	D	PRP$	O
-	hair	N	NN	O
-	,	,	,	O
+	hair,	N	NN	O
 	and	&	CC	O
 	running	V	VBG	O
 	the	D	DT	O
 	ceiling	N	NN	O
 	fan	N	NN	O
 	on	P	IN	O
-	high	N	JJ	O
-	.	,	.	O
+	high.	A	NN	O
 	0	0	0	O
 Sentence: 71	down	R	RB	O
 	to	P	TO	O
@@ -1414,8 +1243,7 @@ Sentence: 71	down	R	RB	O
 	effexor	G	JJ	O
 	each	D	DT	O
 	night	N	NN	O
-	now	R	RB	O
-	.	,	.	O
+	now.	R	RB	O
 	today	N	NN	O
 	wasnt	V	VBD	O
 	too	R	RB	O
@@ -1424,32 +1252,25 @@ Sentence: 71	down	R	RB	O
 	terms	N	NNS	O
 	of	P	IN	O
 	anxiety	N	NN	O
-	&	&	CC	O
-	depression	N	NN	O
-	,	,	,	O
+	&amp;	N	NNP	O
+	depression,	N	NN	O
 	but	&	CC	O
-	irritability	N	NN	B-ADR
-	?	,	.	O
-	woosh	!	NN	O
-	!	,	.	O
-	!	,	.	O
+	irritability?	N	JJ	B-ADR
+	woosh!!	!	NN	O
 	way	N	NN	O
 	up	T	IN	O
 	0	0	0	O
-Sentence: 72	@catthoma	@	RB	O
-	right	!	NN	O
-	,	,	,	O
+Sentence: 72	@catthoma	@	NN	O
+	right,	A	VB	O
 	some	D	DT	O
 	ssris	N	NN	O
 	are	V	VBP	O
 	used	V	VBN	O
 	for	P	IN	O
-	cataplexy	^	NN	O
-	,	,	,	O
+	cataplexy,	^	NN	O
 	as	P	IN	O
 	is	V	VBZ	O
-	effexor	N	JJ	O
-	.	,	.	O
+	effexor.	^	JJ	O
 	can	V	MD	O
 	be	V	VB	O
 	tricky	A	JJ	O
@@ -1457,8 +1278,7 @@ Sentence: 72	@catthoma	@	RB	O
 	wean	V	VB	O
 	off	T	RP	O
 	without	P	IN	O
-	rebound	N	NN	B-ADR
-	.	,	.	O
+	rebound.	N	NN	B-ADR
 	#nchat	#	WP	O
 	0	0	0	O
 Sentence: 73	@anorexic0	@	NN	O
@@ -1473,15 +1293,13 @@ Sentence: 73	@anorexic0	@	NN	O
 	for	P	IN	O
 	arthritis-	N	JJ	O
 	@fiinging	@	VBG	O
-	-	,	:	O
-	:	,	:	O
+	-:	,	PDT	O
 	a	D	DT	O
 	blockbuster	N	NN	O
 	drug	N	NN	O
 	made	V	VBD	O
-	b..	N	NN	O
-	.	,	.	O
-	@jesusislana	@	VB	O
+	b...	V	NN	O
+	@jesusislana	@	NN	O
 	0	0	0	O
 Sentence: 74	@melissadee_	@	NN	O
 	i	O	NN	O
@@ -1495,16 +1313,14 @@ Sentence: 74	@melissadee_	@	NN	O
 	enbrel	R	NN	O
 	and	&	CC	O
 	its	L	PRP$	O
-	nothing	N	NN	O
-	.	,	.	O
+	nothing.	N	NN	O
 	0	0	0	O
 Sentence: 75	@parthritis	@	NN	O
 	i	O	VBP	O
 	don't	V	NN	O
 	know	V	VBP	O
-	that	D	IN	O
-	one	$	CD	O
-	,	,	,	O
+	that	P	IN	O
+	one,	$	NN	O
 	but	&	CC	O
 	metho	O	NN	O
 	made	V	VBD	O
@@ -1513,14 +1329,12 @@ Sentence: 75	@parthritis	@	NN	O
 	everyday	N	JJ	O
 	i	O	NN	O
 	took	V	VBD	O
-	it	O	PRP	O
-	.	,	.	O
-	i	O	VB	O
+	it.	O	NN	O
+	i	O	NN	O
 	had	V	VBD	O
 	to	P	TO	O
-	stop	V	VB	O
-	.	,	.	O
-	enbrel	G	NN	O
+	stop.	V	VB	O
+	enbrel	^	NN	O
 	has	V	VBZ	O
 	worked	V	VBN	O
 	wonders	V	NNS	O
@@ -1541,21 +1355,18 @@ Sentence: 76	@joanne__howe	@	NN	O
 	my	D	PRP$	O
 	eyes	N	NNS	B-ADR
 	worse	A	JJR	I-ADR
-	:	,	:	O
-	(	,	(	O
-	so	P	RB	O
+	:(	E	NNS	O
+	so	R	RB	O
 	couldn't	V	RB	O
 	have	V	VB	O
 	it	O	PRP	O
 	anymore	R	RB	O
-	:	,	:	O
-	(	,	(	O
+	:(	E	VBD	O
 	0	0	0	O
 Sentence: 77	@_connectedcare	@	NN	O
 	good	A	JJ	O
-	read	N	NN	O
-	.	,	.	O
-	enbrel	G	NN	O
+	read.	N	NN	O
+	enbrel	N	NN	O
 	allows	V	VBZ	O
 	me	O	PRP	O
 	2	$	CD	O
@@ -1564,20 +1375,17 @@ Sentence: 77	@_connectedcare	@	NN	O
 	a	D	DT	O
 	great	A	JJ	O
 	job	N	NN	O
-	w	P	WRB	O
+	w	P	JJ	O
 	great	A	JJ	O
-	benefits	N	NNS	O
-	.	,	.	O
+	benefits.	N	NN	O
 	which	D	WDT	O
 	allows	V	VBZ	O
 	me	O	PRP	O
 	access	V	NN	O
 	to	P	TO	O
-	enbrel	V	VB	O
-	.	,	.	O
-	catch	V	VB	O
-	22	$	CD	O
-	.	,	.	O
+	enbrel.	V	VB	O
+	catch	V	NN	O
+	22.	$	CD	O
 	0	0	0	O
 Sentence: 78	@dsymons	@	NNS	O
 	@melissadee_	@	VBP	O
@@ -1596,16 +1404,13 @@ Sentence: 78	@dsymons	@	NNS	O
 	mg	N	NNS	O
 	due	A	JJ	O
 	to	P	TO	O
-	weight	N	VB	B-ADR
-	.	,	.	O
+	weight.	N	VB	B-ADR
 	it's	L	NN	O
 	still	R	RB	O
 	working	V	VBG	O
 	with	P	IN	O
-	enbrel	^	NN	O
-	,	,	,	O
-	though	P	RB	O
-	.	,	.	O
+	enbrel,	N	JJ	O
+	though.	P	NN	O
 	0	0	0	O
 Sentence: 79	@supernannykenz	@	NN	O
 	i	O	NN	O
@@ -1613,9 +1418,8 @@ Sentence: 79	@supernannykenz	@	NN	O
 	you	O	PRP	O
 	can	V	MD	O
 	stay	V	VB	O
-	off	T	RB	O
-	too	R	RB	O
-	!	,	.	O
+	off	T	RP	O
+	too!	R	NN	O
 	hoping	V	VBG	O
 	to	P	TO	O
 	back	V	VB	O
@@ -1627,15 +1431,13 @@ Sentence: 79	@supernannykenz	@	NN	O
 	the	D	DT	O
 	enbrel	N	NN	O
 	works	V	VBZ	O
-	:	,	:	O
-	)	,	)	O
+	:)	E	NNP	O
 	to	P	TO	O
 	run	V	VB	O
 	ahhhhh	!	RP	O
 	would	V	MD	O
 	be	V	VB	O
-	dreamy	A	JJ	O
-	.	,	.	O
+	dreamy.	A	JJ	O
 	0	0	0	O
 Sentence: 80	things	N	NNS	O
 	no	D	DT	O
@@ -1648,16 +1450,13 @@ Sentence: 80	things	N	NNS	O
 	about	P	IN	O
 	except	O	IN	O
 	i	O	JJ	O
-	am	V	VBP	O
-	:	,	:	O
+	am:	V	VBP	O
 	finally	R	RB	O
 	starting	V	VBG	O
-	enbril	N	NN	O
-	!	,	.	O
+	enbril!	G	NN	O
 	0	0	0	O
 Sentence: 81	rt	~	NN	O
-	@jphaddadio	@	NN	O
-	:	~	:	O
+	@jphaddadio:	V	VBZ	O
 	the	D	DT	O
 	commercial	N	NN	O
 	said	V	VBD	O
@@ -1673,8 +1472,7 @@ Sentence: 81	rt	~	NN	O
 	side	N	NN	O
 	effects	N	NNS	O
 	are	V	VBP	O
-	cancer	N	NN	O
-	,	,	,	O
+	cancer,	N	JJ	O
 	hepatitis	N	NN	O
 	b	N	NN	O
 	and	&	CC	O
@@ -1687,9 +1485,8 @@ Sentence: 82	@amybadkin	@	NN	O
 	end	N	NN	O
 	of	P	IN	O
 	most	R	JJS	O
-	working	V	JJ	O
-	days	N	NNS	O
-	!	,	.	O
+	working	V	VBG	O
+	days!	N	NN	O
 	i	O	NN	O
 	still	R	RB	O
 	have	V	VBP	O
@@ -1701,8 +1498,7 @@ Sentence: 82	@amybadkin	@	NN	O
 	get	V	VB	O
 	through	P	IN	O
 	a	D	DT	O
-	week	N	NN	O
-	.	,	.	O
+	week.	N	JJ	O
 	some	D	DT	O
 	days	N	NNS	O
 	better	A	JJR	O
@@ -1715,38 +1511,31 @@ Sentence: 83	fed	V	VBN	O
 	of	P	IN	O
 	aching	V	VBG	O
 	bones	N	NNS	O
-	:	,	:	O
-	(	,	(	O
-	wonder	A	VB	O
+	:(	E	JJ	O
+	wonder	V	VBP	O
 	drugs	N	NNS	O
 	work	N	VB	O
 	some	D	DT	O
 	magic	A	JJ	O
-	please	N	NN	O
-	.	,	.	O
+	please.	V	NN	O
 	#rheumatoidarthritis	#	NN	O
 	#enbrel	#	NN	O
 	0	0	0	O
 Sentence: 84	@factive	@	JJ	O
 	ahahaha	!	NN	O
-	oops	!	NNS	O
-	.	,	.	O
-	well	!	RB	O
-	,	,	,	O
+	oops.	!	IN	O
+	well,	!	NN	O
 	i	O	JJ	O
-	sure	A	VBP	O
+	sure	A	JJ	O
 	put	V	VBN	O
 	my	D	PRP$	O
 	foot	N	NN	O
 	in	P	IN	O
 	my	D	PRP$	O
-	mouth	N	NN	O
-	,	,	,	O
+	mouth,	N	NN	O
 	didn't	V	NN	O
-	i	O	NN	O
-	?	,	.	O
-	:	~	:	O
-	)	,	)	O
+	i?	O	NN	O
+	:)	E	NN	O
 	0	0	0	O
 Sentence: 85	@doctorchristian	@	JJ	O
 	can	V	MD	O
@@ -1756,26 +1545,22 @@ Sentence: 85	@doctorchristian	@	JJ	O
 	me	O	PRP	I-ADR
 	of	P	IN	I-ADR
 	all	D	DT	I-ADR
-	energy	N	NN	I-ADR
-	?	,	.	O
-	i've	L	NN	O
+	energy?i've	N	NNS	I-ADR
 	reduced	V	VBN	O
 	from	P	IN	O
 	a	D	DT	O
 	high	A	JJ	O
-	dose	N	NN	O
-	,	,	,	O
+	dose,	N	NN	O
 	now	R	RB	O
 	on	P	IN	O
 	standard	N	NN	O
 	does	V	VBZ	O
-	&	&	CC	O
+	&amp;	N	VB	O
 	not	R	RB	B-ADR
-	feeling	V	JJ	I-ADR
+	feeling	V	VBG	I-ADR
 	good	A	JJ	I-ADR
 	at	P	IN	O
-	all	D	DT	O
-	.	,	.	O
+	all.	N	NN	O
 	0	0	0	O
 Sentence: 86	fluoxetine	^	NN	O
 	makes	V	VBZ	O
@@ -1813,8 +1598,7 @@ Sentence: 88	two	$	CD	O
 	efficiently	R	RB	O
 	than	P	IN	O
 	sublingual	N	JJ	O
-	fluoxetine	N	NN	O
-	.	,	.	O
+	fluoxetine.	N	NN	O
 	0	0	0	O
 Sentence: 89	two	$	CD	O
 	antidepressants	N	NNS	O
@@ -1834,8 +1618,7 @@ Sentence: 89	two	$	CD	O
 	for	P	IN	O
 	clostridium	^	NN	O
 	difficile	^	NN	O
-	infection.	N	NN	O
-	.	,	.	O
+	infection..	N	NN	O
 	0	0	0	O
 Sentence: 90	depression	N	NN	O
 	medications	N	NNS	O
@@ -1863,8 +1646,7 @@ Sentence: 91	@spicynyx	@	JJ	O
 	quet	N	JJ	O
 	combo	N	NN	O
 	zombified	V	VBD	B-ADR
-	me...ah	O	NN	O
-	,	,	,	O
+	me...ah,	O	PDT	O
 	the	D	DT	O
 	meds	N	NNS	O
 	merrygoround	N	VBD	O
@@ -1877,20 +1659,15 @@ Sentence: 92	fluoxetine	^	NN	O
 	all	D	DT	O
 	0	0	0	O
 Sentence: 93	@emptyoffeelings	@	NNS	O
-	what	O	WP	O
-	,	,	,	O
-	antidepressants	N	NNS	O
-	?	,	.	O
+	what,	O	VBP	O
+	antidepressants?	N	JJ	O
 	i'm	L	NN	O
 	on	P	IN	O
 	fluoxetine	^	NN	O
 	(prozac)	^	NN	O
 	right	R	RB	O
-	now	R	RB	O
-	,	,	,	O
-	why	R	WRB	O
-	?	,	.	O
-	xx	E	NN	O
+	now,	R	RB	O
+	why?xx	R	VB	O
 	0	0	0	O
 Sentence: 94	@bobsmithno6	@	NN	O
 	i've	L	NN	O
@@ -1948,17 +1725,14 @@ Sentence: 96	i	O	JJ	O
 	my	D	PRP$	O
 	late	A	JJ	O
 	night	N	NN	O
-	jogging	N	NN	O
-	.	,	.	O
-	chronic	A	JJ	O
+	jogging.	N	NN	O
+	chronic	N	JJ	O
 	fatigue	N	NN	O
 	sydrome	N	NN	O
-	sucks	V	NNS	O
-	.	,	.	O
-	fluoxetine	^	VB	O
+	sucks.	V	NN	O
+	fluoxetine	^	VBP	O
 	didn't	V	NN	O
-	help	V	NN	O
-	.	,	.	O
+	help.	V	NN	O
 	0	0	0	O
 Sentence: 97	@ph_tariq	@	JJ	O
 	u	O	JJ	O
@@ -1975,30 +1749,24 @@ Sentence: 97	@ph_tariq	@	JJ	O
 	of	P	IN	O
 	studies	N	NNS	O
 	on	P	IN	O
-	diphenhydramine	N	NN	O
-	!	,	.	O
-	.look	V	NN	O
+	diphenhydramine!.look	V	NN	O
 	to	P	TO	O
 	the	D	DT	O
 	structure	N	NN	O
 	of	P	IN	O
-	both	O	DT	O
-	.	,	.	O
+	both.	D	NN	O
 	0	0	0	O
 Sentence: 98	rt	~	NN	O
-	@ocd_guy	@	NN	O
-	:	~	:	O
+	@ocd_guy:	A	NNP	O
 	restless	A	NN	B-ADR
 	leg	N	NN	I-ADR
 	syndrome	N	NN	I-ADR
 	is	V	VBZ	O
 	bad	A	JJ	O
-	tonight	N	NN	O
-	.	,	.	O
-	damn	!	NN	O
+	tonight.	R	RB	O
+	damn	R	NN	O
 	you	O	PRP	O
-	fluoxetine	V	VBP	O
-	.	,	.	O
+	fluoxetine.	V	VBP	O
 	0	0	0	O
 Sentence: 99	if	P	IN	O
 	you	O	PRP	O
@@ -2015,31 +1783,24 @@ Sentence: 99	if	P	IN	O
 	the	D	DT	O
 	use	N	NN	O
 	of	P	IN	O
-	fosamax	^	NN	O
-	,	,	,	O
-	call	V	VB	O
-	1.888.520.5202	$	CD	O
-	.	,	.	O
-	habla	G	NN	O
-	espanol	^	NN	O
-	.	,	.	O
+	fosamax,	N	NN	O
+	call	N	NN	O
+	1.888.520.5202.	$	CD	O
+	habla	^	NN	O
+	espanol.	^	NN	O
 	we	O	PRP	O
 	follow	V	VBP	O
 	in	P	IN	O
-	return	N	NN	O
-	.	,	.	O
+	return.	N	NN	O
 	0	0	0	O
 Sentence: 100	if	P	IN	O
 	you	O	PRP	O
 	are	V	VBP	O
 	on	P	IN	O
-	zometa	^	NN	O
-	,	,	,	O
-	fosamax	N	NN	O
-	,	,	,	O
-	boniva	^	NN	O
-	,	,	,	O
-	actonel	V	VB	O
+	zometa,	^	NN	O
+	fosamax,	^	NN	O
+	boniva,	^	NN	O
+	actonel	V	IN	O
 	your	D	PRP$	O
 	dentist	N	NN	O
 	and	&	CC	O
@@ -2060,8 +1821,7 @@ Sentence: 101	gamma-aminobutyric	G	JJ	O
 	acts	V	NNS	O
 	as	P	IN	O
 	a	D	DT	O
-	neurotransmitter	N	NN	O
-	.	,	.	O
+	neurotransmitter.	N	NN	O
 	it	O	PRP	O
 	has	V	VBZ	O
 	slight	A	VBN	O
@@ -2070,54 +1830,46 @@ Sentence: 101	gamma-aminobutyric	G	JJ	O
 	on	P	IN	O
 	the	D	DT	O
 	brain	N	NN	O
-	&	&	CC	O
+	&amp;	N	NN	O
 	may	V	MD	O
 	help	V	VB	O
 	induce	V	VB	O
 	a	D	DT	O
 	state	N	NN	O
 	of	P	IN	O
-	calm	A	NN	O
-	.	,	.	O
-	#gaba	#	VB	O
+	calm.	A	NN	O
+	#gaba	#	NN	O
 	0	0	0	O
 Sentence: 102	you	O	PRP	O
 	know	V	VBP	O
 	starting	V	VBG	O
 	with	P	IN	O
-	geodon	^	NN	O
-	,	,	,	O
+	geodon,	^	PDT	O
 	the	D	DT	O
 	meds	N	NNS	O
 	messed	V	VBD	B-ADR
 	up	T	RP	I-ADR
 	my	D	PRP$	I-ADR
-	attitude	N	NN	I-ADR
-	.	,	.	O
+	attitude.	N	JJ	I-ADR
 	how	R	WRB	O
-	odd	A	JJ	O
-	.	,	.	O
-	it's	L	VB	O
+	odd.	A	RB	O
+	it's	L	VBZ	O
 	not	R	RB	O
 	just	R	RB	O
 	about	P	IN	O
-	spirituality	N	NN	O
-	.	,	.	O
+	spirituality.	N	JJ	O
 	i	O	NN	O
 	became	V	VBD	O
 	a	D	DT	O
 	bit	N	NN	O
-	mean	V	JJ	B-ADR
-	.	,	.	O
+	mean.	V	JJ	B-ADR
 	that	O	IN	O
 	got	V	VBD	O
 	0	0	0	O
 Sentence: 103	goodbye	!	NN	O
-	#methotrexate	#	NN	O
-	.	,	.	O
-	hello	!	JJ	O
-	#humira	^	NN	O
-	.	,	.	O
+	#methotrexate.	#	NNP	O
+	hello	!	NN	O
+	#humira.	^	NNP	O
 	i'm	L	NN	O
 	beginning	V	VBG	O
 	to	P	TO	O
@@ -2126,13 +1878,11 @@ Sentence: 103	goodbye	!	NN	O
 	a	D	DT	O
 	bloody	A	JJ	O
 	chemical	N	NN	O
-	factory.	N	NN	O
-	.	,	.	O
+	factory..	N	NN	O
 	and	&	CC	O
 	a	D	DT	O
-	pin	N	JJ	O
-	cushion	N	NN	O
-	.	,	.	O
+	pin	N	NN	O
+	cushion.	N	NN	O
 	0	0	0	O
 Sentence: 104	humira	^	NN	O
 	may	V	MD	O
@@ -2141,10 +1891,8 @@ Sentence: 104	humira	^	NN	O
 	abilities	N	NNS	O
 	to	P	TO	O
 	fight	V	VB	O
-	infections	N	NNS	O
-	.	,	.	O
-	:	E	:	O
-	(	E	(	O
+	infections.	N	JJ	O
+	:(	E	CD	O
 	#fight4joints	#	NNS	O
 	0	0	0	O
 Sentence: 105	@almostwell	@	NNP	O
@@ -2153,16 +1901,14 @@ Sentence: 105	@almostwell	@	NNP	O
 	complications	N	NNS	O
 	from	P	IN	O
 	one	$	CD	O
-	illness	N	NN	O
-	.	,	.	O
-	have	V	VB	O
+	illness.	N	NN	O
+	have	V	VBP	O
 	you	O	PRP	O
-	had	V	VBN	O
+	had	V	VBD	O
 	surgery	N	VBN	O
 	in	P	IN	O
 	the	D	DT	O
-	past	A	NN	O
-	,	,	,	O
+	past,	A	NN	O
 	and	&	CC	O
 	are	V	VBP	O
 	you	O	PRP	O
@@ -2191,13 +1937,12 @@ Sentence: 106	i'd	L	NN	O
 	don't	V	VBN	O
 	have	V	VBP	O
 	the	D	DT	O
-	prescription	N	NN	O
-	.	,	.	O
-	i	O	JJ	O
-	function	V	NN	O
+	prescription.	N	NN	O
+	i	O	NN	O
+	function	V	VBP	O
 	through	P	IN	O
 	vitamins	N	NNS	O
-	&	&	CC	O
+	&amp;	N	NNP	O
 	motrin	N	NN	O
 	0	0	0	O
 Sentence: 107	@almostwell	@	VB	O
@@ -2207,23 +1952,20 @@ Sentence: 107	@almostwell	@	VB	O
 	you	O	PRP	O
 	have	V	VBP	O
 	with	P	IN	O
-	humira	^	NN	O
-	,	,	,	O
+	humira,	^	NN	O
 	if	P	IN	O
 	you	O	PRP	O
 	don't	V	VBP	O
 	mind	V	VB	O
 	me	O	PRP	O
-	asking	V	VBG	O
-	.	,	.	O
+	asking.	V	IN	O
 	i	O	NN	O
 	tried	V	VBD	O
 	infliximab	V	NN	O
 	it	O	PRP	O
 	destroyed	V	VBD	B-ADR
 	my	D	PRP$	I-ADR
-	liver	N	NN	I-ADR
-	.	,	.	O
+	liver.	N	NN	I-ADR
 	0	0	0	O
 Sentence: 108	do	V	VB	O
 	you	O	PRP	O
@@ -2234,29 +1976,25 @@ Sentence: 108	do	V	VB	O
 	risking	V	VBG	O
 	relationships	N	NNS	O
 	with	P	IN	O
-	customers	N	NNS	O
-	?	,	.	O
+	customers?	N	NN	O
 	is	V	VBZ	O
-	humira	^	JJ	O
-	right	R	RB	O
+	humira	^	RB	O
+	right	R	JJ	O
 	to	P	TO	O
 	refund	V	VB	O
-	customers	N	NNS	O
-	?	,	.	O
-	@pizzapizzaltd	@	CD	O
-	#bethebosscanada	#	NN	O
+	customers?	N	NN	O
+	@pizzapizzaltd	@	NNP	O
+	#bethebosscanada	#	NNP	O
 	0	0	0	O
 Sentence: 109	watching	V	VBG	O
 	commercial	N	JJ	O
 	for	P	IN	O
-	humira	^	NN	O
-	.	,	.	O
+	humira.	^	JJ	O
 	sounds	V	NNS	O
 	like	P	IN	O
 	worse	A	JJR	O
 	medication	N	NN	O
-	ever	R	RB	O
-	.	,	.	O
+	ever.	R	FW	O
 	i'd	L	NN	O
 	rather	R	RB	O
 	have	V	VBP	O
@@ -2275,17 +2013,15 @@ Sentence: 110	the	D	DT	O
 	as	R	IN	O
 	ever	R	RB	O
 	i'm	L	JJ	O
-	mega	R	NN	O
-	tired	A	VBD	B-ADR
-	.	,	.	O
+	mega	R	JJ	O
+	tired.	A	NN	B-ADR
 	may	V	MD	O
 	have	V	VB	O
 	to	P	TO	O
 	go	V	VB	O
 	back	R	RB	O
 	to	P	TO	O
-	bed	N	NN	O
-	.	,	.	O
+	bed.	N	VB	O
 	0	0	0	O
 Sentence: 111	@uclaibd	@	NN	O
 	i	O	NN	O
@@ -2307,9 +2043,8 @@ Sentence: 111	@uclaibd	@	NN	O
 	lost	V	VBD	B-ADR
 	tons	N	NNS	I-ADR
 	of	P	IN	I-ADR
-	weight.	N	NN	I-ADR
-	.	,	.	O
-	#crohns	#	CD	O
+	weight..	N	NN	I-ADR
+	#crohns	#	NNP	O
 	#humira	#	NN	O
 	0	0	0	O
 Sentence: 112	@unguidedmissile	@	NN	O
@@ -2321,25 +2056,21 @@ Sentence: 112	@unguidedmissile	@	NN	O
 	on	P	IN	O
 	humira	^	NN	O
 	until	P	IN	O
-	september	^	NNP	O
-	,	,	,	O
+	september,	^	JJ	O
 	6	$	CD	O
 	months	N	NNS	O
 	will	V	MD	O
 	b	V	VB	O
 	up	T	RP	O
-	then	R	RB	O
-	.	,	.	O
+	then.	R	JJ	O
 	seeing	V	VBG	O
-	doc	N	JJ	O
-	19th	$	CD	O
-	,	,	,	O
+	doc	N	NN	O
+	19th,	$	CD	O
 	will	V	MD	O
 	ask	V	VB	O
 	what	O	WP	O
 	he	O	PRP	O
-	thinks	V	VBZ	O
-	.	,	.	O
+	thinks.	V	VBD	O
 	0	0	0	O
 Sentence: 113	he	O	PRP	O
 	learned	V	VBD	O
@@ -2367,18 +2098,16 @@ Sentence: 114	@amybadkin	@	NNS	O
 	bit	N	NN	O
 	of	P	IN	O
 	temporary	A	JJ	O
-	fuzziness	N	NN	B-ADR
-	.	,	.	O
+	fuzziness.	N	NN	B-ADR
 	i've	L	NN	O
 	been	V	VBN	O
 	on	P	IN	O
 	humira	^	NN	O
 	since	P	IN	O
 	2007	$	CD	O
-	&	&	CC	O
-	love	V	VB	O
-	it	O	PRP	O
-	.	,	.	O
+	&amp;	N	NNP	O
+	love	V	VBD	O
+	it.	O	NN	O
 	0	0	0	O
 Sentence: 115	@crohnsdiaries	@	NNS	O
 	hi	!	VBP	O
@@ -2396,8 +2125,7 @@ Sentence: 115	@crohnsdiaries	@	NNS	O
 	got	V	VBD	O
 	sick	A	JJ	B-ADR
 	last	A	JJ	O
-	week	N	NN	O
-	.	,	.	O
+	week.	N	NN	O
 	don't	V	NN	O
 	know	V	VBP	O
 	if	P	IN	O
@@ -2408,62 +2136,54 @@ Sentence: 115	@crohnsdiaries	@	NNS	O
 	on	P	IN	O
 	it	O	PRP	O
 	or	&	CC	O
-	not	R	RB	O
-	.	,	.	O
+	not.	R	VB	O
 	0	0	0	O
 Sentence: 116	@natkayb	@	RB	O
 	good	A	JJ	O
-	luck	N	NN	O
-	,	,	,	O
-	i	O	VBP	O
+	luck,	N	NN	O
+	i	O	NN	O
 	sincerely	R	RB	O
 	hope	V	VBP	O
 	humira	^	NN	O
 	does	V	VBZ	O
 	wonders	V	NNS	O
 	for	P	IN	O
-	you	O	PRP	O
-	!	,	.	O
+	you!	O	NN	O
 	the	D	DT	O
 	pen	N	JJ	O
 	isn't	V	NN	O
 	all	D	PDT	O
 	that	D	IN	O
 	bad	A	JJ	O
-	either	&	CC	O
-	,	,	,	O
+	either,	D	JJ	O
 	injections	N	NNS	O
 	just	R	RB	O
 	part	N	NN	O
 	of	P	IN	O
 	weekly	A	JJ	O
-	routine	N	NN	O
-	?	,	.	O
+	routine?	N	NN	O
 	0	0	0	O
 Sentence: 117	@trainingwithra	@	NN	O
-	nope	!	NN	O
-	,	,	,	O
+	nope,	!	NN	O
 	was	V	VBD	O
 	on	P	IN	O
-	#enbrel	N	NNP	O
-	5yrs	N	CD	O
-	&	&	CC	O
+	#enbrel	N	JJ	O
+	5yrs	V	CD	O
+	&amp;	N	NN	O
 	had	V	VBD	O
 	to	P	TO	O
 	get	V	VB	O
 	off	T	RP	O
 	due	R	JJ	O
 	to	P	TO	O
-	unrelenting	A	VBG	O
-	flare	N	NN	B-ADR
-	.	,	.	O
+	unrelenting	A	JJ	O
+	flare.	N	NN	B-ADR
 	been	V	VBN	O
 	on	P	IN	O
 	#humira	^	NN	O
 	since	P	IN	O
 	dec	^	NN	O
-	2012	$	CD	O
-	.	,	.	O
+	2012.	$	CD	O
 	#rheum	#	NN	O
 	0	0	0	O
 Sentence: 118	i	O	NNS	O
@@ -2485,32 +2205,24 @@ Sentence: 118	i	O	NNS	O
 	don't	V	NN	O
 	wanna	V	NN	O
 	0	0	0	O
-Sentence: 119	so.	R	NN	O
-	.	,	.	O
+Sentence: 119	so..	P	VB	O
 	the	D	DT	O
-	humira	^	JJ	O
+	humira	^	NN	O
 	commercial	N	NN	O
 	said	V	VBD	O
-	"	,	JJ	O
-	"	,	NN	O
-	i	O	NN	O
+	""i	O	JJ	O
 	went	V	VBD	O
 	to	P	TO	O
 	my	D	PRP$	O
 	dermatologists	N	NNS	O
-	&	&	CC	O
+	&amp;	V	VBP	O
 	she	O	PRP	O
 	assigned	V	VBD	O
 	me	O	PRP	O
-	humira	^	NN	O
-	.	,	.	O
-	"	,	JJ	O
-	"	,	NN	O
+	humira.""	^	NN	O
 	i	O	NN	O
 	said	V	VBD	O
-	"	,	JJ	O
-	"	,	NNP	O
-	y	R	NN	O
+	""y	R	JJ	O
 	didn't	V	NN	O
 	she	O	PRP	O
 	give	V	VBD	O
@@ -2519,17 +2231,13 @@ Sentence: 119	so.	R	NN	O
 	u	O	JJ	O
 	in	P	IN	O
 	the	D	DT	O
-	1st	A	JJ	O
-	place	N	NN	O
-	?	,	.	O
-	"	,	CD	O
-	"	,	NN	O
+	1st	A	CD	O
+	place?""	N	NN	O
 	0	0	0	O
 Sentence: 120	scared	A	VBN	O
 	of	P	IN	O
 	my	D	PRP$	O
-	#humira	N	NN	O
-	.	,	.	O
+	#humira.	N	JJ	O
 	keep	V	VB	O
 	feeling	V	NN	O
 	like	P	IN	B-ADR
@@ -2540,16 +2248,14 @@ Sentence: 120	scared	A	VBN	O
 	attack	N	NN	I-ADR
 	or	&	CC	O
 	panic	N	JJ	B-ADR
-	attack	N	NN	I-ADR
-	.	,	.	O
+	attack.	N	NN	I-ADR
 	anyone	N	NN	O
 	else	R	RB	O
 	have	V	VBP	O
 	these	D	DT	O
-	problems	N	NNS	O
-	?	,	.	O
-	#crohns	#	JJ	O
-	#ra	#	NN	O
+	problems?	N	NNS	O
+	#crohns	#	VBP	O
+	#ra	#	CD	O
 	#help	#	NN	O
 	0	0	0	O
 Sentence: 121	before	P	IN	O
@@ -2565,27 +2271,20 @@ Sentence: 121	before	P	IN	O
 	whether	P	IN	O
 	youv'e	L	NN	O
 	had	V	VBD	O
-	"	,	VBN	O
-	"	,	NNP	O
-	certain	A	JJ	O
+	""certain	A	VBN	O
 	fungal	A	JJ	O
-	infections	N	NNS	O
-	.	,	.	O
-	"	,	VB	O
-	"	,	JJ	O
-	uh	!	JJ	O
+	infections.""	N	NN	O
+	uh	!	NN	O
 	huh...cuz	!	NN	O
 	that's	L	NN	O
 	not	R	RB	O
 	too	R	RB	O
-	vague	A	JJ	O
-	.	,	.	O
+	vague.	A	JJ	O
 	0	0	0	O
 Sentence: 122	fuck	V	VB	O
 	some	D	DT	O
 	lamictal...almost	A	NN	B-ADR
-	died	V	VBD	I-ADR
-	.	,	.	O
+	died.	V	JJ	I-ADR
 	#fuck	#	NN	O
 	0	0	0	O
 Sentence: 123	i	O	NNS	O
@@ -2614,8 +2313,7 @@ Sentence: 124	@motherofhades	@	NNS	O
 	kicks	N	NNS	O
 	in	P	IN	O
 	this	D	DT	O
-	morning....nah	N	NN	O
-	,	,	,	O
+	morning....nah,	N	NN	O
 	probably	R	RB	O
 	not	R	RB	O
 	0	0	0	O
@@ -2628,10 +2326,9 @@ Sentence: 125	thankfully	R	RB	O
 	lamictal	A	NN	O
 	in	P	IN	O
 	3	$	CD	O
-	days	N	NNS	O
-	.	,	.	O
+	days.	N	NN	O
 	tapering	V	VBG	O
-	isn't	V	RB	O
+	isn't	V	NNS	O
 	as	R	IN	O
 	slow	A	NN	O
 	is	V	VBZ	O
@@ -2651,9 +2348,8 @@ Sentence: 126	fighting	V	VBG	O
 	lexapro	^	NN	O
 	in	P	IN	O
 	for	P	IN	O
-	lamictal	A	NN	O
-	.	,	.	O
-	i	O	VB	O
+	lamictal.	A	NN	O
+	i	O	NN	O
 	don't	V	NN	O
 	do	V	VBP	O
 	well	R	RB	O
@@ -2661,8 +2357,7 @@ Sentence: 126	fighting	V	VBG	O
 	support	V	NN	O
 	for	P	IN	O
 	the	D	DT	O
-	ocd	A	NN	O
-	.	,	.	O
+	ocd.	A	NN	O
 	0	0	0	O
 Sentence: 127	lamictal	^	JJ	O
 	dosage	N	NN	O
@@ -2676,8 +2371,7 @@ Sentence: 127	lamictal	^	JJ	O
 	a	D	DT	O
 	day	N	NN	O
 	or	&	CC	O
-	two	$	CD	O
-	.	,	.	O
+	two.	$	NN	O
 	but	&	CC	O
 	they	O	PRP	O
 	also	R	RB	O
@@ -2692,8 +2386,7 @@ Sentence: 127	lamictal	^	JJ	O
 	can	V	MD	O
 	do	V	VB	O
 	things	N	NNS	O
-	slowly	R	RB	O
-	.	,	.	O
+	slowly.	R	VB	O
 	0	0	0	O
 Sentence: 128	@msbecker	@	NN	O
 	that's	L	VBZ	O
@@ -2709,24 +2402,17 @@ Sentence: 128	@msbecker	@	NN	O
 	as	P	IN	O
 	a	D	DT	O
 	side	N	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	benefit	N	NN	O
-	"	,	NN	O
-	"	,	NNP	O
-	.	,	.	O
-	tell	V	VB	O
+	""benefit"".	N	NNP	O
+	tell	V	NN	O
 	ur	D	JJ	O
 	dr	N	NN	O
-	fuck	V	NN	O
-	abilify	^	NN	O
-	,	,	,	O
+	fuck	V	VBD	O
+	abilify,	N	JJ	O
 	i	O	NN	O
 	want	V	VBP	O
 	me	O	PRP	O
 	some	D	DT	O
-	lamictal	A	NN	O
-	.	,	.	O
+	lamictal.	A	NN	O
 	0	0	0	O
 Sentence: 129	told	V	VBD	O
 	them	O	PRP	O
@@ -2739,13 +2425,11 @@ Sentence: 129	told	V	VBD	O
 	and	&	CC	O
 	isnt	V	NN	O
 	on	P	IN	O
-	repeat	N	NN	O
-	,	,	,	O
+	repeat,	N	NN	O
 	which	D	WDT	O
 	really	R	RB	O
 	bugs	V	VBZ	O
-	me	O	PRP	O
-	,	,	,	O
+	me,	O	NN	O
 	with	P	IN	O
 	it	O	PRP	O
 	being	V	VBG	O
@@ -2805,13 +2489,11 @@ Sentence: 132	why	R	WRB	O
 	as	P	IN	O
 	stepping	V	VBG	O
 	it	O	PRP	O
-	up	T	RP	O
-	?	,	.	O
+	up?	T	JJ	O
 	#soreashell	#	NN	O
 	0	0	0	O
 Sentence: 133	day	N	NN	O
-	4	$	CD	O
-	:	,	:	O
+	4:	P	CD	O
 	the	D	DT	O
 	initial	A	JJ	O
 	lamotrigine	N	NN	O
@@ -2821,8 +2503,7 @@ Sentence: 133	day	N	NN	O
 	the	D	DT	O
 	day	N	NN	O
 	before	P	IN	O
-	exams	N	NNS	O
-	.	,	.	O
+	exams.	N	NN	O
 	i	O	NN	O
 	tell	V	VBP	O
 	myself	O	PRP	O
@@ -2833,8 +2514,7 @@ Sentence: 133	day	N	NN	O
 	better	A	JJR	O
 	than	P	IN	O
 	possible	A	JJ	O
-	death	N	NN	O
-	.	,	.	O
+	death.	N	NN	O
 	0	0	0	O
 Sentence: 134	it	O	PRP	O
 	turns	V	VBZ	O
@@ -2861,8 +2541,7 @@ Sentence: 134	it	O	PRP	O
 	at	P	IN	O
 	least	A	JJS	O
 	25	$	CD	O
-	years	N	NNS	O
-	.	,	.	O
+	years.	N	NN	O
 	0	0	0	O
 Sentence: 135	lamotrigine	^	NN	O
 	may	V	MD	O
@@ -2880,8 +2559,7 @@ Sentence: 135	lamotrigine	^	NN	O
 	of	P	IN	O
 	her2+	D	NN	O
 	breast	N	NN	O
-	cancer	N	NN	O
-	.	,	.	O
+	cancer.	N	NN	O
 	0	0	0	O
 Sentence: 136	lamotrigine	^	NN	O
 	causing	V	VBG	O
@@ -2891,10 +2569,9 @@ Sentence: 136	lamotrigine	^	NN	O
 	0	0	0	O
 Sentence: 137	#epilepsy	N	NN	O
 	is	V	VBZ	O
-	sucktastic	A	JJ	O
-	.	,	.	O
-	neuro	A	JJ	O
-	appt	N	NN	O
+	sucktastic.	A	JJ	O
+	neuro	N	RB	O
+	appt	N	RB	O
 	monday	N	NN	O
 	to	P	TO	O
 	discuss	V	VB	O
@@ -2911,8 +2588,7 @@ Sentence: 137	#epilepsy	N	NN	O
 	the	D	DT	O
 	glaucoma	N	NN	B-ADR
 	with	P	IN	O
-	topiramate	N	NN	O
-	.	,	.	O
+	topiramate.	^	NN	O
 	0	0	0	O
 Sentence: 138	#bipolar	#	JJ	O
 	meds	N	NNS	O
@@ -2930,10 +2606,9 @@ Sentence: 138	#bipolar	#	JJ	O
 	serious	A	JJ	O
 	#sideeffects	N	NNS	O
 	0	0	0	O
-Sentence: 139	rt	~	JJ	O
-	@silkius	@	NN	O
-	:	~	:	O
-	@ouch_uk	@	JJ	O
+Sentence: 139	rt	~	NN	O
+	@silkius:	G	NNP	O
+	@ouch_uk	@	NNP	O
 	didnt	V	NN	O
 	know	V	VBP	O
 	lamotrigine	^	NN	O
@@ -2956,42 +2631,32 @@ Sentence: 139	rt	~	JJ	O
 Sentence: 140	allergic	A	JJ	B-ADR
 	reaction	N	NN	I-ADR
 	to	P	TO	O
-	#lamotrigine	^	VB	O
-	.	,	.	O
+	#lamotrigine.	V	VB	O
 	feel	V	VB	O
 	free	A	JJ	O
 	to	P	TO	O
 	share	V	NN	O
-	&	&	CC	O
-	distribute	V	NN	O
-	.	,	.	O
-	kill	V	VB	O
-	#bigpharma	#	JJ	O
+	&amp;	N	NNP	O
+	distribute.	V	NN	O
+	kill	V	NN	O
+	#bigpharma	#	VBZ	O
 	before	P	IN	O
 	it	O	PRP	O
 	kills	V	VBZ	O
-	us	O	PRP	O
-	.	,	.	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/bkqnqwy5nk	G	NN	O
+	us.	O	JJ	O
+	http://t.co/bkqnqwy5nk	U	NN	O
 	0	0	0	O
 Sentence: 141	@powerrosssorkin	@	JJ	O
 	@madmoneyoncnbc	@	NNP	O
 	@cnnmoney	@	NNP	O
-	#risperdal	N	NNP	O
-	,	,	,	O
-	#levaquin	N	NNP	O
-	,	,	,	O
+	#risperdal,	#	NNP	O
+	#levaquin,	#	VBD	O
 	the	D	DT	O
-	hips	N	NNS	O
-	,	,	,	O
+	hips,	N	NN	O
 	now	R	RB	O
 	knees	N	VBZ	O
-	too	R	RB	O
-	,	,	,	O
-	exelon	^	NN	O
-	,	,	,	O
+	too,	P	JJ	O
+	exelon,	^	NN	O
 	sec	N	NN	O
 	in	P	IN	O
 	greece	^	NN	O
@@ -3007,20 +2672,16 @@ Sentence: 142	@levaquin	@	JJ	O
 	poisoned	V	VBN	B-ADR
 	me	O	PRP	O
 	and	&	CC	O
-	ruined	V	VB	O
+	ruined	V	VBD	O
 	my	D	PRP$	O
-	life	N	NN	O
-	!	,	.	O
+	life!	N	NN	O
 	constant	A	JJ	O
 	pain	N	NN	B-ADR
-	24/7	$	CD	O
-	!	,	.	O
+	24/7!	$	CD	O
 	i	O	NN	O
 	hate	V	VBP	O
-	you	O	PRP	O
-	,	,	,	O
-	levaquin	N	VBZ	O
-	!	,	.	O
+	you,	O	NNS	O
+	levaquin!	N	VBP	O
 	0	0	0	O
 Sentence: 143	@thebeecharmer97	@	JJ	O
 	@wyrdotter	@	NNP	O
@@ -3030,11 +2691,10 @@ Sentence: 143	@thebeecharmer97	@	JJ	O
 	levaquin	V	NNS	O
 	make	V	VBP	O
 	u	O	JJ	O
-	hallucinate	V	NN	B-ADR
-	?	,	.	O
-	girl	N	JJ	O
+	hallucinate?	V	NN	B-ADR
+	girl	N	NN	O
 	u	O	JJ	O
-	best	A	JJS	O
+	best	A	RBS	O
 	stay	N	VB	O
 	away	R	RB	O
 	from	P	IN	O
@@ -3048,13 +2708,10 @@ Sentence: 144	levaquin	N	NN	O
 	i'm	L	NN	O
 	coming	V	VBG	O
 	off	T	RP	O
-	it	O	PRP	O
-	.	,	.	O
+	it.	D	JJ	O
 	next	A	JJ	O
-	up	T	IN	O
-	:	,	:	O
-	cipro	N	NN	O
-	.	,	.	O
+	up:	N	JJ	O
+	cipro.	N	NN	O
 	can't	V	NN	O
 	we	O	PRP	O
 	just	R	RB	O
@@ -3062,10 +2719,7 @@ Sentence: 144	levaquin	N	NN	O
 	the	D	DT	O
 	damned	A	JJ	O
 	kidney	N	NN	O
-	out	P	IN	O
-	?	,	.	O
-	?	,	.	O
-	?	,	.	O
+	out???	P	NN	O
 	#oknotreally	#	RB	O
 	0	0	0	O
 Sentence: 145	@livaloo22	@	JJ	O
@@ -3083,8 +2737,7 @@ Sentence: 146	nicotine	N	JJ	O
 	giving	V	VBG	O
 	me	O	PRP	O
 	stomach	N	JJ	B-ADR
-	cramps	N	NNS	I-ADR
-	.	,	.	O
+	cramps.	N	NN	I-ADR
 	0	0	0	O
 Sentence: 147	who	O	WP	O
 	wants	V	VBZ	O
@@ -3093,9 +2746,7 @@ Sentence: 147	who	O	WP	O
 	nicotine	N	JJ	O
 	lozenges	N	VBZ	O
 	frum	P	VBP	O
-	me	O	PRP	O
-	!	,	.	O
-	!	,	.	O
+	me!!	O	VB	O
 	all	X	PDT	O
 	the	D	DT	O
 	high	N	JJ	O
@@ -3104,19 +2755,13 @@ Sentence: 147	who	O	WP	O
 	cigarette	N	NN	O
 	without	P	IN	O
 	the	D	DT	O
-	smoke	N	NN	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
+	smoke!!!!!	N	NN	O
 	0	0	0	O
 Sentence: 148	@leenewtonsays	@	NNS	O
 	eat	V	VBP	O
 	a	D	DT	O
 	few	A	JJ	O
-	marshmallows	N	NNS	O
-	.	,	.	O
+	marshmallows.	N	NN	O
 	they	O	PRP	O
 	were	V	VBD	O
 	originally	R	RB	O
@@ -3126,15 +2771,13 @@ Sentence: 148	@leenewtonsays	@	NNS	O
 	lozenge	N	NN	O
 	for	P	IN	O
 	sore	A	NN	O
-	throats	N	NNS	O
-	.	,	.	O
+	throats.	N	NN	O
 	0	0	0	O
 Sentence: 149	i	O	NNS	O
 	need	V	VBP	O
 	a	D	DT	O
 	throat	N	NN	O
-	lozenge	N	NN	O
-	.	,	.	O
+	lozenge.	N	NN	O
 	?	,	.	O
 	0	0	0	O
 Sentence: 150	eat	V	NN	O
@@ -3150,17 +2793,14 @@ Sentence: 150	eat	V	NN	O
 	small	A	JJ	O
 	dice	N	NN	O
 	lozenge	N	NN	O
-	chiffonade..	N	NN	O
-	.	,	.	O
-	lolwts	N	NN	O
-	.	,	.	O
+	chiffonade...	V	NN	O
+	lolwts.	D	JJ	O
 	life	N	NN	O
 	of	P	IN	O
 	a	D	DT	O
 	culinary	A	JJ	O
 	student	N	NN	O
-	?	,	.	O
-	?	,	.	O
+	??	,	NN	O
 	0	0	0	O
 Sentence: 151	this	D	DT	O
 	lozenge	N	NN	O
@@ -3169,20 +2809,17 @@ Sentence: 151	this	D	DT	O
 	my	D	PRP$	O
 	whole	A	JJ	O
 	mouth	N	NN	O
-	numb..	A	NN	B-ADR
-	.	,	.	O
+	numb...	A	NN	B-ADR
 	is	V	VBZ	O
 	that	D	IN	O
-	normal	A	JJ	O
-	?	,	.	O
+	normal?	A	NN	O
 	0	0	0	O
 Sentence: 152	i'm	L	VB	O
 	the	D	DT	O
 	lozenge	N	NN	O
 	that	P	WDT	O
 	gotham	^	VBZ	O
-	deserves..	V	NN	O
-	.	,	.	O
+	deserves...	V	JJ	O
 	(read	V	NN	O
 	in	P	IN	O
 	batman	^	NN	O
@@ -3201,50 +2838,35 @@ Sentence: 153	@bajeenasaori	@	JJ	O
 	porridge*	N	NN	O
 	0	0	0	O
 Sentence: 154	@uberfacts	@	NNS	O
-	orange	A	NN	O
-	:	,	:	O
-	porridge	N	NN	O
-	,	,	,	O
-	marriage	N	NN	O
-	,	,	,	O
-	lozenge	N	NN	O
-	,	,	,	O
-	courage	N	NN	O
-	,	,	,	O
-	pwnage	N	NN	O
-	,	,	,	O
-	ownage	N	NN	O
-	,	,	,	O
-	iceage	^	NN	O
-	,	,	,	O
+	orange:	A	VBP	O
+	porridge,	N	JJ	O
+	marriage,	N	NN	O
+	lozenge,	N	NN	O
+	courage,	N	NN	O
+	pwnage,	N	NN	O
+	ownage,	N	NN	O
+	iceage,	N	JJ	O
 	hair	N	NN	O
-	singe	N	NN	O
-	,	,	,	O
-	storage	N	NN	O
-	,	,	,	O
+	singe,	N	NN	O
+	storage,	N	NN	O
 	old	A	JJ	O
-	age	N	NN	O
-	,	,	,	O
+	age,	N	NN	O
 	arrange	V	NN	O
 	0	0	0	O
 Sentence: 155	the	D	DT	O
-	sultry	A	NN	O
-	,	,	,	O
-	smug	A	NN	O
-	,	,	,	O
+	sultry,	A	NN	O
+	smug,	A	NN	O
 	douchy	A	JJ	O
 	voice	N	NN	O
 	of	P	IN	O
-	joe	^	JJ	O
-	buck	N	NN	O
-	.	,	.	O
+	joe	^	NN	O
+	buck.	N	NN	O
 	would	V	MD	O
 	you	O	PRP	O
 	like	V	IN	O
 	a	D	DT	O
 	throat	N	NN	O
-	lozenge	N	NN	O
-	?	,	.	O
+	lozenge?	N	NN	O
 	#baseballnightinamerica	#	NNP	O
 	#redsox	#	NNP	O
 	#angels	#	NNS	O
@@ -3270,20 +2892,17 @@ Sentence: 157	almost	R	RB	B-ADR
 	#yuk	#	NN	O
 	0	0	0	O
 Sentence: 158	rt	~	NN	O
-	@15stephen15	@	NN	O
-	:	~	:	O
+	@15stephen15:	G	JJ	O
 	#todolist	#	JJ	O
 	1-finish	$	JJ	O
 	throat	N	NN	O
-	lozenge	N	NN	O
-	.	,	.	O
+	lozenge.	N	VBZ	O
 	2-record	$	JJ	O
 	here's	L	NN	O
 	the	D	DT	O
 	thing	N	NN	O
 	for	P	IN	O
-	@nickbonsantosho	@	NNP	O
-	.	,	.	O
+	@nickbonsantosho.	A	JJ	O
 	3-invent	$	JJ	O
 	renewable	A	JJ	O
 	energy	N	NN	O
@@ -3297,8 +2916,7 @@ Sentence: 159	@jimrome	@	VB	O
 	that	D	IN	O
 	man	N	NN	O
 	a	D	DT	O
-	lozenge	N	NN	O
-	.	,	.	O
+	lozenge.	N	JJR	O
 	#smackoff	#	NN	O
 	0	0	0	O
 Sentence: 160	*takes	V	NNS	O
@@ -3306,15 +2924,13 @@ Sentence: 160	*takes	V	NNS	O
 	lozenge*	N	VB	O
 	0	0	0	O
 Sentence: 161	rt	~	NN	O
-	@johngrantjr24	@	NN	O
-	:	~	:	O
+	@johngrantjr24:	$	NNP	O
 	bron	^	NN	O
 	bron	^	NN	O
 	needs	V	VBZ	O
 	a	D	DT	O
 	cepacol	N	NN	O
-	lozenge	N	NN	O
-	.	,	.	O
+	lozenge.	N	NN	O
 	#coughcough	#	IN	O
 	0	0	0	O
 Sentence: 162	melatonin	N	NN	O
@@ -3348,12 +2964,9 @@ Sentence: 163	i	O	NN	O
 	it's	L	VB	O
 	a	D	DT	O
 	lozenge	N	NN	O
-	:	,	:	O
-	(	,	(	O
-	oops	!	JJ	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/eheigbmmln	G	NN	O
+	:(	E	NNP	O
+	oops	!	VBZ	O
+	http://t.co/eheigbmmln	U	NN	O
 	0	0	0	O
 Sentence: 164	@sircanuckles	@	NNS	O
 	@bookofloob	@	VBP	O
@@ -3375,12 +2988,10 @@ Sentence: 164	@sircanuckles	@	NNS	O
 	had	V	VBD	O
 	under	P	IN	O
 	lozenge	^	NN	O
-	boy	N	NN	O
-	?	,	.	O
+	boy?	N	NN	O
 	0	0	0	O
 Sentence: 165	rt	~	NN	O
-	@jumpingjesush	@	NN	O
-	:	~	:	O
+	@jumpingjesush:	V	VBZ	O
 	it	O	PRP	O
 	appears	V	VBZ	O
 	that	P	IN	O
@@ -3398,19 +3009,16 @@ Sentence: 165	rt	~	NN	O
 	my	D	PRP$	O
 	nicotine	N	JJ	O
 	lozenge	N	NN	O
-	addiction	N	NN	O
-	.	,	.	O
+	addiction.	N	NN	O
 	0	0	0	O
 Sentence: 166	rt	~	NN	O
-	@analyticalanna	@	NN	O
-	:	~	:	O
-	@lizzybizzylou	@	NN	O
+	@analyticalanna:	G	NNP	O
+	@lizzybizzylou	@	NNP	O
 	not	R	RB	O
 	the	D	DT	O
 	cough	N	NN	O
-	suppressant	V	JJ	O
-	ones	N	NNS	O
-	.	,	.	O
+	suppressant	V	NN	O
+	ones.	N	IN	O
 	it	O	PRP	O
 	should	V	MD	O
 	just	R	RB	O
@@ -3421,15 +3029,13 @@ Sentence: 166	rt	~	NN	O
 	made	V	VBD	O
 	only	R	RB	O
 	of	P	IN	O
-	pectin	N	NN	O
-	.	,	.	O
-	feel	V	VB	O
-	better	A	JJR	O
+	pectin.	N	NN	O
+	feel	V	NN	O
+	better	A	RBR	O
 	soon�	N	NN	O
 	0	0	0	O
 Sentence: 167	rt	~	NN	O
-	@gabbyelle0	@	NN	O
-	:	~	:	O
+	@gabbyelle0:	$	NN	O
 	i'm	L	NN	O
 	in	P	IN	O
 	desperate	A	JJ	O
@@ -3437,43 +3043,37 @@ Sentence: 167	rt	~	NN	O
 	of	P	IN	O
 	a	D	DT	O
 	throat	N	NN	O
-	lozenge	N	NN	O
-	.	,	.	O
+	lozenge.	N	NN	O
 	0	0	0	O
 Sentence: 168	i	O	NN	O
 	just	R	RB	O
 	got	V	VBD	O
 	a	D	DT	O
-	lozenge	N	NN	O
-	.	,	.	O
+	lozenge.	N	JJ	O
 	voice	N	NN	O
 	hasnt'	V	NN	O
 	recovered	V	VBD	O
 	from	P	IN	O
-	wednesday	^	NN	O
-	.	,	.	O
-	it's	L	VB	O
+	wednesday.	^	JJ	O
+	it's	L	NN	O
 	gonna	V	NN	O
 	be	V	VB	O
 	that	P	IN	O
 	kind	N	NN	O
 	of	P	IN	O
-	night	N	NN	O
-	.	,	.	O
+	night.	N	NN	O
 	0	0	0	O
 Sentence: 169	@boatsnkrose	@	IN	O
 	they	O	PRP	O
 	are	V	VBP	O
 	on	P	IN	O
 	to	P	TO	O
-	you	O	PRP	O
-	.	,	.	O
-	poppin'	V	VB	O
+	you.	O	VB	O
+	poppin'	V	NN	O
 	metoprolol	N	NN	O
 	and	&	CC	O
 	she	O	PRP	O
-	sweatin'	V	VBD	B-ADR
-	.	,	.	O
+	sweatin'.	V	VBD	B-ADR
 	0	0	0	O
 Sentence: 170	@katgamer	@	NN	O
 	i	O	NN	O
@@ -3483,12 +3083,10 @@ Sentence: 170	@katgamer	@	NN	O
 	metoprolol	N	NN	O
 	back	R	RB	O
 	in	P	IN	O
-	2005	$	CD	O
-	.	,	.	O
+	2005.	$	CD	O
 	in	P	IN	O
 	2	$	CD	O
-	days	N	NNS	O
-	,	,	,	O
+	days,	N	NN	O
 	i	O	NN	O
 	could	V	MD	O
 	not	R	RB	O
@@ -3504,8 +3102,7 @@ Sentence: 170	@katgamer	@	NN	O
 	after	P	IN	O
 	every	D	DT	O
 	other	A	JJ	O
-	one	$	CD	O
-	.	,	.	O
+	one.	$	NN	O
 	0	0	0	O
 Sentence: 171	a	D	DT	O
 	big	A	JJ	O
@@ -3525,10 +3122,9 @@ Sentence: 171	a	D	DT	O
 	of	P	IN	O
 	metoprolol	^	NN	O
 	was	V	VBD	O
-	depression	N	NN	B-ADR
-	.	,	.	I-ADR
+	depression.	N	JJ	B-ADR
 	just	R	RB	O
-	wait	V	IN	O
+	wait	V	VBP	O
 	until	P	IN	O
 	i	O	JJ	O
 	see	V	VBP	O
@@ -3537,11 +3133,9 @@ Sentence: 171	a	D	DT	O
 	-.-	E	VB	O
 	0	0	0	O
 Sentence: 172	rt	~	NN	O
-	@diabetes_bio	@	NN	O
-	:	~	:	O
-	news	N	NN	O
-	:	,	:	O
-	takeda	^	NN	O
+	@diabetes_bio:	N	NNP	O
+	news:	N	CC	O
+	takeda	^	JJ	O
 	type	N	NN	O
 	2	$	CD	O
 	diabetes	N	NNS	O
@@ -3554,12 +3148,10 @@ Sentence: 172	rt	~	NN	O
 	kazano	V	VBP	O
 	alogliptin	V	NN	O
 	and	&	CC	O
-	metformi..	N	NN	O
-	.	,	.	O
-	htt�	U	NN	O
+	metformi...	O	NN	O
+	htt�	V	NN	O
 	0	0	0	O
-Sentence: 173	nicotine	N	NN	O
-	,	,	,	O
+Sentence: 173	nicotine,	N	JJ	O
 	caffeine	N	NN	O
 	and	&	CC	O
 	alcohol	N	NN	O
@@ -3574,28 +3166,24 @@ Sentence: 173	nicotine	N	NN	O
 Sentence: 174	got	V	VBD	O
 	a	D	DT	O
 	smooth	A	JJ	O
-	e-hookah	N	JJ	O
-	.	,	.	O
+	e-hookah.	N	JJ	O
 	tobacco	N	NN	O
 	and	&	CC	O
 	nicotine	N	JJ	O
-	free	A	JJ	O
-	.	,	.	O
+	free.	A	NN	O
 	just	R	RB	O
 	pure	A	JJ	O
 	water	N	NN	O
 	vapor	N	NN	O
 	and	&	CC	O
 	peach	N	NN	O
-	flavoring	N	NN	O
-	.	,	.	O
+	flavoring.	N	NN	O
 	mastered	V	VBD	O
 	the	D	DT	O
 	hookah	N	NN	O
-	smoke	N	NN	O
-	o's	^	NN	O
-	,	,	,	O
-	hell	N	UH	O
+	smoke	N	VBD	O
+	o's,	N	RB	O
+	hell	N	JJ	O
 	yes	!	NNS	O
 	0	0	0	O
 Sentence: 175	niggas	N	RB	O
@@ -3664,20 +3252,15 @@ Sentence: 180	hahaha	!	NN	O
 	flippin	V	VBZ	O
 	out	T	RP	O
 	cus	P	NN	O
-	it's	L	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	no	D	DT	O
+	it's	L	NNS	O
+	""no	D	VBP	O
 	tobacco	N	NN	O
-	day	N	NN	O
-	"	,	NNP	O
-	"	,	NN	O
+	day""	N	NN	O
 	from	P	IN	O
 	today	N	NN	O
 	til	P	VBP	O
 	2nd	$	CD	O
-	june	^	NN	O
-	.	,	.	O
+	june.	^	NN	O
 	gonna	V	NN	O
 	have	V	VBP	O
 	nicotine	N	VBN	O
@@ -3696,36 +3279,30 @@ Sentence: 181	kiss	V	VB	O
 	nicotine	N	NN	O
 	0	0	0	O
 Sentence: 182	go	V	VB	O
-	mario	^	NN	O
-	!	,	.	O
-	:	,	:	O
-	)	,	)	O
-	rt	~	VBP	O
-	@mariomc_snake	@	NN	O
-	:	~	:	O
+	mario!	^	JJ	O
+	:)	E	NNP	O
+	rt	V	NN	O
+	@mariomc_snake:	N	VBD	O
 	1	$	CD	O
 	week	N	NN	O
 	strong	A	JJ	O
-	nicotine	N	JJ	O
-	free..	A	NN	O
-	.	,	.	O
+	nicotine	N	NN	O
+	free...	A	NN	O
 	0	0	0	O
 Sentence: 183	so	R	RB	O
 	much	A	JJ	O
 	for	P	IN	O
 	no	D	DT	O
-	nicotine	N	NN	O
-	withdrawal	N	NN	B-ADR
-	.	,	.	O
-	think	V	VB	O
-	i've	L	JJ	O
+	nicotine	N	JJ	O
+	withdrawal.	N	NN	B-ADR
+	think	V	VBP	O
+	i've	L	NN	O
 	about	P	IN	O
 	pissed	V	VBN	O
 	everyone	N	NN	O
 	off	P	IN	O
 	this	D	DT	O
-	week	N	NN	O
-	.	,	.	O
+	week.	N	NN	O
 	#needacigarette	#	NN	O
 	0	0	0	O
 Sentence: 184	not	R	RB	O
@@ -3742,8 +3319,7 @@ Sentence: 184	not	R	RB	O
 	cause	P	NN	O
 	nicotine	N	JJ	O
 	free	A	JJ	O
-	day	N	NN	O
-	?	,	.	O
+	day?	N	NN	O
 	0	0	0	O
 Sentence: 185	going	V	VBG	O
 	to	P	TO	O
@@ -3752,17 +3328,15 @@ Sentence: 185	going	V	VBG	O
 	a	D	DT	O
 	nicotine	N	JJ	O
 	patch	N	NN	O
-	on..	P	NN	O
-	.	,	.	O
-	i	O	VB	O
+	on...	P	NN	O
+	i	O	VBP	O
 	really	R	RB	O
 	hope	V	VBP	O
 	i	O	VBP	O
 	don't	V	NNS	O
 	have	V	VBP	O
 	a	D	DT	O
-	nightmare......	N	NN	B-ADR
-	.	,	.	O
+	nightmare.......	N	NN	B-ADR
 	0	0	0	O
 Sentence: 186	@sugarrbutt	@	NN	O
 	he	O	PRP	O
@@ -3795,40 +3369,24 @@ Sentence: 187	5th	A	CD	O
 	brand	N	NN	O
 	name	N	NN	O
 	for	P	IN	O
-	ciprofloxacin	N	NN	O
-	.	,	.	O
+	ciprofloxacin.	^	NN	O
 	answers	V	NNS	O
 	back	R	RB	O
-	with	P	IN	O
-	,	,	,	O
-	"	,	FW	O
-	"	,	FW	O
-	uh..	!	NN	O
-	.	,	.	O
-	levaquin	N	NN	O
-	.	,	.	O
-	"	,	CC	O
-	"	,	JJ	O
-	#fml	#	NN	O
+	with,	P	VBP	O
+	""uh...	,	JJ	O
+	levaquin.""	N	NN	O
+	#fml	N	NN	O
 	#pharmacyproblems	#	NNS	O
 	0	0	0	O
-Sentence: 188	treatment	N	NN	O
-	:	,	:	O
+Sentence: 188	treatment:	N	RB	O
 	1)	$	CD	O
 	antibiotic	N	JJ	O
-	therapy	N	NN	O
-	:	,	:	O
-	cotrimazole	N	NN	O
-	,	,	,	O
-	ciprofloxacin	N	NN	O
-	,	,	,	O
-	cephalosporin	N	NN	O
-	,	,	,	O
-	amoxycillin	V	NN	O
+	therapy:	N	NN	O
+	cotrimazole,	N	NN	O
+	ciprofloxacin,cephalosporin,amoxycillin	V	NN	O
 	0	0	0	O
-Sentence: 189	@fyrechief	@	NN	O
-	#cillaxin	#	NN	O
-	?	,	.	O
+Sentence: 189	@fyrechief	@	JJ	O
+	#cillaxin?	#	NN	O
 	is	V	VBZ	O
 	that	O	IN	O
 	a	D	DT	O
@@ -3836,14 +3394,11 @@ Sentence: 189	@fyrechief	@	NN	O
 	medicine	N	NN	O
 	of	P	IN	O
 	some	D	DT	O
-	kind	N	NN	O
-	?	,	.	O
+	kind?	N	NNS	O
 	like	P	IN	O
-	amoxicillin	N	NN	O
-	?	,	.	O
+	amoxicillin?	N	NN	O
 	or	&	CC	O
-	ciprofloxacin	N	VB	O
-	?	,	.	O
+	ciprofloxacin?	N	VB	O
 	;-)	E	JJ	O
 	0	0	0	O
 Sentence: 190	@theantimyth	@	JJ	O
@@ -3856,8 +3411,7 @@ Sentence: 190	@theantimyth	@	JJ	O
 	ciprofloxacin	N	JJ	O
 	increase	V	NN	O
 	bc	P	NN	O
-	levels	N	NNS	O
-	,	,	,	O
+	levels,	N	VBD	O
 	causing	V	VBG	O
 	more	A	JJR	O
 	side	N	JJ	O
@@ -3871,21 +3425,15 @@ Sentence: 191	this	D	DT	O
 	sick	A	JJ	B-ADR
 	to	P	TO	I-ADR
 	my	D	PRP$	I-ADR
-	stomach	N	NN	I-ADR
-	!	,	.	O
-	!	,	.	O
-	ugh	!	JJ	O
-	!	,	.	O
-	!	,	.	O
+	stomach!!	N	NN	I-ADR
+	ugh!!	!	NN	O
 	0	0	0	O
 Sentence: 192	@sofiya__x	@	JJ	O
 	erm	!	NN	O
-	yeah.	!	NN	O
-	.	,	.	O
+	yeah..	!	NN	O
 	yu	O	NN	O
 	know	V	VBP	O
-	it.	O	NN	O
-	.	,	.	O
+	it..	O	NN	O
 	i	O	NN	O
 	should	V	MD	O
 	get	V	VB	O
@@ -3900,8 +3448,7 @@ Sentence: 192	@sofiya__x	@	JJ	O
 Sentence: 193	time	N	NN	O
 	for	P	IN	O
 	my	D	PRP$	O
-	commute	N	NN	O
-	.	,	.	O
+	commute.	N	NN	O
 	wondering	V	VBG	O
 	if	P	IN	O
 	i'm	L	JJ	O
@@ -3910,8 +3457,7 @@ Sentence: 193	time	N	NN	O
 	cope	V	VB	O
 	with	P	IN	O
 	this	D	DT	O
-	everyday	N	JJ	O
-	.	,	.	O
+	everyday.	N	JJ	O
 	it's	L	NN	O
 	like	P	IN	B-ADR
 	wading	V	VBG	I-ADR
@@ -3930,23 +3476,18 @@ Sentence: 194	on	P	IN	O
 	i	O	NN	O
 	burnt	V	VBP	O
 	1119	$	CD	O
-	calories	N	NNS	O
-	.	,	.	O
-	take	V	VB	O
-	that	D	DT	O
+	calories.	N	NNS	O
+	take	V	VBP	O
+	that	D	IN	O
 	olanzapine	V	NN	O
 	you	O	PRP	O
 	hunger	N	VBP	B-ADR
 	inducing	V	VBG	I-ADR
-	bastard	N	NN	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
+	bastard!!!	N	NN	O
 	0	0	0	O
 Sentence: 195	fun	A	NN	O
-	facts	N	NNS	O
-	:	,	:	O
-	do	V	VB	O
+	facts:	N	NNS	O
+	do	V	VBP	O
 	you	O	PRP	O
 	know	V	VB	O
 	what	O	WP	O
@@ -3954,15 +3495,14 @@ Sentence: 195	fun	A	NN	O
 	are	V	VBP	O
 	4	P	CD	O
 	bipolar	A	JJ	O
-	depression	N	NN	O
-	?	,	.	O
+	depression?	N	NNS	O
 	currently	R	RB	O
-	#fda	#	VBZ	O
+	#fda	#	VBP	O
 	approve	V	VB	O
 	combo	N	NN	O
 	of	P	IN	O
-	#olanzapine	^	NNP	O
-	&	&	CC	O
+	#olanzapine	^	JJ	O
+	&amp;	^	NNP	O
 	#fluoxetine	#	NN	O
 	0	0	0	O
 Sentence: 196	actually	R	RB	O
@@ -3977,9 +3517,8 @@ Sentence: 196	actually	R	RB	O
 	nurses	N	NNS	O
 	instead	R	RB	O
 	of	P	IN	O
-	guards	N	NNS	O
-	,	,	,	O
-	olanzapine	^	NN	O
+	guards,	N	JJ	O
+	olanzapine	A	NN	O
 	pill	N	NN	O
 	n	&	JJ	O
 	im=	L	NN	O
@@ -3992,10 +3531,9 @@ Sentence: 197	evening	N	VBG	O
 	and	&	CC	O
 	olanzapine	O	NN	O
 	really	R	RB	O
-	knocks	V	VB	B-ADR
+	knocks	V	VBZ	B-ADR
 	me	O	PRP	I-ADR
-	out	T	RP	I-ADR
-	.	,	.	O
+	out.	T	IN	I-ADR
 	in	P	IN	O
 	bed	N	NN	O
 	at	P	IN	O
@@ -4003,8 +3541,7 @@ Sentence: 197	evening	N	VBG	O
 	on	P	IN	O
 	a	D	DT	O
 	friday	^	JJ	O
-	night	N	NN	O
-	.	,	.	O
+	night.	N	NN	O
 	rock	N	NN	O
 	and	&	CC	O
 	roll...#mylife	V	NN	O
@@ -4029,20 +3566,17 @@ Sentence: 198	@doctorchristian	@	JJ	O
 	0	0	0	O
 Sentence: 199	dr;	^	NN	O
 	hello	!	NN	O
-	dave	^	NN	O
-	.	,	.	O
+	dave.	^	NN	O
 	david;	^	NN	O
 	is	V	VBZ	O
 	that	O	IN	O
 	an	D	DT	O
 	old	A	JJ	O
-	computer	N	NN	O
-	.	,	.	O
-	dr;	^	VB	O
-	i`m	L	JJ	O
+	computer.	N	NN	O
+	dr;	^	NN	O
+	i`m	L	NN	O
 	not	R	RB	O
-	sure	A	JJ	O
-	.	,	.	O
+	sure.	A	VB	O
 	david;	^	VB	O
 	what	O	WP	O
 	operating	N	VBG	O
@@ -4050,17 +3584,15 @@ Sentence: 199	dr;	^	NN	O
 	dr;	N	NN	O
 	here`s	L	VBZ	O
 	some	D	DT	O
-	olanzapine	^	NN	O
-	,	,	,	O
+	olanzapine,	N	JJ	O
 	see	V	VBP	O
 	you	O	PRP	O
 	next	A	JJ	O
 	week	N	NN	O
 	0	0	0	O
 Sentence: 200	olanzapine	^	NN	O
-	together	R	RB	O
-	.	,	.	O
-	olanzapine	O	NN	O
+	together.	R	NN	O
+	olanzapine	^	NN	O
 	is	V	VBZ	O
 	causing	V	VBG	O
 	me	O	PRP	O
@@ -4072,13 +3604,11 @@ Sentence: 200	olanzapine	^	NN	O
 	binge	N	VBP	B-ADR
 	eat	V	NN	O
 	on	P	IN	O
-	it	O	PRP	O
-	,	,	,	O
+	it,	O	NN	O
 	normally	R	RB	O
 	in	P	IN	O
 	the	D	DT	O
-	evening	N	NN	O
-	.	,	.	O
+	evening.	N	NN	O
 	also	R	RB	O
 	sick	A	NN	O
 	of	P	IN	O
@@ -4100,15 +3630,13 @@ Sentence: 201	although	P	IN	O
 	next	A	JJ	O
 	to	P	TO	O
 	my	D	PRP$	O
-	brother	N	NN	O
-	,	,	,	O
+	brother,	N	NN	O
 	with	P	IN	O
 	his	D	PRP$	O
 	olanzapine	A	NN	O
 	induced	A	VBD	O
 	weight	N	JJ	B-ADR
-	gain	N	NN	I-ADR
-	.	,	.	O
+	gain.	V	NN	I-ADR
 	0	0	0	O
 Sentence: 202	@lithiumlibgirl	@	NN	O
 	i	O	NN	O
@@ -4116,27 +3644,23 @@ Sentence: 202	@lithiumlibgirl	@	NN	O
 	relate	V	VB	O
 	to	P	TO	O
 	the	D	DT	O
-	olanzapine	^	NN	B-ADR
-	lbs	N	NN	I-ADR
-	,	,	,	O
+	olanzapine	^	JJ	B-ADR
+	lbs,	N	NN	I-ADR
 	but	&	CC	O
 	you'll	L	RB	O
 	be	V	VB	O
-	great	A	JJ	O
-	!	,	.	O
+	great!	A	NN	O
 	0	0	0	O
 Sentence: 203	@mrcbehan	@	JJ	O
 	best	A	JJS	O
 	of	P	IN	O
 	luck	N	NN	O
-	man	N	NN	O
-	!	,	.	O
+	man!	N	NN	O
 	and	&	CC	O
 	they	O	PRP	O
 	do	V	VBP	O
-	suck	V	NNS	O
-	:	,	:	O
-	/	,	NN	O
+	suck	V	JJ	O
+	:/	E	NN	O
 	i	O	NN	O
 	was	V	VBD	O
 	on	P	IN	O
@@ -4144,26 +3668,22 @@ Sentence: 203	@mrcbehan	@	JJ	O
 	(abilify	^	NNP	O
 	didnt	V	NN	O
 	work)...was	V	NN	O
-	awful	A	JJ	O
-	,	,	,	O
+	awful,	A	NN	O
 	gained	V	VBD	B-ADR
-	3stone	^	CD	I-ADR
-	.	,	.	O
-	off	P	IN	O
+	3stone.	V	CD	I-ADR
+	off	T	IN	O
 	it	O	PRP	O
 	nw	V	VBZ	O
 	n	&	JJ	O
 	doin	V	NN	O
-	gud	A	NN	O
-	!	,	.	O
+	gud!	A	NN	O
 	0	0	0	O
 Sentence: 204	@archangelolill	@	NN	O
 	isn't	V	NN	O
 	zyprexa	N	NN	O
 	also	R	RB	O
 	called	V	VBD	O
-	olanzapine	^	NN	O
-	,	,	,	O
+	olanzapine,	^	RB	O
 	if	P	IN	O
 	so	R	RB	O
 	ppl	N	JJ	O
@@ -4174,8 +3694,7 @@ Sentence: 204	@archangelolill	@	NN	O
 	of	P	IN	O
 	side	N	NN	O
 	effects	N	NNS	O
-	&addiction	N	NN	B-ADR
-	,	,	,	O
+	&amp;addiction,	N	VBP	B-ADR
 	can	V	MD	O
 	do	V	VB	O
 	more	A	JJR	O
@@ -4187,13 +3706,11 @@ Sentence: 205	@jrussouk	@	JJ	O
 	we'll	L	NN	O
 	always	R	RB	O
 	be	V	VB	O
-	together	R	RB	O
-	,	,	,	O
+	together,	R	JJ	O
 	together	R	RB	O
 	in	P	IN	O
-	olanzapine	^	JJ	O
-	dreeeams..	^	NN	O
-	.	,	.	O
+	olanzapine	^	NN	O
+	dreeeams...	^	NN	O
 	0	0	0	O
 Sentence: 206	i	O	JJ	O
 	think	V	VBP	O
@@ -4223,8 +3740,7 @@ Sentence: 207	@missynomatter	@	NN	O
 	not	R	RB	O
 	even	R	RB	O
 	trying	V	VBG	O
-	olanzapine	^	NN	O
-	.	,	.	O
+	olanzapine.	P	IN	O
 	they	O	PRP	O
 	gave	V	VBD	O
 	me	O	PRP	O
@@ -4245,16 +3761,14 @@ Sentence: 208	@psychcentral	@	JJ	O
 	in	P	IN	O
 	a	D	DT	O
 	few	A	JJ	O
-	months	N	NNS	O
-	,	,	,	O
-	plus	V	CC	O
+	months,	N	NN	O
+	plus	P	CC	O
 	it	O	PRP	O
 	gave	V	VBD	O
 	me	O	PRP	O
 	bad	A	JJ	O
-	acne	N	NN	B-ADR
-	breakouts	N	NNS	O
-	.	,	.	O
+	acne	N	JJ	B-ADR
+	breakouts.	N	NN	O
 	had	V	VBD	O
 	to	P	TO	O
 	beg	V	VB	O
@@ -4271,16 +3785,14 @@ Sentence: 209	i	O	NNS	O
 	need	V	VBP	O
 	to	P	TO	O
 	grow	V	VB	O
-	up	T	RP	O
-	.	,	.	O
+	up.	T	JJ	O
 	and	&	CC	O
 	i	O	JJ	O
 	need	V	VBP	O
 	my	D	PRP$	O
-	paroxetine	N	NN	O
-	.	,	.	O
+	paroxetine.	N	NN	O
 	and	&	CC	O
-	i	O	JJ	O
+	i	O	VB	O
 	need	V	VBP	O
 	to	P	TO	O
 	go	V	VB	O
@@ -4290,8 +3802,7 @@ Sentence: 209	i	O	NNS	O
 	is	V	VBZ	O
 	my	D	PRP$	O
 	problem	N	NN	O
-	(money	N	NN	O
-	.	,	.	O
+	(money.	N	NNP	O
 	money	N	NN	O
 	is	V	VBZ	O
 	my	D	PRP$	O
@@ -4303,31 +3814,26 @@ Sentence: 210	throbbing	V	VBG	O
 	not	R	RB	O
 	having	V	VBG	O
 	my	D	PRP$	O
-	pills	N	NNS	O
-	.	,	.	O
+	pills.	N	NN	O
 	2	$	CD	O
 	pills	N	NNS	O
 	left	V	VBD	O
 	i	O	JJ	O
 	need	V	VBP	O
 	to	P	TO	O
-	save	V	VB	O
-	.	,	.	O
+	save.	V	VB	O
 	this	O	DT	O
-	sucks	V	VBZ	O
-	:	,	:	O
-	(	,	(	O
-	#paroxetine	#	VB	O
+	sucks	V	NNS	O
+	:(	E	VBP	O
+	#paroxetine	#	JJ	O
 	#socialanxiety	#	NN	O
 	0	0	0	O
 Sentence: 211	so	R	RB	O
-	yes	!	RB	O
-	,	,	,	O
+	yes,	!	JJ	O
 	relative	A	JJ	O
 	risk	N	NN	O
 	is	V	VBZ	O
-	doubled	V	VBN	O
-	.	,	.	O
+	doubled.	V	JJ	O
 	but	&	CC	O
 	absolute	A	JJ	O
 	risk	N	NN	O
@@ -4337,20 +3843,17 @@ Sentence: 211	so	R	RB	O
 	to	P	TO	O
 	what	O	WP	O
 	they	O	PRP	O
-	say	V	VBP	O
-	.	,	.	O
+	say.	V	VBP	O
 	and	&	CC	O
 	only	R	RB	O
 	for	P	IN	O
-	paroxetine	N	NN	O
-	.	,	.	O
+	paroxetine.	^	NN	O
 	0	0	0	O
 Sentence: 212	#fda	#	NN	O
 	has	V	VBZ	O
 	approved	V	VBN	O
 	paroxetine	^	JJ	O
-	(ssri)	^	NN	O
-	,	,	,	O
+	(ssri),	^	NN	O
 	to	P	TO	O
 	treat	V	VB	O
 	moderate	A	JJ	O
@@ -4360,8 +3863,7 @@ Sentence: 212	#fda	#	NN	O
 	flashes	N	NNS	O
 	associated	V	VBN	O
 	with	P	IN	O
-	menopause	N	NN	O
-	.	,	.	O
+	menopause.	N	NN	O
 	0	0	0	O
 Sentence: 213	lester	^	NN	O
 	holt	^	NN	O
@@ -4369,32 +3871,25 @@ Sentence: 213	lester	^	NN	O
 	just	R	RB	O
 	hyped	V	VBD	O
 	a	D	DT	O
-	"	,	NNP	O
-	"	,	NNP	O
-	new	A	JJ	O
-	drug	N	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
+	""new	A	JJ	O
+	drug""	N	NN	O
 	for	P	IN	O
 	hot	A	JJ	O
 	flashes;	N	NN	O
 	not	R	RB	O
 	a	D	DT	O
 	new	A	JJ	O
-	drug	N	NN	O
-	,	,	,	O
+	drug,	N	NN	O
 	it	O	PRP	O
 	is	V	VBZ	O
 	simply	R	RB	O
 	paroxetine	A	JJ	O
-	rebranded	A	VBN	O
-	.	,	.	O
-	nbc	^	JJ	O
+	rebranded.	V	NN	O
+	nbc	^	NN	O
 	needs	V	VBZ	O
 	new	A	JJ	O
 	science	N	NN	O
-	editor	N	NN	O
-	!	,	.	O
+	editor!	N	NN	O
 	0	0	0	O
 Sentence: 214	@wielding	@	VBG	O
 	my	D	PRP$	O
@@ -4415,29 +3910,24 @@ Sentence: 214	@wielding	@	VBG	O
 	is	V	VBZ	O
 	a	D	DT	O
 	joke	N	NN	O
-	:	,	:	O
-	(	,	(	O
+	:(	E	NN	O
 	0	0	0	O
 Sentence: 215	paxil	^	NN	O
 	withdrawal	N	NN	B-ADR
 	is	V	VBZ	O
-	nasty	A	JJ	O
-	.	,	.	O
+	nasty.	A	RB	O
 	do	V	VBP	O
 	not	R	RB	O
-	like	P	IN	O
-	.	,	.	O
+	like.	P	VB	O
 	0	0	0	O
 Sentence: 216	all	X	PDT	O
 	the	D	DT	O
-	same	A	JJ	O
-	,	,	,	O
-	forward	A	RB	O
+	same,	A	JJ	O
+	forward	A	NN	O
 	spite	N	NN	O
 	of	P	IN	O
-	paxil	^	JJ	O
-	medicamentation	N	NN	O
-	,	,	,	O
+	paxil	^	NN	O
+	medicamentation,	^	FW	O
 	high	A	JJ	O
 	blown	A	VBN	O
 	willpower	N	NN	O
@@ -4449,8 +3939,7 @@ Sentence: 216	all	X	PDT	O
 	to	P	TO	O
 	god	^	VB	O
 	in	P	IN	O
-	or	&	CC	O
-	:	,	:	O
+	or:	&	NN	O
 	0	0	0	O
 Sentence: 217	paxil	^	NN	O
 	makes	V	VBZ	O
@@ -4458,25 +3947,22 @@ Sentence: 217	paxil	^	NN	O
 	nearly	R	RB	O
 	impossible	A	JJ	B-ADR
 	to	P	TO	I-ADR
-	cry	V	VB	I-ADR
-	.	,	.	O
+	cry.	V	VB	I-ADR
 	0	0	0	O
 Sentence: 218	@bullfrogr	@	JJ	O
 	@soozmc123	@	NNP	O
 	amil	^	NN	O
 	isnt	V	NN	O
 	so	R	RB	O
-	bad	A	JJ	O
-	,	,	,	O
-	paxil	^	JJ	O
+	bad,	A	JJ	O
+	paxil	^	NN	O
 	makes	V	VBZ	O
 	everything	N	NN	O
 	slow	A	JJ	B-ADR
 	and	&	CC	O
 	haldol	^	NN	O
 	is	V	VBZ	O
-	ok	A	JJ	O
-	,	,	,	O
+	ok,	A	JJ	O
 	and	&	CC	O
 	haldol	^	JJ	O
 	..	,	NN	O
@@ -4494,32 +3980,26 @@ Sentence: 219	@koma11sen	@	VBN	O
 	didn't	V	NN	O
 	fit	V	VB	O
 	me	O	PRP	O
-	either	R	DT	O
-	.	,	.	O
-	it's	L	NN	O
+	either.	R	JJ	O
+	it's	L	JJ	O
 	great	A	JJ	O
 	for	P	IN	O
-	many	A	JJ	O
-	.	,	.	O
-	i'm	L	VB	O
+	many.	A	JJ	O
+	i'm	L	NN	O
 	on	P	IN	O
 	nothing	N	NN	O
 	at	P	IN	O
-	all	D	DT	O
-	.	,	.	O
+	all.	N	NN	O
 	recently	R	RB	O
 	quit	V	VBD	O
 	drinking	V	NN	O
-	too	R	RB	O
-	.	,	.	O
+	too.	R	NN	O
 	0	0	0	O
 Sentence: 220	@textsurgery	@	NN	O
-	paxil	^	NN	O
-	?	,	.	O
+	paxil?	^	RB	O
 	more	R	RBR	O
 	like	P	IN	O
-	paxchill	N	NN	O
-	.	,	.	O
+	paxchill.	^	NN	O
 	8)	R	CD	O
 	0	0	0	O
 Sentence: 221	i've	L	RB	O
@@ -4549,8 +4029,7 @@ Sentence: 221	i've	L	RB	O
 	i	O	JJ	O
 	come	V	VBP	B-ADR
 	too	R	RB	I-ADR
-	fast	A	RB	I-ADR
-	.	,	.	O
+	fast.	A	JJ	I-ADR
 	0	0	0	O
 Sentence: 222	for	P	IN	O
 	mothers	N	NNS	O
@@ -4561,8 +4040,7 @@ Sentence: 222	for	P	IN	O
 	mom	N	NN	O
 	a	D	DT	O
 	gift	N	NN	O
-	card	N	NN	O
-	,	,	,	O
+	card,	N	NN	O
 	a	D	DT	O
 	bottle	N	NN	O
 	of	P	IN	O
@@ -4576,9 +4054,8 @@ Sentence: 222	for	P	IN	O
 	paxil...im	^	NN	O
 	definitely	R	RB	O
 	her	D	PRP$	O
-	fucking	R	VBG	O
-	favorite	A	JJ	O
-	!	,	.	O
+	fucking	R	NN	O
+	favorite!	A	NN	O
 	#mothersday	#	NN	O
 	0	0	0	O
 Sentence: 223	can't	V	NN	O
@@ -4604,8 +4081,7 @@ Sentence: 223	can't	V	NN	O
 	i	O	VBP	O
 	can't	V	VBP	O
 	get	V	VB	O
-	off	T	RP	O
-	.	,	.	O
+	off.	T	JJ	O
 	huh	!	JJ	O
 	wonder	V	JJR	O
 	why-	R	JJ	O
@@ -4636,42 +4112,35 @@ Sentence: 224	@etpc1	@	NN	O
 	0	0	0	O
 Sentence: 225	don't	V	NN	O
 	ever	R	RB	O
-	take	V	VB	O
+	take	V	VBP	O
 	paxil	^	NN	O
-	&	&	CC	O
-	drink	V	VB	O
-	beer	N	NN	O
-	.	,	.	O
-	i'm	L	VB	O
+	&amp;	N	NN	O
+	drink	V	VBP	O
+	beer.	N	JJ	O
+	i'm	L	NN	O
 	just	R	RB	O
-	sayinn.	A	NN	O
-	.	,	.	O
+	sayinn..	V	JJ	O
 	fuck	V	NN	O
 	0	0	0	O
 Sentence: 226	off	P	IN	O
-	paxil	^	NN	O
-	,	,	,	O
+	paxil,	^	NN	O
 	back	R	RB	O
 	on	P	IN	O
 	zoloft	N	NN	O
-	&	&	CC	O
+	&amp;	N	NN	O
 	cutting	V	VBG	O
-	down	T	RP	O
-	.	,	.	O
-	also	R	RB	O
-	,	,	,	O
+	down.	R	JJ	O
+	also,	R	NN	O
 	cutting	V	VBG	O
 	down	T	RP	O
 	my	D	PRP$	O
-	klonopin	N	NN	O
-	.	,	.	O
+	klonopin.	N	NN	O
 	moving	V	VBG	O
 	in	P	IN	O
 	the	D	DT	O
 	right	A	JJ	O
-	direction	N	NN	O
-	.	,	.	O
-	#progress	#	NN	O
+	direction.	N	NN	O
+	#progress	N	NN	O
 	#medtalk	#	NN	O
 	0	0	0	O
 Sentence: 227	today	N	NN	O
@@ -4689,8 +4158,7 @@ Sentence: 227	today	N	NN	O
 	only	R	RB	O
 	0	0	0	O
 Sentence: 228	rt	~	NN	O
-	@lawfirm_ma	@	NN	O
-	:	~	:	O
+	@lawfirm_ma:	G	NN	O
 	we	O	PRP	O
 	represent	V	VBP	O
 	people	N	NNS	O
@@ -4698,24 +4166,17 @@ Sentence: 228	rt	~	NN	O
 	by	P	IN	O
 	dangerous	A	JJ	O
 	drugs	N	NNS	O
-	&	&	CC	O
+	&amp;	N	VBP	O
 	vaccines	N	NNS	O
-	including	V	VBG	O
-	:	,	:	O
-	ssri	^	NN	O
-	drugs	N	NNS	O
-	:	,	:	O
-	paxil	^	NN	O
-	,	,	,	O
-	zoloft	N	NN	O
-	,	,	,	O
-	effexor	^	NN	O
-	,	,	,	O
-	celexa	A	NN	O
-	,	,	,	O
-	lexapro	^	FW	O
-	,	,	,	O
-	�	,	FW	O
+	including:	V	VBP	O
+	ssri	^	JJ	O
+	drugs:	N	NN	O
+	paxil,	N	NN	O
+	zoloft,	N	NN	O
+	effexor,	G	NN	O
+	celexa,	A	NN	O
+	lexapro,	N	NN	O
+	�	,	NN	O
 	0	0	0	O
 Sentence: 229	this	D	DT	O
 	paxil	^	NN	O
@@ -4737,11 +4198,9 @@ Sentence: 230	i	O	JJ	O
 	something	N	NN	O
 	else	R	RB	O
 	than	P	IN	O
-	paxil	^	NN	O
-	.	,	.	O
-	though	R	IN	O
-	,	,	,	O
-	i	O	VB	O
+	paxil.	^	JJ	O
+	though,	P	NN	O
+	i	O	NN	O
 	do	V	VBP	O
 	enjoy	V	VB	O
 	it	O	PRP	O
@@ -4752,8 +4211,7 @@ Sentence: 230	i	O	JJ	O
 	my	D	PRP$	O
 	mood	N	NN	O
 	is	V	VBZ	O
-	stable	A	JJ	O
-	,	,	,	O
+	stable,	A	JJ	O
 	just	R	RB	O
 	does	V	VBZ	O
 	nothing	N	NN	O
@@ -4764,10 +4222,9 @@ Sentence: 231	@richiel13	@	VB	O
 	doctor	N	NN	O
 	gave	V	VBD	O
 	me	O	PRP	O
-	paxil	^	NN	O
-	,	,	,	O
+	paxil,	^	NN	O
 	which	D	WDT	O
-	i	O	VBP	O
+	i	O	NN	O
 	think	V	VBP	O
 	is	V	VBZ	O
 	similar	A	JJ	O
@@ -4777,17 +4234,14 @@ Sentence: 231	@richiel13	@	VB	O
 	me	O	PRP	O
 	feel	V	VB	B-ADR
 	like	P	IN	I-ADR
-	crap	N	NN	I-ADR
-	.	,	.	O
+	crap.	N	NN	I-ADR
 	0	0	0	O
-Sentence: 232	promise	V	NN	O
-	,	,	,	O
+Sentence: 232	promise,	V	NN	O
 	brownies	N	NNS	O
 	honor	N	VBP	O
 	i'm	L	NN	O
 	not	R	RB	O
-	stupid	A	JJ	O
-	,	,	,	O
+	stupid,	A	JJ	O
 	i	O	NNS	O
 	have	V	VBP	O
 	been	V	VBN	O
@@ -4833,8 +4287,7 @@ Sentence: 234	@got_drums	@	NNS	O
 	me	O	PRP	O
 	stroke	V	VB	O
 	your	D	PRP$	O
-	beard	N	NN	O
-	?	,	.	O
+	beard?	N	NN	O
 	#beingacreep	#	NN	O
 	0	0	0	O
 Sentence: 235	what	O	WP	O
@@ -4843,8 +4296,7 @@ Sentence: 235	what	O	WP	O
 	in	P	IN	O
 	money	N	NN	O
 	and	&	CC	O
-	personality	N	NN	O
-	,	,	,	O
+	personality,	N	NN	O
 	i	O	NNS	O
 	make	V	VBP	O
 	up	T	RP	O
@@ -4857,31 +4309,22 @@ Sentence: 235	what	O	WP	O
 Sentence: 236	ssri	^	JJ	O
 	birth	N	NN	O
 	injury	N	NN	O
-	drugs	N	NNS	O
-	:	,	:	O
-	celexa	A	NN	O
-	,	,	,	O
-	effexor	^	NN	O
-	,	,	,	O
-	lexapro	^	FW	O
-	,	,	,	O
-	paxil	^	NN	O
-	,	,	,	O
-	prozac	^	NN	O
-	,	,	,	O
+	drugs:	N	NN	O
+	celexa,	N	NN	O
+	effexor,	G	NN	O
+	lexapro,	^	NN	O
+	paxil,	^	NN	O
+	prozac,	N	NN	O
 	and	&	CC	O
-	zoloft	N	NNP	O
-	.	,	.	O
-	call	V	NN	O
+	zoloft.	N	NN	O
+	call	N	NN	O
 	now	R	RB	O
 	to	P	TO	O
 	speak	V	VB	O
 	with	P	IN	O
 	an	D	DT	O
-	attorney	N	NN	O
-	.	,	.	O
-	1.888.520.5202	$	CD	O
-	.	,	.	O
+	attorney.	N	NN	O
+	1.888.520.5202.	$	CD	O
 	0	0	0	O
 Sentence: 237	mark	^	NN	O
 	munoz	^	NN	O
@@ -4890,8 +4333,7 @@ Sentence: 237	mark	^	NN	O
 	taking	V	VBG	O
 	paxil	^	NN	O
 	inbetween	P	JJ	O
-	rounds	N	NNS	O
-	.	,	.	O
+	rounds.	N	NN	O
 	#ufc162	#	NN	O
 	0	0	0	O
 Sentence: 238	things	N	NNS	O
@@ -4900,18 +4342,13 @@ Sentence: 238	things	N	NNS	O
 	the	D	DT	O
 	spawn	N	NN	O
 	of	P	IN	O
-	satin	N	NN	O
-	:	,	:	O
-	mosquitoes	N	NNS	O
-	,	,	,	O
-	bananas	N	NNS	O
-	,	,	,	O
-	facebook	^	NN	O
-	,	,	,	O
+	satin:	N	JJ	O
+	mosquitoes,	N	NN	O
+	bananas,	N	NN	O
+	facebook,	^	NN	O
 	paxil	^	NN	O
 	withdrawal	N	NN	B-ADR
-	symptoms	N	NNS	O
-	.	,	.	O
+	symptoms.	N	NN	O
 	#bewareofsatin	#	NN	O
 	0	0	0	O
 Sentence: 239	sounds	V	NNS	O
@@ -4922,9 +4359,8 @@ Sentence: 239	sounds	V	NNS	O
 	new	A	JJ	O
 	precedent	N	NN	O
 	for	P	IN	O
-	pbs	^	JJ	O
-	listing	N	NN	O
-	:	,	:	O
+	pbs	^	NN	O
+	listing:	N	CD	O
 	new	A	JJ	O
 	drugs	N	NNS	O
 	won't	V	VBP	O
@@ -4939,9 +4375,8 @@ Sentence: 239	sounds	V	NNS	O
 	used	V	VBN	O
 	suboptimally	R	RB	O
 	0	0	0	O
-Sentence: 240	@ta3fox	@	NN	O
-	yeah	!	NN	O
-	,	,	,	O
+Sentence: 240	@ta3fox	@	JJ	O
+	yeah,	!	NN	O
 	pristiq	N	NN	O
 	is	V	VBZ	O
 	a	D	DT	O
@@ -4950,34 +4385,29 @@ Sentence: 240	@ta3fox	@	NN	O
 	or	&	CC	O
 	something	N	NN	O
 	of	P	IN	O
-	effexor	^	NN	O
-	.	,	.	O
-	so	R	RB	O
+	effexor.	^	NN	O
+	so	R	IN	O
 	similar	A	JJ	O
 	withdrawal	N	NN	B-ADR
 	stuff	N	NN	O
-	:	,	:	O
-	(	,	(	O
+	:(	E	NN	O
 	0	0	0	O
 Sentence: 241	@hello_nacho	@	JJ	O
 	@tobiasampersand	@	NNP	O
 	i'm	L	NN	O
 	with	P	IN	O
-	you	O	PRP	O
-	.	,	.	O
+	you.	O	JJ	O
 	even	R	RB	O
 	though	P	IN	O
 	the	D	DT	O
 	pristiq	N	NN	O
-	works	V	VBZ	O
-	,	,	,	O
+	works,	V	NN	O
 	i	O	NN	O
 	still	R	RB	O
 	don't	V	JJ	B-ADR
 	feel	V	VB	I-ADR
 	fully	R	RB	I-ADR
-	human	A	JJ	I-ADR
-	.	,	.	O
+	human.	A	VB	I-ADR
 	0	0	0	O
 Sentence: 242	my	D	PRP$	O
 	sleep	N	JJ	B-ADR
@@ -5007,9 +4437,8 @@ Sentence: 243	i've	L	NN	O
 	i	O	NN	O
 	started	V	VBD	O
 	on	P	IN	O
-	prozac	^	NN	O
-	,	,	,	O
-	i	O	JJ	O
+	prozac,	N	NN	O
+	i	O	NN	O
 	guess	V	NN	O
 	that's	L	IN	O
 	a	D	DT	O
@@ -5039,31 +4468,25 @@ Sentence: 245	i	O	NN	O
 	and	&	CC	O
 	do	V	VB	O
 	nothing	N	NN	O
-	tonight	N	NN	O
-	:	,	:	O
-	(	,	(	O
-	damn	A	VB	O
-	prozac	N	NN	O
+	tonight	R	NN	O
+	:(	E	NNP	O
+	damn	!	NN	O
+	prozac	^	NN	O
 	&gt;.&lt;	N	NN	O
 	0	0	0	O
 Sentence: 246	rules	N	NNS	O
 	of	P	IN	O
-	prozac	^	NN	O
-	:	,	:	O
-	1	$	CD	O
-	:	,	:	O
+	prozac:	N	NN	O
+	1:	$	CD	O
 	you	O	PRP	O
 	can	V	MD	O
 	never	R	RB	B-ADR
-	sleep	V	VB	I-ADR
-	,	,	,	O
+	sleep,	V	VB	I-ADR
 	ever	R	RB	O
-	again	R	RB	O
-	.	,	.	O
+	again.	R	RB	O
 	never	R	RB	O
 	ever	R	RB	O
-	2	$	CD	O
-	:	,	:	O
+	2:	$	CD	O
 	no	!	DT	O
 	you	O	PRP	O
 	may	V	MD	B-ADR
@@ -5071,17 +4494,13 @@ Sentence: 246	rules	N	NNS	O
 	switch	V	VB	I-ADR
 	your	D	PRP$	I-ADR
 	brain	N	NN	I-ADR
-	off	P	IN	I-ADR
-	.	,	.	O
-	ever	R	RB	O
-	.	,	.	O
-	3	$	CD	O
-	:	,	:	O
+	off.	P	IN	I-ADR
+	ever.	R	$	O
+	3:	$	CD	O
 	exhaustion	N	NN	B-ADR
 	is	V	VBZ	O
 	your	D	PRP$	O
-	friend	N	NN	O
-	.	,	.	O
+	friend.	N	NN	O
 	0	0	0	O
 Sentence: 247	*me	O	NN	O
 	on	P	IN	O
@@ -5117,23 +4536,20 @@ Sentence: 248	the	D	DT	O
 	is	V	VBZ	O
 	on	P	IN	O
 	prozac	N	NN	O
-	now	R	RB	O
-	?	,	.	O
-	rt	~	VB	O
-	@pwp_weather	@	JJR	O
-	dry	A	JJ	O
+	now?	R	NN	O
+	rt	~	NN	O
+	@pwp_weather	@	NNP	O
+	dry	A	NN	O
 	weather	N	NN	O
 	expected	V	VBN	O
 	in	P	IN	O
 	the	D	DT	O
-	country	N	NN	O
-	.	,	.	O
+	country.	N	NN	O
 	temperatures	N	NNS	O
 	would	V	MD	O
 	start	V	VB	O
 	to	P	TO	O
-	rise	V	VB	O
-	.	,	.	O
+	rise.	V	VB	O
 	depression	N	NN	O
 	weakens	V	NNS	O
 	0	0	0	O
@@ -5154,11 +4570,9 @@ Sentence: 249	bananas	N	NNS	O
 	chemical	N	NN	O
 	found	V	VBD	O
 	in	P	IN	O
-	prozac	N	NN	O
-	.	,	.	O
+	prozac.	N	NN	O
 	0	0	0	O
-Sentence: 250	@uberfacts	@	NNS	O
-	:	~	:	O
+Sentence: 250	@uberfacts:	^	JJ	O
 	bananas	N	NNS	O
 	contain	V	VBP	O
 	a	D	DT	O
@@ -5195,17 +4609,33 @@ Sentence: 251	bananas	N	NNS	O
 	chemical	N	NN	O
 	found	V	VBD	O
 	in	P	IN	O
-	prozac	N	NN	O
-	.	,	.	O
-	(via	V	CD	O
-	@uberfacts)	O	NN	O
+	prozac.	N	NN	O
+	(via	P	NN	O
+	@uberfacts)	^	NN	O
 	0	0	0	O
 Sentence: 252	wow	!	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	@uberfacts	@	VBZ	O
-	:	~	:	O
+	""@uberfacts:	,	NNP	O
 	bananas	N	NN	O
+	contain	V	NN	O
+	a	D	DT	O
+	natural	A	JJ	O
+	chemical	N	NN	O
+	that	P	WDT	O
+	can	V	MD	O
+	make	V	VB	O
+	a	D	DT	O
+	person	N	NN	O
+	happy	A	JJ	O
+	-	,	:	O
+	the	D	DT	O
+	same	A	JJ	O
+	chemical	N	NN	O
+	found	V	VBD	O
+	in	P	IN	O
+	prozac.""	N	NN	O
+	0	0	0	O
+Sentence: 253	@yb_nl:	^	JJ	O
+	bananas	N	NNS	O
 	contain	V	VBP	O
 	a	D	DT	O
 	natural	A	JJ	O
@@ -5222,35 +4652,9 @@ Sentence: 252	wow	!	NN	O
 	chemical	N	NN	O
 	found	V	VBD	O
 	in	P	IN	O
-	prozac	N	NN	O
-	.	,	.	O
-	"	,	CD	O
-	"	,	NN	O
+	prozac.	N	NN	O
 	0	0	0	O
-Sentence: 253	@yb_nl	@	NN	O
-	:	~	:	O
-	bananas	N	NN	O
-	contain	V	VBP	O
-	a	D	DT	O
-	natural	A	JJ	O
-	chemical	N	NN	O
-	that	P	WDT	O
-	can	V	MD	O
-	make	V	VB	O
-	a	D	DT	O
-	person	N	NN	O
-	happy	A	JJ	O
-	-	,	:	O
-	the	D	DT	O
-	same	A	JJ	O
-	chemical	N	NN	O
-	found	V	VBD	O
-	in	P	IN	O
-	prozac	N	NN	O
-	.	,	.	O
-	0	0	0	O
-Sentence: 254	�@uberfacts	@	NNS	O
-	:	~	:	O
+Sentence: 254	�@uberfacts:	,	JJ	O
 	bananas	N	NNS	O
 	contain	V	VBP	O
 	a	D	DT	O
@@ -5307,8 +4711,7 @@ Sentence: 256	the	D	DT	O
 	like	P	IN	O
 	prozac	N	NN	O
 	to	P	TO	O
-	me	O	PRP	O
-	.	,	.	O
+	me.	O	VB	O
 	#sagan	#	JJ	O
 	#science	#	NN	O
 	#space	#	NN	O
@@ -5342,10 +4745,9 @@ Sentence: 258	end	N	NN	O
 	for	P	IN	O
 	more	A	RBR	O
 	movement	N	NN	O
-	tomor	N	NN	O
-	!	,	.	O
-	#newmeds	#	NNS	O
-	#meantalhealth	#	VBP	O
+	tomor!	N	NN	O
+	#newmeds	#	VBZ	O
+	#meantalhealth	#	NNP	O
 	#bipolar	#	JJ	O
 	#quetiapine	#	NN	O
 	0	0	0	O
@@ -5362,11 +4764,9 @@ Sentence: 259	journal	N	NN	O
 	of	P	IN	O
 	medical	A	JJ	O
 	case	N	NN	O
-	reports	N	NNS	O
-	,	,	,	O
-	april	^	RB	O
-	26	$	CD	O
-	,	,	,	O
+	reports,	N	NN	O
+	april	^	VBD	O
+	26,	$	CD	O
 	2013	$	CD	O
 	0	0	0	O
 Sentence: 260	@god_chef	@	NN	O
@@ -5375,22 +4775,19 @@ Sentence: 260	@god_chef	@	NN	O
 	i	O	NN	O
 	said	V	VBD	O
 	last	A	JJ	O
-	time	N	NN	O
-	,	,	,	O
+	time,	N	NN	O
 	and	&	CC	O
 	the	D	DT	O
 	fucker	N	NN	O
 	gave	V	VBD	O
 	me	O	PRP	O
-	quetiapine	R	NN	O
-	!	,	.	O
+	quetiapine!	R	NN	O
 	0	0	0	O
 Sentence: 261	food	N	NN	O
 	doesn't	V	NN	O
 	help	V	NN	O
 	for	P	IN	O
-	energy	N	NN	B-ADR
-	,	,	,	O
+	energy,	N	NN	B-ADR
 	not	R	RB	O
 	sure	A	JJ	O
 	how	R	WRB	O
@@ -5400,10 +4797,9 @@ Sentence: 261	food	N	NN	O
 	get	V	VB	O
 	up	T	RP	O
 	and	&	CC	O
-	go	V	VB	O
-	!	,	.	O
+	go!	V	VB	O
 	#newmeds	#	NNS	O
-	#quetiapine	#	VBP	O
+	#quetiapine	#	VB	O
 	#bipolar	#	JJ	O
 	0	0	0	O
 Sentence: 262	my	D	PRP$	O
@@ -5426,16 +4822,13 @@ Sentence: 263	celebrating	V	VBG	O
 	with	P	IN	O
 	some	D	DT	O
 	delicious	A	JJ	O
-	quetiapine	N	NN	O
-	.	,	.	O
-	mmm	!	NN	O
-	.	,	.	O
+	quetiapine.	N	NNS	O
+	mmm.	!	VBP	O
 	quick	A	JJ	O
 	release	N	NN	O
 	for	P	IN	O
 	instant	A	JJ	O
-	no-madness	N	NN	O
-	.	,	.	O
+	no-madness.	!	NN	O
 	0	0	0	O
 Sentence: 264	@tete_floue	@	RB	O
 	been	V	VBN	O
@@ -5462,17 +4855,14 @@ Sentence: 264	@tete_floue	@	RB	O
 	0	0	0	O
 Sentence: 265	@louiseypopssss	@	JJ	O
 	quetiapine	A	NN	O
-	withdrawals	N	NNS	B-ADR
-	.	,	.	O
+	withdrawals.	N	NN	B-ADR
 	0	0	0	O
 Sentence: 266	just	R	RB	B-ADR
 	about	P	IN	I-ADR
-	dead	A	JJ	I-ADR
-	,	,	,	O
-	think	V	VB	O
+	dead,	A	JJ	I-ADR
+	think	V	VBP	O
 	it's	L	JJ	O
-	bedtime.	N	NN	O
-	.	,	.	O
+	bedtime..	N	NN	O
 	fuck	V	NN	O
 	you	O	PRP	O
 	quetiapine	V	VBP	O
@@ -5480,8 +4870,7 @@ Sentence: 266	just	R	RB	B-ADR
 Sentence: 267	@_pocketdynamo	@	JJ	O
 	citalopram	^	NN	O
 	and	&	CC	O
-	quetiapine	^	NN	O
-	,	,	,	O
+	quetiapine,	V	NN	O
 	not	R	RB	O
 	really	R	RB	O
 	withdrawal	A	VB	O
@@ -5498,9 +4887,7 @@ Sentence: 267	@_pocketdynamo	@	JJ	O
 	used	V	VBN	O
 	to	P	TO	O
 	it	O	PRP	O
-	yet	R	RB	O
-	:	,	:	O
-	(	,	(	O
+	yet:(	R	VB	O
 	0	0	0	O
 Sentence: 268	@lavenderfuchsia	@	NN	O
 	i	O	NN	O
@@ -5512,21 +4899,18 @@ Sentence: 268	@lavenderfuchsia	@	NN	O
 	but	&	CC	O
 	it	O	PRP	O
 	was	V	VBD	O
-	much	R	RB	O
-	easier	A	JJR	O
-	.	,	.	O
+	much	R	JJ	O
+	easier.	A	NN	O
 	like	P	IN	O
 	2	$	CD	O
 	steps	N	NNS	O
-	forward	R	RB	O
-	,	,	,	O
+	forward,	R	RB	O
 	one	$	CD	O
 	step	N	NN	O
 	back	R	RB	O
 	on	P	IN	O
 	the	D	DT	O
-	quetiapine	N	NN	O
-	.	,	.	O
+	quetiapine.	N	NN	O
 	0	0	0	O
 Sentence: 269	took	V	VBD	O
 	a	D	DT	O
@@ -5539,10 +4923,9 @@ Sentence: 269	took	V	VBD	O
 	i'm	L	VB	O
 	ready	A	JJ	O
 	for	P	IN	O
-	bed	N	NN	O
-	,	,	,	O
-	so	R	RB	O
-	tiiiiired	A	JJ	B-ADR
+	bed,	N	NN	O
+	so	P	RB	O
+	tiiiiired	A	VBD	B-ADR
 	0	0	0	O
 Sentence: 270	i	O	NN	O
 	think	V	VBP	O
@@ -5555,10 +4938,9 @@ Sentence: 270	i	O	NN	O
 	about	P	IN	O
 	reducing	V	VBG	O
 	quetiapine	A	JJ	O
-	dosage	N	NN	O
-	.	,	.	O
+	dosage.	N	NN	O
 	the	D	DT	O
-	weight	N	JJ	B-ADR
+	weight	N	NN	B-ADR
 	gain	V	NN	I-ADR
 	from	P	IN	O
 	it	O	PRP	O
@@ -5568,22 +4950,19 @@ Sentence: 270	i	O	NN	O
 	hell	N	NN	O
 	out	P	IN	O
 	of	P	IN	O
-	me	O	PRP	O
-	.	,	.	O
+	me.	O	NN	O
 	0	0	0	O
 Sentence: 271	anyone	N	NN	O
 	ever	R	RB	O
 	taken	V	VBN	O
-	quetiapine	^	NN	O
-	?	,	.	O
-	i've	L	RB	O
+	quetiapine?	R	NN	O
+	i've	L	NN	O
 	been	V	VBN	O
 	on	P	IN	O
 	it	O	PRP	O
 	for	P	IN	O
 	a	D	DT	O
-	week	N	NN	O
-	,	,	,	O
+	week,	N	NN	O
 	not	R	RB	O
 	too	R	RB	O
 	sure	A	JJ	O
@@ -5592,32 +4971,27 @@ Sentence: 271	anyone	N	NN	O
 	feel	V	VBP	O
 	about	P	IN	O
 	it	O	PRP	O
-	yet	R	RB	O
-	.	,	.	O
+	yet.	R	VBZ	O
 	anyone	N	NN	O
-	want	V	VBP	O
+	want	V	NN	O
 	to	P	TO	O
 	share	V	NN	O
 	their	D	PRP$	O
-	experience	N	NN	O
-	?	,	.	O
+	experience?	N	NN	O
 	0	0	0	O
 Sentence: 272	sleeping	V	VBG	B-ADR
 	my	D	PRP$	I-ADR
 	life	N	NN	I-ADR
 	away	R	RB	I-ADR
 	on	P	IN	O
-	#quetiapine	^	NN	O
-	.	,	.	O
+	#quetiapine.	#	JJ	O
 	fine	A	NN	O
 	by	P	IN	O
-	me	O	PRP	O
-	.	,	.	O
+	me.	O	NN	O
 	0	0	0	O
 Sentence: 273	in	P	IN	O
 	other	A	JJ	O
-	news	N	NN	O
-	,	,	,	O
+	news,	N	JJ	O
 	i've	L	NN	O
 	got	V	VBD	O
 	my	D	PRP$	O
@@ -5626,21 +5000,18 @@ Sentence: 273	in	P	IN	O
 	side	N	NN	O
 	effect	N	NN	O
 	from	P	IN	O
-	quetiapine	^	NN	O
-	.	,	.	O
+	quetiapine.	^	NN	O
 	numbness	N	NN	B-ADR
 	and	&	CC	O
 	tingling	V	NN	B-ADR
 	in	P	IN	O
 	my	D	PRP$	O
-	fingertips	N	NNS	O
-	.	,	.	O
+	fingertips.	N	NN	O
 	0	0	0	O
 Sentence: 274	@redbuttongirl	@	NN	O
 	i	O	NN	O
-	know	V	VBP	O
-	.	,	.	O
-	i	O	VB	O
+	know.	V	VBP	O
+	i	O	NN	O
 	just	R	RB	O
 	realised	V	VBN	O
 	with	P	IN	O
@@ -5653,16 +5024,13 @@ Sentence: 274	@redbuttongirl	@	NN	O
 	the	D	DT	O
 	sodding	A	VBG	O
 	quetiapine	N	NN	O
-	yet	R	RB	O
-	!	,	.	O
-	!	,	.	O
+	yet!!	R	NN	O
 	wondered	V	VBD	O
 	why	R	WRB	O
 	i	O	JJ	O
 	wasn't	V	NN	O
 	drowsy	A	NN	B-ADR
-	doh	!	NN	O
-	!	,	.	O
+	doh!	!	NN	O
 	0	0	0	O
 Sentence: 275	feeling	V	VBG	O
 	a	D	DT	O
@@ -5673,8 +5041,7 @@ Sentence: 275	feeling	V	VBG	O
 	quetiapine	N	NN	O
 	i	O	NN	O
 	just	R	RB	O
-	popped	V	VBD	O
-	!	,	.	O
+	popped!	V	NN	O
 	0	0	0	O
 Sentence: 276	@embodiedtales	@	NNS	O
 	please	V	VBP	O
@@ -5682,14 +5049,12 @@ Sentence: 276	@embodiedtales	@	NNS	O
 	me	O	PRP	O
 	that	P	IN	O
 	wasn't	V	VBZ	O
-	quetiapine	A	NN	O
-	!	,	.	O
+	quetiapine!	V	VB	O
 	that	D	IN	O
 	stuff	N	NN	O
 	is	V	VBZ	O
 	sooo	R	JJ	O
-	sedating..	G	NN	B-ADR
-	.	,	.	O
+	sedating...	G	NN	B-ADR
 	0	0	0	O
 Sentence: 277	@iamcarrieeeeee	@	MD	O
 	not	R	RB	O
@@ -5700,14 +5065,12 @@ Sentence: 277	@iamcarrieeeeee	@	MD	O
 	portions	N	NNS	B-ADR
 	prob	R	VBP	I-ADR
 	too	R	RB	I-ADR
-	big	A	JJ	I-ADR
-	.	,	.	O
-	quetiapine	V	VB	O
+	big.	A	JJ	I-ADR
+	quetiapine	N	VBP	O
 	a	D	DT	O
-	factor	N	NN	O
-	.	,	.	O
-	think	V	VB	O
-	i'd	L	JJ	O
+	factor.	N	NN	O
+	think	V	NN	O
+	i'd	L	NN	O
 	be	V	VB	O
 	ok	A	JJ	O
 	with	P	IN	O
@@ -5726,8 +5089,7 @@ Sentence: 278	erm	!	VB	O
 	go	V	VB	O
 	back	R	RB	O
 	on	P	IN	O
-	quetiapine	^	NN	O
-	.	,	.	O
+	quetiapine.	^	NN	O
 	pointed	V	VBN	O
 	out	T	IN	O
 	it	O	PRP	O
@@ -5737,8 +5099,7 @@ Sentence: 278	erm	!	VB	O
 	heart	N	NN	B-ADR
 	arrhythmia	P	NN	I-ADR
 	last	A	JJ	O
-	time	N	NN	O
-	.	,	.	O
+	time.	N	NN	O
 	going	V	VBG	O
 	back	R	RB	O
 	to	P	TO	O
@@ -5755,12 +5116,10 @@ Sentence: 279	having	V	VBG	O
 	quetiapine	A	NN	O
 	haze	N	NN	B-ADR
 	this	D	DT	O
-	morning..	N	NN	O
-	.	,	.	O
+	morning...	N	NN	O
 	0	0	0	O
 Sentence: 280	rt	~	NN	O
-	@globalmeded	@	VBD	O
-	:	~	:	O
+	@globalmeded:	A	NNP	O
 	comparison	N	NN	O
 	of	P	IN	O
 	4	$	CD	O
@@ -5771,31 +5130,25 @@ Sentence: 280	rt	~	NN	O
 	40	$	CD	O
 	with	P	IN	O
 	psychiatric	A	JJ	O
-	disorders	N	NNS	O
-	.	,	.	O
-	quetiapine	V	VB	O
+	disorders.	N	NNS	O
+	quetiapine	V	VBP	O
 	least	A	JJS	O
 	safe	A	JJ	O
-	http	N	NN	O
-	:	~	:	O
-	//t.co/5roujwr3b�	G	NN	O
+	http://t.co/5roujwr3b�	U	NN	O
 	0	0	0	O
 Sentence: 281	@girl_interrupt_	@	JJ	O
-	yes	!	RB	O
-	totally	R	RB	O
-	.	,	.	O
-	psych	N	NN	O
-	prescribed	V	VBD	O
+	yes	!	NNS	O
+	totally.	R	VBP	O
+	psych	^	NN	O
+	prescribed	V	VBN	O
 	me	O	PRP	O
 	quetiapine	R	VB	O
 	to	P	TO	O
 	help	V	VB	O
 	#bpdchat	#	VB	O
 	0	0	0	O
-Sentence: 282	hello	!	NN	O
-	,	,	,	O
-	world	N	NN	O
-	!	,	.	O
+Sentence: 282	hello,	!	NN	O
+	world!	N	WRB	O
 	quetiapine	V	NN	O
 	zombie	V	NN	B-ADR
 	this	D	DT	O
@@ -5809,17 +5162,14 @@ Sentence: 282	hello	!	NN	O
 	in	P	IN	O
 	about	P	IN	O
 	45	$	CD	O
-	minutes	N	NNS	O
-	.	,	.	O
+	minutes.	N	NNS	O
 	perfect	A	JJ	O
-	combination	N	NN	O
-	.	,	.	O
+	combination.	N	NN	O
 	0	0	0	O
 Sentence: 283	whoah	!	NNS	O
 	so	P	RB	O
-	dizzing	N	VBG	B-ADR
-	.	,	.	O
-	damn	!	NN	O
+	dizzing.	R	JJ	B-ADR
+	damn	A	NN	O
 	tamazapam	N	SYM	O
 	-	,	:	O
 	shld	V	NN	O
@@ -5831,16 +5181,14 @@ Sentence: 283	whoah	!	NNS	O
 	if	P	IN	O
 	this	O	DT	O
 	keeps	V	VBZ	O
-	up	T	RP	O
-	!	,	.	O
+	up!	T	JJ	O
 	but	&	CC	O
 	it	O	PRP	O
 	makes	V	VBZ	O
 	me	O	PRP	O
 	feel	V	VB	B-ADR
 	so	R	RB	I-ADR
-	ick	!	JJ	I-ADR
-	!	,	.	O
+	ick!	!	JJ	I-ADR
 	0	0	0	O
 Sentence: 284	#quetiapine	^	NN	O
 	is	V	VBZ	O
@@ -5855,15 +5203,13 @@ Sentence: 285	@cheer_bear13	@	NN	O
 	am	V	VBP	O
 	on	P	IN	O
 	300mg	^	CD	O
-	quetiapine	^	NN	O
-	.	,	.	O
+	quetiapine.	^	NNS	O
 	mainly	R	RB	O
-	tiredness	N	IN	B-ADR
+	tiredness	N	VBP	B-ADR
 	it	O	PRP	O
 	causes	V	VBZ	O
 	with	P	IN	O
-	me	O	PRP	O
-	.	,	.	O
+	me.	O	NN	O
 	0	0	0	O
 Sentence: 286	@mewtopia	@	NN	O
 	...face.	N	NN	O
@@ -5873,30 +5219,26 @@ Sentence: 286	@mewtopia	@	NN	O
 	increases	V	VBZ	O
 	sun	^	JJ	B-ADR
 	sensitivity	N	NN	I-ADR
-	too	R	RB	O
-	.	,	.	O
+	too.	R	NN	O
 	0	0	0	O
 Sentence: 287	i	O	NN	O
 	hate	V	VBP	O
 	my	D	PRP$	O
 	new	A	JJ	O
-	medication	N	NN	O
-	.	,	.	O
+	medication.	N	NN	O
 	it	O	PRP	O
 	makes	V	VBZ	O
 	me	O	PRP	O
 	feel	V	VB	O
 	hungry	A	JJ	B-ADR
-	:	,	:	O
-	-(	G	JJ	O
+	:-(	E	JJ	O
 	#quetiapine	#	NN	O
 	0	0	0	O
 Sentence: 288	01.10	$	CD	O
 	day	N	NN	O
 	13	$	CD	O
 	rivaroxaban	^	NN	O
-	diary	N	NN	O
-	.	,	.	O
+	diary.	N	NN	O
 	headache	N	NN	B-ADR
 	over	P	IN	O
 	right	A	JJ	O
@@ -5905,14 +5247,13 @@ Sentence: 288	01.10	$	CD	O
 	head;	N	NN	O
 	lower	A	RBR	O
 	back	N	RB	B-ADR
-	pain	N	NN	I-ADR
-	.	,	.	O
+	pain.	N	JJ	I-ADR
 	wrote	V	VBD	O
 	letter	N	NN	O
 	to	P	TO	O
 	my	D	PRP$	O
 	gp	N	NN	O
-	&	&	CC	O
+	&amp;	N	VB	O
 	his	D	PRP$	O
 	colleague	N	NN	O
 	outlining	V	VBG	O
@@ -5922,71 +5263,60 @@ Sentence: 289	03.25	$	CD	O
 	day	N	NN	O
 	13	$	CD	O
 	rivaroxaban	^	NN	O
-	diary	N	NN	O
-	.	,	.	O
-	neck	N	CC	B-ADR
+	diary.	N	NN	O
+	neck	N	NN	B-ADR
 	ache	V	NN	I-ADR
 	and	&	CC	O
 	right	A	JJ	O
 	shoulder	N	NN	B-ADR
-	ache	V	NN	I-ADR
-	.	,	.	O
+	ache.	V	NNS	I-ADR
 	lower	A	JJR	O
 	back	N	RB	B-ADR
-	pain	N	NN	I-ADR
-	.	,	.	O
+	pain.	N	NN	I-ADR
 	0	0	0	O
 Sentence: 290	20.12	$	CD	O
 	day	N	NN	O
 	15	$	CD	O
 	rivaroxaban	^	NN	O
-	diary	N	NN	O
-	.	,	.	O
+	diary.	N	NN	O
 	haven't	V	NN	O
 	yet	R	RB	O
 	taken	V	VBN	O
-	today's	S	JJ	O
-	tablet	N	NN	O
-	.	,	.	O
+	today's	S	NN	O
+	tablet.	N	NN	O
 	will	V	MD	O
 	when	R	WRB	O
 	i	O	VB	O
-	eat	V	NN	O
-	.	,	.	O
+	eat.	V	VBP	O
 	still	R	RB	O
 	intense	A	JJ	O
 	lower	A	JJR	O
 	back	N	RB	B-ADR
 	pain	N	NN	I-ADR
 	from	P	IN	O
-	yesterday's	S	JJ	O
-	tablet	N	NN	O
-	.	,	.	O
+	yesterday's	S	NN	O
+	tablet.	N	NN	O
 	0	0	0	O
 Sentence: 291	05.00	$	CD	O
 	day	N	NN	O
 	17	$	CD	O
 	rivaroxaban	^	NN	O
-	diary	N	NN	O
-	.	,	.	O
+	diary.	N	NN	O
 	woken	V	VBN	O
 	up	T	RP	O
 	by	P	IN	O
 	pain	N	NN	B-ADR
 	in	P	IN	I-ADR
-	neck	N	NN	I-ADR
-	,	,	,	O
-	hips	N	NNS	B-ADR
+	neck,	N	JJ	I-ADR
+	hips	N	NNS	I-ADR
 	and	&	CC	O
-	legs	N	NNS	B-ADR
-	.	,	.	O
+	legs.	N	NN	B-ADR
 	0	0	0	O
 Sentence: 292	14.11	$	CD	O
 	day	N	NN	O
 	17	$	CD	O
 	rivaroxaban	^	NN	O
-	diary	N	NN	O
-	.	,	.	O
+	diary.	N	NN	O
 	still	R	RB	O
 	waiting	V	VBG	O
 	for	P	IN	O
@@ -5994,28 +5324,21 @@ Sentence: 292	14.11	$	CD	O
 	to	P	TO	O
 	phone	V	NN	O
 	me	O	PRP	O
-	"	,	JJ	O
-	"	,	VBP	O
-	around	R	IN	O
-	lunchtime	N	JJ	O
-	"	,	NNP	O
-	"	,	NNP	O
-	.	,	.	O
+	""around	R	IN	O
+	lunchtime"".	N	JJR	O
 	taken	V	VBN	O
 	more	A	RBR	O
 	paracetamol	N	JJ	O
 	to	P	TO	O
 	dull	A	VB	O
 	the	D	DT	O
-	aches	N	NNS	B-ADR
-	.	,	.	O
+	aches.	N	NN	B-ADR
 	0	0	0	O
 Sentence: 293	21.19	$	CD	O
 	day	N	NN	O
 	17	$	CD	O
 	rivaroxaban	^	NN	O
-	diary	N	NN	O
-	.	,	.	O
+	diary.	N	NN	O
 	aches	V	NNS	B-ADR
 	are	V	VBP	O
 	related	A	VBN	O
@@ -6023,16 +5346,13 @@ Sentence: 293	21.19	$	CD	O
 	pressure	N	NN	O
 	on	P	IN	O
 	my	D	PRP$	O
-	body	N	NN	O
-	,	,	,	O
-	e.g	N	RB	O
-	.	,	.	O
+	body,	N	NN	O
+	e.g.	V	NN	O
 	if	P	IN	O
 	sitting	V	VBG	O
 	then	R	RB	O
 	in	P	IN	O
-	back	N	RB	O
-	,	,	,	O
+	back,	A	NN	O
 	buttoocks	N	NNS	O
 	and	&	CC	O
 	legs	N	VBZ	O
@@ -6069,8 +5389,7 @@ Sentence: 296	i	O	JJ	O
 	taking	V	VBG	O
 	seroquel	N	NN	O
 	at	P	IN	O
-	night	N	NN	O
-	.	,	.	O
+	night.	N	JJ	O
 	makes	V	VBZ	O
 	me	O	PRP	O
 	crabby	A	VB	B-ADR
@@ -6078,41 +5397,35 @@ Sentence: 296	i	O	JJ	O
 	whole	A	JJ	O
 	time	N	NN	O
 	the	D	DT	O
-	following	N	JJ	O
-	day	N	NN	O
-	.	,	.	O
+	following	N	VBG	O
+	day.	N	NN	O
 	something	N	NN	O
 	about	P	IN	O
 	feeling	V	VBG	O
 	sluggish	A	JJ	B-ADR
 	and	&	CC	I-ADR
-	groggy	A	JJ	I-ADR
-	.	,	.	O
-	aargh	!	NN	O
-	.	,	.	O
+	groggy.	A	JJ	I-ADR
+	aargh.	!	NN	O
 	0	0	0	O
-Sentence: 297	so	R	RB	O
-	,	,	,	O
+Sentence: 297	so,	R	NN	O
 	i	O	NN	O
 	lasted	V	VBD	O
 	16	$	CD	O
 	days	N	NNS	O
 	on	P	IN	O
-	seroquel	^	NN	O
-	.	,	.	O
-	i	O	JJ	O
+	seroquel.	^	NN	O
+	i	O	NN	O
 	couldn't	V	VBP	O
 	handle	V	VB	O
 	the	D	DT	O
 	awful	A	JJ	O
 	side	N	NN	O
-	effects	N	NNS	O
-	.	,	.	O
+	effects.	N	NN	O
 	constantly	R	RB	O
 	dizzy	A	JJ	B-ADR
 	and	&	CC	O
 	lightheadeded	^	VBD	B-ADR
-	&	&	CC	O
+	&amp;	^	VB	O
 	a	D	DT	O
 	myriad	N	NN	O
 	of	P	IN	O
@@ -6128,17 +5441,15 @@ Sentence: 298	well	!	RB	O
 	kg	N	NNS	I-ADR
 	in	P	IN	O
 	24	$	CD	O
-	hrs	N	NN	O
-	.	,	.	O
-	seroquel	^	NN	O
+	hrs.	N	NNS	O
+	seroquel	N	NN	O
 	gained	V	VBD	O
 	it	O	PRP	O
 	for	P	IN	O
 	me	O	PRP	O
 	over	P	IN	O
 	8	$	CD	O
-	months	N	NNS	O
-	.	,	.	O
+	months.	N	NNS	O
 	ffffffffffuuuuuuu	G	NN	O
 	0	0	0	O
 Sentence: 299	@luckystubbs	@	NN	O
@@ -6161,19 +5472,16 @@ Sentence: 299	@luckystubbs	@	NN	O
 	lie	N	NN	O
 	0	0	0	O
 Sentence: 300	@trenchtimelow	@	JJ	O
-	ooh	!	NN	O
-	.	,	.	O
+	ooh.	!	NN	O
 	i	O	NN	O
 	was	V	VBD	O
 	on	P	IN	O
-	seroquel	^	NN	O
-	.	,	.	O
+	seroquel.	^	NN	O
 	and	&	CC	O
 	withdrawal	N	NN	B-ADR
 	is	V	VBZ	O
 	a	D	DT	O
-	bitch	N	NN	O
-	.	,	.	O
+	bitch.	N	NN	O
 	i'm	L	NN	O
 	not	R	RB	O
 	even	R	RB	O
@@ -6181,8 +5489,7 @@ Sentence: 300	@trenchtimelow	@	JJ	O
 	off	P	IN	O
 	it	O	PRP	O
 	yet	R	RB	O
-	either	R	DT	O
-	.	,	.	O
+	either.	R	VB	O
 	0	0	0	O
 Sentence: 301	popped	V	VBD	O
 	a	D	DT	O
@@ -6208,17 +5515,14 @@ Sentence: 302	have	V	VBP	O
 	look	V	NN	O
 	like	P	IN	O
 	a	D	DT	O
-	zombie	N	NN	B-ADR
-	.	,	.	O
-	seroquel	^	NN	O
+	zombie.	N	NN	B-ADR
+	seroquel	N	NN	O
 	is	V	VBZ	O
 	quite	R	RB	O
 	an	D	DT	O
-	annoying	A	JJ	O
-	medication	N	NN	O
-	,	,	,	O
-	ugh	!	JJ	O
-	.	,	.	O
+	annoying	A	VBG	O
+	medication,	N	NN	O
+	ugh.	!	JJ	O
 	-.-	E	NN	O
 	0	0	0	O
 Sentence: 303	*guy	N	NN	O
@@ -6228,53 +5532,34 @@ Sentence: 303	*guy	N	NN	O
 	pharmacy	N	NN	O
 	with	P	IN	O
 	drug	N	NN	O
-	bag*	N	NNS	O
-	me	O	PRP	O
-	:	,	:	O
-	"	,	VB	O
-	"	,	VB	O
-	what	O	WP	O
+	bag*	N	NN	O
+	me:	O	NN	O
+	""what	D	WP	O
 	drug	N	NN	O
 	do	V	VBP	O
 	you	O	PRP	O
 	think	V	VB	O
 	he's	L	NNS	O
 	on	P	IN	O
-	mom	N	NN	O
-	?	,	.	O
-	?	,	.	O
-	"	,	JJ	O
-	"	,	JJ	O
-	mom	N	NN	O
-	:	,	:	O
-	"	,	NN	O
-	"	,	NNP	O
-	well	!	RB	O
-	he's	L	RB	O
+	mom??""	N	NN	O
+	mom:	N	NN	O
+	""well	!	NNP	O
+	he's	L	VBZ	O
 	talking	V	VBG	O
 	to	P	TO	O
-	himself	O	PRP	O
-	.	,	.	O
-	"	,	VB	O
-	"	,	IN	O
-	me	O	PRP	O
-	:	,	:	O
-	"	,	JJ	O
-	"	,	NNP	O
-	seroquel	^	NN	O
-	xr	G	NNP	O
-	"	,	NNP	O
-	"	,	NN	O
+	himself.""	O	VB	O
+	me:	O	NN	O
+	""seroquel	^	NNP	O
+	xr""	^	NN	O
 	0	0	0	O
 Sentence: 304	just	R	RB	O
 	took	V	VBD	O
-	seroquel	^	NN	O
-	.	,	.	O
+	seroquel.	^	RB	O
 	now	R	RB	O
-	i'm	L	VBP	O
+	i'm	L	VB	O
 	freaking	V	VBG	O
-	out	T	RP	O
-	that	O	IN	O
+	out	T	IN	O
+	that	O	DT	O
 	i	O	NN	O
 	will	V	MD	O
 	end	V	VB	O
@@ -6306,8 +5591,7 @@ Sentence: 305	time	N	NN	O
 	shit	N	NN	I-ADR
 	in	P	IN	I-ADR
 	my	D	PRP$	I-ADR
-	dreams	N	NN	I-ADR
-	.	,	.	O
+	dreams.	N	NN	I-ADR
 	i	O	NN	O
 	was	V	VBD	O
 	getting	V	VBG	O
@@ -6322,15 +5606,13 @@ Sentence: 306	i'm	L	NN	O
 	tired	A	VBD	B-ADR
 	of	P	IN	O
 	being	V	VBG	O
-	tired	A	VBN	O
-	,	,	,	O
+	tired,	A	VBN	O
 	deffinatly	R	RB	O
 	#nap	N	JJ	B-ADR
 	time	N	NN	I-ADR
 	for	P	IN	O
 	this	D	DT	O
-	girl	N	NN	O
-	.	,	.	O
+	girl.	N	NN	O
 	stupid	A	JJ	O
 	#medications	N	NNS	O
 	#paxil	#	VBP	O
@@ -6349,8 +5631,7 @@ Sentence: 307	oh	!	UH	O
 	bed*	N	NN	O
 	0	0	0	O
 Sentence: 308	@annchildersmd	@	NN	O
-	interesting	A	NN	O
-	!	,	.	O
+	interesting!	A	VB	O
 	my	D	PRP$	O
 	experience	N	NN	O
 	with	P	IN	O
@@ -6360,39 +5641,32 @@ Sentence: 308	@annchildersmd	@	NN	O
 	is	V	VBZ	O
 	massive	A	JJ	O
 	weight	N	NN	B-ADR
-	gain	V	NN	I-ADR
-	.	,	.	O
+	gain.	V	NN	I-ADR
 	0	0	0	O
 Sentence: 309	tell	V	NN	O
 	you	O	PRP	O
 	okes	N	VBP	O
-	what	O	WP	O
-	:	,	:	O
+	what:	O	JJ	O
 	when	R	WRB	O
 	your	D	PRP$	O
-	dr	N	NN	O
-	.	,	.	O
+	dr.	N	NN	O
 	says	V	VBZ	O
 	only	R	RB	O
 	take	V	VB	O
 	seroquel	N	NN	O
 	at	P	IN	O
-	night	N	NN	O
-	,	,	,	O
+	night,	N	JJ	O
 	only	R	RB	O
-	take	V	VB	O
+	take	V	VBP	O
 	it	O	PRP	O
 	at	P	IN	O
-	night	N	NN	O
-	.	,	.	O
+	night.	N	JJ	O
 	zombiness	N	NN	B-ADR
-	galore	N	NN	O
-	.	,	.	O
+	galore.	N	NN	O
 	0	0	0	O
-Sentence: 310	rt	~	NN	O
-	@da_waviest420	@	NN	O
-	:	~	:	O
-	@huntermoore	@	NN	O
+Sentence: 310	rt	V	NN	O
+	@da_waviest420:	D	NN	O
+	@huntermoore	@	IN	O
 	#confessionsofaratchet	#	NNS	O
 	gave	V	VBD	O
 	everyone	N	NN	O
@@ -6411,8 +5685,7 @@ Sentence: 310	rt	~	NN	O
 	out	T	RP	O
 	the�	D	NN	O
 	0	0	0	O
-Sentence: 311	oh	!	UH	O
-	,	,	,	O
+Sentence: 311	oh,	!	VB	O
 	what	O	WP	O
 	a	D	DT	O
 	great	A	JJ	O
@@ -6428,8 +5701,7 @@ Sentence: 311	oh	!	UH	O
 	hungry	A	NN	B-ADR
 	from	P	IN	O
 	my	D	PRP$	O
-	seroquel	N	NN	O
-	.	,	.	O
+	seroquel.	N	NN	O
 	0	0	0	O
 Sentence: 312	i	O	NN	O
 	love	V	VBP	O
@@ -6439,9 +5711,8 @@ Sentence: 312	i	O	NN	O
 	in	P	IN	O
 	the	D	DT	O
 	institutions	N	NNS	O
-	though	P	IN	O
-	.	,	.	O
-	they'd	L	NN	O
+	though.	P	VBP	O
+	they'd	L	JJ	O
 	give	V	VB	O
 	me	O	PRP	O
 	my	D	PRP$	O
@@ -6453,11 +5724,9 @@ Sentence: 312	i	O	NN	O
 	2	$	CD	O
 	capsules	N	NNS	O
 	of	P	IN	O
-	benadryl	^	NN	O
-	.	,	.	O
-	fuck	V	JJ	O
-	yeah	!	NN	O
-	.	,	.	O
+	benadryl.	^	JJ	O
+	fuck	N	NN	O
+	yeah.	!	NN	O
 	0	0	0	O
 Sentence: 313	@brain_opera	@	NN	O
 	i	O	NN	O
@@ -6465,8 +5734,7 @@ Sentence: 313	@brain_opera	@	NN	O
 	to	P	TO	O
 	taper	V	VB	O
 	myself	O	PRP	O
-	down	R	RP	O
-	.	,	.	O
+	down.	R	JJ	O
 	i	O	JJ	O
 	think	V	VBP	O
 	the	D	DT	O
@@ -6475,14 +5743,12 @@ Sentence: 313	@brain_opera	@	NN	O
 	me	O	PRP	O
 	lasting	V	JJ	O
 	sleep	N	JJ	B-ADR
-	paralysis	N	NN	I-ADR
-	.	,	.	O
+	paralysis.	N	NN	I-ADR
 	i've	L	NN	O
 	had	V	VBD	O
 	it	O	PRP	O
 	ever	R	RB	O
-	since	P	IN	O
-	.	,	.	O
+	since.	P	VBD	O
 	0	0	0	O
 Sentence: 314	i	O	JJ	O
 	think	V	VBP	O
@@ -6490,14 +5756,12 @@ Sentence: 314	i	O	JJ	O
 	like	V	IN	O
 	this	O	DT	O
 	seroquel	^	NN	O
-	stuff	N	NN	O
-	.	,	.	O
+	stuff.	N	NN	O
 	pity	N	NN	O
 	i	O	NN	O
 	have	V	VBP	O
 	to	P	TO	O
-	think	V	VB	O
-	.	,	.	O
+	think.	V	VB	O
 	0	0	0	O
 Sentence: 315	the	D	DT	O
 	one	$	CD	O
@@ -6515,8 +5779,7 @@ Sentence: 316	@thunderangel454	@	JJ	O
 	differently	R	RB	O
 	for	P	IN	O
 	each	D	DT	O
-	person	N	NN	O
-	.	,	.	O
+	person.	N	NN	O
 	i	O	NN	O
 	know	V	VBP	O
 	seroquel	^	NN	O
@@ -6525,8 +5788,8 @@ Sentence: 316	@thunderangel454	@	JJ	O
 	hell	N	NN	O
 	for	P	IN	O
 	me	O	PRP	O
-	&	&	CC	O
-	i	O	NN	O
+	&amp;	N	VBP	O
+	i	O	JJ	O
 	gained	V	VBD	B-ADR
 	weight	N	RB	I-ADR
 	but	&	CC	O
@@ -6538,10 +5801,8 @@ Sentence: 316	@thunderangel454	@	JJ	O
 	0	0	0	O
 Sentence: 317	@cardiwithpearls	@	NNS	O
 	enjoy	V	VBP	O
-	:	,	:	O
-	)	,	)	O
-	haha	!	NN	O
-	.	,	.	O
+	:)	E	JJ	O
+	haha.	!	NN	O
 	i	O	NNS	O
 	take	V	VBP	O
 	it	O	PRP	O
@@ -6552,16 +5813,14 @@ Sentence: 317	@cardiwithpearls	@	NNS	O
 	every	D	DT	O
 	night	N	NN	O
 	for	P	IN	O
-	sleep	N	NN	O
-	.	,	.	O
+	sleep.	V	NN	O
 	it	O	PRP	O
 	can	V	MD	O
 	make	V	VB	O
 	me	O	PRP	O
 	very	R	RB	O
-	loopy	A	JJ	B-ADR
-	sometimes	R	RB	O
-	!	,	.	O
+	loopy	A	VBP	B-ADR
+	sometimes!	R	NN	O
 	0	0	0	O
 Sentence: 318	this	D	DT	O
 	seroquel-dry-mouth	A	JJ	B-ADR
@@ -6594,24 +5853,21 @@ Sentence: 319	i've	L	RB	O
 	sinuses	N	NNS	B-ADR
 	close	V	RB	I-ADR
 	up	T	IN	I-ADR
-	:	,	:	O
-	(	,	(	O
+	:(	E	NN	O
 	0	0	0	O
 Sentence: 320	@_katball	@	DT	O
 	natural	A	JJ	O
 	don't	V	NN	O
 	work	V	NN	O
 	for	P	IN	O
-	me	O	PRP	O
-	,	,	,	O
-	try	V	VB	O
+	me,	O	JJ	O
+	try	V	NN	O
 	300mg	N	CD	O
 	of	P	IN	O
 	seroquel...you'll	^	JJ	O
 	sleep	N	NN	B-ADR
 	for	P	IN	I-ADR
-	days	N	NNS	I-ADR
-	,	,	,	O
+	days,	N	NN	I-ADR
 	i	O	NNS	O
 	have	V	VBP	O
 	insomnia	^	VBN	O
@@ -6622,8 +5878,7 @@ Sentence: 320	@_katball	@	DT	O
 	me	O	PRP	O
 	lol	!	NN	O
 	0	0	0	O
-Sentence: 321	nb	^	NNS	O
-	:	,	:	O
+Sentence: 321	nb:	G	RB	O
 	not	R	RB	O
 	psychotic	A	JJ	O
 	;)	E	NN	O
@@ -6631,26 +5886,22 @@ Sentence: 321	nb	^	NNS	O
 	used	V	VBN	O
 	off-label	T	NN	O
 	for	P	IN	O
-	ptsd	^	NN	O
-	.	,	.	O
-	ctl�d	V	VB	O
+	ptsd.	N	NN	O
+	ctl�d	N	NN	O
 	many	A	JJ	O
-	sympts	N	NNS	O
-	,	,	,	O
+	sympts,	N	NN	O
 	helped	V	VBD	O
-	sleep	N	VB	O
-	.	,	.	O
+	sleep.	N	VB	O
 	but	&	CC	O
-	side	N	JJ	O
-	fx	N	SYM	O
+	side	N	VB	O
+	fx	N	JJ	O
 	-	,	:	O
 	weight	N	NN	B-ADR
 	gain	V	NN	I-ADR
 	-	,	:	O
 	caused	V	VBN	O
 	terrible	A	JJ	O
-	pain	N	NN	B-ADR
-	.	,	.	O
+	pain.	N	NN	B-ADR
 	0	0	0	O
 Sentence: 322	@gtpixie	@	JJ	O
 	@fastingforlife	@	NNP	O
@@ -6660,8 +5911,7 @@ Sentence: 322	@gtpixie	@	JJ	O
 	lot	N	NN	O
 	of	P	IN	O
 	seroquel	^	NN	O
-	sweetie	N	NN	O
-	.	,	.	O
+	sweetie.	N	NN	O
 	im	L	JJ	O
 	sure	A	JJ	O
 	that's	L	NN	O
@@ -6676,8 +5926,7 @@ Sentence: 322	@gtpixie	@	JJ	O
 	a	D	DT	O
 	ventilator	N	NN	O
 	in	P	IN	O
-	hospital	N	NN	O
-	.	,	.	O
+	hospital.	N	NN	O
 	0	0	0	O
 Sentence: 323	@zbmtwo	@	NN	O
 	i	O	NN	O
@@ -6685,23 +5934,19 @@ Sentence: 323	@zbmtwo	@	NN	O
 	taking	V	VBG	O
 	seroquel	N	NN	O
 	off	P	IN	O
-	label	N	NN	O
-	,	,	,	O
+	label,	N	JJ	O
 	bad	A	JJ	O
 	side	N	NN	O
-	effects	N	NNS	O
-	,	,	,	O
+	effects,	N	NN	O
 	stopped	V	VBD	O
 	taking	V	VBG	O
-	it	O	PRP	O
-	.	,	.	O
+	it.	O	NN	O
 	0	0	0	O
 Sentence: 324	@kickdblcj	@	IN	O
 	they	O	PRP	O
 	increased	V	VBD	O
 	my	D	PRP$	O
-	celexa	N	NN	O
-	.	,	.	O
+	celexa.	N	NN	O
 	took	V	VBD	O
 	me	O	PRP	O
 	off	T	RP	O
@@ -6712,8 +5957,7 @@ Sentence: 324	@kickdblcj	@	IN	O
 	screwing	V	VBG	B-ADR
 	with	P	IN	I-ADR
 	my	D	PRP$	I-ADR
-	memory	N	NN	I-ADR
-	.	,	.	O
+	memory.	N	NN	I-ADR
 	i	O	NN	O
 	go	V	VBP	O
 	back	R	RB	O
@@ -6726,9 +5970,8 @@ Sentence: 324	@kickdblcj	@	IN	O
 	its	L	PRP$	O
 	goin	V	NN	O
 	0	0	0	O
-Sentence: 325	rt	~	JJ	O
-	@bromethazine	@	NN	O
-	:	~	:	O
+Sentence: 325	rt	~	NN	O
+	@bromethazine:	V	VB	O
 	my	D	PRP$	O
 	life	N	NN	O
 	can	V	MD	O
@@ -6738,7 +5981,7 @@ Sentence: 325	rt	~	JJ	O
 	pre-seroquel	N	JJ	O
 	and	&	CC	O
 	post-seroquel	N	JJ	O
-	epochs	G	NN	O
+	epochs	N	NN	O
 	0	0	0	O
 Sentence: 326	i	O	NN	O
 	had	V	VBD	O
@@ -6748,9 +5991,8 @@ Sentence: 326	i	O	NN	O
 	#bigpharma	#	NNP	O
 	pill	N	NN	O
 	cold	A	VBD	O
-	turkey	N	NN	O
-	.	,	.	O
-	seroquel	^	JJ	O
+	turkey.	N	NN	O
+	seroquel	N	NN	O
 	-	,	:	O
 	but	&	CC	O
 	things	N	NNS	O
@@ -6805,8 +6047,7 @@ Sentence: 329	going	V	VBG	O
 	bed	N	NN	O
 	for	P	IN	O
 	a	D	DT	O
-	nap	N	NN	O
-	.	,	.	O
+	nap.	N	NN	O
 	seroquel	^	NN	O
 	has	V	VBZ	O
 	turned	V	VBN	O
@@ -6815,8 +6056,7 @@ Sentence: 329	going	V	VBG	O
 	a	D	DT	O
 	zombie	N	NN	B-ADR
 	again	R	RB	O
-	today	N	NN	O
-	.	,	.	O
+	today.	N	JJ	O
 	0	0	0	O
 Sentence: 330	i	O	NN	O
 	stopped	V	VBD	O
@@ -6826,26 +6066,23 @@ Sentence: 330	i	O	NN	O
 	because	P	IN	O
 	i	O	JJ	O
 	hate	V	VBP	O
-	it	O	PRP	O
-	.	,	.	O
-	i	O	VB	O
+	it.	O	NNS	O
+	i	O	NNS	O
 	can	V	MD	O
 	barely	R	RB	B-ADR
 	function	V	VB	I-ADR
 	on	P	IN	O
-	it	O	PRP	O
-	,	,	,	O
+	it,	O	NN	O
 	hopefully	R	RB	O
 	my	D	PRP$	O
 	cpn	N	NN	O
-	&	&	CC	O
+	&amp;	N	IN	O
 	psychiatrist	N	NN	O
 	can	V	MD	O
 	advise	V	VB	O
 	a	D	DT	O
-	'nicer'	A	NN	O
-	med	N	VBN	O
-	.	,	.	O
+	'nicer'	A	CD	O
+	med.	N	NN	O
 	0	0	0	O
 Sentence: 331	@glass1ncision	@	NN	O
 	-nods-	!	VB	O
@@ -6866,16 +6103,14 @@ Sentence: 331	@glass1ncision	@	NN	O
 	nightly	A	RB	O
 	meds	N	VBZ	O
 	too	R	RB	O
-	(seroquel)	^	JJ	O
-	.	,	.	O
+	(seroquel).	^	JJ	O
 	0	0	0	O
 Sentence: 332	really	R	RB	O
 	bad	A	JJ	O
 	rls	N	NNS	B-ADR
 	fron	P	VBP	O
 	seroquel	^	NN	O
-	:	,	:	O
-	(	,	(	O
+	:(	E	NN	O
 	0	0	0	O
 Sentence: 333	it	O	PRP	O
 	was	V	VBD	O
@@ -6889,24 +6124,22 @@ Sentence: 333	it	O	PRP	O
 	up	T	RP	I-ADR
 	off	P	IN	O
 	them	O	PRP	O
-	vicodins	N	VBZ	O
-	&	&	CC	O
-	seroquel	^	NN	O
-	.	,	.	O
-	i	O	JJ	O
+	vicodins	G	VBZ	O
+	&amp;	G	JJ	O
+	seroquel.	G	NN	O
+	i	O	NN	O
 	remember	V	VBP	O
 	it	O	PRP	O
 	was	V	VBD	O
 	lunch	N	JJ	O
-	&	&	CC	O
+	&amp;	N	NNP	O
 	i	O	NN	O
 	left	V	VBD	O
 	because	P	IN	O
 	something	N	NN	O
 	pissed	V	VBD	O
 	me	O	PRP	O
-	off	T	RP	O
-	.	,	.	O
+	off.	T	RP	O
 	0	0	0	O
 Sentence: 334	@gsxr1kbusakilla	@	NN	O
 	but	&	CC	O
@@ -6934,18 +6167,16 @@ Sentence: 335	waiting	V	VBG	O
 	trazodone	N	NN	O
 	to	P	TO	O
 	kick	V	VB	O
-	in	P	IN	O
-	.	,	.	O
+	in.	P	NN	O
 	going	V	VBG	O
 	shopping	V	VBG	O
 	with	P	IN	O
 	amanda	^	NN	O
 	kaye	^	NN	O
-	&	&	CC	O
+	&amp;	V	VBD	O
 	the	D	DT	O
 	fam	N	NN	O
-	tomorrow	N	NN	O
-	!	,	.	O
+	tomorrow!	N	NN	O
 	xd	E	NN	O
 	0	0	0	O
 Sentence: 336	@jamieab1	@	NN	O
@@ -6964,12 +6195,10 @@ Sentence: 336	@jamieab1	@	NN	O
 	time	N	NN	O
 	0	0	0	O
 Sentence: 337	okay	!	NN	O
-	trazodone	^	NN	O
-	,	,	,	O
-	work	V	VB	O
+	trazodone,	^	NN	O
+	work	V	NN	O
 	your	D	PRP$	O
-	magic	N	NNS	O
-	.	,	.	O
+	magic.	N	NNS	O
 	0	0	0	O
 Sentence: 338	co-codemol	^	NN	O
 	and	&	CC	O
@@ -6979,27 +6208,23 @@ Sentence: 338	co-codemol	^	NN	O
 	control	N	NN	I-ADR
 	of	P	IN	I-ADR
 	my	D	PRP$	I-ADR
-	eyes	N	NNS	I-ADR
-	,	,	,	O
-	so	R	IN	O
+	eyes,	N	NN	I-ADR
+	so	P	RB	O
 	i	O	JJ	O
 	better	R	JJR	O
-	go	V	VB	O
+	go	V	VBP	O
 	to	P	TO	O
-	bed	N	NN	O
-	,	,	,	O
+	bed,	N	VB	O
 	before	P	IN	O
 	they	O	PRP	O
 	switch	V	VBP	O
 	off	T	IN	O
 	my	D	PRP$	O
 	legs	N	NNS	O
-	too	R	RB	O
-	,	,	,	O
-	g'nite	!	JJ	O
-	all	D	DT	O
-	,	,	,	O
-	stay	V	VB	O
+	too,	R	VBP	O
+	g'nite	V	JJ	O
+	all,	D	NN	O
+	stay	N	NN	O
 	safe	A	JJ	O
 	0	0	0	O
 Sentence: 339	the	D	DT	O
@@ -7012,8 +6237,7 @@ Sentence: 339	the	D	DT	O
 	prescribed	V	VBN	O
 	are	V	VBP	O
 	too	R	RB	O
-	much	A	JJ	O
-	,	,	,	O
+	much,	R	RB	O
 	now	R	RB	O
 	that	O	IN	O
 	i	O	VBP	O
@@ -7021,15 +6245,13 @@ Sentence: 339	the	D	DT	O
 	take	V	VB	O
 	them	O	PRP	O
 	every	D	DT	O
-	night	N	NN	O
-	.	,	.	O
+	night.	N	NN	O
 	still	R	RB	O
-	zombieish	R	JJ	B-ADR
+	zombieish	R	VB	B-ADR
 	after	P	IN	O
 	an	D	DT	O
 	hour	N	NN	O
-	awake	A	NN	O
-	.	,	.	O
+	awake.	A	NN	O
 	0	0	0	O
 Sentence: 340	@droz	@	NN	O
 	i	O	NNS	O
@@ -7037,10 +6259,10 @@ Sentence: 340	@droz	@	NN	O
 	trazodone	N	NN	O
 	for	P	IN	O
 	my	D	PRP$	O
-	#insomina	N	NNP	O
-	&	&	CC	O
+	#insomina	N	NN	O
+	&amp;	N	NN	O
 	still	R	RB	O
-	have	V	VB	O
+	have	V	VBP	O
 	a	D	DT	O
 	hard	A	JJ	O
 	time	N	NN	O
@@ -7056,10 +6278,7 @@ Sentence: 340	@droz	@	NN	O
 	that	P	WDT	O
 	wake	V	VBP	O
 	me	O	PRP	O
-	up	T	IN	O
-	!	,	.	O
-	?	,	.	O
-	!	,	.	O
+	up!?!	T	JJ	O
 	0	0	0	O
 Sentence: 341	its	L	PRP$	O
 	your	D	PRP$	O
@@ -7077,8 +6296,7 @@ Sentence: 341	its	L	PRP$	O
 	trazodone	N	NN	O
 	@erproblem	@	NN	O
 	0	0	0	O
-Sentence: 342	tomorrow	N	NN	O
-	,	,	,	O
+Sentence: 342	tomorrow,	N	NN	O
 	sending	V	VBG	O
 	mummers	N	NNS	O
 	her	D	PRP$	O
@@ -7090,8 +6308,7 @@ Sentence: 342	tomorrow	N	NN	O
 	picking	V	VBG	O
 	up	T	RP	O
 	my	D	PRP$	O
-	trazodone	N	NN	O
-	.	,	.	O
+	trazodone.	N	NN	O
 	0	0	0	O
 Sentence: 343	@dilligafoxford	@	NN	O
 	@schizophrenicgb	@	NN	O
@@ -7118,8 +6335,7 @@ Sentence: 344	@caseygrin	@	NN	O
 	used	V	VBN	O
 	to	P	TO	O
 	take	V	VB	O
-	trazodone	N	NN	O
-	.	,	.	O
+	trazodone.	N	NN	O
 	made	V	VBN	O
 	me	O	PRP	O
 	sleep	V	VB	B-ADR
@@ -7143,13 +6359,12 @@ Sentence: 345	@kyleecakes4	@	NN	O
 	the	D	DT	O
 	dosage	N	NN	O
 	of	P	IN	O
-	trazodone	^	NN	O
-	.	,	.	O
+	trazodone.	^	NN	O
 	0	0	0	O
 Sentence: 346	@adreamitstrue	@	JJ	O
 	things	N	NNS	O
 	like	P	IN	O
-	mirtazipine&trazodone	^	NN	O
+	mirtazipine&amp;trazodone	N	NN	O
 	weight	N	NN	B-ADR
 	gain	V	NN	I-ADR
 	isn't	V	VB	O
@@ -7167,9 +6382,8 @@ Sentence: 346	@adreamitstrue	@	JJ	O
 	0	0	0	O
 Sentence: 347	fuck	V	NN	O
 	you	O	PRP	O
-	trazodone	V	VBP	O
-	.	,	.	O
-	i	O	VBP	O
+	trazodone.	V	VBP	O
+	i	O	JJ	O
 	didn't	V	VBP	O
 	want	V	VBP	O
 	or	&	CC	O
@@ -7178,8 +6392,7 @@ Sentence: 347	fuck	V	NN	O
 	sleep	V	VB	B-ADR
 	for	P	IN	I-ADR
 	11	$	CD	I-ADR
-	hours	N	NNS	I-ADR
-	.	,	.	O
+	hours.	N	NN	I-ADR
 	0	0	0	O
 Sentence: 348	@baybeecarrot	@	NN	O
 	trazodone	^	NN	O
@@ -7192,8 +6405,7 @@ Sentence: 348	@baybeecarrot	@	NN	O
 	up	T	RP	I-ADR
 	in	P	IN	O
 	the	D	DT	O
-	morning	N	NN	O
-	.	,	.	O
+	morning.	N	NN	O
 	1/2	$	CD	O
 	tablet	N	NN	O
 	is	V	VBZ	O
@@ -7207,8 +6419,7 @@ Sentence: 348	@baybeecarrot	@	NN	O
 	you	O	PRP	O
 	10	$	CD	O
 	for	P	IN	O
-	10$	$	CD	O
-	?	,	.	O
+	10$?	$	CD	O
 	0	0	0	O
 Sentence: 349	i'm	L	NNS	O
 	so	R	RB	O
@@ -7226,29 +6437,22 @@ Sentence: 349	i'm	L	NNS	O
 	one	N	NN	O
 	believes	V	VBZ	O
 	me	O	PRP	O
-	:	,	:	O
-	:	,	:	O
-	:	,	:	O
-	---))))	E	NN	O
+	:::---))))	G	JJ	O
 	0	0	0	O
-Sentence: 350	@jules_clarke	@	NN	O
-	banana	N	NN	O
-	?	,	.	O
+Sentence: 350	@jules_clarke	@	JJ	O
+	banana?	N	NN	O
 	hot	A	JJ	O
-	milk	N	NN	O
-	?	,	.	O
+	milk?	N	NN	O
 	and	&	CC	O
-	randomly	R	RB	O
-	lettuce	N	VB	O
-	!	,	.	O
+	randomly	R	VB	O
+	lettuce!	N	JJR	O
 	all	D	DT	O
 	contain	V	VBP	O
 	sleepy	A	JJ	O
 	bye	!	NN	O
-	chems	N	NNS	O
-	.	,	.	O
+	chems.	N	NN	O
 	all	D	DT	O
-	i	O	NN	O
+	i	O	NNS	O
 	have	V	VBP	O
 	is	V	VBZ	O
 	trazodone	V	CD	O
@@ -7282,14 +6486,11 @@ Sentence: 351	i	O	NN	O
 	finish	V	VB	O
 	homeworrrkkk	N	NN	O
 	0	0	0	O
-Sentence: 352	stand	V	VB	O
-	down	T	RP	O
-	,	,	,	O
-	tweeps	N	JJ	O
-	!	,	.	O
+Sentence: 352	stand	V	NN	O
+	down,	T	NN	O
+	tweeps!	N	NN	O
 	stand	V	VBP	O
-	down	T	RP	O
-	!	,	.	O
+	down!	T	NN	O
 	i	O	NN	O
 	did	V	VBD	O
 	it	O	PRP	O
@@ -7304,18 +6505,15 @@ Sentence: 352	stand	V	VB	O
 	doc	N	NN	O
 	gave	V	VBD	O
 	me	O	PRP	O
-	trazodone	R	NN	O
-	,	,	,	O
+	trazodone,	R	IN	O
 	not	R	RB	O
-	tramodol	N	VB	O
-	.	,	.	O
+	tramodol.	G	VB	O
 	0	0	0	O
 Sentence: 353	@rachaelherron	@	NN	O
 	@marrije	@	NN	O
 	i	O	NN	O
 	haaaated	V	VBD	O
-	trazodone	^	NN	O
-	.	,	.	O
+	trazodone.	^	JJ	O
 	don't	V	NN	O
 	be	V	VB	O
 	afraid	A	VBN	O
@@ -7328,12 +6526,10 @@ Sentence: 353	@rachaelherron	@	NN	O
 	if	P	IN	O
 	side	N	JJ	O
 	effects	N	NNS	O
-	continue	V	VBP	O
-	.	,	.	O
+	continue.	V	VBP	O
 	gave	V	VBD	O
 	me	O	PRP	O
-	migraines	N	NNS	B-ADR
-	.	,	.	O
+	migraines.	N	NN	B-ADR
 	0	0	0	O
 Sentence: 354	have	V	VB	O
 	taken	V	VBN	O
@@ -7341,23 +6537,20 @@ Sentence: 354	have	V	VB	O
 	trazodone	N	NN	O
 	dose	N	NN	O
 	back	R	RB	O
-	down	R	RB	O
-	.	,	.	O
+	down.	R	RB	O
 	simply	R	RB	O
-	cannot	V	JJ	O
+	cannot	V	NN	O
 	put	V	VBD	O
 	up	T	RP	O
 	with	P	IN	O
 	feeling	V	NN	O
 	tired	A	VBN	B-ADR
 	all	D	DT	O
-	day	N	NN	O
-	!	,	.	O
+	day!	N	NN	O
 	0	0	0	O
 Sentence: 355	@glass1ncision	@	NN	O
 	for	P	IN	O
-	sure	A	JJ	O
-	.	,	.	O
+	sure.	A	NN	O
 	i'd	L	NN	O
 	get	V	VBP	O
 	no	D	DT	O
@@ -7368,10 +6561,8 @@ Sentence: 355	@glass1ncision	@	NN	O
 	it	O	PRP	O
 	wasn't	V	VBZ	O
 	for	P	IN	O
-	#trazodone	^	NN	O
-	.	,	.	O
-	:	E	:	O
-	)	E	)	O
+	#trazodone.	#	NN	O
+	:)	E	NN	O
 	0	0	0	O
 Sentence: 356	does	V	VBZ	O
 	trazodone	N	VB	O
@@ -7393,9 +6584,8 @@ Sentence: 357	eat	V	NN	O
 	then	R	RB	O
 	go	V	VB	O
 	to	P	TO	O
-	bed	N	NN	O
-	,	,	,	O
-	wake	V	VBP	O
+	bed,	N	VB	O
+	wake	V	VB	O
 	up	T	RP	O
 	in	P	IN	O
 	the	D	DT	O
@@ -7415,12 +6605,10 @@ Sentence: 358	my	D	PRP$	O
 	all	D	DT	I-ADR
 	types	N	NNS	I-ADR
 	of	P	IN	I-ADR
-	crazy	A	NN	I-ADR
-	.	,	.	O
+	crazy.	A	NN	I-ADR
 	0	0	0	O
-Sentence: 359	great.	A	NN	O
-	.	,	.	O
-	i	O	NN	O
+Sentence: 359	great..	A	NN	O
+	i	O	NNS	O
 	have	V	VBP	O
 	hives	N	VBN	B-ADR
 	up	T	RP	O
@@ -7431,23 +6619,18 @@ Sentence: 359	great.	A	NN	O
 	from	P	IN	O
 	this	D	DT	O
 	gosh	!	NN	O
-	dang	!	VBZ	O
-	trazodone	^	NN	O
-	?	,	.	O
+	dang	!	NN	O
+	trazodone?	^	NN	O
 	0	0	0	O
-Sentence: 360	@loveone_another	@	NN	O
-	:	~	:	O
+Sentence: 360	@loveone_another:	!	JJ	O
 	i'm	L	NN	O
 	lowkey	A	NN	O
 	pill	N	NN	O
-	junkie	N	NN	O
-	.	,	.	O
-	&gt;.&lt;	V	JJ	O
-	vivance	^	NN	O
-	,	,	,	O
-	xanax	N	NNP	O
-	,	,	,	O
-	hydro's	Z	NN	O
+	junkie.	N	NN	O
+	&gt;.&lt;	N	NNP	O
+	vivance,	N	NN	O
+	xanax,	N	NNP	O
+	hydro's	N	NN	O
 	and	&	CC	O
 	trazodone	N	NN	O
 	are	V	VBP	O
@@ -7459,8 +6642,7 @@ Sentence: 361	@lunkendrush	@	JJ	O
 	heard	V	NN	O
 	of	P	IN	O
 	the	D	DT	O
-	topamax	N	NN	O
-	.	,	.	O
+	topamax.	^	NN	O
 	right	R	RB	O
 	now	R	RB	O
 	i'm	L	VBP	O
@@ -7511,8 +6693,7 @@ Sentence: 364	@kitschmagnet	@	NN	O
 	tysabri	^	NN	O
 	for	P	IN	O
 	50	$	CD	O
-	months	N	NNS	O
-	.	,	.	O
+	months.	N	NNS	O
 	i'm	L	NN	O
 	in	P	IN	O
 	the	D	DT	O
@@ -7520,12 +6701,10 @@ Sentence: 364	@kitschmagnet	@	NN	O
 	of	P	IN	O
 	going	V	VBG	O
 	to	P	TO	O
-	tecfedera	^	VB	O
-	.	,	.	O
+	tecfedera.	V	VB	O
 	it	O	PRP	O
 	is	V	VBZ	O
-	similar	A	JJ	O
-	,	,	,	O
+	similar,	A	JJ	O
 	i	O	NN	O
 	needed	V	VBD	O
 	to	P	TO	O
@@ -7537,28 +6716,24 @@ Sentence: 364	@kitschmagnet	@	NN	O
 	0	0	0	O
 Sentence: 365	@craigsdaughter	@	NN	O
 	no	D	DT	O
-	joke	N	NN	O
-	!	,	.	O
-	#tysabri	#	NN	O
-	worked	V	VBD	O
+	joke!	N	NN	O
+	#tysabri	#	RB	O
+	worked	V	VBN	O
 	like	P	IN	O
 	a	D	DT	O
 	charm	N	NN	O
 	for	P	IN	O
-	me	O	PRP	O
-	,	,	,	O
-	til	P	VB	O
+	me,	O	NN	O
+	til	P	NN	O
 	my	D	PRP$	O
 	immune	A	NN	B-ADR
 	system	N	NN	I-ADR
 	went	V	VBD	I-ADR
-	poof	N	NN	I-ADR
-	.	,	.	O
+	poof.	V	RB	I-ADR
 	hopeful	A	JJ	O
 	about	P	IN	O
-	#tecfidera	^	NN	O
-	:	,	:	O
-	)	,	)	O
+	#tecfidera	#	NN	O
+	:)	E	NN	O
 	0	0	0	O
 Sentence: 366	@jenchang1	@	NN	O
 	i	O	NN	O
@@ -7578,22 +6753,18 @@ Sentence: 366	@jenchang1	@	NN	O
 	at	P	IN	O
 	risk	N	NN	O
 	for	P	IN	O
-	pml	N	NN	O
-	.	,	.	O
+	pml.	^	NN	O
 	0	0	0	O
 Sentence: 367	@zgaber	@	NNP	O
 	@thestomabaglady	@	JJ	O
-	haha	!	NN	O
-	!	,	.	O
-	crazy	A	NN	O
-	.	,	.	O
+	haha!	!	NN	O
+	crazy.	A	NN	O
 	stelara	N	NN	O
 	is	V	VBZ	O
 	almost	R	RB	O
 	done	V	VBN	O
 	in	P	IN	O
-	trials	N	NNS	O
-	.	,	.	O
+	trials.	N	NN	O
 	and	&	CC	O
 	there's	L	VB	O
 	a	D	DT	O
@@ -7603,17 +6774,12 @@ Sentence: 367	@zgaber	@	NNP	O
 	just	R	RB	O
 	for	P	IN	O
 	ibd	^	JJ	O
-	that's	L	JJ	O
-	new	A	JJ	O
-	.	,	.	O
+	that's	L	NN	O
+	new.	A	NN	O
 	0	0	0	O
 Sentence: 368	#tysabri	#	JJ	O
 	day	N	NN	O
-	today	N	NN	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
-	all	D	DT	O
+	today!!!all	N	VB	O
 	good	A	JJ	O
 	cause	N	NN	O
 	of	P	IN	O
@@ -7624,52 +6790,39 @@ Sentence: 368	#tysabri	#	JJ	O
 	share	V	NN	O
 	the	D	DT	O
 	day	N	NN	O
-	with	P	IN	O
-	!	,	.	O
-	love	V	NN	O
+	with!love	P	VB	O
 	u	O	JJ	O
-	liz	^	NN	O
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
+	liz!!!	^	NN	O
 	0	0	0	O
-Sentence: 369	rt�@dani_deeh	^	NN	O
-	:	,	:	O
+Sentence: 369	rt�@dani_deeh:	^	NN	O
 	@muhleeah	@	NN	O
-	i	O	VBZ	O
+	i	O	JJ	O
 	heard	V	NN	O
 	of	P	IN	O
-	tysabri	^	NN	O
-	.	,	.	O
+	tysabri.	^	NN	O
 	should	V	MD	O
 	work	V	VB	O
 	good	A	JJ	O
 	on	P	IN	O
-	ms	^	NN	O
-	.	,	.	O
+	ms.	^	NNS	O
 	but	&	CC	O
 	serious	A	JJ	O
 	side	N	NN	O
 	effects	N	NNS	O
 	as	P	RB	O
 	well	R	RB	O
-	:	,	:	O
-	(�	,	NN	O
-	that's	L	NN	O
+	:(�	,	IN	O
+	that's	L	NNS	O
 	why	R	WRB	O
 	i'm	L	NN	O
-	terrified	A	VBD	O
-	!	,	.	O
+	terrified!	A	NN	O
 	0	0	0	O
 Sentence: 370	i'm	L	JJ	O
 	infusion	N	NN	O
-	tysabri	N	NN	O
-	.	,	.	O
+	tysabri.	V	IN	O
 	my	D	PRP$	O
 	monthly	A	JJ	O
-	fillup	N	NN	O
-	!	,	.	O
-	!	,	.	O
+	fillup!!	N	NN	O
 	0	0	0	O
 Sentence: 371	another	D	DT	O
 	light	N	JJ	B-ADR
@@ -7681,8 +6834,7 @@ Sentence: 371	another	D	DT	O
 	courtesy	N	NN	O
 	of	P	IN	O
 	#venlafaxine	^	JJ	O
-	dammit	!	NN	O
-	.	,	.	O
+	dammit.	!	NN	O
 	#day8	#	NN	O
 	0	0	0	O
 Sentence: 372	it's	L	NN	O
@@ -7695,11 +6847,9 @@ Sentence: 372	it's	L	NN	O
 	feeling	V	VBG	O
 	the	D	DT	O
 	venlafaxine	^	NN	O
-	withdrawal	N	NN	B-ADR
-	.	,	.	O
+	withdrawal.	N	NN	B-ADR
 	stupid	A	JJ	O
-	bitch	N	NN	O
-	.	,	.	O
+	bitch.	N	VB	O
 	how	R	WRB	O
 	hard	A	JJ	O
 	is	V	VBZ	O
@@ -7707,16 +6857,13 @@ Sentence: 372	it's	L	NN	O
 	to	P	TO	O
 	pack	V	VB	O
 	the	D	DT	O
-	bloody	A	JJ	O
-	tablets	N	NNS	O
-	?	,	.	O
-	!	,	.	O
+	bloody	A	NN	O
+	tablets?!	N	NN	O
 	0	0	0	O
-Sentence: 373	�@m0m1n3	@	NN	O
-	:	~	:	O
-	@kastel	@	NN	O
-	na	P	TO	O
-	g	G	VB	O
+Sentence: 373	�@m0m1n3:	,	JJ	O
+	@kastel	@	NNP	O
+	na	P	NN	O
+	g	G	NN	O
 	my	D	PRP$	O
 	5ht	N	CD	O
 	levels	N	NNS	O
@@ -7734,20 +6881,18 @@ Sentence: 373	�@m0m1n3	@	NN	O
 	bupropion	N	NN	O
 	or	&	CC	O
 	a	D	DT	O
-	venlafaxine	N	NN	O
-	.	,	.	O
-	want	V	VB	O
+	venlafaxine.	N	NN	O
+	want	V	VBP	O
 	some	D	DT	O
-	yeh�	N	CD	O
+	yeh�	N	NN	O
 	loool	!	NN	O
 	0	0	0	O
 Sentence: 374	@leigh_clay	@	NN	O
 	i	O	NN	O
 	feel	V	VBP	O
 	for	P	IN	O
-	you	O	PRP	O
-	,	,	,	O
-	i	O	VB	O
+	you,	O	NN	O
+	i	O	NN	O
 	had	V	VBD	O
 	the	D	DT	O
 	sane	A	JJ	O
@@ -7755,7 +6900,7 @@ Sentence: 374	@leigh_clay	@	NN	O
 	of	P	IN	O
 	disturbed	A	JJ	B-ADR
 	sleep	N	JJ	I-ADR
-	&	&	CC	O
+	&amp;	N	NN	O
 	bad	A	JJ	B-ADR
 	dreams	N	NNS	I-ADR
 	on	P	IN	O
@@ -7763,26 +6908,23 @@ Sentence: 374	@leigh_clay	@	NN	O
 	xx	E	NN	O
 	0	0	0	O
 Sentence: 375	@podculture	@	NN	O
-	venlafaxine	N	NN	O
-	.	,	.	O
-	it's	L	VB	O
+	venlafaxine.	!	NN	O
+	it's	L	NN	O
 	basically	R	RB	O
 	a	D	DT	O
 	bureaucracy	N	NN	O
 	problem	N	NN	O
 	in	P	IN	O
 	this	D	DT	O
-	case	N	NN	O
-	,	,	,	O
-	though;	P	NN	O
+	case,	N	NN	O
+	though;	P	VBZ	O
 	nothing	N	NN	O
 	to	P	TO	O
 	do	V	VB	O
 	with	P	IN	O
 	the	D	DT	O
 	scrip	N	NN	O
-	itself	O	PRP	O
-	.	,	.	O
+	itself.	O	NN	O
 	0	0	0	O
 Sentence: 376	@adandelionmind	@	NN	O
 	i	O	NN	O
@@ -7792,25 +6934,21 @@ Sentence: 376	@adandelionmind	@	NN	O
 	at	P	IN	O
 	night	N	NN	O
 	on	P	IN	O
-	venlafaxine	^	NN	O
-	,	,	,	O
-	i	O	JJ	O
+	venlafaxine,	N	NN	O
+	i	O	NN	O
 	react	V	VBP	O
 	badly	R	RB	O
 	to	P	TO	O
 	insect	V	VB	O
 	bites	V	NNS	O
-	too	R	RB	O
-	.	,	.	O
+	too.	R	VBP	O
 	0	0	0	O
 Sentence: 377	i	O	NN	O
 	feel	V	VBP	O
-	siiiiiiiiiiiiiiick	A	NN	B-ADR
-	.	,	.	O
-	damn	!	NN	O
+	siiiiiiiiiiiiiiick.	G	RB	B-ADR
+	damn	!	RB	O
 	you	O	PRP	O
-	venlafaxine	V	VBP	O
-	.	,	.	O
+	venlafaxine.	V	VBP	O
 	0	0	0	O
 Sentence: 378	@fatuglyew	@	JJ	O
 	thing	N	NN	O
@@ -7832,8 +6970,7 @@ Sentence: 378	@fatuglyew	@	JJ	O
 	shocks	N	NNS	I-ADR
 	in	P	IN	I-ADR
 	your	D	PRP$	I-ADR
-	brain	N	NN	I-ADR
-	,	,	,	O
+	brain,	N	NN	I-ADR
 	and	&	CC	O
 	they	O	PRP	O
 	go	V	VBP	O
@@ -7844,18 +6981,16 @@ Sentence: 379	venlafaxine	^	NN	O
 	is	V	VBZ	O
 	horrific	A	JJ	O
 	0	0	0	O
-Sentence: 380	rt	~	JJ	O
-	@timbuttsack	@	NN	O
-	:	~	:	O
-	venlafaxine	V	NN	O
+Sentence: 380	rt	~	NN	O
+	@timbuttsack:	V	CD	O
+	venlafaxine	R	NN	O
 	more	R	RBR	O
 	like	P	IN	O
 	lessvoicesinyourheadazine	^	NN	O
 	am	V	VBP	O
 	i	O	RB	O
 	right	A	JJ	O
-	guys	N	NNS	O
-	?	,	.	O
+	guys?	N	NN	O
 	0	0	0	O
 Sentence: 381	@amyelle11	@	NN	O
 	i	O	NN	O
@@ -7870,9 +7005,8 @@ Sentence: 381	@amyelle11	@	NN	O
 	messed	V	VBD	B-ADR
 	up	T	RP	I-ADR
 	my	D	PRP$	I-ADR
-	sleep	N	NN	I-ADR
-	:	,	:	O
-	(	,	(	O
+	sleep	N	JJ	I-ADR
+	:(	E	NN	O
 	0	0	0	O
 Sentence: 382	@figster014	@	NN	O
 	bloody	A	NN	O
@@ -7892,8 +7026,7 @@ Sentence: 382	@figster014	@	NN	O
 	illness	N	NN	O
 	to	P	TO	O
 	deal	V	VB	O
-	with	P	IN	O
-	,	,	,	O
+	with,	P	VB	O
 	both	O	DT	O
 	for	P	IN	O
 	the	D	DT	O
@@ -7902,16 +7035,14 @@ Sentence: 383	@foodnetwork	@	NN	O
 	bravo	^	NN	O
 	for	P	IN	O
 	dumping	V	VBG	O
-	dean	^	NN	O
-	.	,	.	O
+	dean.	N	NN	O
 	you	O	PRP	O
 	won	V	VBD	O
 	a	D	DT	O
 	new	A	JJ	O
 	fan	N	NN	O
 	in	P	IN	O
-	me	O	PRP	O
-	.	,	.	O
+	me.	O	NN	O
 	no	D	DT	O
 	one	N	NN	O
 	needs	V	VBZ	O
@@ -7927,19 +7058,16 @@ Sentence: 383	@foodnetwork	@	NN	O
 	she	O	PRP	O
 	gets	V	VBZ	O
 	it	O	PRP	O
-	free	A	JJ	O
-	!	,	.	O
+	free!	A	NN	O
 	0	0	0	O
 Sentence: 384	rt	~	NN	O
-	@kwelch_142	@	NN	O
-	:	~	:	O
+	@kwelch_142:	$	NNP	O
 	victoza	N	NN	O
 	is	V	VBZ	O
 	insulin	N	VBN	O
 	used	V	VBN	O
 	by	P	IN	O
-	diabetics...	N	NN	O
-	.	,	.	O
+	diabetics....	N	NN	O
 	you	O	PRP	O
 	eat	V	VBP	O
 	like	P	IN	O
@@ -7948,16 +7076,13 @@ Sentence: 384	rt	~	NN	O
 	get	V	VBP	O
 	diabetes	N	NNS	O
 	like	P	IN	O
-	paula..	^	NN	O
-	.	,	.	O
+	paula...	^	NN	O
 	0	0	0	O
-Sentence: 385	rt	~	JJ	O
-	@diatribenews	@	NNS	O
-	:	~	:	O
+Sentence: 385	rt	~	NN	O
+	@diatribenews:	G	NN	O
 	dr	^	NN	O
 	john	^	NN	O
-	buse	^	NN	O
-	:	,	:	O
+	buse:	^	NN	O
 	most	R	RBS	O
 	impressive	A	JJ	O
 	at	P	IN	O
@@ -7966,13 +7091,9 @@ Sentence: 385	rt	~	JJ	O
 	-1.9%	$	NNP	O
 	a1c	^	NN	O
 	reduction	N	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	insulin	N	NN	O
+	""insulin	N	NN	O
 	on	P	IN	O
-	steroids	N	NNS	O
-	"	,	NNP	O
-	"	,	NNP	O
+	steroids""	^	JJ	O
 	bit	N	NN	O
 	of	P	IN	O
 	weight	N	JJ	O
@@ -7980,8 +7101,7 @@ Sentence: 385	rt	~	JJ	O
 	�	,	NN	O
 	0	0	0	O
 Sentence: 386	rt	~	NN	O
-	@juliamoskin	@	NN	O
-	:	~	:	O
+	@juliamoskin:	V	NNP	O
 	#pauladeen	#	NN	O
 	may	V	MD	O
 	have	V	VB	O
@@ -7993,17 +7113,14 @@ Sentence: 386	rt	~	NN	O
 	her	D	PRP$	O
 	endorsement	N	NN	O
 	of	P	IN	O
-	victoza	N	NN	O
-	.	,	.	O
+	victoza.	^	JJ	O
 	drug	N	NN	O
 	maker	N	NN	O
 	suspends	G	VBZ	O
 	deal	N	NN	O
 	with	P	IN	O
 	deen	^	JJ	O
-	--http	^	NNS	O
-	:	,	:	O
-	//t.co/�	G	NN	O
+	--http://t.co/�	G	NN	O
 	0	0	0	O
 Sentence: 387	so	R	RB	O
 	i	O	JJ	O
@@ -8012,16 +7129,13 @@ Sentence: 387	so	R	RB	O
 	of	P	IN	O
 	victoza	^	NN	O
 	before	P	IN	O
-	payday	N	NN	O
-	&	&	CC	O
+	payday	N	JJ	O
+	&amp;	N	NNP	O
 	restarted	V	VBD	O
 	it	O	PRP	O
-	yesterday	N	NN	O
-	.	,	.	O
-	bleh	!	NN	O
-	:	,	:	O
-	nausea	N	NN	B-ADR
-	.	,	.	O
+	yesterday.	R	VBZ	O
+	bleh:	!	JJ	O
+	nausea.	N	IN	B-ADR
 	it	O	PRP	O
 	did	V	VBD	O
 	help	V	VB	O
@@ -8029,17 +7143,15 @@ Sentence: 387	so	R	RB	O
 	lose	V	VB	O
 	@	P	$	O
 	10	$	CD	O
-	lbs	N	NN	O
-	.	,	.	O
+	lbs.	N	NN	O
 	but	&	CC	O
-	i	O	JJ	O
+	i	O	NN	O
 	found	V	VBD	O
 	3	$	CD	O
 	when	R	WRB	O
 	i	O	NN	O
 	ran	V	VBD	O
-	out	T	RP	O
-	.	,	.	O
+	out.	T	RB	O
 	0	0	0	O
 Sentence: 388	also	R	RB	O
 	my	D	PRP$	O
@@ -8052,16 +7164,14 @@ Sentence: 388	also	R	RB	O
 	i've	L	NN	O
 	been	V	VBN	O
 	on	P	IN	O
-	viibryd.	N	NN	O
-	.	,	.	O
+	viibryd..	N	NN	O
 	but	&	CC	O
 	its	L	PRP$	O
 	also	R	RB	O
 	been	V	VBN	O
 	super	R	JJ	O
 	hot	A	JJ	O
-	out.	N	NN	O
-	.	,	.	O
+	out..	P	NN	O
 	0	0	0	O
 Sentence: 389	this	D	DT	O
 	night	N	NN	O
@@ -8073,8 +7183,7 @@ Sentence: 389	this	D	DT	O
 	to	P	TO	O
 	you	O	PRP	O
 	by	P	IN	O
-	vyvanse	^	NN	O
-	.	,	.	O
+	vyvanse.	^	NNS	O
 	?	,	.	O
 	0	0	0	O
 Sentence: 390	@rayydepotter	@	NN	O
@@ -8084,10 +7193,7 @@ Sentence: 390	@rayydepotter	@	NN	O
 	jacked	V	VBD	B-ADR
 	up	T	RP	I-ADR
 	on	P	IN	O
-	vyvanse	^	NN	O
-	!	,	.	O
-	?	,	.	O
-	?	,	.	O
+	vyvanse!??	^	NN	O
 	0	0	0	O
 Sentence: 391	ugh	!	IN	O
 	i	O	JJ	O
@@ -8100,36 +7206,25 @@ Sentence: 391	ugh	!	IN	O
 	stomach	N	NN	B-ADR
 	hurt	V	VBD	I-ADR
 	so	R	RB	O
-	bad	A	JJ	O
-	?	,	.	O
-	?	,	.	O
-	?	,	.	O
+	bad???	A	JJ	O
 	0	0	0	O
-Sentence: 392	alright	!	NN	O
-	.	,	.	O
+Sentence: 392	alright.	!	NNS	O
 	so	R	RB	O
-	right	R	RB	O
-	now	R	RB	O
-	.	,	.	O
-	i	O	VB	O
-	need	V	VBP	O
-	.	,	.	O
+	right	R	JJ	O
+	now.	R	NN	O
+	i	O	NN	O
+	need.	V	VBP	O
 	some	D	DT	O
-	ritalin	N	NN	O
-	,	,	,	O
-	adderall	N	NN	O
-	,	,	,	O
-	cocaine	N	NN	O
-	,	,	,	O
+	ritalin,	N	NN	O
+	adderall,	N	JJ	O
+	cocaine,	N	NN	O
 	or	&	CC	O
-	vyvanse	N	NN	O
-	.	,	.	O
+	vyvanse.	V	VB	O
 	any	D	DT	O
 	help	N	NN	O
 	would	V	MD	O
 	be	V	VB	O
-	appreciated	A	VBN	O
-	.	,	.	O
+	appreciated.	N	JJ	O
 	0	0	0	O
 Sentence: 393	i	O	NN	O
 	wish	V	VBP	O
@@ -8164,12 +7259,7 @@ Sentence: 394	so	R	RB	O
 	have	V	VB	O
 	a	D	DT	O
 	heart	N	NN	B-ADR
-	attack	N	NN	I-ADR
-	?	,	.	O
-	?	,	.	O
-	?	,	.	O
-	?	,	.	O
-	?	,	.	O
+	attack?????	N	NN	I-ADR
 	0	0	0	O
 Sentence: 395	i	O	NN	O
 	usually	R	RB	O
@@ -8212,15 +7302,12 @@ Sentence: 396	not	R	RB	O
 	a	D	DT	O
 	katy	^	NN	O
 	perry	^	NN	O
-	video	N	NN	O
-	.	,	.	O
+	video.	N	IN	O
 	cotton	N	NN	O
-	candy	N	NN	O
-	,	,	,	O
-	fireworks	N	NNS	O
-	,	,	,	O
+	candy,	N	NN	O
+	fireworks,	N	JJ	O
 	sunshine	N	NN	O
-	&	&	CC	O
+	&amp;	N	NNP	O
 	whipcream	N	NN	O
 	evrywhr	N	NN	O
 	0	0	0	O
@@ -8242,8 +7329,7 @@ Sentence: 398	vyvanse	^	NN	O
 	than	P	IN	O
 	it	O	PRP	O
 	already	R	RB	O
-	is	V	VBZ	O
-	.	,	.	O
+	is.	V	VB	O
 	0	0	0	O
 Sentence: 399	alright	!	JJ	O
 	time	N	NN	O
@@ -8280,11 +7366,8 @@ Sentence: 400	fda	^	NN	O
 	warning	N	NN	O
 	label	N	NN	O
 	for	P	IN	O
-	vyvanse	^	NN	O
-	:	,	:	O
-	"	,	NN	O
-	"	,	NN	O
-	use	N	NN	O
+	vyvanse:	^	NN	O
+	""use	V	NN	O
 	of	P	IN	O
 	of	P	IN	O
 	this	D	DT	O
@@ -8297,12 +7380,8 @@ Sentence: 400	fda	^	NN	O
 	unneeded	A	VBD	O
 	hours	N	NNS	O
 	at	P	IN	O
-	work	N	NN	O
-	"	,	NNP	O
-	"	,	NNP	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/o7pqc782di	G	NN	O
+	work""	N	NN	O
+	http://t.co/o7pqc782di	U	NN	O
 	0	0	0	O
 Sentence: 401	playing	V	VBG	O
 	league	N	NN	O
@@ -8312,14 +7391,12 @@ Sentence: 401	playing	V	VBG	O
 	is	V	VBZ	O
 	too	R	RB	O
 	damn	R	JJ	O
-	stressful	A	JJ	B-ADR
-	.	,	.	O
-	back	R	RB	O
+	stressful.	A	JJ	B-ADR
+	back	N	RB	O
 	to	P	TO	O
-	public	A	NN	O
+	public	A	JJ	O
 	i	O	NN	O
-	go	V	VBP	O
-	!	,	.	O
+	go!	V	NN	O
 	0	0	0	O
 Sentence: 402	@anthonycumia	@	NN	O
 	#zimmerman	^	NN	O
@@ -8338,11 +7415,8 @@ Sentence: 402	@anthonycumia	@	NN	O
 	adderall	N	NN	O
 	see	V	NN	O
 	med	N	VBD	O
-	report	N	NN	O
-	:	,	:	O
-	http	U	NN	O
-	:	~	:	O
-	//t.co/4qqrotmzie	G	NN	O
+	report:	N	JJ	O
+	http://t.co/4qqrotmzie	U	NN	O
 	0	0	0	O
 Sentence: 403	thank	V	NN	O
 	you	O	PRP	O
@@ -8371,22 +7445,18 @@ Sentence: 405	it	O	PRP	O
 	my	D	PRP$	O
 	brain	N	NN	B-ADR
 	is	V	VBZ	I-ADR
-	melting	V	VBG	I-ADR
-	.	,	.	O
+	melting.	A	JJ	I-ADR
 	360mg	N	CD	O
 	of	P	IN	O
 	vyvanse	^	NN	O
 	in	P	IN	O
 	24	$	CD	O
-	hours..	N	NN	O
-	.	,	.	O
+	hours...	N	NN	O
 	not	R	RB	O
 	smart	A	JJ	O
-	danielle	^	NN	O
-	.	,	.	O
+	danielle.	^	NN	O
 	not	R	RB	O
-	smart	A	JJ	O
-	.	,	.	O
+	smart.	A	VB	O
 	0	0	0	O
 Sentence: 406	vyvanse	^	NN	O
 	is	V	VBZ	O
@@ -8422,8 +7492,7 @@ Sentence: 408	vyvanse	^	NN	O
 	of	P	IN	I-ADR
 	a	D	DT	I-ADR
 	fucking	A	NN	I-ADR
-	vampire	N	NN	I-ADR
-	.	,	.	O
+	vampire.	N	NN	I-ADR
 	0	0	0	O
 Sentence: 409	i	O	NN	O
 	lost	V	VBD	B-ADR
@@ -8431,7 +7500,7 @@ Sentence: 409	i	O	NN	O
 	pounds	N	NNS	I-ADR
 	on	P	IN	O
 	vyvanse	^	NN	O
-	&	&	CC	O
+	&amp;	^	NN	O
 	that's	L	NN	O
 	why	R	WRB	O
 	life	N	NN	O
@@ -8442,22 +7511,19 @@ Sentence: 410	popped	V	VBD	O
 	a	D	DT	O
 	vyvanse	N	NN	O
 	i'm	L	NN	O
-	tweak	N	NN	B-ADR
-	.	,	.	O
+	tweak.	V	NN	B-ADR
 	whoop	!	NN	O
 	0	0	0	O
 Sentence: 411	popped	V	VBD	O
 	a	D	DT	O
 	vyvanse	N	NN	O
 	i'm	L	NN	O
-	tweaking	V	NN	B-ADR
-	.	,	.	O
+	tweaking.	V	NN	B-ADR
 	whoop	!	NN	O
 	0	0	0	O
-Sentence: 412	@mannypresh602	@	NN	O
-	word	!	NN	O
-	.	,	.	O
-	i've	L	VB	O
+Sentence: 412	@mannypresh602	@	JJ	O
+	word.	N	NN	O
+	i've	L	NN	O
 	been	V	VBN	O
 	fuckin	V	JJ	O
 	tweakin	V	NN	B-ADR
@@ -8483,8 +7549,7 @@ Sentence: 413	am	V	VBP	O
 	their	D	PRP$	I-ADR
 	teeth	N	NNS	I-ADR
 	on	P	IN	O
-	vyvanse	^	NN	O
-	?	,	.	O
+	vyvanse?	^	NN	O
 	#cantbetheonlyone	#	CD	O
 	#icouldstudyforfinalsidonthave	#	NN	O
 	0	0	0	O
@@ -8494,8 +7559,7 @@ Sentence: 414	vyvanse	^	NN	O
 	rid	A	JJ	B-ADR
 	of	P	IN	I-ADR
 	my	D	PRP$	I-ADR
-	appetite	N	NN	I-ADR
-	.	,	.	O
+	appetite.	N	NN	I-ADR
 	not	R	RB	O
 	quite	R	RB	O
 	sure	A	JJ	O
@@ -8503,8 +7567,7 @@ Sentence: 414	vyvanse	^	NN	O
 	to	P	TO	O
 	feel	V	VB	O
 	about	P	IN	O
-	this	O	DT	O
-	.	,	.	O
+	this.	O	NN	O
 	0	0	0	O
 Sentence: 415	@the_ignorable	@	JJ	O
 	hungover	A	NN	O
@@ -8520,8 +7583,7 @@ Sentence: 415	@the_ignorable	@	JJ	O
 	success	N	NN	O
 	0	0	0	O
 Sentence: 416	rt	~	NN	O
-	@vyvanseswag	@	NN	O
-	:	~	:	O
+	@vyvanseswag:	N	NN	O
 	is	V	VBZ	O
 	it	O	PRP	O
 	hot	A	JJ	B-ADR
@@ -8533,8 +7595,7 @@ Sentence: 416	rt	~	NN	O
 	vyvanse	N	NN	O
 	just	R	RB	O
 	kicking	V	VBG	O
-	in	P	IN	O
-	?	,	.	O
+	in?	P	NN	O
 	0	0	0	O
 Sentence: 417	@pk_money	@	NN	O
 	i	O	NN	O
@@ -8547,8 +7608,7 @@ Sentence: 417	@pk_money	@	NN	O
 	12oz	$	CD	O
 	redbull	N	NN	O
 	this	D	DT	O
-	morning	N	NN	O
-	.	,	.	O
+	morning.	N	NN	O
 	my	D	PRP$	O
 	heart	N	NN	B-ADR
 	was	V	VBD	I-ADR
@@ -8565,8 +7625,7 @@ Sentence: 418	young	A	JJ	O
 	me	O	PRP	O
 	a	D	DT	O
 	70mg	N	CD	O
-	vyvanse	N	NN	O
-	,	,	,	O
+	vyvanse,	V	NN	O
 	these	D	DT	O
 	things	N	NNS	O
 	can	V	MD	O
@@ -8582,17 +7641,15 @@ Sentence: 418	young	A	JJ	O
 	xanax	^	NN	O
 	0	0	0	O
 Sentence: 419	rt	~	NN	O
-	@csestrich21	@	NN	O
-	:	~	:	O
+	@csestrich21:	V	CD	O
 	all	D	DT	B-ADR
 	nighter	N	NN	I-ADR
 	is	V	VBZ	O
 	killing	V	VBG	O
 	me	O	PRP	O
-	right	R	RB	O
-	now	R	RB	O
-	,	,	,	O
-	i	O	JJ	O
+	right	R	JJ	O
+	now,	R	NN	O
+	i	O	NN	O
 	hate	V	VBP	O
 	you	O	PRP	O
 	vyvanse	V	VBP	O
@@ -8617,12 +7674,9 @@ Sentence: 420	dad	N	NN	O
 	0	0	0	O
 Sentence: 421	oh	!	UH	O
 	my	D	PRP$	O
-	god	N	NN	O
-	.	,	.	O
+	god.	N	JJ	O
 	it's	L	JJ	O
-	5	$	CD	O
-	:	,	:	O
-	19am	$	CD	O
+	5:19am	$	CD	O
 	and	&	CC	O
 	i	O	VB	O
 	am	V	VBP	O
@@ -8636,15 +7690,13 @@ Sentence: 421	oh	!	UH	O
 	a	D	DT	O
 	vyvanse	N	NN	O
 	at	P	IN	O
-	11pm..	$	CD	O
-	.	,	.	O
-	that	O	DT	O
+	11pm...	$	CD	O
+	that	P	WDT	O
 	explains	V	VBZ	O
 	why	R	WRB	O
 	i	O	JJ	O
 	can't	V	NN	B-ADR
-	sleep	V	NN	I-ADR
-	.	,	.	O
+	sleep.	V	NN	I-ADR
 	0	0	0	O
 Sentence: 422	feed	V	NN	O
 	an	D	DT	O
@@ -8657,19 +7709,17 @@ Sentence: 422	feed	V	NN	O
 	crayons	N	NNS	O
 	0	0	0	O
 Sentence: 423	rt	~	NN	O
-	@thelsuzebra	@	NN	O
-	:	~	:	O
-	@_kassidymariee	@	JJ	O
+	@thelsuzebra:	G	NNP	O
+	@_kassidymariee	@	NNP	O
 	maybe	R	RB	O
-	it's	L	NN	O
+	it's	L	VBZ	O
 	just	R	RB	O
 	a	D	DT	O
 	vyvanse	N	JJ	O
 	addict	N	JJ	B-ADR
 	thing	N	NN	O
-	rt	~	NN	O
-	@vyvanseswag	@	NN	O
-	:	~	:	O
+	rt	V	NN	O
+	@vyvanseswag:	V	VBZ	O
 	nothing	N	NN	O
 	more	R	RBR	O
 	satisfying	A	NN	O
@@ -8680,18 +7730,15 @@ Sentence: 423	rt	~	NN	O
 	0	0	0	O
 Sentence: 424	1	$	CD	O
 	power	N	NN	O
-	point	N	NN	O
-	,	,	,	O
+	point,	N	NN	O
 	2	$	CD	O
 	short	A	JJ	O
-	stories	N	NNS	O
-	,	,	,	O
+	stories,	N	NN	O
 	half	N	NN	O
 	of	P	IN	O
 	a	D	DT	O
 	small	A	JJ	O
-	book	N	NN	O
-	,	,	,	O
+	book,	N	NN	O
 	and	&	CC	O
 	an	D	DT	O
 	epic	N	NN	O
@@ -8725,8 +7772,7 @@ Sentence: 426	i	O	JJ	O
 	#magicpill	#	NN	O
 	0	0	0	O
 Sentence: 427	rt	~	NN	O
-	@uffelanie	@	NN	O
-	:	~	:	O
+	@uffelanie:	N	NN	O
 	just	R	RB	O
 	wondering	V	VBG	O
 	where	R	WRB	O
@@ -8741,8 +7787,7 @@ Sentence: 427	rt	~	NN	O
 	stated	V	VBN	O
 	on	P	IN	O
 	vyvanse	^	NN	O
-	advertisements	N	NNS	O
-	?	,	.	O
+	advertisements?	N	NN	O
 	0	0	0	O
 Sentence: 428	why	R	WRB	O
 	is	V	VBZ	O
@@ -8754,8 +7799,7 @@ Sentence: 428	why	R	WRB	O
 	my	D	PRP$	O
 	vyvanse	N	NN	O
 	wears	V	VBZ	O
-	off	T	IN	O
-	?	,	.	O
+	off?	T	IN	O
 	0	0	0	O
 Sentence: 429	it's	L	NN	O
 	about	P	IN	O
@@ -8764,8 +7808,7 @@ Sentence: 429	it's	L	NN	O
 	a	D	DT	O
 	lovely	A	JJ	O
 	vyvanse	N	NN	O
-	night	N	NN	O
-	,	,	,	O
+	night,	N	NN	O
 	too	R	RB	O
 	bad	A	JJ	O
 	i	O	NN	O
@@ -8786,8 +7829,7 @@ Sentence: 430	trampeze	^	NN	O
 	clinical	A	JJ	O
 	progression	N	NN	O
 	free	A	JJ	O
-	survival	N	NN	O
-	.	,	.	O
+	survival.	N	NN	O
 	#asco	#	NN	O
 	0	0	0	O
 Sentence: 431	@stacymadern	@	JJ	O
@@ -8834,9 +7876,8 @@ Sentence: 432	can	V	MD	O
 	psycho	A	VBP	O
 	0	0	0	O
 Sentence: 433	rt	~	NN	O
-	@tmfbreaking	@	NN	O
-	:	~	:	O
-	fda	^	NN	O
+	@tmfbreaking:	G	NNP	O
+	fda	^	VBD	O
 	investigating	V	VBG	O
 	2	$	CD	O
 	deaths	N	NNS	O
@@ -8850,21 +7891,16 @@ Sentence: 433	rt	~	NN	O
 	$lly	^	RB	O
 	antipsychotic	^	JJ	O
 	zyprexa	N	NN	O
-	relprevv	N	NN	O
-	.	,	.	O
+	relprevv.	G	NN	O
 	$lly	G	RB	O
-	http	U	JJ	O
-	:	~	:	O
-	�	,	NN	O
+	http:�	U	VBD	O
 	0	0	0	O
 Sentence: 434	rt	~	NN	O
-	@fda_drug_info	@	NN	O
-	:	~	:	O
-	#fda	#	JJ	O
+	@fda_drug_info:	G	NNP	O
+	#fda	#	NNP	O
 	drug	N	NN	O
 	safety	N	NN	O
-	communication	N	NN	O
-	:	,	:	O
+	communication:	N	NN	O
 	fda	^	NN	O
 	is	V	VBZ	O
 	investigating	V	VBG	O
@@ -8875,72 +7911,57 @@ Sentence: 434	rt	~	NN	O
 	of	P	IN	O
 	#zyprexa	N	NNP	O
 	relprevv	N	NN	O
-	http	N	NN	O
-	:	~	:	O
-	//t.co/xr�	G	NN	O
+	http://t.co/xr�	U	NN	O
 	0	0	0	O
 Sentence: 435	@ahmad_alaseer	@	NN	O
 	@fadl_shakker	@	NN	O
-	guys	N	NN	O
-	!	,	.	O
+	guys!	N	NN	O
 	you	O	PRP	O
 	are	V	VBP	O
-	delusional	A	JJ	O
-	!	,	.	O
+	delusional!	A	JJ	O
 	you	O	PRP	O
 	should	V	MD	O
 	seek	V	VB	O
-	help	N	NN	O
-	!	,	.	O
+	help!	V	NN	O
 	risperdal	N	NN	O
 	or	&	CC	O
 	zyprexa	N	NN	O
 	would	V	MD	O
 	do	V	VB	O
 	the	D	DT	O
-	job	N	NN	O
-	!	,	.	O
+	job!	N	NN	O
 	0	0	0	O
 Sentence: 436	i	O	NN	O
 	can't	V	VBD	O
 	even	R	RB	O
 	fucking	V	VBG	O
 	restrict	V	NN	O
-	anymore	R	RB	O
-	.	,	.	O
-	i	O	VB	O
+	anymore.	R	NN	O
+	i	O	NN	O
 	just	R	RB	B-ADR
-	eat	V	NN	I-ADR
-	,	,	,	I-ADR
+	eat,	V	RB	I-ADR
 	and	&	CC	I-ADR
-	eat	V	NN	I-ADR
-	.	,	.	O
+	eat.	V	JJ	I-ADR
 	maybe	R	RB	O
 	it's	L	JJ	O
 	bc	P	NN	O
 	of	P	IN	O
 	the	D	DT	O
-	zyprexa	N	NN	O
-	.	,	.	O
+	zyprexa.	N	NN	O
 	the	D	DT	O
 	other	A	JJ	O
 	med	N	NN	O
 	should	V	MD	O
 	help	V	VB	O
 	with	P	IN	O
-	that	O	DT	O
-	,	,	,	O
+	that,	D	NN	O
 	but	&	CC	O
-	idk	L	NN	O
-	.	,	.	O
+	idk.	L	NN	O
 	0	0	0	O
 Sentence: 437	@njmanura	@	NN	O
 	zyprexa	N	NN	O
 	had	V	VBD	O
 	me	O	PRP	O
 	sleep	V	JJ	B-ADR
-	walking	V	NN	I-ADR
-	!	,	.	O
-	!	,	.	O
-	!	,	.	O
+	walking!!!	V	NN	I-ADR
 	0	0	0	O
