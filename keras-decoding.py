@@ -125,7 +125,8 @@ mrg_lstml = Bidirectional(LSTM(HIDDEN_SIZE, return_sequences=True),
                           name='mrg_bidirectional_2')(mrg_lstml)
 
 # merge BLSTM layers and extenal layer
-mrg_cncat = concatenate([mrg_lstml, txt_drpot, npos_drpot, auxiliary_input], axis=2)
+# mrg_cncat = concatenate([mrg_lstml, txt_drpot, npos_drpot, auxiliary_input], axis=2)
+mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 # final linear chain CRF layer
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
