@@ -49,7 +49,7 @@ this_snt = []
 this_pos = []
 this_ner = []
 
-print(len(sentmarks))
+# print(len(sentmarks))
 for idx, s in enumerate(sentmarks):
     if s != 'nan': # the begin of sent
         if len(this_snt) > 0 and this_snt[-1] == '0':
@@ -102,8 +102,9 @@ test_idx = range(1573)
 train_idx = range(1573, 1573+2253-1)
 X_train_pos = np.array([sentence_post_idx[e] for e in train_idx])
 X_test_pos = np.array([sentence_post_idx[e] for e in test_idx])
-# train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
-print(X_test_pos[0])
+train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
+# print(sentence_post_idx[0])
+# print(X_test_pos[0])
 def get_sublist(lst, indices):
     result = []
     for idx in indices:
@@ -150,11 +151,11 @@ w2v_pvocab, w2v_pmodel = create_embeddings(train_post_texts,
 # granted, `pickle` would probably be more suitable for a lot of these things. but over-reliance on `numpy` binaries is a bad habit i've picked up.
 ## dictionary features, [None, 30, 3]
 ## dictionary feature is list of list, then convert to array
-print(y_train_ner[0]) # list of list
-# print([idx2word[e] for e in X_train_sents[0]])
-# print(X_test_sents.shape) # (229,)
-print(len(sentence_text))
-print(len(X_train_sents))
+# print(y_train_ner[0]) # list of list
+# # print([idx2word[e] for e in X_train_sents[0]])
+# # print(X_test_sents.shape) # (229,)
+# print(len(sentence_text))
+# print(len(X_train_sents))
 
 
 

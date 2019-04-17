@@ -114,6 +114,7 @@ X_train_npos = sequence.pad_sequences(X_train_npos, maxlen=MAX_LENGTH, truncatin
 X_test_npos = sequence.pad_sequences(X_test_npos, maxlen=MAX_LENGTH, truncating='post', padding='post')
 y_train_ner = sequence.pad_sequences(y_train_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
 y_test_ner = sequence.pad_sequences(y_test_ner, maxlen=MAX_LENGTH, truncating='post', padding='post')
+print(X_train_sents[0])
 
 print(X_train_features.shape)
 X_train_features = sequence.pad_sequences(X_train_features, maxlen=MAX_LENGTH, truncating='post', padding='post')
@@ -126,8 +127,8 @@ X_train_sents_bert = sequence.pad_sequences(X_train_sents_bert, maxlen=MAX_LENGT
 print(X_train_sents_bert.shape) 
 # expand X_features dimension
 
-X_train_features =  np.expand_dims(X_train_features, axis=2)
-X_test_features =  np.expand_dims(X_test_features, axis=2)
+# X_train_features =  np.expand_dims(X_train_features, axis=2)
+# X_test_features =  np.expand_dims(X_test_features, axis=2)
 
 # get the size of pos-tags, ner tags
 TAG_VOCAB = len(list(idx2pos.keys()))
@@ -242,8 +243,8 @@ mrg_cncat = concatenate([mrg_lstml, txt_drpot, auxiliary_input], axis=2)
 crf = CRF(NER_VOCAB, sparse_target=True)
 mrg_chain = crf(mrg_cncat)
 
-# model = Model(inputs=[txt_input, emlo_input, pos_input, npos_input, auxiliary_input], outputs=mrg_chain)
-model = Model(inputs=[txt_input, emlo_input, pos_input,  auxiliary_input], outputs=mrg_chain)
+model = Model(inputs=[txt_input, emlo_input, pos_input, npos_input, auxiliary_input], outputs=mrg_chain)
+# model = Model(inputs=[txt_input, emlo_input, pos_input,  auxiliary_input], outputs=mrg_chain)
 
 model.compile(optimizer='adam',
               loss=crf.loss_function,
