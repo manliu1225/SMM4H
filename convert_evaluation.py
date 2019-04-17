@@ -133,7 +133,7 @@ for j, sentence in enumerate(data):
 
 print("####there are {} missing ne".format(miss))
 ### convert data_dict to 3 columns
-with open("./data/converted_evluation.csv", "w") as outputf:
+with open("./data/converted_evluation.txt", "w") as outputf:
     outputf.write("Sentence #\tWord\tPOS\tNPOS\tTag\t\n")
     for idx, sentence_dict in data_dict.items():
         word_li = sentence_dict["word"]

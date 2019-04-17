@@ -9,7 +9,7 @@ def create_embeddings(sentences,
                       embeddings_path='temp_embeddings/embeddings.gensimmodel',
                       vocab_path='temp_embeddings/mapping.json',
                       **params):
-
+    # print(sentences)
     model = Word2Vec(sentences, **params)
     model.save(embeddings_path)
     # weights = model.syn0

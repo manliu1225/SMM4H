@@ -22,7 +22,7 @@ TEST_SIZE = 0.15
 # ### read ConLL2002 NER corpus from csv (first save as utf-8!)
 
 
-data = pd.read_csv('./data/data.txt', delimiter = "\t")
+data = pd.read_csv('./data/data_evaluate.txt', delimiter = "\t")
 
 sentmarks = data["Sentence #"].tolist()
 sentmarks = [str(s) for s in sentmarks]
@@ -38,7 +38,7 @@ sentmarks = sentmarks_li
 words = data["Word"].tolist()
 postags = data["POS"].tolist()
 nertags = data["Tag"].tolist()
-
+# print(words)
 sentence_text = []
 sentence_post = []
 sentence_ners = []
@@ -49,13 +49,14 @@ this_snt = []
 this_pos = []
 this_ner = []
 
+print(len(sentmarks))
 for idx, s in enumerate(sentmarks):
     if s != 'nan': # the begin of sent
         if len(this_snt) > 0 and this_snt[-1] == '0':
-            if list(set(this_ner)) != ['O']:
-                sentence_text.append(this_snt[:-1])
-                sentence_post.append(this_pos[:-1])
-                sentence_ners.append(this_ner[:-1])
+            # if list(set(this_ner)) != ['O']:
+            sentence_text.append(this_snt[:-1])
+            sentence_post.append(this_pos[:-1])
+            sentence_ners.append(this_ner[:-1])
         this_snt = []
         this_pos = []
         this_ner = []
@@ -65,7 +66,6 @@ for idx, s in enumerate(sentmarks):
     this_pos.append(postags[idx])
     this_ner.append(nertags[idx])
     vocab.append(words[idx].lower())
-
 
 # ## get vocabulary and index inputs
 # 
@@ -90,7 +90,6 @@ sentence_text_idx = index_sents(sentence_text, word2idx)
 sentence_post_idx = index_sents(sentence_post, pos2idx)
 sentence_ners_idx = index_sents(sentence_ners, ner2idx)
 
-
 # ## train-test splitting
 # 
 # we divide the training data into training data, and testing data. the testing data is used only for checking model performance. a third set, the *validation set*, may be split off from our training data for hyperparameter tuning, although if we use k-fold cross-validation, our validation set will change every fold.
@@ -99,8 +98,12 @@ sentence_ners_idx = index_sents(sentence_ners, ner2idx)
 indices = [i for i in range(len(sentence_text))]
 
 # print(sentence_post_idx)
-train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
-
+test_idx = range(1573)
+train_idx = range(1573, 1573+2253-1)
+X_train_pos = np.array([sentence_post_idx[e] for e in train_idx])
+X_test_pos = np.array([sentence_post_idx[e] for e in test_idx])
+# train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
+print(X_test_pos[0])
 def get_sublist(lst, indices):
     result = []
     for idx in indices:
@@ -148,7 +151,7 @@ w2v_pvocab, w2v_pmodel = create_embeddings(train_post_texts,
 ## dictionary features, [None, 30, 3]
 ## dictionary feature is list of list, then convert to array
 print(y_train_ner[0]) # list of list
-print([idx2word[e] for e in X_train_sents[0]])
+# print([idx2word[e] for e in X_train_sents[0]])
 # print(X_test_sents.shape) # (229,)
 print(len(sentence_text))
 print(len(X_train_sents))
