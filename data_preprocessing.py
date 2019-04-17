@@ -100,17 +100,15 @@ indices = [i for i in range(len(sentence_text))]
 # print(sentence_post_idx)
 test_idx = range(1573)
 train_idx = range(1573, 1573+2253-1)
-X_train_pos = np.array([sentence_post_idx[e] for e in train_idx])
-X_test_pos = np.array([sentence_post_idx[e] for e in test_idx])
-train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
-# print(sentence_post_idx[0])
+# # train_idx, test_idx, X_train_pos, X_test_pos = train_test_split(indices, sentence_post_idx, test_size=TEST_SIZE)
 # print(X_test_pos[0])
 def get_sublist(lst, indices):
     result = []
     for idx in indices:
         result.append(lst[idx])
     return result
-
+X_train_pos = get_sublist(sentence_post_idx, train_idx)
+X_test_pos = get_sublist(sentence_post_idx, test_idx)
 X_train_sents = get_sublist(sentence_text_idx, train_idx)
 X_test_sents = get_sublist(sentence_text_idx, test_idx)
 y_train_ner = get_sublist(sentence_ners_idx, train_idx)
@@ -243,18 +241,18 @@ names = [
 'sentence_post_n_idx',
 'sentence_ners_idx',
 'word2idx', 'idx2word',
-'npos2idx', 'idx2npos',
+'pos2idx', 'idx2pos',
 'ner2idx', 'idx2ner',
 'train_idx',
 'test_idx',
 'X_train_sents',
 'X_test_sents',
-'X_train_npos',
-'X_test_npos',
+'X_train_pos',
+'X_test_pos',
 'y_train_ner',
 'y_test_ner',
 'sentence_text',
-'sentence_npost',
+'sentence_post',
 'sentence_ners',
 'X_train_features',
 'X_test_features',
