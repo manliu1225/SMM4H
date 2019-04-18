@@ -1,6 +1,6 @@
 540613005508370432	too much ventolin head feels all funny 🙈	18	38	ADR	head feels all funny
 1012569192325758976	@_JMZF Xanax	-	-	noADR	-
-534869994723876865	one of the most common side effects with metformin is gi complaints – in most cases, start low and titrate up slowly	-	-	noADR	-
+534869994723876865	one of the most common side effects with metformin is gi complaints – in most cases, start low and titrate up slowly	56	67	ADR	gi complaints
 541031560406122496	holy shit my spacer seriously amps up albuterol like i am shaking	58	65	ADR	shaking
 451831506114465792	rivaroxaban is great, until your patient gets a wound and bleeds solidly for 14hours from it!	58	64	ADR	bleeds
 1002362072829743109	@aphillester I've only heard it on the radio once but it was the album version with nicotine, heroin, morphine so yay 👌	-	-	noADR	-
@@ -190,6 +190,8 @@
 451993655839318016	hi twitter. my brain's mushier than a million blancmanges. pregabalin at max dose does that. i miss trying(!) to be amusing &amp; spamming you &gt;	130	138	ADR	spamming
 472726720110669824	side-effects of loperamide include:  1. diarrhoea 2. skin reactions 3. abdominal cramps	39	48	ADR	diarrhoea
 472726720110669824	side-effects of loperamide include:  1. diarrhoea 2. skin reactions 3. abdominal cramps	52	66	ADR	skin reactions
+472726720110669824	side-effects of loperamide include:  1. diarrhoea 2. skin reactions 3. abdominal cramps	39	48	ADR	diarrhoea
+472726720110669824	side-effects of loperamide include:  1. diarrhoea 2. skin reactions 3. abdominal cramps	71	87	ADR	abdominal cramps
 539644018792366080	ain felt this sick since i came down from five weeks being high on oxycodone after ankle surgery last year	14	18	ADR	sick
 539644018792366080	ain felt this sick since i came down from five weeks being high on oxycodone after ankle surgery last year	59	63	ADR	high
 1033215659709227008	I'm already feeling the effects of the pills, valium hits quick	-	-	noADR	-
@@ -202,7 +204,7 @@
 519200844961431552	1 week into metformin and the heartburn &amp; lower back pain are going to drive me mad. no digestive issues though, so i guess that's something	92	108	ADR	digestive issues
 541438196190433280	@jackiemenwa the injectables do. was very sick with betaseron. baclofen is a pill and it just makes me drowsy like gabapentin for nerve pain	103	109	ADR	drowsy
 1043254733748797442	@ByRamesses He bashes other artist who promote to their young followers Xanax and lean and shit like that. And I respect that. Specially when those artist have more people following their social media, than their actual music	-	-	noADR	-
-495792755416006657	increased hunger is a side effect of advair smh maybe that's why i've been binge eating and gaining weight	10	16	ADR	hunger
+495792755416006657	increased hunger is a side effect of advair smh maybe that's why i've been binge eating and gaining weight	0	16	ADR	increased hunger
 1031880745134899201	"Had a headache so i was lookin for some pills, read the labels and it contains codeine. Me: Platinum off a mixtape, sipping on that codeine Pour it in my trophies, rollin' 'til my nose bleed I'mma keep on singing while I'm burning up that OG #reminder"""	7	15	ADR	headache
 527514771533594624	medicines like tamoxifen and raloxifene are used to treat #breastcancer but can increase #hotflashes.	-	-	noADR	-
 352595629643534336	headache?  check! forget to refilll uloric script? check!	-	-	noADR	-
@@ -336,7 +338,7 @@
 541943075367841792	@adderallhadme adderall has me reorganize my entire itunes library.	-	-	noADR	-
 511726419639275520	@bearski55 @blondejay77 @nycmoon good. i'm afraid to use my advair since the thrush infection :(	77	83	ADR	thrush
 1002983211218145281	RT @LS_Nutrition: Black Cohosh this June? It can interact with interact with #Atorvastatin / #Lipitor. Chat with your #MD!	-	-	noADR	-
-1012278902104846337	phocomelia?n. ?????? Thousands of babies were born with phocomelia because of a side effect of the medicine called thalidomide.	-	-	noADR	-
+1012278902104846337	phocomelia?n. ?????? Thousands of babies were born with phocomelia because of a side effect of the medicine called thalidomide.	115	126	noADR	thalidomide
 523259063560572928	it's like i've been drinking all day.. except, there's no pissing with ventolin	-	-	noADR	-
 453769073248436224	@kawasaki677 just took a gabapentin now i'm sweating 😱	44	52	ADR	sweating
 537903349916778496	not only is he suffering from the flu symptoms but he is also being affected by the side effects from the tamiflu 💊😢	34	37	ADR	flu
@@ -390,7 +392,7 @@
 447040440550694913	taking gabapentin is proving to be difficult... soo sleepy and hyper at the same time. chronic pain sucks!	52	58	ADR	sleepy
 447040440550694913	taking gabapentin is proving to be difficult... soo sleepy and hyper at the same time. chronic pain sucks!	63	68	ADR	hyper
 447040440550694913	taking gabapentin is proving to be difficult... soo sleepy and hyper at the same time. chronic pain sucks!	87	99	ADR	chronic pain
-456889607486193664	brilinta can cause dyspnea, especially the first week.  consider switching to plavix or effient if needed.	-	-	noADR	-
+456889607486193664	brilinta can cause dyspnea, especially the first week.  consider switching to plavix or effient if needed.	19	28	ADR	dyspnea
 523310459060228096	#ozquestion i took tamiflu and since then i've experienced skin allergic reactions throughout my body and haven't felt the same. is it safe?	59	82	ADR	skin allergic reactions
 526657763737608193	why must lunesta make my  mouth taste all bitter eww	25	47	ADR	mouth taste all bitter
 417260794804731904	pah. meh-ness + pregabalin drowsiness &amp; dizziness is making me sloth-like. i've not been able to read a book for weeks. not a good sign.	27	37	ADR	drowsiness
@@ -779,8 +781,8 @@
 424906273830625281	effexor really should be illegal. i switched to pristiq to try to get off of it, now stopped pristiq, brain zaps back. fury.	-	-	noADR	-
 1019382550328901638	@cmoraff Yes, they can be passed in breast milk. Maybe methadone in normal doses is ok but we don�t know how much she took, and not with the other two. Should be easy to find the drugs in the dead baby.	-	-	noADR	-
 377328657964228609	i was having ; itchy feeling all over ,skin felt like it was crawling, muscle twitches, this always lasted over 2 hours after taking saphris	15	20	ADR	itchy
-377328657964228609	i was having ; itchy feeling all over ,skin felt like it was crawling, muscle twitches, this always lasted over 2 hours after taking saphris	33	43	ADR	over "
-377328657964228609	i was having ; itchy feeling all over ,skin felt like it was crawling, muscle twitches, this always lasted over 2 hours after taking saphris	71	87	ADR	crawling muscle
+377328657964228609	i was having ; itchy feeling all over ,skin felt like it was crawling, muscle twitches, this always lasted over 2 hours after taking saphris	61	69	ADR	crawling
+377328657964228609	i was having ; itchy feeling all over ,skin felt like it was crawling, muscle twitches, this always lasted over 2 hours after taking saphris	71	86	ADR	muscle twitches
 432307981405782016	seriously about to be done with this damn geodon and ask my doctor if i can go back to lamictol. at least then i'm not so damn sleepy 24/7.	127	133	ADR	sleepy
 1040300627362906112	@alaskanexplorer My mother was in assisted living when I moved back to Boise, and no one was allowed to visit if they were sick. I can't imagine passing the flu or a cold on to an elderly person, as those illnesses about kill me. I hope this year's vaccine is more effective!	123	127	ADR	sick
 1021966303374991360	Aids treat to treat acute worsening of pain; opioids aren�t recommended for chronic pain. These types of medications include oxycodone�(Oxaydo, Roxicodone)methadone�(Methado Dolophine)morphinetramadol�(Ultram)hydrocodone. ANNETTE Marion ha freak. Freak Suzie and ANNETTE incestex	-	-	noADR	-
@@ -821,7 +823,7 @@
 433662425200472064	had to file adverse reaction report on brilinta after heart stents. made my bg uncontrollable.  #dblog #diabetes #dsma	79	93	ADR	uncontrollable
 541339924394287104	this tamiflu is making me feel worse than i already feel and i don't think the z pack is helping :(	31	36	ADR	worse
 523485318272798721	dr wants me to use fluticasone nasal spray but it's hurts when i spray this mess up my noise...sinus infections problems!	52	57	ADR	hurts
-523485318272798721	dr wants me to use fluticasone nasal spray but it's hurts when i spray this mess up my noise...sinus infections problems!	87	111	ADR	noise...sinus infections
+523485318272798721	dr wants me to use fluticasone nasal spray but it's hurts when i spray this mess up my noise...sinus infections problems!	76	92	ADR	mess up my noise
 1003481002998714368	@fvlax Tramadol and Icy Hot for me	-	-	noADR	-
 526809425974407168	@dudewheremybaby metformin gives me a bad tummy but im on it for the forseable future	42	47	ADR	tummy
 1019727273044295680	Border Patrol agents in Eagle Pass, Texas arrested an 18-year-old woman allegedly trying to smuggle more than 11 pounds of methamphetamine and more than five pounds of black tar heroin into the United States. The arrest was made on July 15, 2018	-	-	noADR	-
@@ -1060,7 +1062,7 @@
 1035675537518223360	"This article begins ""opioids like morphine""- morphine is not an opioid. At the very least someone could use the correct terminology."	-	-	noADR	-
 536331483620061185	@dkegel @itsmepanda1 you may be right that hpv is found in cc. my point is your shot may cause serious harm. like vioxx caused to many.	-	-	noADR	-
 517840922084921344	doctors, why am i more wheezy since starting ventolin and flovent ? i want to be able to breathe again.  #doctors #help	23	29	ADR	wheezy
-524964647489634304	@solarpowerspork that suuuuucks. ambien made me a zombie. lunesta was lovely for the short time i took it. now using xanax as needed.	50	65	ADR	zombie. lunesta
+524964647489634304	@solarpowerspork that suuuuucks. ambien made me a zombie. lunesta was lovely for the short time i took it. now using xanax as needed.	50	56	ADR	zombie
 448151997817298944	#knowyouranon i'm addicted to adderall and i've been trying to recover from it but i'm only able to little by little. for more info dm me	18	26	ADR	addicted
 455704005013159936	@juppiecat1 @heknowsmynam @stingo100 @collmaxw @desertcronenm @ladyc10 migh need to change it due to hallucinations.my mom took restoril	-	-	noADR	-
 534924733326704640	this lunesta has me feeling half retarded i can't move my body right i think it's time i went to sleep	28	41	ADR	half retarded
@@ -1388,7 +1390,7 @@
 1039331509096857600	Maybe after a cialis	-	-	noADR	-
 1004526613726482436	@cerxii if my codeine didn't have Tylenol and I wasn't worried about having too much Tylenol with my liver I'd be having more ?? damn I didn't realize mono hurt that bad	-	-	noADR	-
 407022947984236545	what's going on?  ever since i stopped taking klonopin and viibryd i've had the reoccurring feeling of shock impulses. wtf?	99	116	ADR	of shock impulses
-536699618667806720	#rejectedadventhymntitles  awake, awake...the lunesta should have worn off by now	26	44	ADR	awake awake...the
+536699618667806720	#rejectedadventhymntitles  awake, awake...the lunesta should have worn off by now	26	38	ADR	awake awake
 491152141000933376	@uberfacts rimonabant :-anti obesity drug withdrawn due to bad side effects !	-	-	noADR	-
 503526059841572864	crestor side effects muscle cramps you're telling me	21	34	ADR	muscle cramps
 517760669102637056	this flovent hfa inhaler will make me gain weight. i'm not liking this, but i'm not liking an asthma attack either. :-/	38	49	ADR	gain weight
@@ -1421,7 +1423,8 @@
 1038178987623628800	@donpoeisdead @BrayNthesky I�ve been said this. It ain�t nothin new. Codeine, molly, oxy, all them zanies. I think you lost me.	57	63	ADR	nothin
 448589282916458496	had something of a creative day around my pain and gabapentin wooziness and headache. sewing morning, painting afternoon, evening reading.	42	46	ADR	pain
 448589282916458496	had something of a creative day around my pain and gabapentin wooziness and headache. sewing morning, painting afternoon, evening reading.	51	71	ADR	gabapentin wooziness
-448589282916458496	had something of a creative day around my pain and gabapentin wooziness and headache. sewing morning, painting afternoon, evening reading.	76	101	ADR	headache. sewing morning
+448589282916458496	had something of a creative day around my pain and gabapentin wooziness and headache. sewing morning, painting afternoon, evening reading.	76	84	ADR	headache
+448589282916458496	had something of a creative day around my pain and gabapentin wooziness and headache. sewing morning, painting afternoon, evening reading.	66	100	ADR	sewing morning
 446861439366463488	ugh i'm gonna puke, too much adderall in my system	-	-	noADR	-
 1009156906181591043	@YatzenFlatzen @3ManFront That reminds me I need to get my Lipitor prescription filled	-	-	noADR	-
 441040330058514434	not going to take my latuda til tonight. that stuff's gon' make me pass the hell out within minutes, &amp; i wanna watch me some #talkintoons !	67	84	ADR	pass the hell out
